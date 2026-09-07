@@ -145,7 +145,43 @@ Apply learned skills in a comprehensive research project: define a question, loc
 - **Progress:** [ ] Completed
 
 **Description:**
-Learn how biological research can be performed entirely on a computer. Topics include genomics (variant analysis, assembly, annotation), transcriptomics (bulk and single-cell RNA-seq), proteomics, protein structure prediction and design (AlphaFold, ProteinMPNN), molecular docking, molecular dynamics, systems biology, phylogenetics, and ML for biology. Tools and practices: BLAST, DESeq2, Seurat/Scanpy, AlphaFold DB, GROMACS/OpenMM, DeepChem, reproducible pipelines (Snakemake/Nextflow), and public datasets (GEO, SRA, PDB, Human Cell Atlas).
+Learn how biological research can be performed entirely on a computer. Topics include genomics (variant analysis, assembly, annotation), transcriptomics (bulk and single-cell RNA-seq), proteomics, protein structure prediction and design, molecular docking, molecular dynamics, systems biology, phylogenetics, and machine learning for biology. Build skills in BLAST, DESeq2, Seurat/Scanpy, AlphaFold DB, GROMACS/OpenMM, DeepChem, Snakemake/Nextflow, and public datasets such as GEO, SRA, PDB, PRIDE, and the Human Cell Atlas.
+
+### 🔗 Resources
+- [Rosalind — Learn Bioinformatics Through Problems](https://rosalind.info/problems/locations/) `[course]` - Free problem-based bioinformatics practice. Start with Python Village, then work through sequence analysis, genome assembly, phylogenetics, and algorithmic bioinformatics exercises.
+- [EMBL-EBI Training](https://www.ebi.ac.uk/training/) `[course]` - Free courses, webinars, and self-paced training from EMBL-EBI on sequence analysis, RNA-seq, functional genomics, protein resources, structural biology, and biological data management.
+- [Galaxy Training Network](https://training.galaxyproject.org/) `[documentation]` - Free, step-by-step tutorials for genomics, RNA-seq, variant calling, metagenomics, single-cell analysis, and reproducible workflows using Galaxy.
+- [Bioconductor Training](https://www.bioconductor.org/help/workflows/) `[documentation]` - Practical R-based workflows for bulk RNA-seq, differential expression, single-cell analysis, ChIP-seq, methylation, annotation, and other high-throughput biological data.
+- [NCBI BLAST Documentation](https://blast.ncbi.nlm.nih.gov/doc/blast-help/) `[documentation]` - Official documentation for BLAST sequence similarity searching, including web use, command-line tools, search programs, parameters, databases, and interpretation.
+- [BLAST Quick Start Guide](https://www.ncbi.nlm.nih.gov/books/NBK279690/) `[tutorial]` - NCBI's practical introduction to selecting a BLAST program, submitting DNA or protein sequences, filtering results, and interpreting alignments.
+- [Ensembl Genome Browser Training](https://www.ensembl.org/info/website/tutorials/index.html) `[documentation]` - Official tutorials for exploring genes, genomic variants, comparative genomics, regulatory data, biomart queries, and programmatic access to Ensembl.
+- [GATK Best Practices](https://gatk.broadinstitute.org/hc/en-us/categories/360002310591-Best-Practices-Workflows) `[documentation]` - The Broad Institute's recommended workflows for germline and somatic variant discovery, including read preprocessing, variant calling, filtering, and quality control.
+- [DESeq2 Bioconductor Package](https://bioconductor.org/packages/DESeq2/) `[documentation]` - Official R package documentation for normalization and differential-expression analysis of bulk RNA-seq count data.
+- [DESeq2 RNA-seq Workflow](https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html) `[tutorial]` - A detailed Bioconductor workflow covering count matrices, normalization, exploratory analysis, differential expression, visualization, and result interpretation.
+- [Seurat — Guided Single-Cell RNA-seq Tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) `[documentation]` - A canonical R tutorial for single-cell RNA-seq quality control, normalization, variable-feature selection, dimensionality reduction, clustering, and marker-gene identification.
+- [Scanpy Tutorials](https://scanpy.readthedocs.io/en/stable/tutorials.html) `[documentation]` - Official Python tutorials for scalable single-cell analysis with AnnData, preprocessing, neighbor graphs, UMAP, clustering, differential expression, and dataset integration.
+- [Single-Cell Best Practices](https://www.sc-best-practices.org/) `[documentation]` - An open, detailed guide to the full single-cell analysis lifecycle: experimental design, quality control, normalization, integration, annotation, trajectory analysis, and reproducibility.
+- [NCBI Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/) `[dataset]` - A public repository for functional-genomics data, including microarray, bulk RNA-seq, single-cell RNA-seq, ChIP-seq, ATAC-seq, and related metadata.
+- [NCBI Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) `[dataset]` - The main public archive for raw high-throughput sequencing reads. Use it to obtain FASTQ-level data for custom genomics, transcriptomics, metagenomics, and epigenomics analyses.
+- [Human Cell Atlas Data Portal](https://data.humancellatlas.org/) `[dataset]` - Access standardized single-cell reference datasets and metadata from the international Human Cell Atlas project, which aims to map human cell types across tissues and health states.
+- [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) `[documentation]` - Search and download predicted protein structures generated with AlphaFold. The database provides model confidence measures, including pLDDT and predicted aligned error, that should be checked before interpretation.
+- [AlphaFold GitHub Repository](https://github.com/google-deepmind/alphafold) `[documentation]` - Official source code, installation instructions, model notes, and citations for running AlphaFold-style protein structure predictions locally.
+- [AlphaFold: The Making of a Scientific Breakthrough](https://www.youtube.com/watch?v=ggROPpsPbTw) `[video]` - DeepMind's introductory explanation of AlphaFold and its role in predicting three-dimensional protein structures from amino-acid sequences.
+- [ProteinMPNN GitHub Repository](https://github.com/dauparas/ProteinMPNN) `[documentation]` - Official implementation of ProteinMPNN, a graph-neural-network method for computational protein sequence design conditioned on a target backbone structure.
+- [RCSB Protein Data Bank](https://www.rcsb.org/) `[dataset]` - The central open archive of experimentally determined macromolecular structures. Use it to retrieve protein, nucleic-acid, and protein–ligand structures for structural biology, docking, and molecular dynamics.
+- [AutoDock Vina Documentation](https://autodock-vina.readthedocs.io/) `[documentation]` - Documentation and tutorials for AutoDock Vina, a widely used open-source program for protein–ligand docking and virtual screening.
+- [GROMACS Molecular Dynamics Tutorials](https://tutorials.gromacs.org/) `[tutorial]` - Hands-on molecular-dynamics tutorials, including a step-by-step small-protein simulation. GROMACS is a common package for preparing, running, and analyzing atomistic simulations. [10]
+- [OpenMM User Guide](https://docs.openmm.org/latest/userguide/) `[documentation]` - Official guide to OpenMM, a Python-friendly molecular-simulation toolkit for constructing systems, selecting force fields, running simulations, and analyzing trajectories.
+- [DeepChem Documentation](https://deepchem.io/) `[documentation]` - Open-source machine-learning toolkit for drug discovery, molecular property prediction, cheminformatics, protein–ligand modeling, and scientific datasets.
+- [MIT OpenCourseWare — Computational Biology](https://ocw.mit.edu/search/?q=computational%20biology) `[course]` - Searchable MIT course materials on computational biology, biological modeling, genomics, machine learning, algorithms, and systems biology.
+- [Snakemake Documentation](https://snakemake.readthedocs.io/) `[documentation]` - Official documentation for Snakemake, a Python-based workflow system for building reproducible, scalable bioinformatics pipelines with explicit inputs, outputs, environments, and execution rules.
+- [Nextflow Training](https://training.nextflow.io/) `[documentation]` - Free hands-on training for Nextflow, a workflow language commonly used to run portable, scalable pipelines across laptops, clusters, and cloud systems.
+- [nf-core Pipelines](https://nf-co.re/pipelines) `[documentation]` - Community-maintained, standardized Nextflow pipelines for RNA-seq, variant calling, ChIP-seq, ATAC-seq, metagenomics, proteomics, and more.
+- [PRIDE Archive](https://www.ebi.ac.uk/pride/) `[dataset]` - EMBL-EBI's public repository for mass-spectrometry proteomics data, including protein identification and quantification studies.
+- [UniProt Knowledgebase](https://www.uniprot.org/) `[documentation]` - A major protein knowledge resource containing protein sequences, functional annotations, domains, disease associations, subcellular locations, and cross-references.
+- [QIIME 2 Documentation](https://docs.qiime2.org/) `[documentation]` - Documentation for reproducible microbiome and amplicon-sequencing analysis, including demultiplexing, quality filtering, taxonomic classification, diversity analysis, and provenance tracking.
+- [scikit-bio Documentation](https://scikit.bio/) `[documentation]` - Python library for bioinformatics, including sequence handling, diversity metrics, ordination, phylogenetic trees, compositional data analysis, and biological statistics.
+- [IQ-TREE Documentation](http://www.iqtree.org/doc/) `[documentation]` - Documentation for IQ-TREE, a widely used software package for maximum-likelihood phylogenetic inference, model selection, bootstrap support, and tree visualization workflows.
 
 ---
 
@@ -266,8 +302,214 @@ Explore solar cell efficiency modeling, device physics, optical simulations, and
       {
         "id": "node-16",
         "title": "Computational Biology Research",
-        "description": "Learn how biological research can be performed entirely on a computer. Topics include genomics (variant analysis, assembly, annotation), transcriptomics (bulk and single-cell RNA-seq), proteomics, protein structure prediction and design (AlphaFold, ProteinMPNN), molecular docking, molecular dynamics, systems biology, phylogenetics, and ML for biology. Tools and practices: BLAST, DESeq2, Seurat/Scanpy, AlphaFold DB, GROMACS/OpenMM, DeepChem, reproducible pipelines (Snakemake/Nextflow), and public datasets (GEO, SRA, PDB, Human Cell Atlas).",
-        "estimatedTime": "4 hours"
+        "description": "Learn how biological research can be performed entirely on a computer. Topics include genomics (variant analysis, assembly, annotation), transcriptomics (bulk and single-cell RNA-seq), proteomics, protein structure prediction and design, molecular docking, molecular dynamics, systems biology, phylogenetics, and machine learning for biology. Build skills in BLAST, DESeq2, Seurat/Scanpy, AlphaFold DB, GROMACS/OpenMM, DeepChem, Snakemake/Nextflow, and public datasets such as GEO, SRA, PDB, PRIDE, and the Human Cell Atlas.",
+        "estimatedTime": "4 hours",
+        "resources": [
+          {
+            "type": "course",
+            "title": "Rosalind — Learn Bioinformatics Through Problems",
+            "url": "https://rosalind.info/problems/locations/",
+            "description": "Free problem-based bioinformatics practice. Start with Python Village, then work through sequence analysis, genome assembly, phylogenetics, and algorithmic bioinformatics exercises."
+          },
+          {
+            "type": "course",
+            "title": "EMBL-EBI Training",
+            "url": "https://www.ebi.ac.uk/training/",
+            "description": "Free courses, webinars, and self-paced training from EMBL-EBI on sequence analysis, RNA-seq, functional genomics, protein resources, structural biology, and biological data management."
+          },
+          {
+            "type": "documentation",
+            "title": "Galaxy Training Network",
+            "url": "https://training.galaxyproject.org/",
+            "description": "Free, step-by-step tutorials for genomics, RNA-seq, variant calling, metagenomics, single-cell analysis, and reproducible workflows using Galaxy."
+          },
+          {
+            "type": "documentation",
+            "title": "Bioconductor Training",
+            "url": "https://www.bioconductor.org/help/workflows/",
+            "description": "Practical R-based workflows for bulk RNA-seq, differential expression, single-cell analysis, ChIP-seq, methylation, annotation, and other high-throughput biological data."
+          },
+          {
+            "type": "documentation",
+            "title": "NCBI BLAST Documentation",
+            "url": "https://blast.ncbi.nlm.nih.gov/doc/blast-help/",
+            "description": "Official documentation for BLAST sequence similarity searching, including web use, command-line tools, search programs, parameters, databases, and interpretation."
+          },
+          {
+            "type": "tutorial",
+            "title": "BLAST Quick Start Guide",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK279690/",
+            "description": "NCBI's practical introduction to selecting a BLAST program, submitting DNA or protein sequences, filtering results, and interpreting alignments."
+          },
+          {
+            "type": "documentation",
+            "title": "Ensembl Genome Browser Training",
+            "url": "https://www.ensembl.org/info/website/tutorials/index.html",
+            "description": "Official tutorials for exploring genes, genomic variants, comparative genomics, regulatory data, biomart queries, and programmatic access to Ensembl."
+          },
+          {
+            "type": "documentation",
+            "title": "GATK Best Practices",
+            "url": "https://gatk.broadinstitute.org/hc/en-us/categories/360002310591-Best-Practices-Workflows",
+            "description": "The Broad Institute's recommended workflows for germline and somatic variant discovery, including read preprocessing, variant calling, filtering, and quality control."
+          },
+          {
+            "type": "documentation",
+            "title": "DESeq2 Bioconductor Package",
+            "url": "https://bioconductor.org/packages/DESeq2/",
+            "description": "Official R package documentation for normalization and differential-expression analysis of bulk RNA-seq count data."
+          },
+          {
+            "type": "tutorial",
+            "title": "DESeq2 RNA-seq Workflow",
+            "url": "https://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html",
+            "description": "A detailed Bioconductor workflow covering count matrices, normalization, exploratory analysis, differential expression, visualization, and result interpretation."
+          },
+          {
+            "type": "documentation",
+            "title": "Seurat — Guided Single-Cell RNA-seq Tutorial",
+            "url": "https://satijalab.org/seurat/articles/pbmc3k_tutorial.html",
+            "description": "A canonical R tutorial for single-cell RNA-seq quality control, normalization, variable-feature selection, dimensionality reduction, clustering, and marker-gene identification."
+          },
+          {
+            "type": "documentation",
+            "title": "Scanpy Tutorials",
+            "url": "https://scanpy.readthedocs.io/en/stable/tutorials.html",
+            "description": "Official Python tutorials for scalable single-cell analysis with AnnData, preprocessing, neighbor graphs, UMAP, clustering, differential expression, and dataset integration."
+          },
+          {
+            "type": "documentation",
+            "title": "Single-Cell Best Practices",
+            "url": "https://www.sc-best-practices.org/",
+            "description": "An open, detailed guide to the full single-cell analysis lifecycle: experimental design, quality control, normalization, integration, annotation, trajectory analysis, and reproducibility."
+          },
+          {
+            "type": "dataset",
+            "title": "NCBI Gene Expression Omnibus (GEO)",
+            "url": "https://www.ncbi.nlm.nih.gov/geo/",
+            "description": "A public repository for functional-genomics data, including microarray, bulk RNA-seq, single-cell RNA-seq, ChIP-seq, ATAC-seq, and related metadata."
+          },
+          {
+            "type": "dataset",
+            "title": "NCBI Sequence Read Archive (SRA)",
+            "url": "https://www.ncbi.nlm.nih.gov/sra",
+            "description": "The main public archive for raw high-throughput sequencing reads. Use it to obtain FASTQ-level data for custom genomics, transcriptomics, metagenomics, and epigenomics analyses."
+          },
+          {
+            "type": "dataset",
+            "title": "Human Cell Atlas Data Portal",
+            "url": "https://data.humancellatlas.org/",
+            "description": "Access standardized single-cell reference datasets and metadata from the international Human Cell Atlas project, which aims to map human cell types across tissues and health states."
+          },
+          {
+            "type": "documentation",
+            "title": "AlphaFold Protein Structure Database",
+            "url": "https://alphafold.ebi.ac.uk/",
+            "description": "Search and download predicted protein structures generated with AlphaFold. The database provides model confidence measures, including pLDDT and predicted aligned error, that should be checked before interpretation."
+          },
+          {
+            "type": "documentation",
+            "title": "AlphaFold GitHub Repository",
+            "url": "https://github.com/google-deepmind/alphafold",
+            "description": "Official source code, installation instructions, model notes, and citations for running AlphaFold-style protein structure predictions locally."
+          },
+          {
+            "type": "video",
+            "title": "AlphaFold: The Making of a Scientific Breakthrough",
+            "url": "https://www.youtube.com/watch?v=ggROPpsPbTw",
+            "description": "DeepMind's introductory explanation of AlphaFold and its role in predicting three-dimensional protein structures from amino-acid sequences."
+          },
+          {
+            "type": "documentation",
+            "title": "ProteinMPNN GitHub Repository",
+            "url": "https://github.com/dauparas/ProteinMPNN",
+            "description": "Official implementation of ProteinMPNN, a graph-neural-network method for computational protein sequence design conditioned on a target backbone structure."
+          },
+          {
+            "type": "dataset",
+            "title": "RCSB Protein Data Bank",
+            "url": "https://www.rcsb.org/",
+            "description": "The central open archive of experimentally determined macromolecular structures. Use it to retrieve protein, nucleic-acid, and protein–ligand structures for structural biology, docking, and molecular dynamics."
+          },
+          {
+            "type": "documentation",
+            "title": "AutoDock Vina Documentation",
+            "url": "https://autodock-vina.readthedocs.io/",
+            "description": "Documentation and tutorials for AutoDock Vina, a widely used open-source program for protein–ligand docking and virtual screening."
+          },
+          {
+            "type": "tutorial",
+            "title": "GROMACS Molecular Dynamics Tutorials",
+            "url": "https://tutorials.gromacs.org/",
+            "description": "Hands-on molecular-dynamics tutorials, including a step-by-step small-protein simulation. GROMACS is a common package for preparing, running, and analyzing atomistic simulations. [10]"
+          },
+          {
+            "type": "documentation",
+            "title": "OpenMM User Guide",
+            "url": "https://docs.openmm.org/latest/userguide/",
+            "description": "Official guide to OpenMM, a Python-friendly molecular-simulation toolkit for constructing systems, selecting force fields, running simulations, and analyzing trajectories."
+          },
+          {
+            "type": "documentation",
+            "title": "DeepChem Documentation",
+            "url": "https://deepchem.io/",
+            "description": "Open-source machine-learning toolkit for drug discovery, molecular property prediction, cheminformatics, protein–ligand modeling, and scientific datasets."
+          },
+          {
+            "type": "course",
+            "title": "MIT OpenCourseWare — Computational Biology",
+            "url": "https://ocw.mit.edu/search/?q=computational%20biology",
+            "description": "Searchable MIT course materials on computational biology, biological modeling, genomics, machine learning, algorithms, and systems biology."
+          },
+          {
+            "type": "documentation",
+            "title": "Snakemake Documentation",
+            "url": "https://snakemake.readthedocs.io/",
+            "description": "Official documentation for Snakemake, a Python-based workflow system for building reproducible, scalable bioinformatics pipelines with explicit inputs, outputs, environments, and execution rules."
+          },
+          {
+            "type": "documentation",
+            "title": "Nextflow Training",
+            "url": "https://training.nextflow.io/",
+            "description": "Free hands-on training for Nextflow, a workflow language commonly used to run portable, scalable pipelines across laptops, clusters, and cloud systems."
+          },
+          {
+            "type": "documentation",
+            "title": "nf-core Pipelines",
+            "url": "https://nf-co.re/pipelines",
+            "description": "Community-maintained, standardized Nextflow pipelines for RNA-seq, variant calling, ChIP-seq, ATAC-seq, metagenomics, proteomics, and more."
+          },
+          {
+            "type": "dataset",
+            "title": "PRIDE Archive",
+            "url": "https://www.ebi.ac.uk/pride/",
+            "description": "EMBL-EBI's public repository for mass-spectrometry proteomics data, including protein identification and quantification studies."
+          },
+          {
+            "type": "documentation",
+            "title": "UniProt Knowledgebase",
+            "url": "https://www.uniprot.org/",
+            "description": "A major protein knowledge resource containing protein sequences, functional annotations, domains, disease associations, subcellular locations, and cross-references."
+          },
+          {
+            "type": "documentation",
+            "title": "QIIME 2 Documentation",
+            "url": "https://docs.qiime2.org/",
+            "description": "Documentation for reproducible microbiome and amplicon-sequencing analysis, including demultiplexing, quality filtering, taxonomic classification, diversity analysis, and provenance tracking."
+          },
+          {
+            "type": "documentation",
+            "title": "scikit-bio Documentation",
+            "url": "https://scikit.bio/",
+            "description": "Python library for bioinformatics, including sequence handling, diversity metrics, ordination, phylogenetic trees, compositional data analysis, and biological statistics."
+          },
+          {
+            "type": "documentation",
+            "title": "IQ-TREE Documentation",
+            "url": "http://www.iqtree.org/doc/",
+            "description": "Documentation for IQ-TREE, a widely used software package for maximum-likelihood phylogenetic inference, model selection, bootstrap support, and tree visualization workflows."
+          }
+        ]
       },
       {
         "id": "node-17",
@@ -283,7 +525,9 @@ Explore solar cell efficiency modeling, device physics, optical simulations, and
       }
     ],
     "isFinalized": true,
-    "topic": "Research that can be done with a computer"
+    "topic": "Research that can be done with a computer",
+    "lastModifiedAt": 1788749013299,
+    "lastUsedAt": 1788749195949
   }
 }
 EDU_ASSIST_METADATA_END -->
