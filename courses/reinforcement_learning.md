@@ -5,12 +5,12 @@
 
 ---
 
-## 🔹 Module 1: Reinforcement Learning Fundamentals Review
+## 🔹 Module 1: Mathematical Foundations of RL: Markov Decision Processes Deep Dive
 - **ID:** `node-1`
 - **Progress:** [ ] Completed
 
 **Description:**
-A quick recap of core RL concepts including agent-environment interaction, reward signals, policy, value functions, and exploration vs. exploitation strategies.
+Strengthen your theoretical grounding by rigorously studying Markov Decision Processes (MDPs), including formal definitions of state spaces, action spaces, transition probability distributions, reward functions, and the Bellman equations. Understand the assumptions and limitations of the MDP framework.
 
 ### 🔗 Resources
 - [Reinforcement Learning: An Introduction (Chapter 3: Finite Markov Decision Processes)](http://incompleteideas.net/book/RLbook2020.pdf) `[documentation]` - Covers formal MDP definitions, state/action spaces, transition probabilities, reward functions, and Bellman equations with theoretical proofs and examples.
@@ -18,11 +18,6 @@ A quick recap of core RL concepts including agent-environment interaction, rewar
 - [Understanding Markov Decision Processes (MDPs) in Reinforcement Learning](https://towardsdatascience.com/understanding-markov-decision-processes-in-reinforcement-learning-7a1a1a7a7a7a) `[article]` - A concise article breaking down MDPs, their components, and practical implications with illustrative examples and code snippets.
 - [OpenAI Spinning Up: Reinforcement Learning Introduction](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#mdp) `[documentation]` - Technical documentation explaining MDPs, their assumptions, and limitations within the context of RL frameworks and algorithms.
 - [MDPs and Bellman Equations - A Gentle Introduction](https://www.youtube.com/watch?v=5hZ1Z0X6q4U) `[video]` - Visual and intuitive explanation of Bell's equations, state transitions, and reward mechanisms in MDPs, suitable for foundational learning.
-- [Reinforcement Learning: An Introduction (Sutton & Barto)](http://incompleteideas.net/book/the-book-2nd.html) `[documentation]` - Foundational textbook covering agent-environment interaction, reward signals, policy, and value functions with clear explanations and examples.
-- [David Silver's Reinforcement Learning Course (Lecture 1)](https://www.youtube.com/watch?v=2GwK58qG9qk) `[video]` - Introductory lecture explaining core RL concepts, MDPs, exploration vs. exploitation, and temporal difference learning fundamentals.
-- [Reinforcement Learning Overview by Lilian Weng](https://lilianweng.github.io/posts/2018-02-19-rl-overview.html) `[article]` - Comprehensive article summarizing RL basics, including policy gradients, value-based methods, and key algorithmic strategies.
-- [OpenAI Spinning Up in Deep RL](https://spinningup.openai.com/) `[documentation]` - Practical introduction to RL concepts with code examples, covering exploration/exploitation trade-offs and value function approximation.
-- [Understanding Reinforcement Learning by Chip Huyen](https://huyenchip.com/blog/understanding-reinforcement-learning.html) `[article]` - Accessible guide breaking down RL fundamentals, including Markov Decision Processes, policies, and reward design principles.
 
 ### 📑 Research Papers
 - **On the Foundation of Distributionally Robust Reinforcement Learning** - [View Paper](https://arxiv.org/html/2311.09018v3)
@@ -64,16 +59,6 @@ A quick recap of core RL concepts including agent-environment interaction, rewar
 | What is the distinction between model-based and model-free approaches in solving MDPs? | Model-based methods require explicit knowledge or estimation of the environment's transition probabilities and reward function to solve MDPs, often enabling planning. Model-free methods learn optimal policies directly through trial-and-error without modeling the environment, relying on experience. |
 | What is the significance of the Bellman operator being a contraction mapping in MDPs? | The Bellman operator's contraction property ensures that iterative methods like value iteration converge to a unique fixed point (optimal value function) under the sup-norm. This guarantees mathematical validity of solutions when gamma < 1 and spaces are finite/sbounded. |
 | What is the reward hypothesis in the context of MDPs and why is it foundational to RL? | The reward hypothesis posits that an agent's goal can be formalized as maximizing expected cumulative reward. This principle underpins RL design by framing all objectives through scalar reward signals, enabling unified treatment of decision-making in MDPs. |
-| What are the two main components of the agent-environment interaction in Reinforcement Learning? | The agent and the environment. The agent interacts with the environment by taking actions and receiving observations and rewards, aiming to maximize cumulative reward. |
-| What is the role of a reward signal in Reinforcement Learning? | It provides immediate feedback to the agent about the effectiveness of its actions, serving as a scalar value that guides learning toward maximizing cumulative reward over time. |
-| Define a policy in Reinforcement Learning. | A policy is a strategy used by an agent to determine its next action based on the current state. It can be deterministic (action is a function of state) or stochastic (action probabilities depend on state). |
-| How do value functions differ from reward signals in RL? | Value functions estimate the long-term desirability of states or state-action pairs, considering future rewards, while reward signals provide immediate feedback for each action. |
-| What is the exploration vs. exploitation dilemma in RL? | Exploration involves trying new actions to discover potentially better rewards, while exploitation uses known actions with high expected rewards. Balancing both is key to effective learning. |
-| What is a Markov Decision Process (MDP) in the context of RL? | An MDP formally defines the RL problem with states, actions, transition probabilities, rewards, and a discount factor, assuming the next state depends only on the current state and action. |
-| What distinguishes Q-learning from other value-based RL methods? | Q-learning directly learns the optimal action-value function (Q-values) without requiring a model of the environment, enabling the derivation of a policy from the learned Q-values. |
-| What is Temporal Difference (TD) Learning in Reinforcement Learning? | TD Learning is a method that updates value estimates by combining immediate rewards with estimated future rewards, allowing learning from incomplete episodes without requiring a model of the environment. It bridges Monte Carlo methods and dynamic programming. |
-| Explain the Bellman Equation in the context of Reinforcement Learning. | The Bellman Equation is a recursive relationship that defines the value of a state as the immediate reward plus the discounted value of the next state. It underpins value iteration and policy evaluation by enabling iterative computation of optimal value functions. |
-| What distinguishes Model-Based RL from Model-Free RL? | Model-Based RL uses a learned or known model of the environment to plan actions and predict outcomes, while Model-Free RL learns policies or value functions directly from trial-and-error experience without explicitly modeling the environment dynamics. |
 
 ### ✏️ Practice Problems
 
@@ -139,12 +124,12 @@ A quick recap of core RL concepts including agent-environment interaction, rewar
 
 ---
 
-## 🔹 Module 2: Intermediate RL Strategies: Q-Learning Deep Dive
+## 🔹 Module 2: Value Functions and Optimality in RL
 - **ID:** `node-2`
 - **Progress:** [ ] Completed
 
 **Description:**
-Detailed exploration of Q-learning algorithms, including tabular methods and challenges in convergence. Focuses on addressing common pitfalls in intermediate RL tasks.
+Master value functions (V(s) and Q(s,a)), optimal value functions, and optimality conditions. Study contraction mapping theorem proofs for convergence of value iteration and policy iteration, and understand the relationship between value functions and policies.
 
 ### 🔗 Resources
 - [Value Functions and Optimality in Reinforcement Learning](https://www.youtube.com/watch?v=lfHX2hHRPh4) `[video]` - Covers value functions V(s) and Q(s,a), optimal value functions, Bellman optimality equations, and the relationship between value functions and policies.
@@ -152,11 +137,6 @@ Detailed exploration of Q-learning algorithms, including tabular methods and cha
 - [Reinforcement Learning: Value Functions and Optimality](https://www.learndataml.com/reinforcement-learning-value-functions-optimality) `[documentation]` - Detailed explanation of value functions, optimal value functions, Bellman equations, and the relationship between value functions and policies.
 - [Contraction Mapping Theorem and Convergence in RL](https://www.youtube.com/watch?v=U95i6BJaJ5s) `[video]` - Focuses on the contraction mapping theorem, its application to value iteration and policy iteration convergence, and optimality conditions.
 - [Value Functions and Optimality Conditions in Reinforcement Learning](https://www.geeksforgeeks.org/value-functions-optimality-conditions-reinforcement-learning/) `[article]` - Comprehensive guide on value functions, optimal value functions, Bellman optimality equations, and the relationship between value functions and policies.
-- [David Silver's Lecture 6: Q-Learning](https://www.youtube.com/watch?v=ZCwPf1U63jI) `[video]` - In-depth explanation of Q-learning, including its derivation, convergence properties, and practical implementation challenges from a leading RL researcher.
-- [UC Berkeley CS285 Lecture 8: Q-Learning and Function Approximation](https://www.youtube.com/watch?v=77_C9bY3h0I) `[video]` - Covers tabular Q-learning and introduces function approximation techniques, addressing convergence issues and common pitfalls in intermediate RL tasks.
-- [Q-Learning: A Comprehensive Guide to Tabular Methods and Beyond](https://www.towards-data-science.com/q-learning-a-comprehensive-guide-to-tabular-methods-and-beyond-8e5a2b0d7e8a) `[article]` - Explains tabular Q-learning fundamentals, convergence challenges, and solutions for overestimation bias with practical examples.
-- [Sutton & Barto's Reinforcement Learning: An Introduction (Chapter 6)](http://incompleteideas.net/book/the-book-2nd.html) `[documentation]` - Foundational text covering tabular Q-learning, convergence proofs, and limitations in depth within the broader RL framework.
-- [OpenAI Spinning Up: Q-Learning Tutorial](https://spinningup.openai.com/en/latest/algorithms/q-learning.html) `[documentation]` - Hands-on guide to implementing Q-learning with PyTorch, including discussions on exploration-exploitation trade-offs and hyperparameter tuning.
 
 ### 📑 Research Papers
 - **Dynamic Programming: From Local Optimality to Global Optimality** - [View Paper](https://arxiv.org/html/2411.11062v2)
@@ -164,11 +144,6 @@ Detailed exploration of Q-learning algorithms, including tabular methods and cha
 - **Adaptive Exploration for Data-Efficient General Value Function Evaluations** - [View Paper](https://arxiv.org/abs/2405.07838)
 - **Efficient Value Propagation with the Compositional Optimality Equation** - [View Paper](https://openreview.net/pdf/28cc394736337ffdb7347c7d5c862c04794ea1d7.pdf)
 - **Sample and Oracle Efficient Reinforcement Learning for MDPs with Linearly-Realizable Value Functions** - [View Paper](https://arxiv.org/pdf/2409.04840)
-- **Regularized Q-Learning** - [View Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ea6d17af54f827336fc8fed27ca0319d-Paper-Conference.pdf)
-- **Projected Off-Policy Q-Learning (POP-QL) for Stabilizing Offline Reinforcement Learning** - [View Paper](https://arxiv.org/pdf/2311.14885)
-- **Iterated Q-Network: Beyond One-Step Bellman Updates in Deep Reinforcement Learning** - [View Paper](https://arxiv.org/html/2403.02107v2)
-- **Time-Scale Separation in Q-Learning: Extending TD(∆) for Action-Value Function Decomposition** - [View Paper](https://arxiv.org/pdf/2411.14019)
-- **On the Convergence and Sample Complexity Analysis of Deep Q-Networks with ε-Greedy Exploration** - [View Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/2a91de02871011d0090e662ffd6f2328-Paper-Conference.pdf)
 
 ### ✏️ Practice Problems
 
@@ -244,12 +219,12 @@ Detailed exploration of Q-learning algorithms, including tabular methods and cha
 
 ---
 
-## 🔹 Module 3: Policy Gradients and Actor-Critic Methods
+## 🔹 Module 3: Dynamic Programming in RL
 - **ID:** `node-3`
 - **Progress:** [ ] Completed
 
 **Description:**
-Learn policy gradient techniques and actor-critic architectures to strengthen understanding of intermediate RL approaches that were partially missed in the quiz.
+Deepen understanding of policy evaluation, policy improvement, and policy iteration algorithms. Implement value iteration and policy iteration from scratch, analyze their computational complexity, and compare their use cases in tabular settings.
 
 ### 🔗 Resources
 - [Sutton & Barto - Reinforcement Learning: An Introduction (Chapter 4)](http://incompleteideas.net/book/the-book-2nd.html) `[documentation]` - Covers dynamic programming, policy evaluation, policy improvement, policy iteration, and value iteration in tabular settings with mathematical derivations and examples.
@@ -257,11 +232,6 @@ Learn policy gradient techniques and actor-critic architectures to strengthen un
 - [Lilian Weng - Algorithms for Solving Multi-Armed Bandits and MDPs](https://lilianweng.github.io/posts/2018-02-19-rl-algorithms.html) `[article]` - Explains DP-based algorithms like value iteration and policy iteration with pseudocode and practical insights.
 - [GeeksforGeeks - Value Iteration Algorithm in Reinforcement Learning](https://www.geeksforgeeks.org/value-iteration-in-reinforcement-learning/) `[article]` - Step-by-step guide to implementing value iteration with Python code and analysis of convergence properties.
 - [CS236 - Deep Reinforcement Learning Course Notes (DP Section)](https://web.stanford.edu/class/cs236/notes/lecture6.pdf) `[documentation]` - Stanford course notes covering policy evaluation, improvement, and iteration with mathematical proofs and complexity analysis.
-- [Policy Gradient Methods (David Silver Lecture)](https://www.youtube.com/watch?v=K0Wl5xok9Qs) `[video]` - Comprehensive explanation of policy gradient methods, including REINFORCE, actor-critic, and advanced variants, from the foundational Deep Learning and Reinforcement Learning course.
-- [Spinning Up: Policy Gradient Methods Documentation](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html) `[documentation]` - Official OpenAI documentation explaining policy gradient methods, actor-critic architectures, and their implementations with code examples.
-- [Policy Gradient Methods in Reinforcement Learning (Lilian Weng)](https://lilianweng.github.io/posts/2021-02-18-policy-gradient-methods-in-reinforcement-learning/) `[article]` - Detailed blog post covering theoretical foundations, practical algorithms (e.g., REINFORCE, PPO), and comparisons between policy gradients and value-based methods.
-- [CS285 Lecture 10: Policy Gradient Methods](https://www.youtube.com/watch?v=Vx2Ia2RZ9qY) `[video]` - Academic lecture explaining policy gradient theory, variance reduction techniques, and actor-critic frameworks with practical insights.
-- [CS285 Lecture 14: Actor-Critic Methods](https://www.youtube.com/watch?v=JhVZ6Kx3U2Y) `[video]` - Focuses on actor-critic architectures, including A2C, A3C, and PPO, with discussions on advantages, implementation challenges, and use cases.
 
 ### 📑 Research Papers
 - **A Unified Dynamic Programming Framework for Model-Free Policy Gradient** - [View Paper](https://arxiv.org/abs/2305.12345)
@@ -282,12 +252,6 @@ Learn policy gradient techniques and actor-critic architectures to strengthen un
 | Computational Complexity of Value Iteration in Tabular MDPs | O(\|S\|\|A\|) per iteration, as it evaluates all actions for each state; converges in more iterations compared to policy iteration. |
 | Use Cases for Policy and Value Iteration in Tabular Settings | Applied in discrete MDPs with manageable state and action spaces, where value functions and policies can be stored in lookup tables. |
 | Compare Policy Iteration vs. Value Iteration in Tabular RL | Policy iteration combines evaluation and improvement, often converging faster with higher per-iteration cost. Value iteration focuses solely on value updates, simpler per step but requiring more iterations. Both converge to the optimal solution. |
-| What is the Policy Gradient Theorem? | A fundamental result in policy gradient methods stating that the gradient of the expected return J(θ) with respect to policy parameters θ is the expectation of the gradient of the log probability of actions times the return, i.e., ∇J(θ) = 𝔼[∇ log πθ(a\ |
-| What is the REINFORCE algorithm? | A Monte Carlo policy gradient method that updates the policy using full trajectories. It directly estimates the policy gradient by sampling episodes and computing returns. No baseline is used, leading to high variance but unbiased gradients. |
-| What are Actor-Critic methods? | A class of algorithms combining policy-based (actor) and value-based (critic) approaches. The actor updates the policy using gradient information, while the critic evaluates the value of states or actions to reduce variance in policy updates. |
-| What is the advantage function and its role in Actor-Critic methods? | The advantage function A(s,a) = Q(s,a) - V(s) measures how much better an action is compared to the average action in a state. It reduces variance by centering the return estimate around the state's value, improving policy updates. |
-| How is variance reduced in policy gradient methods? | Variance is reduced by subtracting a baseline (e.g., state value function V(s)) from the return. This does not bias the gradient but stabilizes updates, as the policy gradient becomes 𝔼[∇ log πθ(a\ |
-| What distinguishes on-policy and off-policy Actor-Critic methods? | On-policy methods (e.g., A2C) use data collected from the current policy, while off-policy methods (e.g., DDPG) use data from a different policy, allowing reuse of past experiences. On-policy is more stable but less sample-efficient. |
 
 ### ❓ Checkpoint Quiz
 
@@ -311,83 +275,75 @@ Learn policy gradient techniques and actor-critic architectures to strengthen un
 
 ---
 
-## 🔹 Module 4: Function Approximation in RL
+## 🔹 Module 4: Monte Carlo and Temporal Difference Learning
 - **ID:** `node-4`
 - **Progress:** [ ] Completed
 
 **Description:**
-Introduction to using function approximators like neural networks in RL. Covers value function approximation and its role in scaling RL to complex problems.
----
+Study first-visit and every-visit Monte Carlo prediction and control methods. Learn TD(0), TD(λ), and understand the bias-variance tradeoff between MC and TD methods. Implement epsilon-greedy SARSA and Q-learning agents.
 
 ---
 
-## 🔹 Module 5: Deep Q-Networks (DQN) and Experience Replay
+## 🔹 Module 5: Function Approximation in RL
 - **ID:** `node-5`
 - **Progress:** [ ] Completed
 
 **Description:**
-Study DQN implementation, experience replay mechanisms, and stabilizing training with target networks to bridge gaps in advanced RL techniques.
----
+Learn how to handle large/continuous state spaces using linear function approximation, tile coding, and Fourier bases. Understand the deadly triad (function approximation + bootstrapping + off-policy learning) and its implications for convergence.
 
 ---
 
-## 🔹 Module 6: Advanced Topics: Multi-Agent Reinforcement Learning
+## 🔹 Module 6: Deep Reinforcement Learning: DQN and Extensions
 - **ID:** `node-6`
 - **Progress:** [ ] Completed
 
 **Description:**
-Explore multi-agent systems, including cooperative and competitive scenarios, addressing challenges in advanced RL contexts.
----
+Master Deep Q-Networks including experience replay, target networks, and the original Atari DQN architecture. Explore Double DQN, Dueling DQN, Prioritized Experience Replay, and Rainbow DQN. Implement these on complex environments.
 
 ---
 
-## 🔹 Module 7: Exploration vs. Exploitation: Advanced Strategies
+## 🔹 Module 7: Policy Gradient Methods
 - **ID:** `node-7`
 - **Progress:** [ ] Completed
 
 **Description:**
-Deep dive into advanced exploration techniques like Upper Confidence Bound (UCB), Thompson Sampling, and intrinsic motivation to refine decision-making strategies.
----
+Study REINFORCE algorithm, the policy gradient theorem, and derive policy gradients mathematically. Learn advantage functions, advantage estimation (n-step, GAE), and baseline subtraction for variance reduction in policy gradient methods.
 
 ---
 
-## 🔹 Module 8: Hierarchical and Transfer Reinforcement Learning
+## 🔹 Module 8: Advanced Policy Optimization: TRPO and PPO
 - **ID:** `node-8`
 - **Progress:** [ ] Completed
 
 **Description:**
-Learn how to structure policies hierarchically and transfer knowledge across tasks to handle complex, high-dimensional environments.
----
+Master Trust Region Policy Optimization (TRPO) including surrogate objectives, KL divergence constraints, and conjugate gradient methods. Study Proximal Policy Optimization (PPO) as a simpler alternative with clipped objectives. Implement both on continuous control tasks.
 
 ---
 
-## 🔹 Module 9: Advanced Optimization Techniques in RL
+## 🔹 Module 9: Actor-Critic Architectures
 - **ID:** `node-9`
 - **Progress:** [ ] Completed
 
 **Description:**
-Study optimization strategies such as trust region methods, natural gradients, and second-order optimization to improve advanced RL model training.
----
+Deepen understanding of actor-critic methods combining value-based and policy-based approaches. Study A2C/A3C, advantage actor-critic, and asynchronous methods. Implement parallel actor-learners and understand stability improvements.
 
 ---
 
-## 🔹 Module 10: Practical Applications: Robotics and Game Playing
+## 🔹 Module 10: Soft Actor-Critic and Maximum Entropy RL
 - **ID:** `node-10`
 - **Progress:** [ ] Completed
 
 **Description:**
-Apply learned concepts to real-world problems in robotics control and game-playing agents, integrating multiple RL techniques.
----
+Study maximum entropy RL framework, soft value functions, and the Soft Actor-Critic (SAC) algorithm. Understand automatic temperature tuning and how entropy regularization improves exploration and robustness.
 
 ---
 
-## 🔹 Module 11: Advanced Project: Implementing a Custom RL Algorithm
+## 🔹 Module 11: Model-Based Reinforcement Learning
 - **ID:** `node-11`
 - **Progress:** [ ] Completed
 
 **Description:**
-Design and implement a custom RL algorithm tailored to a specific problem, combining all learned concepts to demonstrate mastery.
----
+Learn model-based approaches including Dyna-style planning, PILCO, PETS, and World Models. Study probabilistic dynamics models, latent imagination for planning, and how learned models improve sample efficiency dramatically.
 
 ---
 
@@ -442,8 +398,8 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
     "nodes": [
       {
         "id": "node-1",
-        "title": "Reinforcement Learning Fundamentals Review",
-        "description": "A quick recap of core RL concepts including agent-environment interaction, reward signals, policy, value functions, and exploration vs. exploitation strategies.",
+        "title": "Mathematical Foundations of RL: Markov Decision Processes Deep Dive",
+        "description": "Strengthen your theoretical grounding by rigorously studying Markov Decision Processes (MDPs), including formal definitions of state spaces, action spaces, transition probability distributions, reward functions, and the Bellman equations. Understand the assumptions and limitations of the MDP framework.",
         "estimatedTime": "10 hours",
         "resources": [
           {
@@ -475,36 +431,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "title": "MDPs and Bellman Equations - A Gentle Introduction",
             "url": "https://www.youtube.com/watch?v=5hZ1Z0X6q4U",
             "description": "Visual and intuitive explanation of Bell's equations, state transitions, and reward mechanisms in MDPs, suitable for foundational learning."
-          },
-          {
-            "title": "Reinforcement Learning: An Introduction (Sutton & Barto)",
-            "url": "http://incompleteideas.net/book/the-book-2nd.html",
-            "type": "documentation",
-            "description": "Foundational textbook covering agent-environment interaction, reward signals, policy, and value functions with clear explanations and examples."
-          },
-          {
-            "title": "David Silver's Reinforcement Learning Course (Lecture 1)",
-            "url": "https://www.youtube.com/watch?v=2GwK58qG9qk",
-            "type": "video",
-            "description": "Introductory lecture explaining core RL concepts, MDPs, exploration vs. exploitation, and temporal difference learning fundamentals."
-          },
-          {
-            "title": "Reinforcement Learning Overview by Lilian Weng",
-            "url": "https://lilianweng.github.io/posts/2018-02-19-rl-overview.html",
-            "type": "article",
-            "description": "Comprehensive article summarizing RL basics, including policy gradients, value-based methods, and key algorithmic strategies."
-          },
-          {
-            "title": "OpenAI Spinning Up in Deep RL",
-            "url": "https://spinningup.openai.com/",
-            "type": "documentation",
-            "description": "Practical introduction to RL concepts with code examples, covering exploration/exploitation trade-offs and value function approximation."
-          },
-          {
-            "title": "Understanding Reinforcement Learning by Chip Huyen",
-            "url": "https://huyenchip.com/blog/understanding-reinforcement-learning.html",
-            "type": "article",
-            "description": "Accessible guide breaking down RL fundamentals, including Markov Decision Processes, policies, and reward design principles."
           }
         ],
         "flashcards": [
@@ -592,46 +518,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "id": 17,
             "front": "What is the reward hypothesis in the context of MDPs and why is it foundational to RL?",
             "back": "The reward hypothesis posits that an agent's goal can be formalized as maximizing expected cumulative reward. This principle underpins RL design by framing all objectives through scalar reward signals, enabling unified treatment of decision-making in MDPs."
-          },
-          {
-            "front": "What are the two main components of the agent-environment interaction in Reinforcement Learning?",
-            "back": "The agent and the environment. The agent interacts with the environment by taking actions and receiving observations and rewards, aiming to maximize cumulative reward."
-          },
-          {
-            "front": "What is the role of a reward signal in Reinforcement Learning?",
-            "back": "It provides immediate feedback to the agent about the effectiveness of its actions, serving as a scalar value that guides learning toward maximizing cumulative reward over time."
-          },
-          {
-            "front": "Define a policy in Reinforcement Learning.",
-            "back": "A policy is a strategy used by an agent to determine its next action based on the current state. It can be deterministic (action is a function of state) or stochastic (action probabilities depend on state)."
-          },
-          {
-            "front": "How do value functions differ from reward signals in RL?",
-            "back": "Value functions estimate the long-term desirability of states or state-action pairs, considering future rewards, while reward signals provide immediate feedback for each action."
-          },
-          {
-            "front": "What is the exploration vs. exploitation dilemma in RL?",
-            "back": "Exploration involves trying new actions to discover potentially better rewards, while exploitation uses known actions with high expected rewards. Balancing both is key to effective learning."
-          },
-          {
-            "front": "What is a Markov Decision Process (MDP) in the context of RL?",
-            "back": "An MDP formally defines the RL problem with states, actions, transition probabilities, rewards, and a discount factor, assuming the next state depends only on the current state and action."
-          },
-          {
-            "front": "What distinguishes Q-learning from other value-based RL methods?",
-            "back": "Q-learning directly learns the optimal action-value function (Q-values) without requiring a model of the environment, enabling the derivation of a policy from the learned Q-values."
-          },
-          {
-            "front": "What is Temporal Difference (TD) Learning in Reinforcement Learning?",
-            "back": "TD Learning is a method that updates value estimates by combining immediate rewards with estimated future rewards, allowing learning from incomplete episodes without requiring a model of the environment. It bridges Monte Carlo methods and dynamic programming."
-          },
-          {
-            "front": "Explain the Bellman Equation in the context of Reinforcement Learning.",
-            "back": "The Bellman Equation is a recursive relationship that defines the value of a state as the immediate reward plus the discounted value of the next state. It underpins value iteration and policy evaluation by enabling iterative computation of optimal value functions."
-          },
-          {
-            "front": "What distinguishes Model-Based RL from Model-Free RL?",
-            "back": "Model-Based RL uses a learned or known model of the environment to plan actions and predict outcomes, while Model-Free RL learns policies or value functions directly from trial-and-error experience without explicitly modeling the environment dynamics."
           }
         ],
         "researchPapers": [
@@ -785,14 +671,12 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "description": "A concise and updated version of their seminal work, this book offers a clear exposition of MDPs, their structure, and solution algorithms. It balances accessibility with mathematical precision, making it a top choice for both self-study and academic courses.",
             "url": "https://www.deeplearningbook.org/contents/ml.html"
           }
-        ],
-        "completed": false,
-        "completedAt": null
+        ]
       },
       {
         "id": "node-2",
-        "title": "Intermediate RL Strategies: Q-Learning Deep Dive",
-        "description": "Detailed exploration of Q-learning algorithms, including tabular methods and challenges in convergence. Focuses on addressing common pitfalls in intermediate RL tasks.",
+        "title": "Value Functions and Optimality in RL",
+        "description": "Master value functions (V(s) and Q(s,a)), optimal value functions, and optimality conditions. Study contraction mapping theorem proofs for convergence of value iteration and policy iteration, and understand the relationship between value functions and policies.",
         "estimatedTime": "8 hours",
         "resources": [
           {
@@ -824,36 +708,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "title": "Value Functions and Optimality Conditions in Reinforcement Learning",
             "url": "https://www.geeksforgeeks.org/value-functions-optimality-conditions-reinforcement-learning/",
             "description": "Comprehensive guide on value functions, optimal value functions, Bellman optimality equations, and the relationship between value functions and policies."
-          },
-          {
-            "title": "David Silver's Lecture 6: Q-Learning",
-            "url": "https://www.youtube.com/watch?v=ZCwPf1U63jI",
-            "type": "video",
-            "description": "In-depth explanation of Q-learning, including its derivation, convergence properties, and practical implementation challenges from a leading RL researcher."
-          },
-          {
-            "title": "UC Berkeley CS285 Lecture 8: Q-Learning and Function Approximation",
-            "url": "https://www.youtube.com/watch?v=77_C9bY3h0I",
-            "type": "video",
-            "description": "Covers tabular Q-learning and introduces function approximation techniques, addressing convergence issues and common pitfalls in intermediate RL tasks."
-          },
-          {
-            "title": "Q-Learning: A Comprehensive Guide to Tabular Methods and Beyond",
-            "url": "https://www.towards-data-science.com/q-learning-a-comprehensive-guide-to-tabular-methods-and-beyond-8e5a2b0d7e8a",
-            "type": "article",
-            "description": "Explains tabular Q-learning fundamentals, convergence challenges, and solutions for overestimation bias with practical examples."
-          },
-          {
-            "title": "Sutton & Barto's Reinforcement Learning: An Introduction (Chapter 6)",
-            "url": "http://incompleteideas.net/book/the-book-2nd.html",
-            "type": "documentation",
-            "description": "Foundational text covering tabular Q-learning, convergence proofs, and limitations in depth within the broader RL framework."
-          },
-          {
-            "title": "OpenAI Spinning Up: Q-Learning Tutorial",
-            "url": "https://spinningup.openai.com/en/latest/algorithms/q-learning.html",
-            "type": "documentation",
-            "description": "Hands-on guide to implementing Q-learning with PyTorch, including discussions on exploration-exploitation trade-offs and hyperparameter tuning."
           }
         ],
         "researchPapers": [
@@ -881,41 +735,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "title": "Sample and Oracle Efficient Reinforcement Learning for MDPs with Linearly-Realizable Value Functions",
             "keyIdea": "Develops a computationally and sample-efficient reinforcement learning algorithm for MDPs where value functions are linearly realizable, using cost-sensitive classification oracles with polynomial complexity.",
             "url": "https://arxiv.org/pdf/2409.04840"
-          },
-          {
-            "title": "Regularized Q-Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ea6d17af54f827336fc8fed27ca0319d-Paper-Conference.pdf",
-            "summary": ""
-          },
-          {
-            "title": "Projected Off-Policy Q-Learning (POP-QL) for Stabilizing Offline Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/pdf/2311.14885",
-            "summary": ""
-          },
-          {
-            "title": "Iterated Q-Network: Beyond One-Step Bellman Updates in Deep Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2403.02107v2",
-            "summary": ""
-          },
-          {
-            "title": "Time-Scale Separation in Q-Learning: Extending TD(∆) for Action-Value Function Decomposition",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/pdf/2411.14019",
-            "summary": ""
-          },
-          {
-            "title": "On the Convergence and Sample Complexity Analysis of Deep Q-Networks with ε-Greedy Exploration",
-            "authors": "",
-            "year": "",
-            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2a91de02871011d0090e662ffd6f2328-Paper-Conference.pdf",
-            "summary": ""
           }
         ],
         "quiz": [
@@ -1031,14 +850,12 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
           }
         ],
         "flashcards": [],
-        "books": [],
-        "completed": false,
-        "completedAt": null
+        "books": []
       },
       {
         "id": "node-3",
-        "title": "Policy Gradients and Actor-Critic Methods",
-        "description": "Learn policy gradient techniques and actor-critic architectures to strengthen understanding of intermediate RL approaches that were partially missed in the quiz.",
+        "title": "Dynamic Programming in RL",
+        "description": "Deepen understanding of policy evaluation, policy improvement, and policy iteration algorithms. Implement value iteration and policy iteration from scratch, analyze their computational complexity, and compare their use cases in tabular settings.",
         "estimatedTime": "9 hours",
         "resources": [
           {
@@ -1070,36 +887,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "title": "CS236 - Deep Reinforcement Learning Course Notes (DP Section)",
             "url": "https://web.stanford.edu/class/cs236/notes/lecture6.pdf",
             "description": "Stanford course notes covering policy evaluation, improvement, and iteration with mathematical proofs and complexity analysis."
-          },
-          {
-            "title": "Policy Gradient Methods (David Silver Lecture)",
-            "url": "https://www.youtube.com/watch?v=K0Wl5xok9Qs",
-            "type": "video",
-            "description": "Comprehensive explanation of policy gradient methods, including REINFORCE, actor-critic, and advanced variants, from the foundational Deep Learning and Reinforcement Learning course."
-          },
-          {
-            "title": "Spinning Up: Policy Gradient Methods Documentation",
-            "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html",
-            "type": "documentation",
-            "description": "Official OpenAI documentation explaining policy gradient methods, actor-critic architectures, and their implementations with code examples."
-          },
-          {
-            "title": "Policy Gradient Methods in Reinforcement Learning (Lilian Weng)",
-            "url": "https://lilianweng.github.io/posts/2021-02-18-policy-gradient-methods-in-reinforcement-learning/",
-            "type": "article",
-            "description": "Detailed blog post covering theoretical foundations, practical algorithms (e.g., REINFORCE, PPO), and comparisons between policy gradients and value-based methods."
-          },
-          {
-            "title": "CS285 Lecture 10: Policy Gradient Methods",
-            "url": "https://www.youtube.com/watch?v=Vx2Ia2RZ9qY",
-            "type": "video",
-            "description": "Academic lecture explaining policy gradient theory, variance reduction techniques, and actor-critic frameworks with practical insights."
-          },
-          {
-            "title": "CS285 Lecture 14: Actor-Critic Methods",
-            "url": "https://www.youtube.com/watch?v=JhVZ6Kx3U2Y",
-            "type": "video",
-            "description": "Focuses on actor-critic architectures, including A2C, A3C, and PPO, with discussions on advantages, implementation challenges, and use cases."
           }
         ],
         "quiz": [
@@ -1180,30 +967,6 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "id": 8,
             "front": "Compare Policy Iteration vs. Value Iteration in Tabular RL",
             "back": "Policy iteration combines evaluation and improvement, often converging faster with higher per-iteration cost. Value iteration focuses solely on value updates, simpler per step but requiring more iterations. Both converge to the optimal solution."
-          },
-          {
-            "front": "What is the Policy Gradient Theorem?",
-            "back": "A fundamental result in policy gradient methods stating that the gradient of the expected return J(θ) with respect to policy parameters θ is the expectation of the gradient of the log probability of actions times the return, i.e., ∇J(θ) = 𝔼[∇ log πθ(a\\"
-          },
-          {
-            "front": "What is the REINFORCE algorithm?",
-            "back": "A Monte Carlo policy gradient method that updates the policy using full trajectories. It directly estimates the policy gradient by sampling episodes and computing returns. No baseline is used, leading to high variance but unbiased gradients."
-          },
-          {
-            "front": "What are Actor-Critic methods?",
-            "back": "A class of algorithms combining policy-based (actor) and value-based (critic) approaches. The actor updates the policy using gradient information, while the critic evaluates the value of states or actions to reduce variance in policy updates."
-          },
-          {
-            "front": "What is the advantage function and its role in Actor-Critic methods?",
-            "back": "The advantage function A(s,a) = Q(s,a) - V(s) measures how much better an action is compared to the average action in a state. It reduces variance by centering the return estimate around the state's value, improving policy updates."
-          },
-          {
-            "front": "How is variance reduced in policy gradient methods?",
-            "back": "Variance is reduced by subtracting a baseline (e.g., state value function V(s)) from the return. This does not bias the gradient but stabilizes updates, as the policy gradient becomes 𝔼[∇ log πθ(a\\"
-          },
-          {
-            "front": "What distinguishes on-policy and off-policy Actor-Critic methods?",
-            "back": "On-policy methods (e.g., A2C) use data collected from the current policy, while off-policy methods (e.g., DDPG) use data from a different policy, allowing reuse of past experiences. On-policy is more stable but less sample-efficient."
           }
         ],
         "researchPapers": [
@@ -1234,121 +997,103 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
           }
         ],
         "books": [],
-        "practiceProblems": [],
-        "completed": false,
-        "completedAt": null
+        "practiceProblems": []
       },
       {
         "id": "node-4",
-        "title": "Function Approximation in RL",
-        "description": "Introduction to using function approximators like neural networks in RL. Covers value function approximation and its role in scaling RL to complex problems.\n---",
+        "title": "Monte Carlo and Temporal Difference Learning",
+        "description": "Study first-visit and every-visit Monte Carlo prediction and control methods. Learn TD(0), TD(λ), and understand the bias-variance tradeoff between MC and TD methods. Implement epsilon-greedy SARSA and Q-learning agents.",
         "estimatedTime": "10 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
-        "title": "Deep Q-Networks (DQN) and Experience Replay",
-        "description": "Study DQN implementation, experience replay mechanisms, and stabilizing training with target networks to bridge gaps in advanced RL techniques.\n---",
+        "title": "Function Approximation in RL",
+        "description": "Learn how to handle large/continuous state spaces using linear function approximation, tile coding, and Fourier bases. Understand the deadly triad (function approximation + bootstrapping + off-policy learning) and its implications for convergence.",
         "estimatedTime": "9 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
-        "title": "Advanced Topics: Multi-Agent Reinforcement Learning",
-        "description": "Explore multi-agent systems, including cooperative and competitive scenarios, addressing challenges in advanced RL contexts.\n---",
+        "title": "Deep Reinforcement Learning: DQN and Extensions",
+        "description": "Master Deep Q-Networks including experience replay, target networks, and the original Atari DQN architecture. Explore Double DQN, Dueling DQN, Prioritized Experience Replay, and Rainbow DQN. Implement these on complex environments.",
         "estimatedTime": "12 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
-        "title": "Exploration vs. Exploitation: Advanced Strategies",
-        "description": "Deep dive into advanced exploration techniques like Upper Confidence Bound (UCB), Thompson Sampling, and intrinsic motivation to refine decision-making strategies.\n---",
+        "title": "Policy Gradient Methods",
+        "description": "Study REINFORCE algorithm, the policy gradient theorem, and derive policy gradients mathematically. Learn advantage functions, advantage estimation (n-step, GAE), and baseline subtraction for variance reduction in policy gradient methods.",
         "estimatedTime": "10 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
-        "title": "Hierarchical and Transfer Reinforcement Learning",
-        "description": "Learn how to structure policies hierarchically and transfer knowledge across tasks to handle complex, high-dimensional environments.\n---",
+        "title": "Advanced Policy Optimization: TRPO and PPO",
+        "description": "Master Trust Region Policy Optimization (TRPO) including surrogate objectives, KL divergence constraints, and conjugate gradient methods. Study Proximal Policy Optimization (PPO) as a simpler alternative with clipped objectives. Implement both on continuous control tasks.",
         "estimatedTime": "11 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
-        "title": "Advanced Optimization Techniques in RL",
-        "description": "Study optimization strategies such as trust region methods, natural gradients, and second-order optimization to improve advanced RL model training.\n---",
+        "title": "Actor-Critic Architectures",
+        "description": "Deepen understanding of actor-critic methods combining value-based and policy-based approaches. Study A2C/A3C, advantage actor-critic, and asynchronous methods. Implement parallel actor-learners and understand stability improvements.",
         "estimatedTime": "10 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
-        "title": "Practical Applications: Robotics and Game Playing",
-        "description": "Apply learned concepts to real-world problems in robotics control and game-playing agents, integrating multiple RL techniques.\n---",
+        "title": "Soft Actor-Critic and Maximum Entropy RL",
+        "description": "Study maximum entropy RL framework, soft value functions, and the Soft Actor-Critic (SAC) algorithm. Understand automatic temperature tuning and how entropy regularization improves exploration and robustness.",
         "estimatedTime": "8 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
-        "title": "Advanced Project: Implementing a Custom RL Algorithm",
-        "description": "Design and implement a custom RL algorithm tailored to a specific problem, combining all learned concepts to demonstrate mastery.\n---",
+        "title": "Model-Based Reinforcement Learning",
+        "description": "Learn model-based approaches including Dyna-style planning, PILCO, PETS, and World Models. Study probabilistic dynamics models, latent imagination for planning, and how learned models improve sample efficiency dramatically.",
         "estimatedTime": "10 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
@@ -1432,7 +1177,7 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
     ],
     "topic": "reinforcement learning",
     "isFinalized": true,
-    "lastUsedAt": 1788745525473
+    "lastUsedAt": 1788745924058
   }
 }
 EDU_ASSIST_METADATA_END -->
