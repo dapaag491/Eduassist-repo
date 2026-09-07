@@ -18,6 +18,18 @@ Revisit the fundamental principles of quantum computing, including qubits, super
 - [Qiskit Textbook - Quantum Information and Computation](https://qiskit.org/textbook/preface.html) `[documentation]` - Comprehensive interactive textbook covering qubits, quantum gates, and core principles with practical experiments. Addresses beginner ambiguities through hands-on examples.
 - [Quantum Computing: How it Works and Why it Matters - Nature](https://www.nature.com/articles/d41586-023-01574-3) `[article]` - Nature's article provides a concise review of quantum computing fundamentals, clarifying key concepts like superposition and entanglement in an accessible scientific context.
 - [Microsoft Quantum Documentation - Qubits and Quantum Systems](https://learn.microsoft.com/en-us/azure/quantum/concepts-quantum-computing) `[documentation]` - Microsoft's documentation explains quantum computing principles, including qubits and entanglement, with interactive elements and practical use cases to solidify understanding.
+- [classcentral.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkY5Pb6l2H5KMiknZw-g5uEVuV0xH4I20_6DoNZ8xqesnd4a_JUWlYIH8fQcBmIkdwl3ih1REyPP-osey1qmkWaosSHS7u-Q0re2PSg1hpoBuL1FanaMcH1CZRu8gK8ui6tRHFJT0TswpGgDpwbNz6MLiaxnm6mFjfN9asv1faIwU7j4eqPKCU3dM=) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxL6gpZHlPKdJwlpUY3ceiEGo0zMyEoaXWYP1m46_fP4WzNiokHHYL44on547QVo-wgyZ7t9ylfx3RmRwXKR39Cjy1U9R2HwRUG3eHl9_vs3di54NTYbQuGzftaMWUoy568aAoTw==) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [freecodecamp.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZWvsYAHjMVwtUeTduFNoJuSdY7w60IxqjA87MM50Slc8REhalaqik7jK0PyDEmPxxCtY53w_gtBSqrUsjCZPAVZOvgLdrilgWLIVeFKzwBDAXL-GiQ6zIuveU2k07CtHTQqJd6-fBFGRD5uNcNMnThhpsmXTOC5PAk6OtNGv3-VqgAimNXdJC1tDLbMGAQLc_u0tjjmKeo6My_n962llUT4RUfg==) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [ibm.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEkaNeRldk0Kj-uLMF1yoP-zoqDKB9mjKUWFxf6Ojqtv33qpPV7yjEDSxubX2kgY5oD3rA9VM8CI6oAHEhKgGrn4YmsRD7KVKD27RieaPbmGSr27iBJ968b3wru3QG23dsf0ZpqcEKJ3KUGNUGeB6z7cgmrfik3HRnPsybVWfRoOk7HG4YJeGtPS-T1R9w42qLwwu3Ed0SJjYTim67mRRpn-x9RA==) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [microsoft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA1Q7lmjeAfvRstUYJHKV8PMmGTRHiGM3kYBC1XKNuB4gPlAQHQEgwtBXqnopiQFGMA6vOz3nbLLqRiWhMzdA9IZI5Dn8MG5hIiBWtuymZ4Gb_brx5b6O1rjL1biA0sv8bjnHKJGmGSQdV) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjp9kmIW-uEDH9I8Xkm1CFCnuEEh7t9Y68zHxMR3lXguHzVVi1BGWhZiSBbrcgJ_7GIQopH_3dpebCUTELSe1ggabdp3tgCYz19BjmUUQu4-XKoVBu9LNGDTJ2s7jHJzH4ufZiId8RB1vpXTrxbhLIq5mtdiMrxKKsZPCNonZVWIiGsvmr3X9Ohb3MbjXKIEmgDsch) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [nist.gov](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx80tukMxFzfJPBLwB9rpcHeyScmkLoVwKfHuT_dSxvDZPkPSBH5-bUp343cz5nDVuxUWu2ms080Ac_llDB5PKgdm61rlStYnDmh3f-dQcgWzfYgvRoo2B0DVrD78UF3zvwNeYtQbSoKwuO_IstyX1VJeyaJ6HxUn8znDh2My8mLPiXIPQcA==) `[article]` - A highly relevant resource for Review: What is Quantum Computing? found via Google Search.
+- [Quantum Computing: From Basics to Advanced Algorithms](https://www.youtube.com/watch?v=A1p_cQ61x94) `[video]` - A comprehensive video course covering the fundamentals of quantum mechanics, qubits, superposition, entanglement, and quantum algorithms.
+- [What is a quantum computer? Explained with a simple example.](https://www.freecodecamp.org/news/what-is-a-quantum-computer-explained-with-a-simple-example/) `[article]` - An accessible explanation of quantum computers, contrasting them with classical computers and introducing qubits and superposition.
+- [Quantum Computing Explained](https://www.nist.gov/physics/quantum-computing-explained) `[article]` - Explains the fundamental concepts of quantum computing, including qubits, superposition, and entanglement, with helpful analogies.
+- [Azure Quantum documentation](https://docs.microsoft.com/en-us/azure/quantum/) `[documentation]` - Official documentation from Microsoft for their Azure Quantum service, covering quantum computing concepts, Q#, and programming resources.
+- [Quantum Computing Fundamentals](https://www.ibm.com/quantum-computing/learn/fundamentals/) `[article]` - IBM's learning resources on quantum computing fundamentals, including detailed explanations of qubits, superposition, and entanglement.
 
 ### 📑 Research Papers
 - **Quantum Computing: Vision and Challenges** - [View Paper](https://arxiv.org/abs/2403.02240)
@@ -42,11 +54,6 @@ Revisit the fundamental principles of quantum computing, including qubits, super
 
 | Front (Question) | Back (Answer) |
 | :--- | :--- |
-| What is a qubit? | A qubit is the fundamental unit of quantum information, representing a two-state system (e.g., 0 and 1). Unlike classical bits, qubits can exist in a combination of states due to superposition. |
-| What is superposition in quantum computing? | Superposition is the ability of a qubit to exist in a linear combination of both 0 and 1 states simultaneously until measured. This allows quantum systems to process multiple possibilities in parallel. |
-| What is entanglement? | Entanglement is a quantum phenomenon where two or more qubits become correlated such that the state of one instantly influences the state of the other(s), regardless of distance. It enables quantum systems to share information and perform coordinated operations. |
-| How do quantum gates differ from classical logic gates? | Quantum gates manipulate qubits using quantum operations (e.g., Pauli-X, Hadamard) and maintain coherence, allowing superposition and entanglement. Classical gates (AND, OR, NOT) operate on definite bits with irreversible logic. |
-| What happens when a qubit is measured? | Measuring a qubit collapses its superposition into a definite classical state (0 or 1). This process is probabilistic and irreversible, losing all quantum information about the original state. |
 | What is a qubit? | A qubit is the fundamental unit of quantum information, representing a two-state system (e.g., 0 and 1). Unlike classical bits, qubits can exist in a combination of states due to superposition. |
 | What is superposition in quantum computing? | Superposition is the ability of a qubit to exist in a linear combination of both 0 and 1 states simultaneously until measured. This allows quantum systems to process multiple possibilities in parallel. |
 | What is entanglement? | Entanglement is a quantum phenomenon where two or more qubits become correlated such that the state of one instantly influences the state of the other(s), regardless of distance. It enables quantum systems to share information and perform coordinated operations. |
@@ -173,13 +180,6 @@ Explore the mathematical and conceptual underpinnings of superposition. Understa
 | How does superposition enable quantum computing's power? | Superposition allows qubits to process multiple states in parallel. By manipulating these states collectively, quantum algorithms (e.g., Grover's, Shor's) achieve exponential speedups for certain problems compared to classical computers. |
 | What happens when a qubit in superposition is measured? | The qubit collapses to either \|0⟩ or \|1⟩ probabilistically. The outcome probabilities are determined by the squared magnitudes of the amplitude coefficients (\|α\|² and \|β\|²) in the superposition state. |
 | What is the physical significance of the 'coefficients' in superposition states? | The coefficients (α, β) in \|ψ⟩ = α\|0⟩ + β\|1⟩ are complex numbers encoding probability amplitudes. Their magnitudes squared give measurement probabilities, and their phases enable constructive/destructive interference in quantum algorithms. |
-| What is quantum superposition? | A fundamental principle where a quantum system (e.g., qubit) exists in multiple distinct states simultaneously until measured. For example, a qubit can be in both \ |
-| How is superposition mathematically represented in qubits? | Using Dirac notation: \ |
-| How does quantum superposition differ from classical computing bits? | Classical bits can only be in one of two definite states (0 or 1). Qubits leverage superposition to exist in a linear combination of states, enabling parallel computation until measurement causes collapse. |
-| Provide an example of a superposition state created by a quantum gate. | Applying a Hadamard gate (H) to a qubit in state \ |
-| How does superposition enable quantum computing's power? | Superposition allows qubits to process multiple states in parallel. By manipulating these states collectively, quantum algorithms (e.g., Grover's, Shor's) achieve exponential speedups for certain problems compared to classical computers. |
-| What happens when a qubit in superposition is measured? | The qubit collapses to either \ |
-| What is the physical significance of the 'coefficients' in superposition states? | The coefficients (α, β) in \ |
 
 ### ✏️ Practice Problems
 
@@ -274,14 +274,6 @@ Investigate the phenomenon of entanglement and its implications for quantum comp
 | What happens when you measure one qubit in an entangled pair? | Measuring one qubit in an entangled pair instantly collapses the entire system into a definite state. For example, if two qubits are in a Bell state and one is measured as \|0⟩, the other becomes \|0⟩ immediately, regardless of distance, due to quantum superposition. |
 | Which quantum computing models rely on entanglement to achieve error resilience or scalability? | Entanglement is critical in quantum error correction codes (e.g., surface code), which use entangled qubits to detect and correct errors caused by decoherence. It also enables topological qubit models, where entanglement protects information by encoding it across multiple physical qubits. |
 | What challenges are associated with maintaining quantum entanglement in practical systems? | Entanglement is fragile and susceptible to decoherence (loss of coherence due to environmental interactions) and noise. Maintaining entanglement requires extreme isolation and quantum error correction techniques to preserve the correlated states necessary for computation and communication. |
-| What is quantum entanglement? | A quantum phenomenon where qubits become interconnected, such that the state of one instantly influences the state of another, regardless of distance. This creates non-local correlations that defy classical intuition. |
-| How does entanglement enhance quantum computational power compared to classical systems? | Entanglement enables qubits to represent exponentially more states simultaneously (superposition) and allows for parallel processing of information. This underpins quantum algorithms like Shor's and Grover's by leveraging correlated qubit states to solve complex problems more efficiently than classical bits. |
-| What distinguishes entangled qubits from classical bits? | Classical bits exist in discrete states (0 or 1), while entangled qubits exist in superpositions and exhibit non-classical correlations. Measuring one entangled qubit instantly determines the state of its partner(s), a property impossible in classical systems. |
-| Name three types of entangled quantum states used in quantum information and their applications. | Bell states (maximally entangled two-qubit states used in teleportation), GHZ states (multi-qubit entanglement for quantum computing and foundational experiments), and W states (robust entanglement useful in quantum error correction). |
-| How is entanglement applied in quantum teleportation? | Entanglement allows the transfer of quantum states between qubits without physical transmission. A sender and receiver share an entangled pair; measuring the sender's qubit collapses the entanglement, enabling the receiver to reconstruct the original state using classical communication, preserving quantum information. |
-| What happens when you measure one qubit in an entangled pair? | Measuring one qubit in an entangled pair instantly collapses the entire system into a definite state. For example, if two qubits are in a Bell state and one is measured as \ |
-| Which quantum computing models rely on entanglement to achieve error resilience or scalability? | Entanglement is critical in quantum error correction codes (e.g., surface code), which use entangled qubits to detect and correct errors caused by decoherence. It also enables topological qubit models, where entanglement protects information by encoding it across multiple physical qubits. |
-| What challenges are associated with maintaining quantum entanglement in practical systems? | Entanglement is fragile and susceptible to decoherence (loss of coherence due to environmental interactions) and noise. Maintaining entanglement requires extreme isolation and quantum error correction techniques to preserve the correlated states necessary for computation and communication. |
 
 ### ✏️ Practice Problems
 
@@ -333,7 +325,6 @@ Investigate the phenomenon of entanglement and its implications for quantum comp
 
 **Description:**
 Learn about the basic quantum gates (e.g., Hadamard, CNOT, Pauli gates) and how they manipulate qubit states. This is crucial for understanding quantum circuits.
----
 
 ---
 
@@ -343,7 +334,6 @@ Learn about the basic quantum gates (e.g., Hadamard, CNOT, Pauli gates) and how 
 
 **Description:**
 Practice constructing and analyzing simple quantum circuits using the gates learned previously. This will solidify your understanding of how computations are performed.
----
 
 ---
 
@@ -353,7 +343,6 @@ Practice constructing and analyzing simple quantum circuits using the gates lear
 
 **Description:**
 Study the Deutsch-Jozsa algorithm as an early example of a quantum algorithm that offers a speedup over classical algorithms. This is a stepping stone to more complex algorithms.
----
 
 ---
 
@@ -363,7 +352,6 @@ Study the Deutsch-Jozsa algorithm as an early example of a quantum algorithm tha
 
 **Description:**
 Delve into Grover's search algorithm, a foundational algorithm for database searching that provides a quadratic speedup. This builds on your success with intermediate concepts.
----
 
 ---
 
@@ -383,13 +371,12 @@ Understand the challenges of decoherence and noise in quantum computers and the 
 
 ---
 
-## 🔹 Module 9: Shor's Algorithm: The Revolution in Factoring
+## 🔹 Module 9:  Shor's Algorithm: The Revolution in Factoring
 - **ID:** `node-9`
 - **Progress:** [ ] Completed
 
 **Description:**
 Explore Shor's algorithm, a groundbreaking quantum algorithm that can efficiently factor large numbers, posing a threat to current encryption methods. This directly relates to your advanced question success.
----
 
 ---
 
@@ -399,7 +386,6 @@ Explore Shor's algorithm, a groundbreaking quantum algorithm that can efficientl
 
 **Description:**
 Learn about different physical implementations of quantum computers, such as superconducting qubits, trapped ions, and photonic systems.
----
 
 ---
 
@@ -409,7 +395,6 @@ Learn about different physical implementations of quantum computers, such as sup
 
 **Description:**
 Investigate the potential applications of quantum computing in fields like drug discovery, materials science, financial modeling, and artificial intelligence.
----
 
 ---
 
@@ -442,34 +427,106 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "video",
             "title": "Quantum Computing for the Determined | Chapter 1: What is a Qubit?",
             "url": "https://www.youtube.com/watch?v=HsA3Dkx6N7I",
-            "type": "video",
             "description": "A clear YouTube video explaining qubits, superposition, and entanglement with visual analogies and examples to eliminate ambiguities about quantum states."
           },
           {
+            "type": "article",
             "title": "Quantum Computing: A Gentle Introduction - IBM",
             "url": "https://research.ibm.com/quantum/learn/what-is-quantum-computing",
-            "type": "article",
             "description": "IBM's introductory article breaks down fundamental concepts like qubits, superposition, and entanglement in simple terms, ideal for revisiting basics."
           },
           {
+            "type": "documentation",
             "title": "Qiskit Textbook - Quantum Information and Computation",
             "url": "https://qiskit.org/textbook/preface.html",
-            "type": "documentation",
             "description": "Comprehensive interactive textbook covering qubits, quantum gates, and core principles with practical experiments. Addresses beginner ambiguities through hands-on examples."
           },
           {
+            "type": "article",
             "title": "Quantum Computing: How it Works and Why it Matters - Nature",
             "url": "https://www.nature.com/articles/d41586-023-01574-3",
-            "type": "article",
             "description": "Nature's article provides a concise review of quantum computing fundamentals, clarifying key concepts like superposition and entanglement in an accessible scientific context."
           },
           {
+            "type": "documentation",
             "title": "Microsoft Quantum Documentation - Qubits and Quantum Systems",
             "url": "https://learn.microsoft.com/en-us/azure/quantum/concepts-quantum-computing",
-            "type": "documentation",
             "description": "Microsoft's documentation explains quantum computing principles, including qubits and entanglement, with interactive elements and practical use cases to solidify understanding."
+          },
+          {
+            "type": "article",
+            "title": "classcentral.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkY5Pb6l2H5KMiknZw-g5uEVuV0xH4I20_6DoNZ8xqesnd4a_JUWlYIH8fQcBmIkdwl3ih1REyPP-osey1qmkWaosSHS7u-Q0re2PSg1hpoBuL1FanaMcH1CZRu8gK8ui6tRHFJT0TswpGgDpwbNz6MLiaxnm6mFjfN9asv1faIwU7j4eqPKCU3dM=",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxL6gpZHlPKdJwlpUY3ceiEGo0zMyEoaXWYP1m46_fP4WzNiokHHYL44on547QVo-wgyZ7t9ylfx3RmRwXKR39Cjy1U9R2HwRUG3eHl9_vs3di54NTYbQuGzftaMWUoy568aAoTw==",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "freecodecamp.org",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZWvsYAHjMVwtUeTduFNoJuSdY7w60IxqjA87MM50Slc8REhalaqik7jK0PyDEmPxxCtY53w_gtBSqrUsjCZPAVZOvgLdrilgWLIVeFKzwBDAXL-GiQ6zIuveU2k07CtHTQqJd6-fBFGRD5uNcNMnThhpsmXTOC5PAk6OtNGv3-VqgAimNXdJC1tDLbMGAQLc_u0tjjmKeo6My_n962llUT4RUfg==",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "ibm.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEkaNeRldk0Kj-uLMF1yoP-zoqDKB9mjKUWFxf6Ojqtv33qpPV7yjEDSxubX2kgY5oD3rA9VM8CI6oAHEhKgGrn4YmsRD7KVKD27RieaPbmGSr27iBJ968b3wru3QG23dsf0ZpqcEKJ3KUGNUGeB6z7cgmrfik3HRnPsybVWfRoOk7HG4YJeGtPS-T1R9w42qLwwu3Ed0SJjYTim67mRRpn-x9RA==",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "microsoft.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA1Q7lmjeAfvRstUYJHKV8PMmGTRHiGM3kYBC1XKNuB4gPlAQHQEgwtBXqnopiQFGMA6vOz3nbLLqRiWhMzdA9IZI5Dn8MG5hIiBWtuymZ4Gb_brx5b6O1rjL1biA0sv8bjnHKJGmGSQdV",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "github.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjp9kmIW-uEDH9I8Xkm1CFCnuEEh7t9Y68zHxMR3lXguHzVVi1BGWhZiSBbrcgJ_7GIQopH_3dpebCUTELSe1ggabdp3tgCYz19BjmUUQu4-XKoVBu9LNGDTJ2s7jHJzH4ufZiId8RB1vpXTrxbhLIq5mtdiMrxKKsZPCNonZVWIiGsvmr3X9Ohb3MbjXKIEmgDsch",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "article",
+            "title": "nist.gov",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx80tukMxFzfJPBLwB9rpcHeyScmkLoVwKfHuT_dSxvDZPkPSBH5-bUp343cz5nDVuxUWu2ms080Ac_llDB5PKgdm61rlStYnDmh3f-dQcgWzfYgvRoo2B0DVrD78UF3zvwNeYtQbSoKwuO_IstyX1VJeyaJ6HxUn8znDh2My8mLPiXIPQcA==",
+            "description": "A highly relevant resource for Review: What is Quantum Computing? found via Google Search."
+          },
+          {
+            "type": "video",
+            "title": "Quantum Computing: From Basics to Advanced Algorithms",
+            "url": "https://www.youtube.com/watch?v=A1p_cQ61x94",
+            "description": "A comprehensive video course covering the fundamentals of quantum mechanics, qubits, superposition, entanglement, and quantum algorithms."
+          },
+          {
+            "type": "article",
+            "title": "What is a quantum computer? Explained with a simple example.",
+            "url": "https://www.freecodecamp.org/news/what-is-a-quantum-computer-explained-with-a-simple-example/",
+            "description": "An accessible explanation of quantum computers, contrasting them with classical computers and introducing qubits and superposition."
+          },
+          {
+            "type": "article",
+            "title": "Quantum Computing Explained",
+            "url": "https://www.nist.gov/physics/quantum-computing-explained",
+            "description": "Explains the fundamental concepts of quantum computing, including qubits, superposition, and entanglement, with helpful analogies."
+          },
+          {
+            "type": "documentation",
+            "title": "Azure Quantum documentation",
+            "url": "https://docs.microsoft.com/en-us/azure/quantum/",
+            "description": "Official documentation from Microsoft for their Azure Quantum service, covering quantum computing concepts, Q#, and programming resources."
+          },
+          {
+            "type": "article",
+            "title": "Quantum Computing Fundamentals",
+            "url": "https://www.ibm.com/quantum-computing/learn/fundamentals/",
+            "description": "IBM's learning resources on quantum computing fundamentals, including detailed explanations of qubits, superposition, and entanglement."
           }
         ],
         "keyConcepts": [
@@ -509,68 +566,33 @@ Get an introductory overview of how quantum computing can be applied to machine 
             "id": 5,
             "front": "What happens when a qubit is measured?",
             "back": "Measuring a qubit collapses its superposition into a definite classical state (0 or 1). This process is probabilistic and irreversible, losing all quantum information about the original state."
-          },
-          {
-            "front": "What is a qubit?",
-            "back": "A qubit is the fundamental unit of quantum information, representing a two-state system (e.g., 0 and 1). Unlike classical bits, qubits can exist in a combination of states due to superposition."
-          },
-          {
-            "front": "What is superposition in quantum computing?",
-            "back": "Superposition is the ability of a qubit to exist in a linear combination of both 0 and 1 states simultaneously until measured. This allows quantum systems to process multiple possibilities in parallel."
-          },
-          {
-            "front": "What is entanglement?",
-            "back": "Entanglement is a quantum phenomenon where two or more qubits become correlated such that the state of one instantly influences the state of the other(s), regardless of distance. It enables quantum systems to share information and perform coordinated operations."
-          },
-          {
-            "front": "How do quantum gates differ from classical logic gates?",
-            "back": "Quantum gates manipulate qubits using quantum operations (e.g., Pauli-X, Hadamard) and maintain coherence, allowing superposition and entanglement. Classical gates (AND, OR, NOT) operate on definite bits with irreversible logic."
-          },
-          {
-            "front": "What happens when a qubit is measured?",
-            "back": "Measuring a qubit collapses its superposition into a definite classical state (0 or 1). This process is probabilistic and irreversible, losing all quantum information about the original state."
           }
         ],
         "researchPapers": [
           {
             "title": "Quantum Computing: Vision and Challenges",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2403.02240",
-            "summary": "",
-            "keyIdea": "This comprehensive review examines the foundational principles and current state of quantum computing, highlighting emerging applications in cryptography, optimization, drug design, and sustainable energy while identifying key technical challenges including hardware scalability and error correction requirements."
+            "keyIdea": "This comprehensive review examines the foundational principles and current state of quantum computing, highlighting emerging applications in cryptography, optimization, drug design, and sustainable energy while identifying key technical challenges including hardware scalability and error correction requirements.",
+            "url": "https://arxiv.org/abs/2403.02240"
           },
           {
             "title": "Simulation of Quantum Computers: Review and Acceleration Opportunities",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2410.12660",
-            "summary": "",
-            "keyIdea": "This paper provides a systematic review of quantum computer simulation technologies on classical hardware platforms (CPU, GPU, FPGA), analyzing performance bottlenecks and optimization strategies essential for developing and testing quantum algorithms before deployment on actual quantum devices."
+            "keyIdea": "This paper provides a systematic review of quantum computer simulation technologies on classical hardware platforms (CPU, GPU, FPGA), analyzing performance bottlenecks and optimization strategies essential for developing and testing quantum algorithms before deployment on actual quantum devices.",
+            "url": "https://arxiv.org/html/2410.12660"
           },
           {
             "title": "Quantum Computing: Circuits, Algorithms, and Applications",
-            "authors": "",
-            "year": "",
-            "url": "https://people.cs.ksu.edu/~amunir/documents/publications/journal/Munir_Quantum_Computing_IEEE_Access_2024.pdf",
-            "summary": "",
-            "keyIdea": "An educational review covering fundamental quantum computing concepts including qubits, superposition, entanglement, and the NISQ era, with detailed explanations of quantum algorithms like Shor's and Grover's and their applications across industries such as cryptography, optimization, and machine learning."
+            "keyIdea": "An educational review covering fundamental quantum computing concepts including qubits, superposition, entanglement, and the NISQ era, with detailed explanations of quantum algorithms like Shor's and Grover's and their applications across industries such as cryptography, optimization, and machine learning.",
+            "url": "https://people.cs.ksu.edu/~amunir/documents/publications/journal/Munir_Quantum_Computing_IEEE_Access_2024.pdf"
           },
           {
             "title": "Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2407.00736v1",
-            "summary": "",
-            "keyIdea": "This survey explores the integration of artificial intelligence methods in quantum circuit design and compilation optimization, focusing on quantum architecture search, qubit mapping, routing challenges, and AI-driven approaches to enhance the precision and efficiency of quantum algorithm execution on hardware."
+            "keyIdea": "This survey explores the integration of artificial intelligence methods in quantum circuit design and compilation optimization, focusing on quantum architecture search, qubit mapping, routing challenges, and AI-driven approaches to enhance the precision and efficiency of quantum algorithm execution on hardware.",
+            "url": "https://arxiv.org/html/2407.00736v1"
           },
           {
             "title": "Machine Learning Applications of Quantum Computing",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2406.13262",
-            "summary": "",
-            "keyIdea": "Reviews the intersection of quantum computing and machine learning, examining how quantum algorithms can accelerate ML workloads and enable new capabilities in pattern recognition and optimization problems that are intractable for classical computing systems."
+            "keyIdea": "Reviews the intersection of quantum computing and machine learning, examining how quantum algorithms can accelerate ML workloads and enable new capabilities in pattern recognition and optimization problems that are intractable for classical computing systems.",
+            "url": "https://arxiv.org/abs/2406.13262"
           }
         ],
         "practiceProblems": [
@@ -689,41 +711,39 @@ Get an introductory overview of how quantum computing can be applied to machine 
           {
             "title": "Quantum Computing for Everyone",
             "author": "Chris Bernhardt",
-            "url": "https://www.amazon.com/Quantum-Computing-Everyone-MIT-Press-ebook/dp/B07Z7Z8Z8Z",
+            "rating": 4.7,
             "description": "A gentle introduction to quantum computing concepts without heavy mathematics. Explains qubits, entanglement, and quantum algorithms in accessible terms, ideal for beginners seeking foundational understanding.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Quantum-Computing-Everyone-MIT-Press-ebook/dp/B07Z7Z8Z8Z"
           },
           {
             "title": "Quantum Computation and Quantum Information",
             "author": "Michael A. Nielsen and Isaac L. Chuang",
-            "url": "https://www.amazon.com/Computation-Information-Isaac-L-Chuang-ebook/dp/B07Z7Z8Z8Z",
+            "rating": 4.8,
             "description": "The definitive textbook on quantum computing, covering theory, algorithms, and quantum information. Highly rated for rigorous academic content and comprehensive coverage, suitable for advanced learners and researchers.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Computation-Information-Isaac-L-Chuang-ebook/dp/B07Z7Z8Z8Z"
           },
           {
             "title": "Programming Quantum Computers",
             "author": "Eric R. Johnston, Nic Harrigan, and Mercedes Gimeno-Segovia",
-            "url": "https://www.amazon.com/Programming-Quantum-Computers-Experience-Quantum-ebook/dp/B0851GJL2H",
+            "rating": 4.6,
             "description": "Focuses on practical quantum programming with real-world examples. Teaches quantum circuit design and programming using IBM Quantum Experience, making it valuable for hands-on learners.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Programming-Quantum-Computers-Experience-Quantum-ebook/dp/B0851GJL2H"
           },
           {
             "title": "The Quantum Computing Survivors' Guide",
             "author": "Eleanor Rieffel and Wolfgang Polak",
-            "url": "https://books.google.com/books/about/Quantum_Computing_Survivors_Guide.html?id=ZV6nAQAAIAAJ",
+            "rating": 4.4,
             "description": "A beginner-friendly guide introducing core concepts like superposition and quantum gates. Recommended for its clear explanations and gradual progression into more complex topics without overwhelming technical details.",
-            "rating": 4.4
+            "url": "https://books.google.com/books/about/Quantum_Computing_Survivors_Guide.html?id=ZV6nAQAAIAAJ"
           },
           {
             "title": "Quantum Computing Explained",
             "author": "John Gribbin",
-            "url": "https://www.amazon.com/Quantum-Computing-Explained-John-Gribbin-ebook/dp/B00J4X6Z6E",
+            "rating": 4.3,
             "description": "A popular science book that breaks down quantum computing into digestible concepts for general readers. Combines historical context with modern developments, making it a great starting point for non-specialists.",
-            "rating": 4.3
+            "url": "https://www.amazon.com/Quantum-Computing-Explained-John-Gribbin-ebook/dp/B00J4X6Z6E"
           }
-        ],
-        "completed": false,
-        "completedAt": null
+        ]
       },
       {
         "id": "node-2",
@@ -732,33 +752,33 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "quantummechanicsstreet.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp5CV1Z1CaGl2T2bjWYa0CZgyUAmGNlfXWqflzvJoEVNWdpFCidj67o1Z3ERVZWtZdywpCDNuerlQm8VXMTu7fO9X5VIDvsr2uJ6h3iH4uEsxIJpkDsNHAsfqCPnx-y9pbkNOUVEiFOQTye1A7D-rtKLHd9S43EZQ_5fMAIUsw-bECLx1_d92nYIZAQdJZRcF5_7sxrSlL2lxg-1AL058RtdiU",
-            "type": "article",
             "description": "A highly relevant resource for Deeper Dive: Quantum Superposition Explained found via Google Search."
           },
           {
+            "type": "article",
             "title": "caltech.edu",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_ifXgZiIkOQPFgcW-BOPYSavt_mJOGSgKn9eAKV-MjSl9wI4Wyv-69UireXuNCR9weo6bEW4ZDb49x0ZVrc3JBp3vjC-N0xwzd3UENsVZI85inbKA0BrOth-o7F09wi1nRwvCL1Xy4tSpYLgZ3oqmD24Gag9_g9a60oGQKOrjzLTz_goFEKPDL0vBGIRtUjb00YlR6A==",
-            "type": "article",
             "description": "A highly relevant resource for Deeper Dive: Quantum Superposition Explained found via Google Search."
           },
           {
+            "type": "article",
             "title": "medium.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpIis0TwIjZcFfTM_xJilcbnIklD855uJPDtPhtuIsGqFxpZjA9gBJYc6vAN3IekKElwM1zdB5K2SWlMXe3W2wtlPP5-kVCS9MGnKThe2mqKWe2OK0bVVa-yGRfRFelIOMyYV_s4_CgS7U8OlB7Qv1MW386Ni3D8eRjj0KgeqcnWcd9RGw4j8TBeSMvbxSRbN2oabF7XHSWvN2YzDq",
-            "type": "article",
             "description": "A highly relevant resource for Deeper Dive: Quantum Superposition Explained found via Google Search."
           },
           {
+            "type": "article",
             "title": "youtube.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY42ksrl5GniQCyVoV_jdb3kdGVvCxLaqn1G23-b_40XhmeA3O_z4dAHz3UJF4AanNYLbobvll_GXlLD5Q7JlpN1v4iC8UCK8zniXmEsL0lzuBz9CMQ38rIlEe60t_35vQRwinY40=",
-            "type": "article",
             "description": "A highly relevant resource for Deeper Dive: Quantum Superposition Explained found via Google Search."
           },
           {
+            "type": "article",
             "title": "microsoft.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe1zRRY20ALyle1x4q8QPpEjY7QJqgPIRgOz2pSN3OlHQhzY8sZeSZs7XYrxqggvimcb60Xf0VfimRjghESP4xk8TmztUyG6Vncdtj6TMwQdheZxAUH7lS5qnL4BKV_A9-_er5qJTZU2e8S0RiS4oXIIIxrHWtapwpNubiTRW2yd27XIF-94qR",
-            "type": "article",
             "description": "A highly relevant resource for Deeper Dive: Quantum Superposition Explained found via Google Search."
           }
         ],
@@ -797,34 +817,6 @@ Get an introductory overview of how quantum computing can be applied to machine 
             "id": 7,
             "front": "What is the physical significance of the 'coefficients' in superposition states?",
             "back": "The coefficients (α, β) in |ψ⟩ = α|0⟩ + β|1⟩ are complex numbers encoding probability amplitudes. Their magnitudes squared give measurement probabilities, and their phases enable constructive/destructive interference in quantum algorithms."
-          },
-          {
-            "front": "What is quantum superposition?",
-            "back": "A fundamental principle where a quantum system (e.g., qubit) exists in multiple distinct states simultaneously until measured. For example, a qubit can be in both \\"
-          },
-          {
-            "front": "How is superposition mathematically represented in qubits?",
-            "back": "Using Dirac notation: \\"
-          },
-          {
-            "front": "How does quantum superposition differ from classical computing bits?",
-            "back": "Classical bits can only be in one of two definite states (0 or 1). Qubits leverage superposition to exist in a linear combination of states, enabling parallel computation until measurement causes collapse."
-          },
-          {
-            "front": "Provide an example of a superposition state created by a quantum gate.",
-            "back": "Applying a Hadamard gate (H) to a qubit in state \\"
-          },
-          {
-            "front": "How does superposition enable quantum computing's power?",
-            "back": "Superposition allows qubits to process multiple states in parallel. By manipulating these states collectively, quantum algorithms (e.g., Grover's, Shor's) achieve exponential speedups for certain problems compared to classical computers."
-          },
-          {
-            "front": "What happens when a qubit in superposition is measured?",
-            "back": "The qubit collapses to either \\"
-          },
-          {
-            "front": "What is the physical significance of the 'coefficients' in superposition states?",
-            "back": "The coefficients (α, β) in \\"
           }
         ],
         "quiz": [
@@ -918,84 +910,67 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "researchPapers": [
           {
             "title": "An efficient quantum algorithm for preparation of uniform quantum superposition states",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/pdf/2306.11747",
-            "summary": "",
-            "keyIdea": "This paper presents an efficient quantum algorithm that achieves exponential reduction in gate complexity for preparing uniform superposition states, requiring only O(log²M) gates without ancilla qubits."
+            "keyIdea": "This paper presents an efficient quantum algorithm that achieves exponential reduction in gate complexity for preparing uniform superposition states, requiring only O(log²M) gates without ancilla qubits.",
+            "url": "https://arxiv.org/pdf/2306.11747"
           },
           {
             "title": "Direct and Efficient Detection of Quantum Superposition",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2405.08065",
-            "summary": "",
-            "keyIdea": "The study introduces an XOR game-based method to directly detect quantum superposition using local measurements and an independent particle, achieving 99% confidence with only 37 copies."
+            "keyIdea": "The study introduces an XOR game-based method to directly detect quantum superposition using local measurements and an independent particle, achieving 99% confidence with only 37 copies.",
+            "url": "https://arxiv.org/html/2405.08065"
           },
           {
             "title": "Efficiently constructing a quantum uniform superposition over bit strings near a binary linear code",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2404.16129v1",
-            "summary": "",
-            "keyIdea": "This research focuses on efficient quantum state preparation methods for constructing uniform superposition states specifically tailored for bit strings related to binary linear codes."
+            "keyIdea": "This research focuses on efficient quantum state preparation methods for constructing uniform superposition states specifically tailored for bit strings related to binary linear codes.",
+            "url": "https://arxiv.org/html/2404.16129v1"
           },
           {
             "title": "Observation of quantum superposition of topological defects in a trapped ion quantum simulator",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2410.15389",
-            "summary": "",
-            "keyIdea": "The paper reports experimental observation of quantum superposition of topological defects using trapped-ion quantum simulators, creating 'Schrodinger kinks' that demonstrate quantum coherence and non-locality."
+            "keyIdea": "The paper reports experimental observation of quantum superposition of topological defects using trapped-ion quantum simulators, creating 'Schrodinger kinks' that demonstrate quantum coherence and non-locality.",
+            "url": "https://arxiv.org/html/2410.15389"
           },
           {
             "title": "Demonstration of Algorithmic Quantum Speedup for an Abelian Hidden Subgroup Problem",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/html/2401.07934v2",
-            "summary": "",
-            "keyIdea": "This work demonstrates quantum algorithmic speedup for Simon's problem using IBM Quantum processors, showing exponential speedup for circuits involving up to 58 qubits with dynamical decoupling protection."
+            "keyIdea": "This work demonstrates quantum algorithmic speedup for Simon's problem using IBM Quantum processors, showing exponential speedup for circuits involving up to 58 qubits with dynamical decoupling protection.",
+            "url": "https://arxiv.org/html/2401.07934v2"
           }
         ],
         "books": [
           {
             "title": "Quantum Computation and Quantum Information",
             "author": "Michael A. Nielsen and Isaac L. Chuang",
-            "url": "https://www.amazon.com/Quantum-Computation-Information-Isaac-Chuang/dp/1107002176",
+            "rating": 4.8,
             "description": "This foundational textbook provides a rigorous introduction to quantum computing, including detailed explanations of quantum states, superposition, entanglement, and quantum algorithms. Recommended for its comprehensive coverage and clarity in explaining core principles.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Quantum-Computation-Information-Isaac-Chuang/dp/1107002176"
           },
           {
             "title": "Programming Quantum Computers: A Hands-On Approach",
             "author": "Eric R. Johnston, Nic Harrigan, and Dr. Mercedes G. Tapia",
-            "url": "https://www.amazon.com/Programming-Quantum-Computers-Hands-Approach/dp/1492039627",
+            "rating": 4.6,
             "description": "Focuses on practical implementation and conceptual understanding of quantum computing. Includes intuitive explanations of superposition and quantum logic with real-world examples and programming exercises. Recommended for bridging theory and application.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Programming-Quantum-Computers-Hands-Approach/dp/1492039627"
           },
           {
             "title": "Quantum Computing: An Applied Approach",
             "author": "Jack D. Hidary",
-            "url": "https://www.springer.com/gp/book/9783030291836",
+            "rating": 4.5,
             "description": "Explores quantum computing from an applied perspective, covering superposition in quantum circuits, algorithms (e.g., Shor's, Grover's), and physical implementations. Recommended for its practical insights and focus on real-world applications.",
-            "rating": 4.5
+            "url": "https://www.springer.com/gp/book/9783030291836"
           },
           {
             "title": "Quantum Mechanics: The Theoretical Minimum",
             "author": "Leonard Susskind and Art Friedman",
-            "url": "https://www.amazon.com/Quantum-Mechanics-Theoretical-Minimum-Susskind/dp/047088218X",
+            "rating": 4.7,
             "description": "Demystifies quantum mechanics, including the principles of superposition, using minimal mathematics and clear explanations. Recommended for building a strong theoretical foundation necessary to understand quantum computing dynamics.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Quantum-Mechanics-Theoretical-Minimum-Susskind/dp/047088218X"
           },
           {
             "title": "Quantum Computing for Everyone",
             "author": "Chris Bernhardt",
-            "url": "https://www.amazon.com/Quantum-Computing-Everyone-MIT-Press/dp/026203925X",
+            "rating": 4.4,
             "description": "Introduces quantum computing concepts, including superposition, in an accessible manner. Focuses on the mathematics and logic behind quantum systems without requiring advanced physics knowledge. Recommended for its clarity and simplicity.",
-            "rating": 4.4
+            "url": "https://www.amazon.com/Quantum-Computing-Everyone-MIT-Press/dp/026203925X"
           }
-        ],
-        "completed": false,
-        "completedAt": null
+        ]
       },
       {
         "id": "node-3",
@@ -1004,33 +979,33 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "Entangled States - Qiskit Textbook",
             "url": "https://qiskit.org/textbook/ch-gates/more-circuit-identities.html#entangled-states",
-            "type": "documentation",
             "description": "Learn to create and manipulate entangled quantum states using Qiskit, including practical examples and quantum gate applications."
           },
           {
+            "type": "video",
             "title": "Quantum Entanglement: The Spookiest Quantum Phenomenon Explained",
             "url": "https://www.youtube.com/watch?v=O6x--sn__5Y",
-            "type": "video",
             "description": "Veritasium explains the weirdness of quantum entanglement through experiments and its implications for quantum computing and physics."
           },
           {
+            "type": "documentation",
             "title": "Entanglement in Quantum Computing - Microsoft QDK",
             "url": "https://docs.microsoft.com/en-us/quantum/concepts-entanglement?view=qdk-enterprise",
-            "type": "documentation",
             "description": "Microsoft's official documentation covering theoretical foundations of entanglement and its role in quantum algorithms and computation."
           },
           {
+            "type": "article",
             "title": "Quantum Entanglement Explained - IBM Research Blog",
             "url": "https://research.ibm.com/blog/quantum-entanglement-explained",
-            "type": "article",
             "description": "IBM researchers break down entanglement's mechanics and how it enables quantum computing's exponential processing capabilities."
           },
           {
+            "type": "video",
             "title": "How Do Quantum Computers Work? - Kurzgesagt",
             "url": "https://www.youtube.com/watch?v=Jh8bnE0RO6U",
-            "type": "video",
             "description": "An animated overview of quantum computing fundamentals, including superposition, entanglement, and their computational advantages."
           }
         ],
@@ -1072,38 +1047,6 @@ Get an introductory overview of how quantum computing can be applied to machine 
           },
           {
             "id": 8,
-            "front": "What challenges are associated with maintaining quantum entanglement in practical systems?",
-            "back": "Entanglement is fragile and susceptible to decoherence (loss of coherence due to environmental interactions) and noise. Maintaining entanglement requires extreme isolation and quantum error correction techniques to preserve the correlated states necessary for computation and communication."
-          },
-          {
-            "front": "What is quantum entanglement?",
-            "back": "A quantum phenomenon where qubits become interconnected, such that the state of one instantly influences the state of another, regardless of distance. This creates non-local correlations that defy classical intuition."
-          },
-          {
-            "front": "How does entanglement enhance quantum computational power compared to classical systems?",
-            "back": "Entanglement enables qubits to represent exponentially more states simultaneously (superposition) and allows for parallel processing of information. This underpins quantum algorithms like Shor's and Grover's by leveraging correlated qubit states to solve complex problems more efficiently than classical bits."
-          },
-          {
-            "front": "What distinguishes entangled qubits from classical bits?",
-            "back": "Classical bits exist in discrete states (0 or 1), while entangled qubits exist in superpositions and exhibit non-classical correlations. Measuring one entangled qubit instantly determines the state of its partner(s), a property impossible in classical systems."
-          },
-          {
-            "front": "Name three types of entangled quantum states used in quantum information and their applications.",
-            "back": "Bell states (maximally entangled two-qubit states used in teleportation), GHZ states (multi-qubit entanglement for quantum computing and foundational experiments), and W states (robust entanglement useful in quantum error correction)."
-          },
-          {
-            "front": "How is entanglement applied in quantum teleportation?",
-            "back": "Entanglement allows the transfer of quantum states between qubits without physical transmission. A sender and receiver share an entangled pair; measuring the sender's qubit collapses the entanglement, enabling the receiver to reconstruct the original state using classical communication, preserving quantum information."
-          },
-          {
-            "front": "What happens when you measure one qubit in an entangled pair?",
-            "back": "Measuring one qubit in an entangled pair instantly collapses the entire system into a definite state. For example, if two qubits are in a Bell state and one is measured as \\"
-          },
-          {
-            "front": "Which quantum computing models rely on entanglement to achieve error resilience or scalability?",
-            "back": "Entanglement is critical in quantum error correction codes (e.g., surface code), which use entangled qubits to detect and correct errors caused by decoherence. It also enables topological qubit models, where entanglement protects information by encoding it across multiple physical qubits."
-          },
-          {
             "front": "What challenges are associated with maintaining quantum entanglement in practical systems?",
             "back": "Entanglement is fragile and susceptible to decoherence (loss of coherence due to environmental interactions) and noise. Maintaining entanglement requires extreme isolation and quantum error correction techniques to preserve the correlated states necessary for computation and communication."
           }
@@ -1161,105 +1104,80 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "researchPapers": [
           {
             "title": "Entanglement in Quantum Computing: A Comprehensive Review",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2303.12345",
-            "summary": "",
-            "keyIdea": "This review paper provides a comprehensive overview of the role of entanglement as a resource in quantum computation, covering its characterization, generation, and applications in algorithms and error correction."
+            "keyIdea": "This review paper provides a comprehensive overview of the role of entanglement as a resource in quantum computation, covering its characterization, generation, and applications in algorithms and error correction.",
+            "url": "https://arxiv.org/abs/2303.12345"
           },
           {
             "title": "Power of Entanglement in the Quantum Circuit Model",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2205.09876",
-            "summary": "",
-            "keyIdea": "The paper demonstrates that entanglement is necessary for quantum speedup in the circuit model, proving that circuits with limited entanglement can be efficiently simulated classically."
+            "keyIdea": "The paper demonstrates that entanglement is necessary for quantum speedup in the circuit model, proving that circuits with limited entanglement can be efficiently simulated classically.",
+            "url": "https://arxiv.org/abs/2205.09876"
           },
           {
             "title": "Entanglement as a Resource for Quantum Machine Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2109.11234",
-            "summary": "",
-            "keyIdea": "This work investigates how entanglement enhances the performance of quantum machine learning models, showing that certain learning tasks require a minimum amount of entanglement to achieve quantum advantage."
+            "keyIdea": "This work investigates how entanglement enhances the performance of quantum machine learning models, showing that certain learning tasks require a minimum amount of entanglement to achieve quantum advantage.",
+            "url": "https://arxiv.org/abs/2109.11234"
           },
           {
             "title": "Characterizing the Power of Entanglement in Quantum Error Correction",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2004.07781",
-            "summary": "",
-            "keyIdea": "The paper explores the role of entanglement in quantum error-correcting codes, establishing a relationship between entanglement measures and the code's distance and threshold."
+            "keyIdea": "The paper explores the role of entanglement in quantum error-correcting codes, establishing a relationship between entanglement measures and the code's distance and threshold.",
+            "url": "https://arxiv.org/abs/2004.07781"
           },
           {
             "title": "Experimental Demonstration of Entanglement-Assisted Quantum Communication",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/1907.05678",
-            "summary": "",
-            "keyIdea": "This experimental paper demonstrates a quantum communication protocol that uses entanglement to achieve higher secret key rates than possible with classical resources alone."
+            "keyIdea": "This experimental paper demonstrates a quantum communication protocol that uses entanglement to achieve higher secret key rates than possible with classical resources alone.",
+            "url": "https://arxiv.org/abs/1907.05678"
           }
         ],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Introduction to Quantum Gates",
-        "description": "Learn about the basic quantum gates (e.g., Hadamard, CNOT, Pauli gates) and how they manipulate qubit states. This is crucial for understanding quantum circuits.\n---",
+        "description": "Learn about the basic quantum gates (e.g., Hadamard, CNOT, Pauli gates) and how they manipulate qubit states. This is crucial for understanding quantum circuits.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Building Simple Quantum Circuits",
-        "description": "Practice constructing and analyzing simple quantum circuits using the gates learned previously. This will solidify your understanding of how computations are performed.\n---",
+        "description": "Practice constructing and analyzing simple quantum circuits using the gates learned previously. This will solidify your understanding of how computations are performed.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Quantum Algorithms: Deutsch-Jozsa Algorithm",
-        "description": "Study the Deutsch-Jozsa algorithm as an early example of a quantum algorithm that offers a speedup over classical algorithms. This is a stepping stone to more complex algorithms.\n---",
+        "description": "Study the Deutsch-Jozsa algorithm as an early example of a quantum algorithm that offers a speedup over classical algorithms. This is a stepping stone to more complex algorithms.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Quantum Algorithms: Grover's Search Algorithm",
-        "description": "Delve into Grover's search algorithm, a foundational algorithm for database searching that provides a quadratic speedup. This builds on your success with intermediate concepts.\n---",
+        "description": "Delve into Grover's search algorithm, a foundational algorithm for database searching that provides a quadratic speedup. This builds on your success with intermediate concepts.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
@@ -1268,33 +1186,33 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Quantum Error Correction Basics - Qiskit Textbook",
             "url": "https://www.youtube.com/watch?v=U6xYwGk0T4Q",
-            "type": "video",
             "description": "An introductory video explaining quantum error correction fundamentals, including bit-flip and phase-flip errors, using Qiskit examples."
           },
           {
+            "type": "article",
             "title": "Quantum Error Correction: How to Shield Quantum States from Decoherence and Noise | Qiskit Textbook",
             "url": "https://qiskit.org/textbook/ch-quantum-error-correction/",
-            "type": "article",
             "description": "A comprehensive textbook chapter covering theoretical foundations and practical implementations of quantum error correction codes like the three-qubit bit-flip code and Shor code."
           },
           {
+            "type": "documentation",
             "title": "Quantum Error Correction in Qiskit",
             "url": "https://qiskit.org/documentation/nature/stubs/qiskit_nature.circuit.library.QuantumErrorCorrection.html",
-            "type": "documentation",
             "description": "Official documentation detailing Qiskit's tools for simulating and correcting quantum errors, including code examples and use cases."
           },
           {
+            "type": "article",
             "title": "Quantum Error Correction: A Brief Overview | Quantum Computing for Everyone (Microsoft Learn)",
             "url": "https://learn.microsoft.com/en-us/azure/quantum/tutorial-quantum-error-correction",
-            "type": "article",
             "description": "A beginner-friendly overview of quantum error correction techniques, focusing on practical challenges in quantum computing and Microsoft's approach to mitigation strategies."
           },
           {
+            "type": "video",
             "title": "Quantum Error Correction: The Three Qubit Code | Quantum Computing UK",
             "url": "https://www.youtube.com/watch?v=6XKd4Ikz3qE",
-            "type": "video",
             "description": "A step-by-step explanation of the three-qubit bit-flip code, including circuit diagrams and error detection/correction mechanisms."
           }
         ],
@@ -1302,51 +1220,43 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
-        "title": "Shor's Algorithm: The Revolution in Factoring",
-        "description": "Explore Shor's algorithm, a groundbreaking quantum algorithm that can efficiently factor large numbers, posing a threat to current encryption methods. This directly relates to your advanced question success.\n---",
+        "title": " Shor's Algorithm: The Revolution in Factoring",
+        "description": "Explore Shor's algorithm, a groundbreaking quantum algorithm that can efficiently factor large numbers, posing a threat to current encryption methods. This directly relates to your advanced question success.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Quantum Computing Hardware Architectures",
-        "description": "Learn about different physical implementations of quantum computers, such as superconducting qubits, trapped ions, and photonic systems.\n---",
+        "description": "Learn about different physical implementations of quantum computers, such as superconducting qubits, trapped ions, and photonic systems.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Applications of Quantum Computing",
-        "description": "Investigate the potential applications of quantum computing in fields like drug discovery, materials science, financial modeling, and artificial intelligence.\n---",
+        "description": "Investigate the potential applications of quantum computing in fields like drug discovery, materials science, financial modeling, and artificial intelligence.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
@@ -1355,33 +1265,33 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "Qiskit Machine Learning Documentation",
             "url": "https://qiskit.org/documentation/machine-learning/",
-            "type": "documentation",
             "description": "Official documentation for IBM's Qiskit Machine Learning library, providing tutorials and guides on implementing quantum algorithms for machine learning tasks."
           },
           {
+            "type": "video",
             "title": "Quantum Machine Learning Basics by Maria Schuld",
             "url": "https://www.youtube.com/watch?v=R3Nl5wJbP6w",
-            "type": "video",
             "description": "A concise video introduction to quantum machine learning concepts, including quantum feature spaces, data encoding, and hybrid models by a leading expert."
           },
           {
+            "type": "article",
             "title": "Quantum Machine Learning Survey by Biamonte et al.",
             "url": "https://arxiv.org/abs/1611.09619",
-            "type": "article",
             "description": "A foundational arXiv paper surveying the intersection of quantum computing and machine learning, covering algorithms, theories, and potential applications."
           },
           {
+            "type": "documentation",
             "title": "PennyLane Quantum Machine Learning Guide",
             "url": "https://docs.pennylane.ai/en/stable/introduction/quantum_machine_learning.html",
-            "type": "documentation",
             "description": "Xanadu's PennyLane documentation explaining quantum machine learning basics, including variational circuits and quantum embedding techniques."
           },
           {
+            "type": "article",
             "title": "Quantum Machine Learning in a Nutshell on Medium",
             "url": "https://medium.com/@maria.schuld/quantum-machine-learning-in-a-nutshell-7a110d47324a",
-            "type": "article",
             "description": "A beginner-friendly Medium article summarizing core concepts like quantum data encoding, quantum kernel methods, and the role of quantum states in ML workflows."
           }
         ],
@@ -1389,14 +1299,12 @@ Get an introductory overview of how quantum computing can be applied to machine 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Quantum computing",
     "isFinalized": true,
-    "lastUsedAt": 1788745530760
+    "lastUsedAt": 1788745901090
   }
 }
 EDU_ASSIST_METADATA_END -->
