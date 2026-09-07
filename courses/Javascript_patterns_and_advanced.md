@@ -113,6 +113,13 @@ Review core concepts including closures, scope, and hoisting to reinforce founda
 **Description:**
 Explore advanced closure patterns, use cases, and common pitfalls in asynchronous programming.
 
+### 🔗 Resources
+- [MDN Web Docs - Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) `[article]` - The definitive reference for understanding closures, including lexical scoping, practical examples, and how closures work in JavaScript.
+- [JavaScript Closures - CodeWithHarry](https://www.youtube.com/watch?v=9ooYYRLdg-g) `[video]` - A comprehensive beginner-friendly deep dive into closures, explaining the concept with clear examples and visual breakdowns.
+- [Closures in JavaScript - JavaScript.info](https://javascript.info/closure) `[article]` - An in-depth tutorial covering closure fundamentals, variable environment, and garbage collection, with progressive examples.
+- [Master the JavaScript Interview: What is a Closure? - Eric Elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36) `[article]` - Advanced insights into closures, including common pitfalls in asynchronous code, loop closures, and interview-level understanding.
+- [Asynchronous JavaScript & Event Loop - Akshay Saini](https://www.youtube.com/watch?v=8zKuNo4bh8Q) `[video]` - Covers how closures interact with the event loop, callbacks, promises, and async/await, with detailed visualizations of the call stack.
+
 ---
 
 ## 🔹 Module 3: Prototypal Inheritance Mastery
@@ -446,7 +453,38 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
         "title": "Deep Dive into Closures",
         "description": "Explore advanced closure patterns, use cases, and common pitfalls in asynchronous programming.",
         "estimatedTime": "1.5 hours",
-        "resources": [],
+        "resources": [
+          {
+            "type": "article",
+            "title": "MDN Web Docs - Closures",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures",
+            "description": "The definitive reference for understanding closures, including lexical scoping, practical examples, and how closures work in JavaScript."
+          },
+          {
+            "type": "video",
+            "title": "JavaScript Closures - CodeWithHarry",
+            "url": "https://www.youtube.com/watch?v=9ooYYRLdg-g",
+            "description": "A comprehensive beginner-friendly deep dive into closures, explaining the concept with clear examples and visual breakdowns."
+          },
+          {
+            "type": "article",
+            "title": "Closures in JavaScript - JavaScript.info",
+            "url": "https://javascript.info/closure",
+            "description": "An in-depth tutorial covering closure fundamentals, variable environment, and garbage collection, with progressive examples."
+          },
+          {
+            "type": "article",
+            "title": "Master the JavaScript Interview: What is a Closure? - Eric Elliott",
+            "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36",
+            "description": "Advanced insights into closures, including common pitfalls in asynchronous code, loop closures, and interview-level understanding."
+          },
+          {
+            "type": "video",
+            "title": "Asynchronous JavaScript & Event Loop - Akshay Saini",
+            "url": "https://www.youtube.com/watch?v=8zKuNo4bh8Q",
+            "description": "Covers how closures interact with the event loop, callbacks, promises, and async/await, with detailed visualizations of the call stack."
+          }
+        ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
@@ -612,7 +650,10 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
     ],
     "topic": "Javascript patterns and advanced",
     "isFinalized": true,
-    "lastUsedAt": 1788745936304
+    "lastUsedAt": 1788749205195,
+    "lastSyncedAt": 1788745937306,
+    "lastSyncedSha": "b271b99edee494b30123f225bba2fb93a9fe7004",
+    "lastModifiedAt": 1788749153801
   }
 }
 EDU_ASSIST_METADATA_END -->
