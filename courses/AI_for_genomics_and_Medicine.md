@@ -92,7 +92,6 @@ Review fundamental concepts of genomics and how AI is transforming medical resea
 
 **Description:**
 Strengthen your understanding of key ML algorithms (e.g., regression, clustering, classification) and their applications in biomedical data. Focus on use cases like disease prediction and drug discovery.
----
 
 ---
 
@@ -102,7 +101,6 @@ Strengthen your understanding of key ML algorithms (e.g., regression, clustering
 
 **Description:**
 Learn techniques for cleaning, normalizing, and preparing genomic data for analysis. Address common challenges in handling high-dimensional data and missing values.
----
 
 ---
 
@@ -112,7 +110,6 @@ Learn techniques for cleaning, normalizing, and preparing genomic data for analy
 
 **Description:**
 Explore supervised learning methods such as decision trees, random forests, and support vector machines applied to genomic datasets. Practice building models for gene expression analysis.
----
 
 ---
 
@@ -138,7 +135,6 @@ Dive deeper into statistical methods and feature selection techniques tailored f
 
 **Description:**
 Analyze real-world examples where AI has advanced genomic research, such as predicting protein structures or identifying genetic variants linked to diseases.
----
 
 ---
 
@@ -148,7 +144,6 @@ Analyze real-world examples where AI has advanced genomic research, such as pred
 
 **Description:**
 Examine ethical challenges like data privacy, bias in genetic datasets, and implications of personalized medicine on healthcare equity.
----
 
 ---
 
@@ -158,7 +153,6 @@ Examine ethical challenges like data privacy, bias in genetic datasets, and impl
 
 **Description:**
 Introduce neural networks, CNNs, and RNNs for analyzing genomic sequences and time-series biological data. Cover tools like TensorFlow for implementation.
----
 
 ---
 
@@ -184,7 +178,6 @@ Explore how AI is revolutionizing the discovery of new medicines, including virt
 
 **Description:**
 Learn how AI models predict individual treatment responses based on genetic profiles. Study pharmacogenomics and patient stratification techniques.
----
 
 ---
 
@@ -194,7 +187,6 @@ Learn how AI models predict individual treatment responses based on genetic prof
 
 **Description:**
 Understand how to combine genomic data with EHRs for comprehensive patient insights. Address challenges in data standardization and interoperability.
----
 
 ---
 
@@ -204,7 +196,6 @@ Understand how to combine genomic data with EHRs for comprehensive patient insig
 
 **Description:**
 Explore cutting-edge methods for analyzing single-cell RNA sequencing data using AI. Learn about dimensionality reduction and cell-type classification.
----
 
 ---
 
@@ -214,7 +205,6 @@ Explore cutting-edge methods for analyzing single-cell RNA sequencing data using
 
 **Description:**
 Investigate regulatory frameworks (e.g., FDA approval) for AI-driven genomic tools. Discuss strategies for translating research into clinical practice.
----
 
 ---
 
@@ -224,7 +214,6 @@ Investigate regulatory frameworks (e.g., FDA approval) for AI-driven genomic too
 
 **Description:**
 Apply learned concepts to build a predictive model using a public genomic dataset. Focus on problem-solving and model validation techniques.
----
 
 ---
 
@@ -234,7 +223,6 @@ Apply learned concepts to build a predictive model using a public genomic datase
 
 **Description:**
 Consolidate knowledge through quizzes, peer discussions, and expert-led Q&A sessions. Revisit challenging intermediate topics for mastery.
----
 
 ---
 
@@ -244,7 +232,6 @@ Consolidate knowledge through quizzes, peer discussions, and expert-led Q&A sess
 
 **Description:**
 Stay updated on emerging technologies like federated learning, AI-driven drug repurposing, and synthetic biology. Prepare for upcoming industry developments.
----
 
 ---
 
@@ -261,33 +248,33 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "How AI is Transforming Genomics",
             "url": "https://www.nature.com/articles/d41586-021-03689-9",
-            "type": "article",
             "description": "Explains the integration of AI in genomics, including DNA sequencing analysis and gene expression studies, with real-world examples in medical research."
           },
           {
+            "type": "video",
             "title": "AI in Genomics: Transforming Healthcare",
             "url": "https://www.youtube.com/watch?v=4G23hLq0YlE",
-            "type": "video",
             "description": "A conference talk discussing AI applications in genomics, covering DNA sequencing technologies, machine learning models, and their impact on personalized medicine."
           },
           {
+            "type": "documentation",
             "title": "Genomics and AI at the Broad Institute",
             "url": "https://www.broadinstitute.org/what-is-genomics",
-            "type": "documentation",
             "description": "Official documentation explaining genomics fundamentals and AI-driven tools used for analyzing large-scale biological data in genomics research."
           },
           {
+            "type": "article",
             "title": "Introduction to Genomics",
             "url": "https://www.genome.gov/about-genomics/fact-sheets/Introduction-to-Genomics",
-            "type": "article",
             "description": "Covers basic concepts of genomics including DNA sequencing, gene expression, and how AI technologies enhance data analysis in medical genomics."
           },
           {
+            "type": "video",
             "title": "AI in Healthcare: Genomics and Precision Medicine",
             "url": "https://www.youtube.com/watch?v=4X5qZ8qW9dU",
-            "type": "video",
             "description": "Discusses the role of AI in analyzing genomic data for precision medicine, including challenges and breakthroughs in sequencing and gene expression."
           }
         ],
@@ -333,79 +320,64 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
           {
             "title": "Artificial Intelligence in Medicine: Past, Present, and Future",
             "author": "A. N. Gorban and D. R. Tagarev",
-            "url": "https://www.amazon.com/Artificial-Intelligence-Medicine-Present-Future/dp/1119162847",
+            "rating": 4.5,
             "description": "This book explores the evolution of AI in medicine, focusing on applications in genomics, diagnostics, and personalized treatment. It bridges theoretical concepts with practical implementations, making it ideal for understanding how AI transforms genomic data into actionable medical insights. The authors highlight case studies and future trends, emphasizing the integration of machine learning in genomics research.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Artificial-Intelligence-Medicine-Present-Future/dp/1119162847"
           },
           {
             "title": "Computational Genomics: Applied Comparative Genomics",
             "author": "Cynthia Gibas and Per Saelensminde",
-            "url": "https://www.amazon.com/Computational-Genomics-Applied-Comparative-Cynthia/dp/0470561530",
+            "rating": 4.6,
             "description": "Covers computational methods in genomics, including algorithmic approaches and AI-driven analysis of genomic data. The book emphasizes comparative genomics and practical applications in medicine, such as identifying genetic variations linked to diseases. It’s recommended for its hands-on approach and integration of AI tools in bioinformatics workflows.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Computational-Genomics-Applied-Comparative-Cynthia/dp/0470561530"
           },
           {
             "title": "Genomics and Precision Medicine: A Guide to the Genomic Era",
             "author": "Michael J. Kass",
-            "url": "https://www.amazon.com/Genomics-Precision-Medicine-Michael-J-Kass/dp/1108422036",
+            "rating": 4.7,
             "description": "Explores how genomics underpins precision medicine, with dedicated sections on AI methodologies for interpreting complex genomic data. The book discusses machine learning applications in pharmacogenomics, disease prediction, and therapeutic development. Its clear explanations and real-world examples make it a top choice for understanding AI-genomics intersections in clinical settings.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Genomics-Precision-Medicine-Michael-J-Kass/dp/1108422036"
           },
           {
             "title": "Machine Learning in Biology and Medicine",
             "author": "H. K. K. M. Rao and R. S. S. Kumar",
-            "url": "https://www.amazon.com/Machine-Learning-Biology-Medicine-Rao/dp/0128218200",
+            "rating": 4.6,
             "description": "Focuses on machine learning techniques tailored for biological data, including genomics. Covers neural networks, deep learning, and their roles in analyzing genomes, predicting mutations, and drug discovery. The book is praised for its interdisciplinary approach and relevance to both researchers and medical professionals working with genomic datasets.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Machine-Learning-Biology-Medicine-Rao/dp/0128218200"
           },
           {
             "title": "Bioinformatics and Biomedical Informatics",
             "author": "Michael J. Otridge",
-            "url": "https://www.amazon.com/Bioinformatics-Biomedical-Informatics-Michael-J-Otridge/dp/1108422036",
+            "rating": 4.8,
             "description": "Comprehensive coverage of bioinformatics tools and AI applications in genomics and medicine. Includes topics like genomic sequencing, data mining, and AI for disease modeling. The book is notable for its up-to-date content on emerging technologies and practical case studies, making it a valuable resource for advanced studies in AI-driven genomics.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Bioinformatics-Biomedical-Informatics-Michael-J-Otridge/dp/1108422036"
           }
         ],
         "researchPapers": [
           {
             "title": "AI in Genomics: A Review of Recent Advances in Machine Learning Applications in Genomics and Medicine",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=AI+in+Genomics+Review+Machine+Learning+Applications+2023",
-            "summary": "",
-            "keyIdea": "This paper reviews recent machine learning advancements in genomics and their transformative applications in medical diagnostics and treatment strategies."
+            "keyIdea": "This paper reviews recent machine learning advancements in genomics and their transformative applications in medical diagnostics and treatment strategies.",
+            "url": "https://scholar.google.com/scholar?q=AI+in+Genomics+Review+Machine+Learning+Applications+2023"
           },
           {
             "title": "Personalized Medicine through AI and Genomics: Opportunities and Challenges",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Personalized+Medicine+AI+Genomics+Opportunities+Challenges+2023",
-            "summary": "",
-            "keyIdea": "Discusses how AI integrates with genomic data to enable precision medicine, highlighting both the potential benefits and ethical hurdles in clinical implementation."
+            "keyIdea": "Discusses how AI integrates with genomic data to enable precision medicine, highlighting both the potential benefits and ethical hurdles in clinical implementation.",
+            "url": "https://scholar.google.com/scholar?q=Personalized+Medicine+AI+Genomics+Opportunities+Challenges+2023"
           },
           {
             "title": "AI-Driven Genomic Analysis for Drug Discovery: Recent Trends and Future Directions",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=AI+Drug+Discovery+Genomic+Analysis+2023",
-            "summary": "",
-            "keyIdea": "Explores how artificial intelligence accelerates drug discovery by analyzing genomic data to identify therapeutic targets and predict drug efficacy."
+            "keyIdea": "Explores how artificial intelligence accelerates drug discovery by analyzing genomic data to identify therapeutic targets and predict drug efficacy.",
+            "url": "https://scholar.google.com/scholar?q=AI+Drug+Discovery+Genomic+Analysis+2023"
           },
           {
             "title": "Deep Learning in Genomics: Applications in Medical Diagnosis and Prognosis",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Deep+Learning+Genomics+Medical+Diagnosis+Prognosis+2023",
-            "summary": "",
-            "keyIdea": "Focuses on deep learning models used to interpret genomic sequences for diagnosing genetic disorders and predicting disease outcomes in patients."
+            "keyIdea": "Focuses on deep learning models used to interpret genomic sequences for diagnosing genetic disorders and predicting disease outcomes in patients.",
+            "url": "https://scholar.google.com/scholar?q=Deep+Learning+Genomics+Medical+Diagnosis+Prognosis+2023"
           },
           {
             "title": "Multi-Omics Integration Using AI: Towards Precision Medicine in Oncology",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Multi-Omics+AI+Precision+Medicine+Oncology+2023",
-            "summary": "",
-            "keyIdea": "Examines AI techniques that combine genomic, transcriptomic, and proteomic data to improve cancer diagnosis and personalized treatment strategies."
+            "keyIdea": "Examines AI techniques that combine genomic, transcriptomic, and proteomic data to improve cancer diagnosis and personalized treatment strategies.",
+            "url": "https://scholar.google.com/scholar?q=Multi-Omics+AI+Precision+Medicine+Oncology+2023"
           }
         ],
         "practiceProblems": [
@@ -434,51 +406,43 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
             "group": "D"
           }
         ],
-        "flashcards": [],
-        "completed": false,
-        "completedAt": null
+        "flashcards": []
       },
       {
         "id": "node-2",
         "title": "Fundamentals of Machine Learning for Biomedical Applications",
-        "description": "Strengthen your understanding of key ML algorithms (e.g., regression, clustering, classification) and their applications in biomedical data. Focus on use cases like disease prediction and drug discovery.\n---",
+        "description": "Strengthen your understanding of key ML algorithms (e.g., regression, clustering, classification) and their applications in biomedical data. Focus on use cases like disease prediction and drug discovery.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Data Preprocessing and Quality Control in Genomic Datasets",
-        "description": "Learn techniques for cleaning, normalizing, and preparing genomic data for analysis. Address common challenges in handling high-dimensional data and missing values.\n---",
+        "description": "Learn techniques for cleaning, normalizing, and preparing genomic data for analysis. Address common challenges in handling high-dimensional data and missing values.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Supervised Learning Models in Genomic Research",
-        "description": "Explore supervised learning methods such as decision trees, random forests, and support vector machines applied to genomic datasets. Practice building models for gene expression analysis.\n---",
+        "description": "Explore supervised learning methods such as decision trees, random forests, and support vector machines applied to genomic datasets. Practice building models for gene expression analysis.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
@@ -487,33 +451,33 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Introduction to LASSO Regression in Genomics",
             "url": "https://www.youtube.com/watch?v=9jS8fj9A7j4",
-            "type": "video",
             "description": "A concise explanation of LASSO regression as a feature selection method for high-dimensional genomic datasets, including practical examples and biological interpretation tips."
           },
           {
+            "type": "documentation",
             "title": "limma User's Guide: Differential Expression Analysis for RNA-seq and Microarray Data",
             "url": "https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/limmaUsersGuide.pdf",
-            "type": "documentation",
             "description": "Comprehensive guide for using the limma R package to apply advanced statistical methods for genomic data analysis, including linear modeling, empirical Bayes, and multiple testing corrections."
           },
           {
+            "type": "article",
             "title": "Feature Selection Methods in Genomics: A Review",
             "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003495",
-            "type": "article",
             "description": "Academic overview of feature selection techniques tailored for genomic data, covering statistical and machine learning approaches with relevance to AI-driven biomarker discovery."
           },
           {
+            "type": "documentation",
             "title": "caret Package for Model Training and Validation in R",
             "url": "https://topepo.github.io/caret/index.html",
-            "type": "documentation",
             "description": "Documentation for the caret package, detailing cross-validation strategies, feature selection workflows, and model interpretation methods critical for genomic datasets."
           },
           {
+            "type": "article",
             "title": "Cross-Validation Strategies for Genomic Data",
             "url": "https://towardsdatascience.com/cross-validation-in-genomic-data-analysis-4c8d3b3d3b3d",
-            "type": "article",
             "description": "Practical guide to implementing cross-validation methods in genomic studies, addressing challenges like population structure and small sample sizes for robust model validation."
           }
         ],
@@ -521,51 +485,43 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Biological Applications of AI: Case Studies",
-        "description": "Analyze real-world examples where AI has advanced genomic research, such as predicting protein structures or identifying genetic variants linked to diseases.\n---",
+        "description": "Analyze real-world examples where AI has advanced genomic research, such as predicting protein structures or identifying genetic variants linked to diseases.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Ethical Considerations in AI-Driven Genomics",
-        "description": "Examine ethical challenges like data privacy, bias in genetic datasets, and implications of personalized medicine on healthcare equity.\n---",
+        "description": "Examine ethical challenges like data privacy, bias in genetic datasets, and implications of personalized medicine on healthcare equity.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Deep Learning Approaches in Genomics",
-        "description": "Introduce neural networks, CNNs, and RNNs for analyzing genomic sequences and time-series biological data. Cover tools like TensorFlow for implementation.\n---",
+        "description": "Introduce neural networks, CNNs, and RNNs for analyzing genomic sequences and time-series biological data. Cover tools like TensorFlow for implementation.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
@@ -574,33 +530,33 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
         "estimatedTime": "2.5 hours",
         "resources": [
           {
+            "type": "video",
             "title": "AI in Drug Discovery: Virtual Screening and Molecular Interactions",
             "url": "https://www.youtube.com/watch?v=5m5u3jZVU5Y",
-            "type": "video",
             "description": "Explains how AI models like deep learning are used for virtual screening of drug compounds and predicting molecular interactions to accelerate drug discovery processes."
           },
           {
+            "type": "article",
             "title": "How AI is Revolutionizing Drug Discovery",
             "url": "https://www.nature.com/articles/d41586-020-00522-8",
-            "type": "article",
             "description": "Discusses the application of AI in genomics-based drug development, including target identification, molecular design, and overcoming traditional bottlenecks in pharmaceutical research."
           },
           {
+            "type": "documentation",
             "title": "DeepChem: Machine Learning for Drug Discovery",
             "url": "https://deepchem.io/",
-            "type": "documentation",
             "description": "Provides open-source tools and documentation for AI-driven drug discovery, including virtual screening, molecular property prediction, and integration with genomic data."
           },
           {
+            "type": "article",
             "title": "AI-Powered Drug Repurposing: A New Approach to Therapeutics",
             "url": "https://www.sciencedirect.com/science/article/pii/S240587822100033X",
-            "type": "article",
             "description": "Covers AI methodologies for identifying new uses of existing drugs, leveraging genomic and clinical data to reduce development time and costs."
           },
           {
+            "type": "documentation",
             "title": "AlphaFold: Protein Structure Prediction for Target Identification",
             "url": "https://github.com/deepmind/alphafold",
-            "type": "documentation",
             "description": "Discusses the use of AI in predicting protein structures to identify novel therapeutic targets in genomics and personalized medicine."
           }
         ],
@@ -608,112 +564,96 @@ Stay updated on emerging technologies like federated learning, AI-driven drug re
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Personalized Medicine and Predictive Modeling",
-        "description": "Learn how AI models predict individual treatment responses based on genetic profiles. Study pharmacogenomics and patient stratification techniques.\n---",
+        "description": "Learn how AI models predict individual treatment responses based on genetic profiles. Study pharmacogenomics and patient stratification techniques.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Integration of AI with Electronic Health Records",
-        "description": "Understand how to combine genomic data with EHRs for comprehensive patient insights. Address challenges in data standardization and interoperability.\n---",
+        "description": "Understand how to combine genomic data with EHRs for comprehensive patient insights. Address challenges in data standardization and interoperability.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Advanced Topics in Genomic AI: Single-cell Analysis",
-        "description": "Explore cutting-edge methods for analyzing single-cell RNA sequencing data using AI. Learn about dimensionality reduction and cell-type classification.\n---",
+        "description": "Explore cutting-edge methods for analyzing single-cell RNA sequencing data using AI. Learn about dimensionality reduction and cell-type classification.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Regulatory and Clinical Implementation Challenges",
-        "description": "Investigate regulatory frameworks (e.g., FDA approval) for AI-driven genomic tools. Discuss strategies for translating research into clinical practice.\n---",
+        "description": "Investigate regulatory frameworks (e.g., FDA approval) for AI-driven genomic tools. Discuss strategies for translating research into clinical practice.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "Hands-On Project: Developing an AI Model for Genetic Data",
-        "description": "Apply learned concepts to build a predictive model using a public genomic dataset. Focus on problem-solving and model validation techniques.\n---",
+        "description": "Apply learned concepts to build a predictive model using a public genomic dataset. Focus on problem-solving and model validation techniques.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-15",
         "title": "Review and Assessment of Key Concepts",
-        "description": "Consolidate knowledge through quizzes, peer discussions, and expert-led Q&A sessions. Revisit challenging intermediate topics for mastery.\n---",
+        "description": "Consolidate knowledge through quizzes, peer discussions, and expert-led Q&A sessions. Revisit challenging intermediate topics for mastery.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-16",
         "title": "Future Trends in AI for Genomics",
-        "description": "Stay updated on emerging technologies like federated learning, AI-driven drug repurposing, and synthetic biology. Prepare for upcoming industry developments.\n---",
+        "description": "Stay updated on emerging technologies like federated learning, AI-driven drug repurposing, and synthetic biology. Prepare for upcoming industry developments.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "AI for genomics & Medicine",
     "isFinalized": true,
-    "lastUsedAt": 1788745529668
+    "lastUsedAt": 1788745927132
   }
 }
 EDU_ASSIST_METADATA_END -->
