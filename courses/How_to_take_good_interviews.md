@@ -10,7 +10,7 @@
 - **Progress:** [ ] Completed
 
 **Description:**
-Quick refresher on foundational knowledge to ensure solid base for advanced topics.
+Quick refresher on foundational knowledge, structured interviewing, and active listening to ensure a solid base.
 
 ### 🔗 Resources
 - [Interviewing Techniques for Hiring Managers | LinkedIn Learning](https://www.youtube.com/results?search_query=Interviewing+Techniques+for+Hiring+Managers+LinkedIn+Learning) `[video]` - Covers core interviewing methods, including structured vs unstructured interviews, behavioral questioning, and evaluating soft skills.
@@ -27,10 +27,10 @@ Quick refresher on foundational knowledge to ensure solid base for advanced topi
 - **Intensive Interviewing: A Key Method for Understanding Participant Perspectives** - [View Paper](https://scholar.google.com/scholar?q=Intensive+Interviewing+Method+Participant+Perspectives)
 
 ### 📖 Recommended Books
+- **Topgrading: How to Hire, Coach, and Keep A Players** by *Bradford D. Smart* - [Link](https://www.amazon.com/Topgrading-Hire-Coach-Keep-A-Players/dp/111889526X)
+  > A comprehensive guide to hiring top talent, focusing on advanced interviewing techniques. It covers structured interview methods and behavioral assessments.
 - **The Art of the Interview: Easy, Guaranteed Techniques for the Perfect Interview** by *Lawrence Grobel* - [Link](https://www.amazon.com/Art-Interview-Easy-Guaranteed-Techniques/dp/1593303496)
   > This book provides practical strategies for conducting and succeeding in interviews, covering both beginner and intermediate concepts such as body language, question preparation, and follow-up techniques. It's highly rated for its actionable advice and real-world examples.
-- **Topgrading: How to Hire, Coach, and Keep A Players** by *Bradford D. Smart* - [Link](https://www.amazon.com/Topgrading-Hire-Coach-Keep-A-Players/dp/111889526X)
-  > A comprehensive guide to hiring top talent, focusing on advanced interviewing techniques. It covers structured interview methods and behavioral assessments, recommended for those looking to refine their interviewing skills beyond the basics.
 - **The Interview Book: Your Definitive Guide to Interview Success** by *DK* - [Link](https://www.amazon.com/Interview-Book-Definitive-Guide-Success/dp/1465477549)
   > A step-by-step guide for interview preparation, including common questions, answer frameworks, and post-interview follow-ups. Suitable for beginners and intermediates on both sides of the interview process.
 - **Hiring for Attitude: How to Hire for Attitude, Train for Skill** by *Mark Murphy* - [Link](https://www.amazon.com/Hiring-Attitude-Hire-Train-Skills-Recruiting-ebook/dp/B0046X0HNY)
@@ -114,12 +114,12 @@ Quick refresher on foundational knowledge to ensure solid base for advanced topi
 
 ---
 
-## 🔹 Module 2: Deep Dive into Advanced Topic A
+## 🔹 Module 2: Handling Incorrect Answers & Course Correction
 - **ID:** `node-2`
 - **Progress:** [ ] Completed
 
 **Description:**
-Detailed study of advanced topic related to incorrect answer in question 5 with theory and examples.
+Advanced techniques for managing candidates who provide factually incorrect answers, go off-topic, or struggle during technical assessments.
 
 ### 🔗 Resources
 - [How to Handle Incorrect Answers in Interviews: A Guide for Hiring Managers](https://www.shrm.org/hr-today/news/hr-magazine/0722/pages/incorrect-answers-interviews.aspx) `[article]` - Explores strategies for addressing incorrect or incomplete responses in interviews, including probing techniques and maintaining candidate comfort.
@@ -127,6 +127,7 @@ Detailed study of advanced topic related to incorrect answer in question 5 with 
 - [The Science of Structured Interview Questions (and Why They Work)](https://hbr.org/2020/01/the-science-of-structured-interview-questions-and-why-they-work) `[article]` - Discusses structured interview frameworks and how to design questions to minimize incorrect answers while evaluating critical competencies.
 - [Google's Guide to Interviewing (Updated Edition)](https://research.google/pubs/pub40668/) `[documentation]` - Comprehensive documentation on behavioral and situational interview strategies, including handling ambiguous or incorrect responses.
 - [Mastering the Art of Interviewing: Advanced Techniques](https://www.linkedin.com/learning/interviewing-techniques/mastering-the-art-of-interviewing-advanced-techniques) `[video]` - Covers real-world scenarios for addressing incorrect answers and maintaining structured dialogue in high-stakes interviews.
+- [How to Handle Incorrect Answers in Interviews](https://www.shrm.org/hr-today/news/hr-magazine/0722/pages/incorrect-answers-interviews.aspx) `[article]` - Explores strategies for addressing incorrect or incomplete responses in interviews, including probing techniques and maintaining candidate comfort.
 
 ### 💡 Flashcards
 
@@ -175,30 +176,81 @@ Detailed study of advanced topic related to incorrect answer in question 5 with 
 
 ---
 
-## 🔹 Module 3: Advanced Topic A Practice
+## 🔹 Module 3: Assessing Qualities, Traits, and Behavioral Activities
 - **ID:** `node-3`
 - **Progress:** [ ] Completed
 
 **Description:**
-Apply advanced topic knowledge through targeted practice problems and exercises.
+Shift focus from 'what they know' to 'how they work'. Learn to evaluate resilience, ownership, adaptability, and collaboration.
+
+### 🔗 Resources
+- [Hiring for Attitude: Evaluating Soft Skills](https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/08/09/how-to-hire-for-attitude-and-train-for-skill/) `[article]` - Discusses why behavioral traits often outweigh raw technical skills and how to identify red flags for toxic behaviors.
+- [Competency-Based Interviewing Guide | UC Berkeley HR](https://hr.berkeley.edu/competency-based-interviewing) `[documentation]` - Academic framework for evaluating human qualities like leadership, conflict resolution, and adaptability using standardized models.
+- [How to Spot Talent and Potential in Interviews | Adam Grant](https://www.youtube.com/watch?v=6344qj7YjvQ) `[video]` - Advanced strategies for identifying potential, resilience, and curiosity rather than just measuring past experience.
+
+### 📖 Recommended Books
+- **Hiring for Attitude: How to Hire for Attitude, Train for Skill** by *Mark Murphy* - [Link](https://www.amazon.com/Hiring-Attitude-Hire-Train-Skills-Recruiting-ebook/dp/B0046X0HNY)
+  > Focuses entirely on evaluating qualities, soft skills, and cultural alignment, providing specific interview questions to reveal a candidate's true nature.
+
+### 💡 Flashcards
+
+| Front (Question) | Back (Answer) |
+| :--- | :--- |
+| What is the difference between assessing a 'skill' and assessing a 'quality'? | A skill is a learned ability (e.g., writing SQL stored procedures). A quality is an inherent or developed trait (e.g., taking ownership when a data purge fails). Skills determine if they CAN do the job; qualities determine HOW they do the job. |
+| How do you listen for 'Ownership' and 'Accountability' in a candidate's answer? | Listen for their pronoun usage during failure scenarios. If they say 'The team messed up' or 'Management didn't give us time', they lack ownership. Strong candidates say 'I missed the dependency, but here is how I fixed it.' |
+| What is 'Affinity Bias' and how does it ruin behavioral assessments? | Affinity bias is subconsciously favoring a candidate because they share your background, hobbies, or personality style. It leads to hiring for 'culture fit' (sameness) rather than 'culture add' (bringing new, needed qualities to the team). |
+
+### ❓ Checkpoint Quiz
+
+**1. Question 1**
+- [ ] Are you good at handling change in the workplace?
+- [ ] Tell me about a time when the scope of a project changed drastically at the last minute. What exactly did you do?
+- [ ] How many different programming languages do you know?
+- [ ] Where do you see yourself adapting in five years?
+
+**2. Question 2**
+- [ ] Hire them immediately; technical brilliance outweighs everything else.
+- [ ] Note the poor collaboration and arrogance qualities, as toxic behaviors can destroy a team regardless of technical skill.
+- [ ] Assume they are just nervous and ignore the interruptions.
+- [ ] Ask them a harder technical question to humble them.
 
 ---
 
-## 🔹 Module 4: Case Study Analysis - Advanced
+## 🔹 Module 4: Case Studies & Practice: Balancing Qualities and Skills
 - **ID:** `node-4`
 - **Progress:** [ ] Completed
 
 **Description:**
-Analyze real-world scenarios requiring advanced problem-solving skills.
+Apply your knowledge by evaluating hypothetical candidate scenarios, focusing on probing for traits and handling behavioral red flags.
+
+### ✏️ Practice Problems
+
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Probing for Teamwork over Individual Brilliance
+> You are interviewing a candidate for a senior technical role. They successfully designed an architecture for autonomous AI agents, but they continually use 'I' instead of 'We' when discussing the implementation, giving no credit to their peers. Write three follow-up questions to test their actual capacity for cross-functional collaboration and mentorship.
+
+
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Redirecting an Off-Topic Technical Answer
+> A candidate is asked about resolving a specific database deployment issue. Instead of answering, they start a 5-minute monologue about their general philosophy on coding. Write a short script for how you would politely interrupt and redirect them back to the specific topic without damaging rapport.
+
+
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Assessing Resilience in Failure
+> Design a behavioral interview question aimed specifically at uncovering how a candidate emotionally and professionally handles a catastrophic failure (e.g., taking down a production environment). Outline what a 'Green Flag' answer sounds like versus a 'Red Flag' answer.
+
 
 ---
 
-## 🔹 Module 5: Deep Dive into Advanced Topic B
+## 🔹 Module 5: Comprehensive Mock Interviews
 - **ID:** `node-5`
 - **Progress:** [ ] Completed
 
 **Description:**
-Focus on another critical advanced area to broaden skill set.
+Simulated interview sessions combining technical skill evaluation, behavioral trait assessment, and real-time course correction.
 
 ### 🔗 Resources
 - [The Best Interview Questions to Ask Candidates | Harvard Business Review](https://hbr.org/2019/10/the-best-interview-questions-to-ask-candidates) `[article]` - Explores evidence-based interview questions that assess problem-solving and cultural fit, focusing on advanced behavioral techniques.
@@ -290,7 +342,7 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
       {
         "id": "node-1",
         "title": "Review Beginner & Intermediate Concepts",
-        "description": "Quick refresher on foundational knowledge to ensure solid base for advanced topics.",
+        "description": "Quick refresher on foundational knowledge, structured interviewing, and active listening to ensure a solid base.",
         "estimatedTime": "2 hours",
         "resources": [
           {
@@ -416,18 +468,18 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
         ],
         "books": [
           {
+            "title": "Topgrading: How to Hire, Coach, and Keep A Players",
+            "author": "Bradford D. Smart",
+            "rating": 4.7,
+            "description": "A comprehensive guide to hiring top talent, focusing on advanced interviewing techniques. It covers structured interview methods and behavioral assessments.",
+            "url": "https://www.amazon.com/Topgrading-Hire-Coach-Keep-A-Players/dp/111889526X"
+          },
+          {
             "title": "The Art of the Interview: Easy, Guaranteed Techniques for the Perfect Interview",
             "author": "Lawrence Grobel",
             "rating": 4.8,
             "description": "This book provides practical strategies for conducting and succeeding in interviews, covering both beginner and intermediate concepts such as body language, question preparation, and follow-up techniques. It's highly rated for its actionable advice and real-world examples.",
             "url": "https://www.amazon.com/Art-Interview-Easy-Guaranteed-Techniques/dp/1593303496"
-          },
-          {
-            "title": "Topgrading: How to Hire, Coach, and Keep A Players",
-            "author": "Bradford D. Smart",
-            "rating": 4.7,
-            "description": "A comprehensive guide to hiring top talent, focusing on advanced interviewing techniques. It covers structured interview methods and behavioral assessments, recommended for those looking to refine their interviewing skills beyond the basics.",
-            "url": "https://www.amazon.com/Topgrading-Hire-Coach-Keep-A-Players/dp/111889526X"
           },
           {
             "title": "The Interview Book: Your Definitive Guide to Interview Success",
@@ -504,9 +556,9 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
       },
       {
         "id": "node-2",
-        "title": "Deep Dive into Advanced Topic A",
-        "description": "Detailed study of advanced topic related to incorrect answer in question 5 with theory and examples.",
-        "estimatedTime": "4 hours",
+        "title": "Handling Incorrect Answers & Course Correction",
+        "description": "Advanced techniques for managing candidates who provide factually incorrect answers, go off-topic, or struggle during technical assessments.",
+        "estimatedTime": "3 hours",
         "resources": [
           {
             "type": "article",
@@ -537,6 +589,12 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
             "title": "Mastering the Art of Interviewing: Advanced Techniques",
             "url": "https://www.linkedin.com/learning/interviewing-techniques/mastering-the-art-of-interviewing-advanced-techniques",
             "description": "Covers real-world scenarios for addressing incorrect answers and maintaining structured dialogue in high-stakes interviews."
+          },
+          {
+            "type": "article",
+            "title": "How to Handle Incorrect Answers in Interviews",
+            "url": "https://www.shrm.org/hr-today/news/hr-magazine/0722/pages/incorrect-answers-interviews.aspx",
+            "description": "Explores strategies for addressing incorrect or incomplete responses in interviews, including probing techniques and maintaining candidate comfort."
           }
         ],
         "flashcards": [
@@ -649,33 +707,120 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
       },
       {
         "id": "node-3",
-        "title": "Advanced Topic A Practice",
-        "description": "Apply advanced topic knowledge through targeted practice problems and exercises.",
+        "title": "Assessing Qualities, Traits, and Behavioral Activities",
+        "description": "Shift focus from 'what they know' to 'how they work'. Learn to evaluate resilience, ownership, adaptability, and collaboration.",
+        "estimatedTime": "4 hours",
+        "resources": [
+          {
+            "type": "article",
+            "title": "Hiring for Attitude: Evaluating Soft Skills",
+            "url": "https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/08/09/how-to-hire-for-attitude-and-train-for-skill/",
+            "description": "Discusses why behavioral traits often outweigh raw technical skills and how to identify red flags for toxic behaviors."
+          },
+          {
+            "type": "documentation",
+            "title": "Competency-Based Interviewing Guide | UC Berkeley HR",
+            "url": "https://hr.berkeley.edu/competency-based-interviewing",
+            "description": "Academic framework for evaluating human qualities like leadership, conflict resolution, and adaptability using standardized models."
+          },
+          {
+            "type": "video",
+            "title": "How to Spot Talent and Potential in Interviews | Adam Grant",
+            "url": "https://www.youtube.com/watch?v=6344qj7YjvQ",
+            "description": "Advanced strategies for identifying potential, resilience, and curiosity rather than just measuring past experience."
+          }
+        ],
+        "flashcards": [
+          {
+            "id": 1,
+            "front": "What is the difference between assessing a 'skill' and assessing a 'quality'?",
+            "back": "A skill is a learned ability (e.g., writing SQL stored procedures). A quality is an inherent or developed trait (e.g., taking ownership when a data purge fails). Skills determine if they CAN do the job; qualities determine HOW they do the job."
+          },
+          {
+            "id": 2,
+            "front": "How do you listen for 'Ownership' and 'Accountability' in a candidate's answer?",
+            "back": "Listen for their pronoun usage during failure scenarios. If they say 'The team messed up' or 'Management didn't give us time', they lack ownership. Strong candidates say 'I missed the dependency, but here is how I fixed it.'"
+          },
+          {
+            "id": 3,
+            "front": "What is 'Affinity Bias' and how does it ruin behavioral assessments?",
+            "back": "Affinity bias is subconsciously favoring a candidate because they share your background, hobbies, or personality style. It leads to hiring for 'culture fit' (sameness) rather than 'culture add' (bringing new, needed qualities to the team)."
+          }
+        ],
+        "researchPapers": [],
+        "books": [
+          {
+            "title": "Hiring for Attitude: How to Hire for Attitude, Train for Skill",
+            "author": "Mark Murphy",
+            "rating": 4.5,
+            "description": "Focuses entirely on evaluating qualities, soft skills, and cultural alignment, providing specific interview questions to reveal a candidate's true nature.",
+            "url": "https://www.amazon.com/Hiring-Attitude-Hire-Train-Skills-Recruiting-ebook/dp/B0046X0HNY"
+          }
+        ],
+        "practiceProblems": [],
+        "quiz": [
+          {
+            "id": 1,
+            "text": "When trying to assess a candidate's 'adaptability' (a quality), which of the following is the best interview question?",
+            "options": [
+              "Are you good at handling change in the workplace?",
+              "Tell me about a time when the scope of a project changed drastically at the last minute. What exactly did you do?",
+              "How many different programming languages do you know?",
+              "Where do you see yourself adapting in five years?"
+            ],
+            "correctAnswerIndex": 1,
+            "reasoning": "Question B requires the candidate to provide a real-world example of the activity of adapting, rather than just claiming they have the trait."
+          },
+          {
+            "id": 2,
+            "text": "A candidate gives a brilliant answer regarding a complex AIOps system architecture, but throughout the interview, they frequently interrupt you and dismiss your clarifying questions. What should you conclude?",
+            "options": [
+              "Hire them immediately; technical brilliance outweighs everything else.",
+              "Note the poor collaboration and arrogance qualities, as toxic behaviors can destroy a team regardless of technical skill.",
+              "Assume they are just nervous and ignore the interruptions.",
+              "Ask them a harder technical question to humble them."
+            ],
+            "correctAnswerIndex": 1,
+            "reasoning": "Assessing qualities is just as critical as assessing skills. Frequent interruptions and dismissiveness are strong behavioral indicators of poor teamwork and potential toxicity."
+          }
+        ]
+      },
+      {
+        "id": "node-4",
+        "title": "Case Studies & Practice: Balancing Qualities and Skills",
+        "description": "Apply your knowledge by evaluating hypothetical candidate scenarios, focusing on probing for traits and handling behavioral red flags.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
-        "practiceProblems": [],
-        "quiz": []
-      },
-      {
-        "id": "node-4",
-        "title": "Case Study Analysis - Advanced",
-        "description": "Analyze real-world scenarios requiring advanced problem-solving skills.",
-        "estimatedTime": "2 hours",
-        "resources": [],
-        "flashcards": [],
-        "researchPapers": [],
-        "books": [],
-        "practiceProblems": [],
+        "practiceProblems": [
+          {
+            "id": 1,
+            "title": "Probing for Teamwork over Individual Brilliance",
+            "description": "You are interviewing a candidate for a senior technical role. They successfully designed an architecture for autonomous AI agents, but they continually use 'I' instead of 'We' when discussing the implementation, giving no credit to their peers. Write three follow-up questions to test their actual capacity for cross-functional collaboration and mentorship.",
+            "group": "A"
+          },
+          {
+            "id": 2,
+            "title": "Redirecting an Off-Topic Technical Answer",
+            "description": "A candidate is asked about resolving a specific database deployment issue. Instead of answering, they start a 5-minute monologue about their general philosophy on coding. Write a short script for how you would politely interrupt and redirect them back to the specific topic without damaging rapport.",
+            "group": "B"
+          },
+          {
+            "id": 3,
+            "title": "Assessing Resilience in Failure",
+            "description": "Design a behavioral interview question aimed specifically at uncovering how a candidate emotionally and professionally handles a catastrophic failure (e.g., taking down a production environment). Outline what a 'Green Flag' answer sounds like versus a 'Red Flag' answer.",
+            "group": "C"
+          }
+        ],
         "quiz": []
       },
       {
         "id": "node-5",
-        "title": "Deep Dive into Advanced Topic B",
-        "description": "Focus on another critical advanced area to broaden skill set.",
-        "estimatedTime": "4 hours",
+        "title": "Comprehensive Mock Interviews",
+        "description": "Simulated interview sessions combining technical skill evaluation, behavioral trait assessment, and real-time course correction.",
+        "estimatedTime": "2 hours",
         "resources": [
           {
             "type": "article",
@@ -813,7 +958,7 @@ Analyze progress, celebrate successes, and plan continued learning if needed.
     ],
     "topic": "How to take good interviews ",
     "isFinalized": true,
-    "lastUsedAt": 1788745542794
+    "lastUsedAt": 1788745913379
   }
 }
 EDU_ASSIST_METADATA_END -->
