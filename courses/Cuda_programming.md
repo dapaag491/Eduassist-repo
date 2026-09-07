@@ -27,7 +27,6 @@ Review the core concepts of CUDA architecture, including thread hierarchies, war
 
 **Description:**
 Deep dive into global, shared, and constant memory. Learn optimization techniques for memory access patterns and coalescing.
----
 
 ---
 
@@ -37,7 +36,6 @@ Deep dive into global, shared, and constant memory. Learn optimization technique
 
 **Description:**
 Focus on optimizing kernel performance through loop unrolling, register usage, and occupancy considerations. Address bottlenecks identified in intermediate questions.
----
 
 ---
 
@@ -47,7 +45,6 @@ Focus on optimizing kernel performance through loop unrolling, register usage, a
 
 **Description:**
 Learn effective methods for CUDA error checking and debugging tools like cuda-gdb and Nsight.
----
 
 ---
 
@@ -57,7 +54,6 @@ Learn effective methods for CUDA error checking and debugging tools like cuda-gd
 
 **Description:**
 Explore common parallel patterns such as map, reduce, and stencil operations. Apply these to solve intermediate-level problems.
----
 
 ---
 
@@ -67,7 +63,6 @@ Explore common parallel patterns such as map, reduce, and stencil operations. Ap
 
 **Description:**
 Study pitched memory, memory padding, and unified memory. Understand when to use each strategy for performance gains.
----
 
 ---
 
@@ -77,7 +72,6 @@ Study pitched memory, memory padding, and unified memory. Understand when to use
 
 **Description:**
 Learn to overlap kernel execution and memory transfers using streams. Improve advanced-level understanding through practical examples.
----
 
 ---
 
@@ -87,7 +81,6 @@ Learn to overlap kernel execution and memory transfers using streams. Improve ad
 
 **Description:**
 Master atomic operations and thread synchronization mechanisms. Critical for avoiding race conditions in advanced kernels.
----
 
 ---
 
@@ -97,7 +90,6 @@ Master atomic operations and thread synchronization mechanisms. Critical for avo
 
 **Description:**
 Use profiling tools like nvprof and Nsight Systems to identify and resolve performance bottlenecks in complex kernels.
----
 
 ---
 
@@ -107,7 +99,6 @@ Use profiling tools like nvprof and Nsight Systems to identify and resolve perfo
 
 **Description:**
 Hands-on session applying advanced optimization techniques to real-world problems. Includes dynamic parallelism and texture memory usage.
----
 
 ---
 
@@ -117,7 +108,6 @@ Hands-on session applying advanced optimization techniques to real-world problem
 
 **Description:**
 Compare and integrate runtime and driver APIs for more control over GPU resources. Essential for expert-level applications.
----
 
 ---
 
@@ -127,7 +117,6 @@ Compare and integrate runtime and driver APIs for more control over GPU resource
 
 **Description:**
 Develop a complete CUDA application (e.g., image processing pipeline) integrating all learned concepts and advanced features.
----
 
 ---
 
@@ -144,33 +133,33 @@ Develop a complete CUDA application (e.g., image processing pipeline) integratin
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "CUDA C Programming Guide (NVIDIA)",
             "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html",
-            "type": "documentation",
             "description": "Official NVIDIA documentation covering thread hierarchies, memory hierarchy (global, shared, constant, etc.), warp execution, and host/device code separation in CUDA."
           },
           {
+            "type": "article",
             "title": "Introduction to CUDA Architecture by Mark Harris (NVIDIA Developer Blog)",
             "url": "https://developer.nvidia.com/blog/introduction-cuda-architecture/",
-            "type": "article",
             "description": "Explains fundamental CUDA concepts including thread blocks, warps, grid structure, and memory hierarchy with practical examples and diagrams."
           },
           {
+            "type": "video",
             "title": "CUDA Architecture Overview - Jeff Watts (NVIDIA Developer)",
             "url": "https://www.youtube.com/watch?v=J7JvJk0X3pA",
-            "type": "video",
             "description": "Video tutorial explaining GPU execution model, thread/warp/block/grid hierarchy, and memory architecture in CUDA with visual aids."
           },
           {
+            "type": "article",
             "title": "CUDA Programming Model Explained (GeeksforGeeks)",
             "url": "https://www.geeksforgeeks.org/cuda-programming-model/",
-            "type": "article",
             "description": "Detailed breakdown of CUDA execution hierarchy, kernel launch syntax, and memory types with code examples and performance considerations."
           },
           {
+            "type": "documentation",
             "title": "UIUC ECE 408: CUDA Optimization Guide",
             "url": "https://docs.google.com/document/d/1Z1U2h5ZqXhQ3m6K7J3L5X5Y5Z5X5Y5Z5X5Y5Z5X5Y5Z/edit?usp=sharing",
-            "type": "documentation",
             "description": "University-level resource covering warp divergence, memory coalescing, shared memory optimization, and practical kernel design principles."
           }
         ],
@@ -178,168 +167,144 @@ Develop a complete CUDA application (e.g., image processing pipeline) integratin
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Memory Management Strategies",
-        "description": "Deep dive into global, shared, and constant memory. Learn optimization techniques for memory access patterns and coalescing.\n---",
+        "description": "Deep dive into global, shared, and constant memory. Learn optimization techniques for memory access patterns and coalescing.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Kernel Optimization Techniques",
-        "description": "Focus on optimizing kernel performance through loop unrolling, register usage, and occupancy considerations. Address bottlenecks identified in intermediate questions.\n---",
+        "description": "Focus on optimizing kernel performance through loop unrolling, register usage, and occupancy considerations. Address bottlenecks identified in intermediate questions.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Error Handling and Debugging",
-        "description": "Learn effective methods for CUDA error checking and debugging tools like cuda-gdb and Nsight.\n---",
+        "description": "Learn effective methods for CUDA error checking and debugging tools like cuda-gdb and Nsight.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Parallel Algorithm Design Patterns",
-        "description": "Explore common parallel patterns such as map, reduce, and stencil operations. Apply these to solve intermediate-level problems.\n---",
+        "description": "Explore common parallel patterns such as map, reduce, and stencil operations. Apply these to solve intermediate-level problems.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Advanced Memory Patterns",
-        "description": "Study pitched memory, memory padding, and unified memory. Understand when to use each strategy for performance gains.\n---",
+        "description": "Study pitched memory, memory padding, and unified memory. Understand when to use each strategy for performance gains.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "CUDA Streams and Concurrency",
-        "description": "Learn to overlap kernel execution and memory transfers using streams. Improve advanced-level understanding through practical examples.\n---",
+        "description": "Learn to overlap kernel execution and memory transfers using streams. Improve advanced-level understanding through practical examples.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Atomic Operations and Synchronization",
-        "description": "Master atomic operations and thread synchronization mechanisms. Critical for avoiding race conditions in advanced kernels.\n---",
+        "description": "Master atomic operations and thread synchronization mechanisms. Critical for avoiding race conditions in advanced kernels.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Performance Profiling and Tuning",
-        "description": "Use profiling tools like nvprof and Nsight Systems to identify and resolve performance bottlenecks in complex kernels.\n---",
+        "description": "Use profiling tools like nvprof and Nsight Systems to identify and resolve performance bottlenecks in complex kernels.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Expert-Level Optimization Workshop",
-        "description": "Hands-on session applying advanced optimization techniques to real-world problems. Includes dynamic parallelism and texture memory usage.\n---",
+        "description": "Hands-on session applying advanced optimization techniques to real-world problems. Includes dynamic parallelism and texture memory usage.",
         "estimatedTime": "5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "CUDA Runtime and Driver API Integration",
-        "description": "Compare and integrate runtime and driver APIs for more control over GPU resources. Essential for expert-level applications.\n---",
+        "description": "Compare and integrate runtime and driver APIs for more control over GPU resources. Essential for expert-level applications.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Real-World Application Development",
-        "description": "Develop a complete CUDA application (e.g., image processing pipeline) integrating all learned concepts and advanced features.\n---",
+        "description": "Develop a complete CUDA application (e.g., image processing pipeline) integrating all learned concepts and advanced features.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Cuda programming",
     "isFinalized": true,
-    "lastUsedAt": 1788745546970
+    "lastUsedAt": 1788745917369
   }
 }
 EDU_ASSIST_METADATA_END -->
