@@ -136,7 +136,6 @@ Step-by-step guide to installing and configuring Unity ML-Agents for training ag
 
 **Description:**
 Deep dive into fundamental RL components like reward functions, policy networks, and environment design.
----
 
 ---
 
@@ -146,7 +145,6 @@ Deep dive into fundamental RL components like reward functions, policy networks,
 
 **Description:**
 Explore Q-Learning and Policy Gradient methods, focusing on areas where you previously encountered challenges.
----
 
 ---
 
@@ -156,7 +154,6 @@ Explore Q-Learning and Policy Gradient methods, focusing on areas where you prev
 
 **Description:**
 Hands-on exercise to train agents for basic game tasks like navigation and obstacle avoidance.
----
 
 ---
 
@@ -166,7 +163,6 @@ Hands-on exercise to train agents for basic game tasks like navigation and obsta
 
 **Description:**
 Learn hyperparameter tuning, curriculum learning, and reward shaping for complex agent behaviors.
----
 
 ---
 
@@ -176,7 +172,6 @@ Learn hyperparameter tuning, curriculum learning, and reward shaping for complex
 
 **Description:**
 Connecting trained agents to YouTube Live APIs for interactive gaming experiences.
----
 
 ---
 
@@ -186,7 +181,6 @@ Connecting trained agents to YouTube Live APIs for interactive gaming experience
 
 **Description:**
 Package and deploy RL-trained agents in Unity games optimized for YouTube streaming.
----
 
 ---
 
@@ -196,7 +190,6 @@ Package and deploy RL-trained agents in Unity games optimized for YouTube stream
 
 **Description:**
 Review real-world examples of RL-powered games on YouTube and their implementation strategies.
----
 
 ---
 
@@ -206,7 +199,6 @@ Review real-world examples of RL-powered games on YouTube and their implementati
 
 **Description:**
 Apply all learned concepts to develop and deploy a fully-functional RL-based game for YouTube.
----
 
 ---
 
@@ -223,76 +215,61 @@ Apply all learned concepts to develop and deploy a fully-functional RL-based gam
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "video",
             "title": "Unity ML-Agents: A Complete Guide (Setup, Training, and Integration with Games)",
             "url": "https://www.youtube.com/watch?v=Kg3hPZl6x6Y&ab_channel=CodeEmporium",
-            "type": "video",
             "description": "A step-by-step video tutorial covering installation, basic concepts, and creating a simple game AI with Unity ML-Agents, ideal for beginners and YouTube content creators."
           },
           {
+            "type": "video",
             "title": "Unity ML-Agents Official Introduction and Tutorial Series",
             "url": "https://www.youtube.com/playlist?list=PLX2vGY2hx3GmgO2zSP3ehPxvxBzh5XVDf",
-            "type": "video",
             "description": "Official Unity Technologies playlist introducing ML-Agents, including training agents, curriculum learning, and integration with Unity projects."
           },
           {
+            "type": "documentation",
             "title": "Unity ML-Agents GitHub Documentation",
             "url": "https://github.com/Unity-Technologies/ml-agents/tree/main/docs",
-            "type": "documentation",
             "description": "Comprehensive official documentation covering installation, API references, training guides, and advanced features for using ML-Agents in game development."
           },
           {
+            "type": "article",
             "title": "Introduction to Reinforcement Learning with Unity ML-Agents (Towards Data Science)",
             "url": "https://towardsdatascience.com/introduction-to-reinforcement-learning-with-unity-ml-agents-9d5d5b8e7a8e",
-            "type": "article",
             "description": "Explains core RL concepts and demonstrates practical implementation using Unity ML-Agents, with examples applicable to game development and YouTube tutorials."
           },
           {
+            "type": "article",
             "title": "Building Smart NPCs with Unity ML-Agents (Unity Blog)",
             "url": "https://blog.unity.com/technology/introducing-unity-ml-agents",
-            "type": "article",
             "description": "An overview of ML-Agents for creating intelligent non-player characters (NPCs) in games, highlighting its potential for interactive YouTube game showcases."
           }
         ],
         "researchPapers": [
           {
             "title": "Reinforcement Learning in Unity ML-Agents: Creating Game-Based Learning Environments for YouTube Content",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Unity+ML-Agents+reinforcement+learning+youtube",
-            "summary": "",
-            "keyIdea": "This paper discusses how Unity ML-Agents can be used to create interactive game environments for teaching RL concepts through YouTube tutorials."
+            "keyIdea": "This paper discusses how Unity ML-Agents can be used to create interactive game environments for teaching RL concepts through YouTube tutorials.",
+            "url": "https://scholar.google.com/scholar?q=Unity+ML-Agents+reinforcement+learning+youtube"
           },
           {
             "title": "Game-Based Reinforcement Learning Tutorials Using Unity: A Case Study for YouTube Education",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/search/?searchtype=all&query=Unity+reinforcement+learning+game+tutorial",
-            "summary": "",
-            "keyIdea": "Explores the implementation of RL algorithms within Unity to create video game examples that are effective for online educational content."
+            "keyIdea": "Explores the implementation of RL algorithms within Unity to create video game examples that are effective for online educational content.",
+            "url": "https://arxiv.org/search/?searchtype=all&query=Unity+reinforcement+learning+game+tutorial"
           },
           {
             "title": "Educational Applications of Unity ML-Agents for Teaching Reinforcement Learning on Social Media Platforms",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Unity%20ML-Agents%20reinforcement%20learning%20education",
-            "summary": "",
-            "keyIdea": "Analyzes how Unity ML-Agents provides an accessible platform for educators to create RL demonstrations tailored for YouTube audiences."
+            "keyIdea": "Analyzes how Unity ML-Agents provides an accessible platform for educators to create RL demonstrations tailored for YouTube audiences.",
+            "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Unity%20ML-Agents%20reinforcement%20learning%20education"
           },
           {
             "title": "Interactive Reinforcement Learning Demonstrations in Unity for Online Learning and YouTube Engagement",
-            "authors": "",
-            "year": "",
-            "url": "https://www.researchgate.net/search?q=Unity%20ML-Agents%20interactive%20RL%20YouTube",
-            "summary": "",
-            "keyIdea": "Focuses on designing engaging RL simulations in Unity that can be showcased in YouTube videos to enhance viewer understanding."
+            "keyIdea": "Focuses on designing engaging RL simulations in Unity that can be showcased in YouTube videos to enhance viewer understanding.",
+            "url": "https://www.researchgate.net/search?q=Unity%20ML-Agents%20interactive%20RL%20YouTube"
           },
           {
             "title": "A Practical Guide to Teaching Reinforcement Learning Concepts Using Unity ML-Agents and YouTube Media",
-            "authors": "",
-            "year": "",
-            "url": "https://dl.acm.org/search.cfm?query=Unity%20ML-Agents%20teaching%20reinforcement%20learning",
-            "summary": "",
-            "keyIdea": "Provides step-by-step methodologies for creating educational RL content in Unity, specifically aimed at creators on YouTube platforms."
+            "keyIdea": "Provides step-by-step methodologies for creating educational RL content in Unity, specifically aimed at creators on YouTube platforms.",
+            "url": "https://dl.acm.org/search.cfm?query=Unity%20ML-Agents%20teaching%20reinforcement%20learning"
           }
         ],
         "practiceProblems": [
@@ -337,36 +314,34 @@ Apply all learned concepts to develop and deploy a fully-functional RL-based gam
           {
             "title": "Unity ML-Agents: Machine Learning in Virtual Environments",
             "author": "David Hogan",
-            "url": "https://www.amazon.com/Unity-ML-Agents-Machine-Learning-Virtual/dp/1803878757",
+            "rating": 4.7,
             "description": "This book focuses on Unity ML-Agents, teaching readers how to implement machine learning algorithms within virtual environments. It covers practical examples, agent training, and real-world applications, making it ideal for developers interested in game-based AI and reinforcement learning.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Unity-ML-Agents-Machine-Learning-Virtual/dp/1803878757"
           },
           {
             "title": "AI for Games",
             "author": "Ian Millington",
-            "url": "https://www.amazon.com/AI-Games-Ian-Millington/dp/1138485072",
+            "rating": 4.6,
             "description": "A comprehensive guide to artificial intelligence in game development, including chapters on reinforcement learning and its application in Unity. It bridges theory and practice, offering insights into building intelligent game characters and environments.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/AI-Games-Ian-Millington/dp/1138485072"
           },
           {
             "title": "Hands-On Artificial Intelligence for Games",
             "author": "Mike Noland",
-            "url": "https://www.amazon.com/Hands-Artificial-Intelligence-Games-Noland/dp/1800208164",
+            "rating": 4.7,
             "description": "Teaches how to integrate AI techniques, including reinforcement learning, into Unity games. Features step-by-step tutorials and practical projects, making it suitable for developers aiming to create adaptive and intelligent game systems.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Hands-Artificial-Intelligence-Games-Noland/dp/1800208164"
           },
           {
             "title": "Machine Learning for Game Developers",
             "author": "Nicholas Brown",
-            "url": "https://www.amazon.com/Machine-Learning-Game-Developers-Nicholas/dp/1803872430",
+            "rating": 4.5,
             "description": "Covers machine learning applications in game development with Unity and TensorFlow. Includes reinforcement learning examples for creating responsive NPCs and game mechanics, tailored for YouTube-friendly tutorials and hands-on projects.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Machine-Learning-Game-Developers-Nicholas/dp/1803872430"
           }
         ],
         "flashcards": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
@@ -425,159 +400,141 @@ Apply all learned concepts to develop and deploy a fully-functional RL-based gam
         ],
         "resources": [
           {
+            "type": "documentation",
             "title": "Unity ML-Agents Installation Guide",
             "url": "https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md",
-            "type": "documentation",
             "description": "Official step-by-step instructions for installing Unity ML-Agents, including prerequisites, Unity package installation, and Python environment setup for reinforcement learning development."
           },
           {
+            "type": "video",
             "title": "Unity ML-Agents Tutorial - Getting Started",
             "url": "https://www.youtube.com/watch?v=KvJx4hVQqjM",
-            "type": "video",
             "description": "A visual walkthrough of setting up Unity ML-Agents, configuring environments, and training your first AI agent in a simple game scenario."
           },
           {
+            "type": "article",
             "title": "How to Set Up Unity ML-Agents for Reinforcement Learning",
             "url": "https://medium.com/@james.dunby/how-to-set-up-unity-ml-agents-for-reinforcement-learning-2d3f3b5d9c1f",
-            "type": "article",
             "description": "Detailed article explaining the installation process, environment creation in Unity, and initial configuration steps for RL development."
           },
           {
+            "type": "video",
             "title": "Training an AI to Play a Game Using Unity ML-Agents",
             "url": "https://www.youtube.com/watch?v=4qG5YxqX4bM",
-            "type": "video",
             "description": "Practical example showing how to create a game environment in Unity and train an agent using ML-Agents, including setup details and code snippets."
           },
           {
+            "type": "article",
             "title": "Unity ML-Agents Environment Setup for Game Development",
             "url": "https://dev.to/johndpope/unity-ml-agents-environment-setup-for-game-development-3g1p",
-            "type": "article",
             "description": "Focuses on configuring Unity for game-specific RL environments, including best practices for scene setup and agent behavior definition."
           }
         ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Core RL Concepts: Rewards, Policies, and Environments",
-        "description": "Deep dive into fundamental RL components like reward functions, policy networks, and environment design.\n---",
+        "description": "Deep dive into fundamental RL components like reward functions, policy networks, and environment design.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Intermediate RL Algorithms in Unity (Q-Learning, Policy Gradients)",
-        "description": "Explore Q-Learning and Policy Gradient methods, focusing on areas where you previously encountered challenges.\n---",
+        "description": "Explore Q-Learning and Policy Gradient methods, focusing on areas where you previously encountered challenges.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Training Agents for Game Mechanics",
-        "description": "Hands-on exercise to train agents for basic game tasks like navigation and obstacle avoidance.\n---",
+        "description": "Hands-on exercise to train agents for basic game tasks like navigation and obstacle avoidance.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Advanced Agent Optimization Techniques",
-        "description": "Learn hyperparameter tuning, curriculum learning, and reward shaping for complex agent behaviors.\n---",
+        "description": "Learn hyperparameter tuning, curriculum learning, and reward shaping for complex agent behaviors.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Integrating RL Agents with YouTube APIs",
-        "description": "Connecting trained agents to YouTube Live APIs for interactive gaming experiences.\n---",
+        "description": "Connecting trained agents to YouTube Live APIs for interactive gaming experiences.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Deploying Agents in Unity Games for YouTube Content",
-        "description": "Package and deploy RL-trained agents in Unity games optimized for YouTube streaming.\n---",
+        "description": "Package and deploy RL-trained agents in Unity games optimized for YouTube streaming.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Case Study Analysis: Successful RL Games on YouTube",
-        "description": "Review real-world examples of RL-powered games on YouTube and their implementation strategies.\n---",
+        "description": "Review real-world examples of RL-powered games on YouTube and their implementation strategies.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Capstone Project: Create an RL-Enhanced YouTube Game",
-        "description": "Apply all learned concepts to develop and deploy a fully-functional RL-based game for YouTube.\n---",
+        "description": "Apply all learned concepts to develop and deploy a fully-functional RL-based game for YouTube.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Reinforcement learning with unity and games for youtube",
     "isFinalized": true,
-    "lastUsedAt": 1788745548015
+    "lastUsedAt": 1788745918285
   }
 }
 EDU_ASSIST_METADATA_END -->
