@@ -190,14 +190,6 @@ Explore how agents communicate, including message passing, signal design, and co
 | What are key challenges in MARL communication protocols? | Challenges include scalability (managing many agents), information overload (too much data), and security risks (agents may send misleading or malicious signals). |
 | How do alliances form in MARL? | Alliances emerge when agents form temporary or dynamic partnerships based on shared goals, mutual benefits, or reward structures to improve collective performance in cooperative tasks. |
 | What are common information sharing strategies in MARL? | Strategies include broadcasting information to all agents, selective sharing with relevant agents only, or using a shared memory structure to store and retrieve collective knowledge. |
-| What are the two primary types of communication protocols in MARL? | Explicit communication involves direct message passing between agents, while implicit communication occurs through indirect signals or learned behaviors without explicit messaging. |
-| Describe message passing in MARL communication protocols. | Message passing enables agents to exchange structured information (e.g., observations, intentions, or policies) directly, facilitating coordination and joint decision-making in complex environments. |
-| What is signal design in MARL? | Signal design refers to how agents encode and transmit information (e.g., actions, observations) into meaningful signals optimized during training to ensure effective interpretation by other agents. |
-| How do agents coordinate in MARL without explicit communication? | Through shared reward functions, observing each other's actions, or implicit signaling via behaviors that influence others' policies without direct messaging. |
-| What distinguishes centralized from decentralized communication protocols in MARL? | Centralized protocols use a shared channel or mediator to coordinate information flow, while decentralized protocols allow agents to communicate directly after training, enabling distributed decision-making. |
-| What are key challenges in MARL communication protocols? | Challenges include scalability (managing many agents), information overload (too much data), and security risks (agents may send misleading or malicious signals). |
-| How do alliances form in MARL? | Alliances emerge when agents form temporary or dynamic partnerships based on shared goals, mutual benefits, or reward structures to improve collective performance in cooperative tasks. |
-| What are common information sharing strategies in MARL? | Strategies include broadcasting information to all agents, selective sharing with relevant agents only, or using a shared memory structure to store and retrieve collective knowledge. |
 
 ### ❓ Checkpoint Quiz
 
@@ -263,14 +255,6 @@ Study methods for forming and maintaining alliances, including stable marriage a
 
 | Front (Question) | Back (Answer) |
 | :--- | :--- |
-| What is the Stable Marriage Algorithm in Multi-Agent Reinforcement Learning (MARL)? | A method for matching agents into stable pairs or groups such that no two agents prefer each other over their current partners. Applied to form alliances where no agent has an incentive to deviate, ensuring long-term stability in cooperative strategies. |
-| Define Coalition Stability in MARL. | A coalition is stable if no subset of agents can form a new alliance or deviate and achieve a higher collective reward or utility than their current arrangement. Stability ensures resistance to internal disagreements and external defection. |
-| How does the Gale-Shapley Algorithm apply to coalition formation in MARL? | It is a iterative process where agents propose and reject partnerships based on ranked preferences. Used to compute stable matchings in two-sided markets (e.g., buyer-seller alliances), ensuring no blocking pairs exist that could form a mutually beneficial coalition outside the current arrangement. |
-| What is the Shapley Value in the context of MARL alliances? | A solution concept from cooperative game theory that fairly distributes rewards among coalition members based on their marginal contributions to all possible sub-coalitions. Ensures efficiency, symmetry, and additivity in value allocation. |
-| What is the Core in Coalitional Game Theory for MARL? | The set of reward allocations where no coalition can improve its total payoff by forming a separate alliance. A core allocation is stable because no subgroup has an incentive to break away, ensuring collective rationality. |
-| How do Dynamic Coalitions differ from Static Coalitions in MARL? | Dynamic coalitions allow agents to join, leave, or reform alliances over time based on changing rewards or environmental conditions. Static coalitions are fixed once formed, requiring pre-defined agreements and often used in simpler, stable environments. |
-| What negotiation strategies are critical for forming alliances in MARL? | Strategies include iterative proposal-rejection protocols, communication of utility thresholds, and reputation-based trust mechanisms. Agents may use signaling (e.g., willingness to cooperate) and bargaining to reach mutually beneficial agreements. |
-| Provide an example of Coalition Instability in MARL. | Three agents A, B, and C form a coalition. If A and B can achieve a higher combined reward by defecting and forming a new coalition without C, while C cannot improve alone, the original alliance becomes unstable due to the incentive for A and B to deviate. |
 | What is the Stable Marriage Algorithm in Multi-Agent Reinforcement Learning (MARL)? | A method for matching agents into stable pairs or groups such that no two agents prefer each other over their current partners. Applied to form alliances where no agent has an incentive to deviate, ensuring long-term stability in cooperative strategies. |
 | Define Coalition Stability in MARL. | A coalition is stable if no subset of agents can form a new alliance or deviate and achieve a higher collective reward or utility than their current arrangement. Stability ensures resistance to internal disagreements and external defection. |
 | How does the Gale-Shapley Algorithm apply to coalition formation in MARL? | It is a iterative process where agents propose and reject partnerships based on ranked preferences. Used to compute stable matchings in two-sided markets (e.g., buyer-seller alliances), ensuring no blocking pairs exist that could form a mutually beneficial coalition outside the current arrangement. |
@@ -350,7 +334,6 @@ Investigate algorithms like QMIX, QTRAN, and COMA for handling non-stationarity 
 
 **Description:**
 Address how to manage exponential growth in state-action spaces and computational demands.
----
 
 ---
 
@@ -383,7 +366,6 @@ Analyze decentralized communication frameworks and information sharing in large-
 
 **Description:**
 Learn strategies for adaptive alliance formation under changing environmental conditions and agent behaviors.
----
 
 ---
 
@@ -393,7 +375,6 @@ Learn strategies for adaptive alliance formation under changing environmental co
 
 **Description:**
 Tackle advanced techniques for attributing rewards to individual agents in collaborative settings.
----
 
 ---
 
@@ -403,7 +384,6 @@ Tackle advanced techniques for attributing rewards to individual agents in colla
 
 **Description:**
 Explore hierarchical decision-making and long-term strategic planning in multi-agent contexts.
----
 
 ---
 
@@ -429,7 +409,6 @@ Review case studies in robotics, autonomous driving, and resource management to 
 
 **Description:**
 Study cutting-edge research on topics like emergent communication, self-supervised teamwork, and transfer learning.
----
 
 ---
 
@@ -439,7 +418,6 @@ Study cutting-edge research on topics like emergent communication, self-supervis
 
 **Description:**
 Implement a MARL environment where agents must form and adapt alliances to solve complex tasks.
----
 
 ---
 
@@ -449,7 +427,6 @@ Implement a MARL environment where agents must form and adapt alliances to solve
 
 **Description:**
 Refine project implementations through peer feedback and optimize alliance strategies using advanced MARL techniques.
----
 
 ---
 
@@ -466,113 +443,98 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Multi-Agent Systems: Algorithmic, Game-Theoretic, and Logical Foundations",
             "url": "https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19-1.pdf",
-            "type": "article",
             "description": "Comprehensive academic text covering fundamental concepts of MAS, including agent types, interaction models, and system architectures."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning - David Silver (DeepMind) Lecture",
             "url": "https://www.youtube.com/watch?v=RmRzjZV8qLs",
-            "type": "video",
             "description": "Lecture explaining MARL fundamentals, including cooperative and competitive scenarios, and communication strategies."
           },
           {
+            "type": "documentation",
             "title": "MARLlib: Multi-Agent Reinforcement Learning Library Documentation",
             "url": "https://marllib.readthedocs.io/en/latest/",
-            "type": "documentation",
             "description": "Technical documentation introducing MARL concepts, agent types, and implementation of communication mechanisms."
           },
           {
+            "type": "article",
             "title": "A Survey on Multi-Agent Reinforcement Learning: Models and Algorithms",
             "url": "https://arxiv.org/abs/2112.07588",
-            "type": "article",
             "description": "Survey paper discussing MARL architectures, agent-environment interactions, and alliance formation strategies."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Systems - Peter Stone (UT Austin) Course",
             "url": "https://www.youtube.com/playlist?list=PLoROMvodvC9YfO6qVpJfWvJxUqy6eZ3Zs",
-            "type": "video",
             "description": "Video series covering MAS fundamentals, including agent types, environments, and collaborative/adversarial architectures."
           }
         ],
         "researchPapers": [
           {
             "title": "Learning to Communicate and Align Intentions in Multi-Agent Systems",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2304.12345",
-            "summary": "",
-            "keyIdea": "This paper explores how multi-agent systems develop communication protocols to align intentions and coordinate actions in decentralized environments."
+            "keyIdea": "This paper explores how multi-agent systems develop communication protocols to align intentions and coordinate actions in decentralized environments.",
+            "url": "https://arxiv.org/abs/2304.12345"
           },
           {
             "title": "Emergent Communication in Multi-Agent Reinforcement Learning: A Survey",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2301.09876",
-            "summary": "",
-            "keyIdea": "A comprehensive review of mechanisms enabling agents to develop shared communication strategies without explicit instruction in MARL frameworks."
+            "keyIdea": "A comprehensive review of mechanisms enabling agents to develop shared communication strategies without explicit instruction in MARL frameworks.",
+            "url": "https://arxiv.org/abs/2301.09876"
           },
           {
             "title": "Strategic Alliance Formation in Multi-Agent Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/10012345",
-            "summary": "",
-            "keyIdea": "Investigates how agents dynamically form alliances based on learned value functions to achieve collaborative goals in competitive settings."
+            "keyIdea": "Investigates how agents dynamically form alliances based on learned value functions to achieve collaborative goals in competitive settings.",
+            "url": "https://ieeexplore.ieee.org/document/10012345"
           },
           {
             "title": "Multi-Agent Reinforcement Learning with Graph Neural Networks for Communication Modeling",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2212.05678",
-            "summary": "",
-            "keyIdea": "Applies graph neural networks to model inter-agent communication patterns and optimize alliance-based decision-making in complex environments."
+            "keyIdea": "Applies graph neural networks to model inter-agent communication patterns and optimize alliance-based decision-making in complex environments.",
+            "url": "https://arxiv.org/abs/2212.05678"
           },
           {
             "title": "Cooperative Multi-Agent Reinforcement Learning via Intent Alignment",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2401.05678",
-            "summary": "",
-            "keyIdea": "Focuses on aligning agent intentions through reward design to foster stable alliances and effective communication in cooperative tasks."
+            "keyIdea": "Focuses on aligning agent intentions through reward design to foster stable alliances and effective communication in cooperative tasks.",
+            "url": "https://arxiv.org/abs/2401.05678"
           }
         ],
         "books": [
           {
             "title": "Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Perspectives",
             "author": "Yoav Shoham and Kevin Leyton-Brown",
-            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Perspectives/dp/0521899851",
+            "rating": 4.5,
             "description": "This foundational textbook provides a comprehensive introduction to multi-agent systems, covering topics such as distributed problem solving, game theory, and logical frameworks. It discusses communication and coordination among agents, making it essential for understanding the theoretical underpinnings of MARL and alliance dynamics.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Perspectives/dp/0521899851"
           },
           {
             "title": "Multi-Agent Reinforcement Learning: From Principles to Applications",
             "author": "Chao Yu, Jiarui Liu, et al.",
-            "url": "https://www.amazon.com/Multi-Agent-Reinforcement-Learning-Applications-Artificial-Intelligence/dp/981124334X",
+            "rating": 4.7,
             "description": "This book focuses on multi-agent reinforcement learning (MARL), emphasizing practical algorithms and applications. It addresses communication challenges in multi-agent environments and explores strategies for forming alliances and cooperative behaviors. Ideal for readers seeking applied knowledge in MARL.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Multi-Agent-Reinforcement-Learning-Applications-Artificial-Intelligence/dp/981124334X"
           },
           {
             "title": "Reinforcement Learning: An Introduction",
             "author": "Richard S. Sutton and Andrew G. Barto",
-            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249",
+            "rating": 4.7,
             "description": "While primarily on single-agent RL, this classic text includes a chapter on multi-agent scenarios, discussing coordination, competition, and communication. It's highly recommended for its accessibility and foundational coverage of RL concepts relevant to MARL.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249"
           },
           {
             "title": "Distributed Multi-Agent Reinforcement Learning: A Game-Theoretic Approach",
             "author": "Boutil B., Hoen A., et al.",
-            "url": "https://www.amazon.com/Distributed-Multi-Agent-Reinforcement-Learning-Game-Theoretic-Approach/dp/1108475343",
+            "rating": 4.6,
             "description": "This book explores distributed MARL through game theory, focusing on communication protocols and alliance strategies in decentralized systems. It bridges theory and practice for complex multi-agent interactions.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Distributed-Multi-Agent-Reinforcement-Learning-Game-Theoretic-Approach/dp/1108475343"
           },
           {
             "title": "Multi-Agent Systems: A Modern Introduction",
             "author": "Levente Kiraly and Daniel S. Bernstein",
-            "url": "https://www.amazon.com/Multi-Agent-Systems-Modern-Introduction-Artificial-Intelligence/dp/1108475343",
+            "rating": 4.4,
             "description": "A contemporary textbook that integrates modern developments in multi-agent systems, including communication models and collaborative decision-making. It covers theoretical foundations and practical implementations, particularly useful for understanding alliance strategies in MARL.",
-            "rating": 4.4
+            "url": "https://www.amazon.com/Multi-Agent-Systems-Modern-Introduction-Artificial-Intelligence/dp/1108475343"
           }
         ],
         "practiceProblems": [
@@ -626,9 +588,7 @@ Refine project implementations through peer feedback and optimize alliance strat
           }
         ],
         "flashcards": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
@@ -637,76 +597,61 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Game Theory: Nash Equilibrium Explained",
             "url": "https://www.coursera.org/learn/game-theory",
-            "type": "video",
             "description": "Covers foundational concepts including Nash equilibrium, prisoner's dilemma, and zero-sum games through video lectures by Stanford professors."
           },
           {
+            "type": "article",
             "title": "Game Theory in Multi-Agent Reinforcement Learning: A Primer",
             "url": "https://towardsdatascience.com/game-theory-in-multi-agent-reinforcement-learning-5d1c5e7b9f3e",
-            "type": "article",
             "description": "Explains core game theory concepts like Nash equilibrium and their application in MARL scenarios involving communication and strategic alliances."
           },
           {
+            "type": "documentation",
             "title": "PettingZoo: Multi-Agent RL Environment Documentation",
             "url": "https://pettingzoo.farama.org/",
-            "type": "documentation",
             "description": "Includes theoretical background on game theory concepts such as zero-sum games and equilibrium strategies in multi-agent systems."
           },
           {
+            "type": "article",
             "title": "Prisoner's Dilemma in Multi-Agent Systems",
             "url": "https://www.researchgate.net/publication/326719845_Game-Theoretic_Analysis_of_Multi-Agent_Reinforcement_Learning_with_Application_to_Resource_Allocation",
-            "type": "article",
             "description": "Analyzes prisoner's dilemma in MARL contexts and how it relates to cooperation and communication among agents."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning: Foundations and Applications",
             "url": "https://www.youtube.com/watch?v=Jm3Kj2JjJj0",
-            "type": "video",
             "description": "Discusses game theory principles in MARL, including zero-sum games and alliance formation strategies."
           }
         ],
         "researchPapers": [
           {
             "title": "Bargaining-Based Multi-Agent Reinforcement Learning for Dynamic Spectrum Access in UAV-Enabled IoT Networks",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/10123456",
-            "summary": "",
-            "keyIdea": "Uses bargaining game theory to enable UAV agents to dynamically allocate spectrum resources through cooperative negotiation in IoT networks."
+            "keyIdea": "Uses bargaining game theory to enable UAV agents to dynamically allocate spectrum resources through cooperative negotiation in IoT networks.",
+            "url": "https://ieeexplore.ieee.org/document/10123456"
           },
           {
             "title": "Learning to Negotiate in Multi-Agent Systems",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/pdf/2310.12345.pdf",
-            "summary": "",
-            "keyIdea": "Applies game-theoretic negotiation frameworks to train agents to form alliances and reach cooperative agreements in multi-agent environments."
+            "keyIdea": "Applies game-theoretic negotiation frameworks to train agents to form alliances and reach cooperative agreements in multi-agent environments.",
+            "url": "https://arxiv.org/pdf/2310.12345.pdf"
           },
           {
             "title": "Coalition Formation in Multi-Agent Reinforcement Learning via Graph Neural Networks",
-            "authors": "",
-            "year": "",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0004370223001234",
-            "summary": "",
-            "keyIdea": "Introduces a graph neural network approach to model and optimize coalition formation among agents using cooperative game theory principles."
+            "keyIdea": "Introduces a graph neural network approach to model and optimize coalition formation among agents using cooperative game theory principles.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0004370223001234"
           },
           {
             "title": "Communication-Efficient Multi-Agent Reinforcement Learning with Game-Theoretic Incentives",
-            "authors": "",
-            "year": "",
-            "url": "https://proceedings.neurips.cc/paper/2023/hash/abc123def456",
-            "summary": "",
-            "keyIdea": "Designed a communication protocol where agents strategically share information to achieve coordination based on game-theoretic incentives."
+            "keyIdea": "Designed a communication protocol where agents strategically share information to achieve coordination based on game-theoretic incentives.",
+            "url": "https://proceedings.neurips.cc/paper/2023/hash/abc123def456"
           },
           {
             "title": "Dynamic Alliance Formation in Multi-Agent Systems Using Reinforcement Learning and Game Theory",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2208.09876",
-            "summary": "",
-            "keyIdea": "Develops a framework for agents to dynamically form and dissolve alliances while optimizing long-term collective rewards through hybrid RL and game theory methods."
+            "keyIdea": "Develops a framework for agents to dynamically form and dissolve alliances while optimizing long-term collective rewards through hybrid RL and game theory methods.",
+            "url": "https://arxiv.org/abs/2208.09876"
           }
         ],
         "practiceProblems": [
@@ -761,9 +706,7 @@ Refine project implementations through peer feedback and optimize alliance strat
         ],
         "flashcards": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
@@ -772,33 +715,33 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning",
             "url": "https://arxiv.org/abs/1605.06676",
-            "type": "article",
             "description": "This paper explores how agents learn to communicate through a differentiable communication channel without explicit protocols, focusing on emergent communication strategies in MARL."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning - Communication and Coordination Tutorial",
             "url": "https://www.google.com/search?q=Multi-Agent+Reinforcement+Learning+Communication+Coordination+Tutorial",
-            "type": "video",
             "description": "A video lecture covering message passing systems, signal design, and coordination mechanisms in MARL, with practical examples and algorithmic implementations."
           },
           {
+            "type": "documentation",
             "title": "PettingZoo: Multi-Agent Reinforcement Learning Documentation",
             "url": "https://pettingzoo.farama.org/",
-            "type": "documentation",
             "description": "Official documentation for PettingZoo, a library for multi-agent RL, including tutorials on communication protocols and alliance formation in multi-agent environments."
           },
           {
+            "type": "article",
             "title": "Emergent Communication in Multi-Agent Systems",
             "url": "https://lilianweng.github.io/posts/2021-06-07-emergent-communication/",
-            "type": "article",
             "description": "An in-depth article analyzing how communication protocols emerge in MARL through training, with examples of signal design and coordination for collaborative tasks."
           },
           {
+            "type": "documentation",
             "title": "RLlib Multi-Agent API Documentation",
             "url": "https://docs.ray.io/en/latest/rllib/multi_agent/multi_agent.html",
-            "type": "documentation",
             "description": "Ray RLlib's documentation for multi-agent communication APIs, covering implementation of message passing, shared policies, and alliance-based coordination strategies."
           }
         ],
@@ -806,72 +749,57 @@ Refine project implementations through peer feedback and optimize alliance strat
           {
             "title": "Multi-Agent Reinforcement Learning: Foundations and Frontiers",
             "author": "Zhu, Song, et al.",
-            "url": "https://www.amazon.com/Multi-Agent-Reinforcement-Learning-Foundations-Frontiers/dp/3031075202",
+            "rating": 4.8,
             "description": "This book provides a comprehensive overview of MARL, including advanced topics like communication protocols, coordination strategies, and alliance formation. It is highly recommended for its theoretical depth and practical insights into multi-agent interactions.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Multi-Agent-Reinforcement-Learning-Foundations-Frontiers/dp/3031075202"
           },
           {
             "title": "Reinforcement Learning: An Introduction",
             "author": "Sutton, Richard S., and Barto, Andrew G.",
-            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249",
+            "rating": 4.7,
             "description": "While primarily focused on single-agent RL, the second edition includes a dedicated chapter on multi-agent systems, discussing communication and coordination in MARL environments. It is recommended for its clarity and foundational coverage.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249"
           },
           {
             "title": "Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations",
             "author": "Shoham, Yoav, and Leyton-Brown, Kevin",
-            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Foundations/dp/052185683X",
+            "rating": 4.3,
             "description": "A foundational textbook covering game theory and algorithmic approaches in multi-agent systems. It addresses alliance formation and cooperative strategies, making it valuable for understanding theoretical underpinnings of MARL communication.",
-            "rating": 4.3
+            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Foundations/dp/052185683X"
           },
           {
             "title": "Cooperative Multi-Agent Reinforcement Learning: An AI Perspective",
             "author": "Zhang, Zhuoran, et al.",
-            "url": "https://www.morganclaypool.com/doi/abs/10.2200/S01067ED1V01Y202101AIM047",
+            "rating": 4.6,
             "description": "Focuses on cooperative frameworks in MARL, including communication protocols and alliance strategies. It bridges AI theory with real-world applications, ideal for researchers interested in collaborative agent systems.",
-            "rating": 4.6
+            "url": "https://www.morganclaypool.com/doi/abs/10.2200/S01067ED1V01Y202101AIM047"
           }
         ],
         "researchPapers": [
           {
             "title": "Emergent Communication in Multi-Agent Systems: A Survey",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2305.08509",
-            "summary": "",
-            "keyIdea": "This survey explores how multi-agent systems develop communication protocols through reinforcement learning, focusing on emergence, scalability, and coordination mechanisms."
+            "keyIdea": "This survey explores how multi-agent systems develop communication protocols through reinforcement learning, focusing on emergence, scalability, and coordination mechanisms.",
+            "url": "https://arxiv.org/abs/2305.08509"
           },
           {
             "title": "Learning to Communicate and Collaborate in Multi-Agent Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2303.12230",
-            "summary": "",
-            "keyIdea": "The paper introduces a framework for learning communication policies in MARL to enable agents to form dynamic alliances and share information effectively."
+            "keyIdea": "The paper introduces a framework for learning communication policies in MARL to enable agents to form dynamic alliances and share information effectively.",
+            "url": "https://arxiv.org/abs/2303.12230"
           },
           {
             "title": "Graph-Based Communication Protocols in Multi-Agent Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2306.04730",
-            "summary": "",
-            "keyIdea": "Proposes a graph neural network approach to model and optimize communication strategies among agents in cooperative and competitive MARL tasks."
+            "keyIdea": "Proposes a graph neural network approach to model and optimize communication strategies among agents in cooperative and competitive MARL tasks.",
+            "url": "https://arxiv.org/abs/2306.04730"
           },
           {
             "title": "Attention-Based Communication for Multi-Agent Collaboration",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2307.01345",
-            "summary": "",
-            "keyIdea": "Uses attention mechanisms to allow agents in MARL to selectively focus on relevant communication signals, enhancing alliance formation and task execution."
+            "keyIdea": "Uses attention mechanisms to allow agents in MARL to selectively focus on relevant communication signals, enhancing alliance formation and task execution.",
+            "url": "https://arxiv.org/abs/2307.01345"
           },
           {
             "title": "Scalable Multi-Agent Reinforcement Learning via Decentralized Communication Protocols",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2309.05678",
-            "summary": "",
-            "keyIdea": "Presents a decentralized protocol design that enables scalable communication in large-scale MARL environments without centralized control."
+            "keyIdea": "Presents a decentralized protocol design that enables scalable communication in large-scale MARL environments without centralized control.",
+            "url": "https://arxiv.org/abs/2309.05678"
           }
         ],
         "flashcards": [
@@ -912,38 +840,6 @@ Refine project implementations through peer feedback and optimize alliance strat
           },
           {
             "id": 8,
-            "front": "What are common information sharing strategies in MARL?",
-            "back": "Strategies include broadcasting information to all agents, selective sharing with relevant agents only, or using a shared memory structure to store and retrieve collective knowledge."
-          },
-          {
-            "front": "What are the two primary types of communication protocols in MARL?",
-            "back": "Explicit communication involves direct message passing between agents, while implicit communication occurs through indirect signals or learned behaviors without explicit messaging."
-          },
-          {
-            "front": "Describe message passing in MARL communication protocols.",
-            "back": "Message passing enables agents to exchange structured information (e.g., observations, intentions, or policies) directly, facilitating coordination and joint decision-making in complex environments."
-          },
-          {
-            "front": "What is signal design in MARL?",
-            "back": "Signal design refers to how agents encode and transmit information (e.g., actions, observations) into meaningful signals optimized during training to ensure effective interpretation by other agents."
-          },
-          {
-            "front": "How do agents coordinate in MARL without explicit communication?",
-            "back": "Through shared reward functions, observing each other's actions, or implicit signaling via behaviors that influence others' policies without direct messaging."
-          },
-          {
-            "front": "What distinguishes centralized from decentralized communication protocols in MARL?",
-            "back": "Centralized protocols use a shared channel or mediator to coordinate information flow, while decentralized protocols allow agents to communicate directly after training, enabling distributed decision-making."
-          },
-          {
-            "front": "What are key challenges in MARL communication protocols?",
-            "back": "Challenges include scalability (managing many agents), information overload (too much data), and security risks (agents may send misleading or malicious signals)."
-          },
-          {
-            "front": "How do alliances form in MARL?",
-            "back": "Alliances emerge when agents form temporary or dynamic partnerships based on shared goals, mutual benefits, or reward structures to improve collective performance in cooperative tasks."
-          },
-          {
             "front": "What are common information sharing strategies in MARL?",
             "back": "Strategies include broadcasting information to all agents, selective sharing with relevant agents only, or using a shared memory structure to store and retrieve collective knowledge."
           }
@@ -1010,9 +906,7 @@ Refine project implementations through peer feedback and optimize alliance strat
             "reasoning": "CTDE leverages centralized training to aggregate experiences or value information for learning policies, while agents act independently during execution. Real-time coordination (option 2) contradicts decentralization, and gradient exchange (option 3) pertains to distributed learning frameworks."
           }
         ],
-        "practiceProblems": [],
-        "completed": false,
-        "completedAt": null
+        "practiceProblems": []
       },
       {
         "id": "node-4",
@@ -1023,37 +917,37 @@ Refine project implementations through peer feedback and optimize alliance strat
           {
             "title": "Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations",
             "author": "Yoav Shoham and Kevin Leyton-Brown",
-            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Foundations/dp/0521897127",
+            "rating": 4.5,
             "description": "A foundational textbook covering coalition formation, game theory, and strategic decision-making in multi-agent systems. It provides theoretical and algorithmic insights into forming alliances and coordinating agents, making it essential for understanding core concepts in MARL.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Multiagent-Systems-Algorithmic-Game-Theoretic-Foundations/dp/0521897127"
           },
           {
             "title": "Reinforcement Learning: An Introduction",
             "author": "Richard S. Sutton and Andrew G. Barto",
-            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249",
+            "rating": 4.7,
             "description": "Though focused on RL, this book includes a dedicated chapter on multi-agent RL, addressing communication, coordination, and alliance strategies. Its rigorous treatment of learning algorithms and practical examples make it a must-read for MARL practitioners.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249"
           },
           {
             "title": "Multi-Agent Reinforcement Learning: Fundamentals and Applications",
             "author": "Kaisa-Maija Koponen, Mikko Laakso, and Vesa Nieminen",
-            "url": "https://www.springer.com/gp/book/9783030300239",
+            "rating": 4.6,
             "description": "Focused on MARL, this book explores coalition formation, communication protocols, and alliance strategies through real-world applications. It bridges theory and practice, offering insights into designing collaborative multi-agent systems.",
-            "rating": 4.6
+            "url": "https://www.springer.com/gp/book/9783030300239"
           },
           {
             "title": "Game Theory and Mechanism Design in Multi-Agent Systems",
             "author": "Tuomas Sandholm",
-            "url": "https://www.amazon.com/Theory-Mechanism-Design-Multi-Agent-Systems/dp/1466514047",
+            "rating": 4.4,
             "description": "Emphasizes game-theoretic approaches to coalition formation and alliance strategies in decentralized systems. It covers auction mechanisms, strategic interactions, and incentive alignment critical for multi-agent cooperation.",
-            "rating": 4.4
+            "url": "https://www.amazon.com/Theory-Mechanism-Design-Multi-Agent-Systems/dp/1466514047"
           },
           {
             "title": "Artificial Intelligence: A Modern Approach",
             "author": "Stuart Russell and Peter Norvig",
-            "url": "https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0134611089",
+            "rating": 4.8,
             "description": "A comprehensive AI textbook with a dedicated section on multi-agent systems, including coalition building and communication strategies. It combines foundational knowledge with advanced topics, making it a versatile resource for understanding agent interactions.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0134611089"
           }
         ],
         "flashcards": [
@@ -1096,69 +990,37 @@ Refine project implementations through peer feedback and optimize alliance strat
             "id": 8,
             "front": "Provide an example of Coalition Instability in MARL.",
             "back": "Three agents A, B, and C form a coalition. If A and B can achieve a higher combined reward by defecting and forming a new coalition without C, while C cannot improve alone, the original alliance becomes unstable due to the incentive for A and B to deviate."
-          },
-          {
-            "front": "What is the Stable Marriage Algorithm in Multi-Agent Reinforcement Learning (MARL)?",
-            "back": "A method for matching agents into stable pairs or groups such that no two agents prefer each other over their current partners. Applied to form alliances where no agent has an incentive to deviate, ensuring long-term stability in cooperative strategies."
-          },
-          {
-            "front": "Define Coalition Stability in MARL.",
-            "back": "A coalition is stable if no subset of agents can form a new alliance or deviate and achieve a higher collective reward or utility than their current arrangement. Stability ensures resistance to internal disagreements and external defection."
-          },
-          {
-            "front": "How does the Gale-Shapley Algorithm apply to coalition formation in MARL?",
-            "back": "It is a iterative process where agents propose and reject partnerships based on ranked preferences. Used to compute stable matchings in two-sided markets (e.g., buyer-seller alliances), ensuring no blocking pairs exist that could form a mutually beneficial coalition outside the current arrangement."
-          },
-          {
-            "front": "What is the Shapley Value in the context of MARL alliances?",
-            "back": "A solution concept from cooperative game theory that fairly distributes rewards among coalition members based on their marginal contributions to all possible sub-coalitions. Ensures efficiency, symmetry, and additivity in value allocation."
-          },
-          {
-            "front": "What is the Core in Coalitional Game Theory for MARL?",
-            "back": "The set of reward allocations where no coalition can improve its total payoff by forming a separate alliance. A core allocation is stable because no subgroup has an incentive to break away, ensuring collective rationality."
-          },
-          {
-            "front": "How do Dynamic Coalitions differ from Static Coalitions in MARL?",
-            "back": "Dynamic coalitions allow agents to join, leave, or reform alliances over time based on changing rewards or environmental conditions. Static coalitions are fixed once formed, requiring pre-defined agreements and often used in simpler, stable environments."
-          },
-          {
-            "front": "What negotiation strategies are critical for forming alliances in MARL?",
-            "back": "Strategies include iterative proposal-rejection protocols, communication of utility thresholds, and reputation-based trust mechanisms. Agents may use signaling (e.g., willingness to cooperate) and bargaining to reach mutually beneficial agreements."
-          },
-          {
-            "front": "Provide an example of Coalition Instability in MARL.",
-            "back": "Three agents A, B, and C form a coalition. If A and B can achieve a higher combined reward by defecting and forming a new coalition without C, while C cannot improve alone, the original alliance becomes unstable due to the incentive for A and B to deviate."
           }
         ],
         "resources": [
           {
+            "type": "article",
             "title": "Hedwig: A Framework for Learning Coalition Formation and Alliance Strategies in Multi-Agent Reinforcement Learning",
             "url": "https://arxiv.org/abs/2106.08867",
-            "type": "article",
             "description": "This paper introduces the Hedwig framework for modeling coalition formation in MARL, focusing on dynamic alliances and stability mechanisms. It covers algorithms for formation and maintenance of coalitions with practical implementations."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning (CS234) - Lecture on Coalition Formation",
             "url": "https://www.youtube.com/watch?v=8u3TARxY3hQ",
-            "type": "video",
             "description": "A university lecture explaining MARL concepts, including coalition formation strategies, stability criteria, and examples of multi-agent collaboration using reinforcement learning techniques."
           },
           {
+            "type": "article",
             "title": "Stable Marriage Algorithm Explained (GeeksforGeeks)",
             "url": "https://www.geeksforgeeks.org/gale-shapley-algorithm-for-stable-marriage-problem/",
-            "type": "article",
             "description": "An introductory article detailing the Gale-Shapley algorithm for solving the stable marriage problem, which serves as a foundational model for understanding stable coalition formation in agent systems."
           },
           {
+            "type": "documentation",
             "title": "Coalition Formation in Multi-Agent Systems (Springer Book Chapter)",
             "url": "https://www.google.com/search?q=springer+coalition+formation+multi-agent+systems+book",
-            "type": "documentation",
             "description": "A comprehensive overview of coalition formation strategies in multi-agent systems, including stability models, negotiation protocols, and applications in reinforcement learning contexts."
           },
           {
+            "type": "video",
             "title": "Alliance Strategies in Multi-Agent Systems (Tutorial)",
             "url": "https://www.youtube.com/watch?v=5vXZ1uJZ1bM",
-            "type": "video",
             "description": "This tutorial explores how agents form and maintain alliances in MARL environments, covering communication protocols and strategies to ensure long-term coalition stability."
           }
         ],
@@ -1195,9 +1057,7 @@ Refine project implementations through peer feedback and optimize alliance strat
           }
         ],
         "researchPapers": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
@@ -1206,33 +1066,33 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "PettingZoo Reward Shaping Guide",
             "url": "https://pettingzoo.farama.org/content/reward_shaping/",
-            "type": "documentation",
             "description": "Explains reward structuring strategies in multi-agent environments, focusing on collective vs individual incentives and their impact on cooperation and competition dynamics."
           },
           {
+            "type": "article",
             "title": "Reward Design in Multi-Agent Reinforcement Learning: Challenges and Solutions",
             "url": "https://towardsdatascience.com/reward-design-in-multi-agent-reinforcement-learning-challenges-and-solutions-6a0a4b5a1e5a",
-            "type": "article",
             "description": "Discusses reward design challenges in MARL, including credit assignment, emergent communication, and balancing individual vs. team rewards to achieve stable learning."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning: Challenges and Solutions (Lecture)",
             "url": "https://www.youtube.com/watch?v=4Jq0qjB0Z1w",
-            "type": "video",
             "description": "Covers key MARL concepts including reward design, communication protocols, and alliance formation, with practical examples of individual vs. collective reward structures."
           },
           {
+            "type": "documentation",
             "title": "RLlib Multi-Agent Environments Guide",
             "url": "https://docs.ray.io/en/latest/rllib/rllib-env.html#multi-agent-environments",
-            "type": "documentation",
             "description": "Details implementation of multi-agent reward systems in RLlib, including shared vs. independent reward mechanisms and strategies for aligning agent objectives."
           },
           {
+            "type": "article",
             "title": "Emergent Communication in Multi-Agent Systems (Survey)",
             "url": "https://arxiv.org/abs/1605.06676",
-            "type": "article",
             "description": "Explores how reward design influences emergent communication and alliance formation in MARL, highlighting trade-offs between individual and collective success."
           }
         ],
@@ -1240,9 +1100,7 @@ Refine project implementations through peer feedback and optimize alliance strat
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
@@ -1251,33 +1109,33 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "4 hours",
         "resources": [
           {
+            "type": "article",
             "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
             "url": "https://arxiv.org/abs/1803.11473",
-            "type": "article",
             "description": "Original paper introducing QMIX, which addresses credit assignment via monotonic value function factorization, enabling scalable training of cooperative multi-agent systems."
           },
           {
+            "type": "article",
             "title": "QTRAN: A One-Step Method for Partially Observable Multi-Agent Reinforcement Learning",
             "url": "https://arxiv.org/abs/1905.04622",
-            "type": "article",
             "description": "Presents QTRAN, an extension of QMIX that removes the monotonicity constraint while maintaining factorization, improving performance in complex multi-agent environments."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning with Deep Deterministic Policy Gradient (by DeepLearning.AI)",
             "url": "https://www.youtube.com/watch?v=example",
-            "type": "video",
             "description": "Covers advanced MARL concepts, including COMA's counterfactual credit assignment mechanism, in the context of communication and alliance strategies."
           },
           {
+            "type": "documentation",
             "title": "PyMARL Documentation: Implementation of QMIX, QTRAN, and COMA",
             "url": "https://github.com/oxwhirl/pymarl",
-            "type": "documentation",
             "description": "Provides code examples and explanations for implementing QMIX, QTRAN, and COMA algorithms, focusing on handling non-stationarity and credit assignment in MARL."
           },
           {
+            "type": "article",
             "title": "COMA: Counterfactual Multi-Agent Policy Gradients",
             "url": "https://arxiv.org/abs/1705.07388",
-            "type": "article",
             "description": "Original paper on COMA, which uses counterfactual baselines to solve the credit assignment problem in multi-agent settings through actor-critic methods."
           }
         ],
@@ -1285,23 +1143,19 @@ Refine project implementations through peer feedback and optimize alliance strat
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Scalability Challenges in MARL",
-        "description": "Address how to manage exponential growth in state-action spaces and computational demands.\n---",
+        "description": "Address how to manage exponential growth in state-action spaces and computational demands.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
@@ -1310,126 +1164,103 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Emergent Communication in Multi-Agent Systems",
             "url": "https://arxiv.org/abs/1608.01471",
-            "type": "article",
             "description": "This paper explores how agents in MARL can develop communication protocols organically, focusing on emergent signaling and coordination without explicit programming."
           },
           {
+            "type": "article",
             "title": "Multi-Agent Actor-Critic with Shared Experience (MAAC)",
             "url": "https://arxiv.org/abs/1805.03154",
-            "type": "article",
             "description": "Discusses a method for efficient information sharing in large-scale MAS using shared experience replay and centralized training with decentralized execution."
           },
           {
+            "type": "documentation",
             "title": "PyMARL: A PyTorch-based Framework for Multi-Agent Reinforcement Learning",
             "url": "https://github.com/oxwhirl/pymarl",
-            "type": "documentation",
             "description": "Provides code examples and implementation details for MARL algorithms, including communication strategies and decentralized frameworks."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning: Communication and Coordination",
             "url": "https://www.youtube.com/watch?v=Qv0VZ7YwDkE",
-            "type": "video",
             "description": "Lecture on how agents communicate and coordinate in MARL, covering theoretical foundations and practical frameworks like QMIX and COMA."
           },
           {
+            "type": "article",
             "title": "Credit Assignment in Multi-Agent Reinforcement Learning: A Literature Review",
             "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1631/1/012014/meta",
-            "type": "article",
             "description": "Reviews credit assignment mechanisms critical for alliance formation and communication effectiveness in decentralized MAS."
           }
         ],
         "researchPapers": [
           {
             "title": "Attention-based communication in multi-agent reinforcement learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2205.11790",
-            "summary": "",
-            "keyIdea": "Utilizes attention mechanisms to enable selective and structured information exchange between agents, enhancing coordination efficiency in multi-agent environments."
+            "keyIdea": "Utilizes attention mechanisms to enable selective and structured information exchange between agents, enhancing coordination efficiency in multi-agent environments.",
+            "url": "https://arxiv.org/abs/2205.11790"
           },
           {
             "title": "Learning Dynamic Alliance Formation in Multi-Agent Systems",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2301.04567",
-            "summary": "",
-            "keyIdea": "Introduces a framework where agents dynamically form alliances based on evolving task requirements and payoffs using reinforcement learning and game-theoretic strategies."
+            "keyIdea": "Introduces a framework where agents dynamically form alliances based on evolving task requirements and payoffs using reinforcement learning and game-theoretic strategies.",
+            "url": "https://arxiv.org/abs/2301.04567"
           },
           {
             "title": "Emergent Communication through Multi-Agent Reinforcement Learning for Collaborative Tasks",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2106.03458",
-            "summary": "",
-            "keyIdea": "Demonstrates how agents can develop intrinsic communication protocols to solve collaborative tasks without explicit design of message structures."
+            "keyIdea": "Demonstrates how agents can develop intrinsic communication protocols to solve collaborative tasks without explicit design of message structures.",
+            "url": "https://arxiv.org/abs/2106.03458"
           },
           {
             "title": "Scalable Multi-Agent Reinforcement Learning using Graph Neural Networks with Structured Communication",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2209.01234",
-            "summary": "",
-            "keyIdea": "Combines graph neural networks with hierarchical communication architectures to achieve scalable and efficient coordination in large-scale multi-agent scenarios."
+            "keyIdea": "Combines graph neural networks with hierarchical communication architectures to achieve scalable and efficient coordination in large-scale multi-agent scenarios.",
+            "url": "https://arxiv.org/abs/2209.01234"
           },
           {
             "title": "Temporal Message Passing for Cooperative Multi-Agent Reinforcement Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2207.04561",
-            "summary": "",
-            "keyIdea": "Incorporates temporal message passing mechanisms to allow agents to maintain and propagate historical information for long-term cooperative decision-making."
+            "keyIdea": "Incorporates temporal message passing mechanisms to allow agents to maintain and propagate historical information for long-term cooperative decision-making.",
+            "url": "https://arxiv.org/abs/2207.04561"
           }
         ],
         "flashcards": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Dynamic Alliance Management",
-        "description": "Learn strategies for adaptive alliance formation under changing environmental conditions and agent behaviors.\n---",
+        "description": "Learn strategies for adaptive alliance formation under changing environmental conditions and agent behaviors.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Multi-Agent Credit Assignment",
-        "description": "Tackle advanced techniques for attributing rewards to individual agents in collaborative settings.\n---",
+        "description": "Tackle advanced techniques for attributing rewards to individual agents in collaborative settings.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Hierarchical MARL and Strategic Planning",
-        "description": "Explore hierarchical decision-making and long-term strategic planning in multi-agent contexts.\n---",
+        "description": "Explore hierarchical decision-making and long-term strategic planning in multi-agent contexts.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
@@ -1438,33 +1269,33 @@ Refine project implementations through peer feedback and optimize alliance strat
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Multi-Agent Reinforcement Learning for Alliance Formation and Communication in Dynamic Environments",
             "url": "https://arxiv.org/abs/2106.05953",
-            "type": "article",
             "description": "Explores how agents use graph neural networks to dynamically form alliances and communicate strategies in complex, real-world scenarios like disaster response and traffic management."
           },
           {
+            "type": "video",
             "title": "Multi-Agent Reinforcement Learning for Autonomous Driving | DeepLearning.AI",
             "url": "https://www.youtube.com/watch?v=JZvVZk3qBzE",
-            "type": "video",
             "description": "Discusses how MARL enables vehicle-to-vehicle communication, cooperative decision-making, and alliance formation for traffic optimization and collision avoidance."
           },
           {
+            "type": "article",
             "title": "Real-World Multi-Agent Navigation Using Learned Communication Policies",
             "url": "https://www.mdpi.com/2079-9292/10/20/2525",
-            "type": "article",
             "description": "Case study on robotic teams using MARL to navigate dynamically through communication protocols that adapt to environmental changes and task priorities."
           },
           {
+            "type": "documentation",
             "title": "PettingZoo Documentation: Multi-Agent Reinforcement Learning Environments",
             "url": "https://pettingzoo.farama.org/",
-            "type": "documentation",
             "description": "Provides practical examples and tools for implementing MARL systems, including cooperative resource allocation and competitive alliance-building scenarios in simulations."
           },
           {
+            "type": "video",
             "title": "Coordinated Multi-Agent Systems in Smart Grids | ICAPS 2022",
             "url": "https://www.youtube.com/watch?v=4XZ3h0bQJ5c",
-            "type": "video",
             "description": "Showcases how MARL optimizes energy distribution, demand response, and resource management through agent communication and strategic alliance formation."
           }
         ],
@@ -1472,56 +1303,48 @@ Refine project implementations through peer feedback and optimize alliance strat
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Research Frontiers in MARL",
-        "description": "Study cutting-edge research on topics like emergent communication, self-supervised teamwork, and transfer learning.\n---",
+        "description": "Study cutting-edge research on topics like emergent communication, self-supervised teamwork, and transfer learning.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "Hands-On Project: MARL Simulation with Alliances",
-        "description": "Implement a MARL environment where agents must form and adapt alliances to solve complex tasks.\n---",
+        "description": "Implement a MARL environment where agents must form and adapt alliances to solve complex tasks.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-15",
         "title": "Peer Review and Optimization",
-        "description": "Refine project implementations through peer feedback and optimize alliance strategies using advanced MARL techniques.\n---",
+        "description": "Refine project implementations through peer feedback and optimize alliance strategies using advanced MARL techniques.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Multi-Agent Reinforcement Learning (MARL) and communication and alliance",
     "isFinalized": true,
-    "lastUsedAt": 1788745553158
+    "lastUsedAt": 1788745928306
   }
 }
 EDU_ASSIST_METADATA_END -->
