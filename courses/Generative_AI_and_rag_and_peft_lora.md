@@ -145,7 +145,6 @@ Discover why PEFT is essential for adapting large models without full retraining
 
 **Description:**
 Practice integrating LoRA into pre-trained language models using libraries like Hugging Face. Compare training efficiency and performance with full fine-tuning methods.
----
 
 ---
 
@@ -155,7 +154,6 @@ Practice integrating LoRA into pre-trained language models using libraries like 
 
 **Description:**
 Study hybrid RAG systems that combine multiple retrieval strategies (e.g., dense/sparse retrieval), query expansion, and multi-hop reasoning for complex information synthesis.
----
 
 ---
 
@@ -165,7 +163,6 @@ Study hybrid RAG systems that combine multiple retrieval strategies (e.g., dense
 
 **Description:**
 Learn techniques for selecting optimal rank values, learning rates, and regularization parameters. Understand trade-offs between model performance and parameter efficiency.
----
 
 ---
 
@@ -175,7 +172,6 @@ Learn techniques for selecting optimal rank values, learning rates, and regulari
 
 **Description:**
 Explore applying LoRA to vision-language models (e.g., Flamingo, LLaVA) and other multimodal architectures. Address challenges in aligning parameters across different modalities.
----
 
 ---
 
@@ -185,7 +181,6 @@ Explore applying LoRA to vision-language models (e.g., Flamingo, LLaVA) and othe
 
 **Description:**
 Understand evaluation metrics for generative models (e.g., BLEU, ROUGE, human preference studies). Learn methods for assessing factual accuracy, coherence, and diversity in outputs.
----
 
 ---
 
@@ -195,7 +190,6 @@ Understand evaluation metrics for generative models (e.g., BLEU, ROUGE, human pr
 
 **Description:**
 Investigate advanced LoRA adaptations, including layer-wise application strategies, dynamic rank adjustment, and combinations with other PEFT methods like prefix tuning.
----
 
 ---
 
@@ -205,7 +199,6 @@ Investigate advanced LoRA adaptations, including layer-wise application strategi
 
 **Description:**
 Apply RAG to domain-specific tasks like legal document analysis, medical literature review, or enterprise search systems. Address challenges in data privacy and retrieval scalability.
----
 
 ---
 
@@ -215,7 +208,6 @@ Apply RAG to domain-specific tasks like legal document analysis, medical literat
 
 **Description:**
 Diagnose common problems in LoRA fine-tuning (e.g., overfitting, poor convergence, parameter conflicts) and implement solutions using weight merging strategies and gradient clipping.
----
 
 ---
 
@@ -225,7 +217,6 @@ Diagnose common problems in LoRA fine-tuning (e.g., overfitting, poor convergenc
 
 **Description:**
 Explore cutting-edge developments in generative models, including instruction-tuned models, agent frameworks, and alignment techniques. Stay updated with recent papers and open-source projects.
----
 
 ---
 
@@ -242,33 +233,33 @@ Explore cutting-edge developments in generative models, including instruction-tu
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Transformers Explained: The Magic Behind Generative AI Models",
             "url": "https://www.youtube.com/watch?v=4B2x1VfOlJw",
-            "type": "video",
             "description": "A beginner-friendly video explaining the transformer architecture, self-attention mechanisms, and their role in generative models like GPT and T5."
           },
           {
+            "type": "article",
             "title": "A Gentle Introduction to Diffusion Models for Image Generation",
             "url": "https://towardsdatascience.com/diffusion-models-for-image-generation-a-gentle-introduction-59d3e6a1b6d7",
-            "type": "article",
             "description": "Explains how diffusion models work, their training process, and applications in generating high-quality images, with comparisons to other generative models."
           },
           {
+            "type": "documentation",
             "title": "Hugging Face - Retrieval-Augmented Generation (RAG)",
             "url": "https://huggingface.co/docs/transformers/model_doc/rag",
-            "type": "documentation",
             "description": "Official documentation on RAG models, covering their architecture, how they combine retrieval and generation, and practical use cases."
           },
           {
+            "type": "documentation",
             "title": "Hugging Face - PEFT: Parameter-Efficient Fine-Tuning",
             "url": "https://huggingface.co/docs/peft/index",
-            "type": "documentation",
             "description": "Comprehensive guide to PEFT techniques, including LoRA (Low-Rank Adaptation), for efficient fine-tuning of large language models without full retraining."
           },
           {
+            "type": "article",
             "title": "Generative vs. Discriminative Models: A Clear Explanation",
             "url": "https://machinelearningmastery.com/generative-vs-discriminative-models/",
-            "type": "article",
             "description": "Breaks down the fundamental differences between generative and discriminative models, with examples and use cases in AI applications."
           }
         ],
@@ -388,43 +379,41 @@ Explore cutting-edge developments in generative models, including instruction-tu
           {
             "title": "Natural Language Processing with Transformers",
             "author": "Lewis Tunstall, Leandro von Werra, and Clémentine Fournier",
-            "url": "https://www.amazon.com/Natural-Language-Processing-Transformers-Learning/dp/1098103248",
+            "rating": 4.8,
             "description": "This book provides a practical guide to understanding and applying transformer models, including Retrieval-Augmented Generation (RAG) and parameter-efficient fine-tuning (PEFT) techniques like LoRA. It covers state-of-the-art NLP methods and their real-world applications.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Natural-Language-Processing-Transformers-Learning/dp/1098103248"
           },
           {
             "title": "Generative AI: A Guide to Understanding and Applying the Latest Tools and Technologies",
             "author": "Steve Nouri",
-            "url": "https://www.amazon.com/Generative-Understanding-Applying-Technologies-Machine/dp/1835462342",
+            "rating": 4.7,
             "description": "A comprehensive introduction to generative AI, covering foundational concepts and emerging techniques such as RAG and PEFT. It explains how these methods enable efficient training and deployment of large models in resource-constrained environments.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Generative-Understanding-Applying-Technologies-Machine/dp/1835462342"
           },
           {
             "title": "Hands-On Machine Learning",
             "author": "Aurélien Géron",
-            "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+            "rating": 4.6,
             "description": "While covering a broad range of machine learning topics, this book includes sections on transformers, large language models, and advanced fine-tuning techniques like LoRA. It's recommended for its hands-on approach and up-to-date content on generative AI workflows.",
-            "rating": 4.6
+            "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/"
           },
           {
             "title": "Deep Learning for NLP and Speech Recognition",
             "author": "Umapada Pal, James L. Crowley, and Ranjit Kumar Paul",
-            "url": "https://www.springer.com/gp/book/9783030438371",
+            "rating": 4.5,
             "description": "Focuses on deep learning architectures for NLP and speech, including RAG and PEFT. It provides technical details on implementing parameter-efficient methods to optimize generative models.",
-            "rating": 4.5
+            "url": "https://www.springer.com/gp/book/9783030438371"
           },
           {
             "title": "Building Machine Learning Powered Applications",
             "author": "Emmanuel Ameisen",
-            "url": "https://www.oreilly.com/library/view/building-machine-learning/9781492053258/",
+            "rating": 4.4,
             "description": "Explores practical strategies for deploying ML systems, including generative AI and techniques like LoRA for efficient model adaptation. It bridges theory and application, ideal for understanding real-world implementations.",
-            "rating": 4.4
+            "url": "https://www.oreilly.com/library/view/building-machine-learning/9781492053258/"
           }
         ],
         "flashcards": [],
-        "researchPapers": [],
-        "completed": false,
-        "completedAt": null
+        "researchPapers": []
       },
       {
         "id": "node-2",
@@ -433,33 +422,33 @@ Explore cutting-edge developments in generative models, including instruction-tu
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Introduction to RAG and Retrieval-Augmented Generation",
             "url": "https://www.youtube.com/watch?v=8RvB9J9Jj1w",
-            "type": "video",
             "description": "This video explains the basics of RAG, its architecture, and how it enhances LLMs by integrating external knowledge for tasks like question answering."
           },
           {
+            "type": "article",
             "title": "RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
             "url": "https://huggingface.co/blog/rag",
-            "type": "article",
             "description": "Hugging Face's article provides an overview of RAG, its components, and use cases in knowledge-heavy applications, with practical examples."
           },
           {
+            "type": "documentation",
             "title": "Hugging Face RAG Documentation",
             "url": "https://huggingface.co/docs/transformers/model_doc/rag",
-            "type": "documentation",
             "description": "Official documentation detailing RAG models, including implementation guides and architectural insights for developers."
           },
           {
+            "type": "article",
             "title": "Parameter-Efficient Fine-Tuning (PEFT) with LoRA: A Practical Guide",
             "url": "https://huggingface.co/docs/peft/main/en/tutorial/peft_lora",
-            "type": "article",
             "description": "Explains LoRA and PEFT techniques, crucial for efficiently adapting large models like those used in RAG systems."
           },
           {
+            "type": "documentation",
             "title": "PEFT Library Documentation",
             "url": "https://huggingface.co/docs/peft/index",
-            "type": "documentation",
             "description": "Comprehensive guide to the PEFT library, covering LoRA and other methods to fine-tune models with reduced computational resources."
           }
         ],
@@ -467,9 +456,7 @@ Explore cutting-edge developments in generative models, including instruction-tu
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
@@ -478,33 +465,33 @@ Explore cutting-edge developments in generative models, including instruction-tu
         "estimatedTime": "2.5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "LoRA: Low-Rank Adaptation of Large Language Models",
             "url": "https://arxiv.org/abs/2106.09685",
-            "type": "article",
             "description": "Introduces LoRA technique, explaining low-rank matrix decomposition for efficient model adaptation without full retraining, including mathematical foundations."
           },
           {
+            "type": "documentation",
             "title": "Hugging Face PEFT Documentation",
             "url": "https://huggingface.co/docs/peft/index",
-            "type": "documentation",
             "description": "Official docs covering parameter-efficient fine-tuning methods, including LoRA implementation, parameter freezing strategies, and integration with generative AI models."
           },
           {
+            "type": "video",
             "title": "Parameter-Efficient Fine-Tuning (PEFT) Explained",
             "url": "https://www.youtube.com/watch?v=ZJw3Y2JZ3iE",
-            "type": "video",
             "description": "Walkthrough of PEFT principles, focusing on LoRA's role in adapting large models efficiently, with practical examples and theoretical background."
           },
           {
+            "type": "video",
             "title": "Fine-Tuning Large Language Models with PEFT & LoRA",
             "url": "https://www.youtube.com/watch?v=K0LqY8Q1gYI",
-            "type": "video",
             "description": "Covers PEFT frameworks and LoRA's application in reducing training costs while maintaining model performance, with coding demonstrations."
           },
           {
+            "type": "article",
             "title": "Understanding Parameter-Efficient Fine-Tuning (PEFT) in Generative AI",
             "url": "https://towardsdatascience.com/parameter-efficient-fine-tuning-peft-explained-6d9b7b3b3b3b",
-            "type": "article",
             "description": "Breaks down PEFT concepts, emphasizing LoRA's low-rank adaptation and parameter freezing techniques for adapting pre-trained models in generative AI workflows."
           }
         ],
@@ -512,140 +499,120 @@ Explore cutting-edge developments in generative models, including instruction-tu
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Implementing LoRA for Text Generation Models",
-        "description": "Practice integrating LoRA into pre-trained language models using libraries like Hugging Face. Compare training efficiency and performance with full fine-tuning methods.\n---",
+        "description": "Practice integrating LoRA into pre-trained language models using libraries like Hugging Face. Compare training efficiency and performance with full fine-tuning methods.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Advanced RAG Architectures",
-        "description": "Study hybrid RAG systems that combine multiple retrieval strategies (e.g., dense/sparse retrieval), query expansion, and multi-hop reasoning for complex information synthesis.\n---",
+        "description": "Study hybrid RAG systems that combine multiple retrieval strategies (e.g., dense/sparse retrieval), query expansion, and multi-hop reasoning for complex information synthesis.",
         "estimatedTime": "3.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Optimizing LoRA Hyperparameters",
-        "description": "Learn techniques for selecting optimal rank values, learning rates, and regularization parameters. Understand trade-offs between model performance and parameter efficiency.\n---",
+        "description": "Learn techniques for selecting optimal rank values, learning rates, and regularization parameters. Understand trade-offs between model performance and parameter efficiency.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "PEFT for Multimodal Generative Models",
-        "description": "Explore applying LoRA to vision-language models (e.g., Flamingo, LLaVA) and other multimodal architectures. Address challenges in aligning parameters across different modalities.\n---",
+        "description": "Explore applying LoRA to vision-language models (e.g., Flamingo, LLaVA) and other multimodal architectures. Address challenges in aligning parameters across different modalities.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Evaluating Generative AI Systems",
-        "description": "Understand evaluation metrics for generative models (e.g., BLEU, ROUGE, human preference studies). Learn methods for assessing factual accuracy, coherence, and diversity in outputs.\n---",
+        "description": "Understand evaluation metrics for generative models (e.g., BLEU, ROUGE, human preference studies). Learn methods for assessing factual accuracy, coherence, and diversity in outputs.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Advanced LoRA Techniques and Variants",
-        "description": "Investigate advanced LoRA adaptations, including layer-wise application strategies, dynamic rank adjustment, and combinations with other PEFT methods like prefix tuning.\n---",
+        "description": "Investigate advanced LoRA adaptations, including layer-wise application strategies, dynamic rank adjustment, and combinations with other PEFT methods like prefix tuning.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Integrating RAG with Real-World Applications",
-        "description": "Apply RAG to domain-specific tasks like legal document analysis, medical literature review, or enterprise search systems. Address challenges in data privacy and retrieval scalability.\n---",
+        "description": "Apply RAG to domain-specific tasks like legal document analysis, medical literature review, or enterprise search systems. Address challenges in data privacy and retrieval scalability.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Troubleshooting LoRA Implementation Issues",
-        "description": "Diagnose common problems in LoRA fine-tuning (e.g., overfitting, poor convergence, parameter conflicts) and implement solutions using weight merging strategies and gradient clipping.\n---",
+        "description": "Diagnose common problems in LoRA fine-tuning (e.g., overfitting, poor convergence, parameter conflicts) and implement solutions using weight merging strategies and gradient clipping.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Research Frontiers in Generative AI",
-        "description": "Explore cutting-edge developments in generative models, including instruction-tuned models, agent frameworks, and alignment techniques. Stay updated with recent papers and open-source projects.\n---",
+        "description": "Explore cutting-edge developments in generative models, including instruction-tuned models, agent frameworks, and alignment techniques. Stay updated with recent papers and open-source projects.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Generative AI and rag and peft lora",
     "isFinalized": true,
-    "lastUsedAt": 1788745543922
+    "lastUsedAt": 1788745914340
   }
 }
 EDU_ASSIST_METADATA_END -->
