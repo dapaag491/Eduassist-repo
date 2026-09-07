@@ -31,14 +31,6 @@ Strengthen understanding of fundamental principles like players, strategies, pay
 | Define 'dominant strategy'. | A dominant strategy is a player's strategy that yields a higher payoff than any other strategy, regardless of what other players choose. It always leads to the best outcome for the player. |
 | What is the 'Prisoner's Dilemma' and its significance? | The Prisoner's Dilemma is a game where two players face a choice between cooperation and defection. The Nash Equilibrium (both defect) results in a worse collective outcome than mutual cooperation, illustrating conflicts between individual and group rationality. |
 | What is a 'zero-sum game'? | A zero-sum game is one where the total payoff across all players sums to zero. One player's gain equals another's loss, such as in chess or poker, contrasting with non-zero-sum games where all players can benefit. |
-| What is a 'player' in game theory? | A player is an individual or entity that makes strategic decisions in a game. Each player has a set of possible actions (strategies) and aims to maximize their own payoff. |
-| Define 'pure strategy' and 'mixed strategy'. | A pure strategy is a specific, deterministic choice a player makes. A mixed strategy involves randomizing over possible actions, assigning probabilities to each. |
-| What is a 'payoff' in game theory? | A payoff is the numerical value (utility) a player receives based on the combination of strategies chosen by all players. It represents the outcome's desirability for a player. |
-| Explain 'normal-form representation' of a game. | Normal-form representation (strategic form) describes a game using players, their available strategies, and payoffs. It is typically presented as a matrix for two-player games, showing all strategy combinations and their outcomes. |
-| What is a 'Nash Equilibrium'? | A Nash Equilibrium is a set of strategies where no player can improve their payoff by unilaterally changing their strategy, assuming others keep theirs unchanged. Each player's strategy is a best response to others. |
-| Define 'dominant strategy'. | A dominant strategy is a player's strategy that yields a higher payoff than any other strategy, regardless of what other players choose. It always leads to the best outcome for the player. |
-| What is the 'Prisoner's Dilemma' and its significance? | The Prisoner's Dilemma is a game where two players face a choice between cooperation and defection. The Nash Equilibrium (both defect) results in a worse collective outcome than mutual cooperation, illustrating conflicts between individual and group rationality. |
-| What is a 'zero-sum game'? | A zero-sum game is one where the total payoff across all players sums to zero. One player's gain equals another's loss, such as in chess or poker, contrasting with non-zero-sum games where all players can benefit. |
 
 ### ✏️ Practice Problems
 
@@ -82,7 +74,6 @@ Strengthen understanding of fundamental principles like players, strategies, pay
 
 **Description:**
 Explore pure and mixed strategy profiles, payoff matrices, and best response strategies. Focus on identifying dominant strategies and saddle points.
----
 
 ---
 
@@ -92,7 +83,6 @@ Explore pure and mixed strategy profiles, payoff matrices, and best response str
 
 **Description:**
 Learn to identify and compute Nash equilibria in finite games. Practice with coordination games, prisoner's dilemma variations, and zero-sum examples.
----
 
 ---
 
@@ -102,7 +92,6 @@ Learn to identify and compute Nash equilibria in finite games. Practice with coo
 
 **Description:**
 Apply conservative decision-making techniques in zero-sum games. Solve problems involving maximin strategies for minimizing potential losses.
----
 
 ---
 
@@ -112,7 +101,6 @@ Apply conservative decision-making techniques in zero-sum games. Solve problems 
 
 **Description:**
 Understand randomized strategies in games with no pure strategy equilibrium. Calculate mixed strategy probabilities using indifference principles.
----
 
 ---
 
@@ -122,7 +110,6 @@ Understand randomized strategies in games with no pure strategy equilibrium. Cal
 
 **Description:**
 Transition from static to dynamic games using game trees. Analyze sequential moves, information sets, and subgame perfect equilibria.
----
 
 ---
 
@@ -132,7 +119,6 @@ Transition from static to dynamic games using game trees. Analyze sequential mov
 
 **Description:**
 Examine infinitely repeated interactions where players can sustain cooperative outcomes. Study trigger strategies and punishment mechanisms.
----
 
 ---
 
@@ -142,7 +128,6 @@ Examine infinitely repeated interactions where players can sustain cooperative o
 
 **Description:**
 Investigate coalition formation, core solutions, and Shapley value calculations. Compare cooperative vs non-cooperative approaches to strategic scenarios.
----
 
 ---
 
@@ -152,7 +137,6 @@ Investigate coalition formation, core solutions, and Shapley value calculations.
 
 **Description:**
 Address strategic situations with private information. Learn Bayesian Nash equilibrium and signaling/bidding models in auctions.
----
 
 ---
 
@@ -207,33 +191,33 @@ Address strategic situations with private information. Learn Bayesian Nash equil
         ],
         "resources": [
           {
+            "type": "video",
             "title": "MIT OpenCourseWare: Game Theory Course",
             "url": "https://ocw.mit.edu/courses/economics/14-123-game-theory-spring-2014/",
-            "type": "video",
             "description": "Comprehensive video lectures covering core concepts like players, strategies, payoffs, and normal-form games, with problem sets and real-world examples."
           },
           {
+            "type": "article",
             "title": "Khan Academy: Game Theory Basics Playlist",
             "url": "https://www.khanacademy.org/economics-finance-domain/microeconomics/micro-strategic-decision-making",
-            "type": "article",
             "description": "Interactive video tutorials introducing game theory fundamentals, including strategic decision-making and equilibrium concepts through visual examples."
           },
           {
+            "type": "documentation",
             "title": "Osborne & Rubinstein: A Course in Game Theory (Free Online Textbook)",
             "url": "https://www.osborne.com/courses/372.pdf",
-            "type": "documentation",
             "description": "Free textbook providing rigorous definitions of players, strategies, payoffs, and normal-form representation with mathematical examples and exercises."
           },
           {
+            "type": "documentation",
             "title": "GameTheory.net Interactive Games",
             "url": "https://www.gametheory.net/",
-            "type": "documentation",
             "description": "Interactive examples and visualizations of game theory concepts, including normal-form games, allowing hands-on exploration of strategic interactions."
           },
           {
+            "type": "article",
             "title": "Investopedia: Game Theory Definition",
             "url": "https://www.investopedia.com/terms/g/game-theory.asp",
-            "type": "article",
             "description": "Introductory article explaining core elements of game theory like players, strategies, and payoffs, with practical scenarios to illustrate normal-form representation."
           }
         ],
@@ -277,162 +261,112 @@ Address strategic situations with private information. Learn Bayesian Nash equil
             "id": 8,
             "front": "What is a 'zero-sum game'?",
             "back": "A zero-sum game is one where the total payoff across all players sums to zero. One player's gain equals another's loss, such as in chess or poker, contrasting with non-zero-sum games where all players can benefit."
-          },
-          {
-            "front": "What is a 'player' in game theory?",
-            "back": "A player is an individual or entity that makes strategic decisions in a game. Each player has a set of possible actions (strategies) and aims to maximize their own payoff."
-          },
-          {
-            "front": "Define 'pure strategy' and 'mixed strategy'.",
-            "back": "A pure strategy is a specific, deterministic choice a player makes. A mixed strategy involves randomizing over possible actions, assigning probabilities to each."
-          },
-          {
-            "front": "What is a 'payoff' in game theory?",
-            "back": "A payoff is the numerical value (utility) a player receives based on the combination of strategies chosen by all players. It represents the outcome's desirability for a player."
-          },
-          {
-            "front": "Explain 'normal-form representation' of a game.",
-            "back": "Normal-form representation (strategic form) describes a game using players, their available strategies, and payoffs. It is typically presented as a matrix for two-player games, showing all strategy combinations and their outcomes."
-          },
-          {
-            "front": "What is a 'Nash Equilibrium'?",
-            "back": "A Nash Equilibrium is a set of strategies where no player can improve their payoff by unilaterally changing their strategy, assuming others keep theirs unchanged. Each player's strategy is a best response to others."
-          },
-          {
-            "front": "Define 'dominant strategy'.",
-            "back": "A dominant strategy is a player's strategy that yields a higher payoff than any other strategy, regardless of what other players choose. It always leads to the best outcome for the player."
-          },
-          {
-            "front": "What is the 'Prisoner's Dilemma' and its significance?",
-            "back": "The Prisoner's Dilemma is a game where two players face a choice between cooperation and defection. The Nash Equilibrium (both defect) results in a worse collective outcome than mutual cooperation, illustrating conflicts between individual and group rationality."
-          },
-          {
-            "front": "What is a 'zero-sum game'?",
-            "back": "A zero-sum game is one where the total payoff across all players sums to zero. One player's gain equals another's loss, such as in chess or poker, contrasting with non-zero-sum games where all players can benefit."
           }
         ],
         "researchPapers": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Strategic Form Games Deep Dive",
-        "description": "Explore pure and mixed strategy profiles, payoff matrices, and best response strategies. Focus on identifying dominant strategies and saddle points.\n---",
+        "description": "Explore pure and mixed strategy profiles, payoff matrices, and best response strategies. Focus on identifying dominant strategies and saddle points.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Introduction to Nash Equilibrium",
-        "description": "Learn to identify and compute Nash equilibria in finite games. Practice with coordination games, prisoner's dilemma variations, and zero-sum examples.\n---",
+        "description": "Learn to identify and compute Nash equilibria in finite games. Practice with coordination games, prisoner's dilemma variations, and zero-sum examples.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Maximin/Minimax Strategies",
-        "description": "Apply conservative decision-making techniques in zero-sum games. Solve problems involving maximin strategies for minimizing potential losses.\n---",
+        "description": "Apply conservative decision-making techniques in zero-sum games. Solve problems involving maximin strategies for minimizing potential losses.",
         "estimatedTime": "1.5-2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Mixed Strategy Nash Equilibrium",
-        "description": "Understand randomized strategies in games with no pure strategy equilibrium. Calculate mixed strategy probabilities using indifference principles.\n---",
+        "description": "Understand randomized strategies in games with no pure strategy equilibrium. Calculate mixed strategy probabilities using indifference principles.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Extensive Form Games",
-        "description": "Transition from static to dynamic games using game trees. Analyze sequential moves, information sets, and subgame perfect equilibria.\n---",
+        "description": "Transition from static to dynamic games using game trees. Analyze sequential moves, information sets, and subgame perfect equilibria.",
         "estimatedTime": "3-4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Repeated Games and Folk Theorem",
-        "description": "Examine infinitely repeated interactions where players can sustain cooperative outcomes. Study trigger strategies and punishment mechanisms.\n---",
+        "description": "Examine infinitely repeated interactions where players can sustain cooperative outcomes. Study trigger strategies and punishment mechanisms.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Cooperative Game Theory",
-        "description": "Investigate coalition formation, core solutions, and Shapley value calculations. Compare cooperative vs non-cooperative approaches to strategic scenarios.\n---",
+        "description": "Investigate coalition formation, core solutions, and Shapley value calculations. Compare cooperative vs non-cooperative approaches to strategic scenarios.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Bayesian Games and Incomplete Information",
-        "description": "Address strategic situations with private information. Learn Bayesian Nash equilibrium and signaling/bidding models in auctions.\n---",
+        "description": "Address strategic situations with private information. Learn Bayesian Nash equilibrium and signaling/bidding models in auctions.",
         "estimatedTime": "2-3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Game theory",
     "isFinalized": true,
-    "lastUsedAt": 1788745552203
+    "lastUsedAt": 1788745922718
   }
 }
 EDU_ASSIST_METADATA_END -->
