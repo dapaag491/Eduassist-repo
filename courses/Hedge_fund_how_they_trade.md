@@ -11,7 +11,6 @@
 
 **Description:**
 Review core concepts of hedge funds including definition, purpose, and primary investment strategies.
----
 
 ---
 
@@ -21,7 +20,6 @@ Review core concepts of hedge funds including definition, purpose, and primary i
 
 **Description:**
 Deep dive into long/short equity strategies to address misconceptions in beginner-level understanding.
----
 
 ---
 
@@ -31,7 +29,6 @@ Deep dive into long/short equity strategies to address misconceptions in beginne
 
 **Description:**
 Explore global macro strategies focusing on economic indicators and geopolitical analysis.
----
 
 ---
 
@@ -41,7 +38,6 @@ Explore global macro strategies focusing on economic indicators and geopolitical
 
 **Description:**
 Examine risk mitigation methods used in hedge funds including leverage controls and stop-loss mechanisms.
----
 
 ---
 
@@ -51,7 +47,6 @@ Examine risk mitigation methods used in hedge funds including leverage controls 
 
 **Description:**
 Study arbitrage opportunities and relative value trading approaches.
----
 
 ---
 
@@ -61,7 +56,6 @@ Study arbitrage opportunities and relative value trading approaches.
 
 **Description:**
 Analyze complex derivatives usage for sophisticated hedging and return enhancement.
----
 
 ---
 
@@ -71,7 +65,6 @@ Analyze complex derivatives usage for sophisticated hedging and return enhanceme
 
 **Description:**
 Learn about common performance benchmarks and fee models specific to hedge funds.
----
 
 ---
 
@@ -81,7 +74,6 @@ Learn about common performance benchmarks and fee models specific to hedge funds
 
 **Description:**
 Understand legal considerations and regulatory requirements governing hedge fund operations.
----
 
 ---
 
@@ -91,7 +83,6 @@ Understand legal considerations and regulatory requirements governing hedge fund
 
 **Description:**
 Investigate market neutral strategies and optimal sector timing techniques.
----
 
 ---
 
@@ -101,7 +92,6 @@ Investigate market neutral strategies and optimal sector timing techniques.
 
 **Description:**
 Get introduced to algorithmic and quantitative methods employed by modern hedge funds.
----
 
 ---
 
@@ -111,7 +101,6 @@ Get introduced to algorithmic and quantitative methods employed by modern hedge 
 
 **Description:**
 Focus on merger arbitrage, restructuring plays, and special situations investing.
----
 
 ---
 
@@ -121,7 +110,6 @@ Focus on merger arbitrage, restructuring plays, and special situations investing
 
 **Description:**
 Study methodologies for optimal capital distribution across various hedge fund strategies.
----
 
 ---
 
@@ -131,7 +119,6 @@ Study methodologies for optimal capital distribution across various hedge fund s
 
 **Description:**
 Analyze how behavioral biases impact hedge fund decision-making and performance.
----
 
 ---
 
@@ -141,7 +128,6 @@ Analyze how behavioral biases impact hedge fund decision-making and performance.
 
 **Description:**
 Review real-world examples illustrating effective and flawed hedge fund approaches.
----
 
 ---
 
@@ -151,7 +137,6 @@ Review real-world examples illustrating effective and flawed hedge fund approach
 
 **Description:**
 Test comprehension through scenario-based questions and practical application exercises.
----
 
 ---
 
@@ -164,217 +149,187 @@ Test comprehension through scenario-based questions and practical application ex
       {
         "id": "node-1",
         "title": "Hedge Fund Fundamentals",
-        "description": "Review core concepts of hedge funds including definition, purpose, and primary investment strategies.\n---",
+        "description": "Review core concepts of hedge funds including definition, purpose, and primary investment strategies.",
         "estimatedTime": "30 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Understanding Long/Short Equity Strategies",
-        "description": "Deep dive into long/short equity strategies to address misconceptions in beginner-level understanding.\n---",
+        "description": "Deep dive into long/short equity strategies to address misconceptions in beginner-level understanding.",
         "estimatedTime": "45 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Global Macro Trading Essentials",
-        "description": "Explore global macro strategies focusing on economic indicators and geopolitical analysis.\n---",
+        "description": "Explore global macro strategies focusing on economic indicators and geopolitical analysis.",
         "estimatedTime": "50 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Intermediate Risk Management Techniques",
-        "description": "Examine risk mitigation methods used in hedge funds including leverage controls and stop-loss mechanisms.\n---",
+        "description": "Examine risk mitigation methods used in hedge funds including leverage controls and stop-loss mechanisms.",
         "estimatedTime": "45 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Arbitrage and Relative Value Strategies",
-        "description": "Study arbitrage opportunities and relative value trading approaches.\n---",
+        "description": "Study arbitrage opportunities and relative value trading approaches.",
         "estimatedTime": "55 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Advanced Derivatives in Hedge Funds",
-        "description": "Analyze complex derivatives usage for sophisticated hedging and return enhancement.\n---",
+        "description": "Analyze complex derivatives usage for sophisticated hedging and return enhancement.",
         "estimatedTime": "60 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Performance Metrics and Fee Structures",
-        "description": "Learn about common performance benchmarks and fee models specific to hedge funds.\n---",
+        "description": "Learn about common performance benchmarks and fee models specific to hedge funds.",
         "estimatedTime": "40 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Regulatory Framework and Compliance",
-        "description": "Understand legal considerations and regulatory requirements governing hedge fund operations.\n---",
+        "description": "Understand legal considerations and regulatory requirements governing hedge fund operations.",
         "estimatedTime": "35 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Market Neutrality and Sector Rotation",
-        "description": "Investigate market neutral strategies and optimal sector timing techniques.\n---",
+        "description": "Investigate market neutral strategies and optimal sector timing techniques.",
         "estimatedTime": "50 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Quantitative Trading Approaches",
-        "description": "Get introduced to algorithmic and quantitative methods employed by modern hedge funds.\n---",
+        "description": "Get introduced to algorithmic and quantitative methods employed by modern hedge funds.",
         "estimatedTime": "55 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Event-Driven Strategy Deep Dive",
-        "description": "Focus on merger arbitrage, restructuring plays, and special situations investing.\n---",
+        "description": "Focus on merger arbitrage, restructuring plays, and special situations investing.",
         "estimatedTime": "50 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Capital Allocation and Portfolio Construction",
-        "description": "Study methodologies for optimal capital distribution across various hedge fund strategies.\n---",
+        "description": "Study methodologies for optimal capital distribution across various hedge fund strategies.",
         "estimatedTime": "45 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Behavioral Finance in Hedge Fund Context",
-        "description": "Analyze how behavioral biases impact hedge fund decision-making and performance.\n---",
+        "description": "Analyze how behavioral biases impact hedge fund decision-making and performance.",
         "estimatedTime": "40 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "Case Studies: Successful and Failed Hedge Fund Strategies",
-        "description": "Review real-world examples illustrating effective and flawed hedge fund approaches.\n---",
+        "description": "Review real-world examples illustrating effective and flawed hedge fund approaches.",
         "estimatedTime": "60 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-15",
         "title": "Final Assessment and Application Practice",
-        "description": "Test comprehension through scenario-based questions and practical application exercises.\n---",
+        "description": "Test comprehension through scenario-based questions and practical application exercises.",
         "estimatedTime": "45 mins",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Hedge fund how they trade",
     "isFinalized": true,
-    "lastUsedAt": 1788745554372
+    "lastUsedAt": 1788745934058
   }
 }
 EDU_ASSIST_METADATA_END -->
