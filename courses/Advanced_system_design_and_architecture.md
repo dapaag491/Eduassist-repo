@@ -20,16 +20,16 @@ A foundational review of essential system design principles. We'll cover core co
 - [System Design Fundamentals - Tech Dummies](https://www.youtube.com/watch?v=7uCM3yJvVyI) `[video]` - Covers core system design concepts including statelessness, scalability, and architectural pattern selection.
 
 ### 📑 Research Papers
-- **Foundational Patterns in Software Architecture: A Systematic Review** - [View Paper](https://www.sciencedirect.com/science/article/pii/S0950584923000123)
-- **The Architectural Basis for Building and Operating Large-Scale Distributed Systems** - [View Paper](https://ieeexplore.ieee.org/document/9876543)
-- **Advances in Microservices Architecture and Design Principles** - [View Paper](https://www.mdpi.com/2071-1050/15/3/1234)
-- **Cloud-Native Architecture Patterns and Their Applications** - [View Paper](https://arxiv.org/abs/2305.12345)
-- **Architectural Patterns in Modern Software Engineering: Trends and Challenges** - [View Paper](https://ieeexplore.ieee.org/document/10123456)
 - **A Survey on Software Architectural Patterns: Evolution and Challenges** - [View Paper](https://scholar.google.com/scholar?q=A+Survey+on+Software+Architectural+Patterns+Evolution+and+Challenges)
 - **Foundational Principles for Scalable System Design** - [View Paper](https://arxiv.org/search/cs?searchtype=all&query=Foundational+Principles+for+Scalable+System+Design&abstracts=show&size=25&order=-announced_date_first)
 - **Architectural Patterns for Distributed Systems: A Comparative Analysis** - [View Paper](https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=Architectural+Patterns+for+Distributed+Systems+Comparative+Analysis)
 - **Design Patterns in Cloud-Native Architectures** - [View Paper](https://dl.acm.org/doi/10.1145/3584557.3584570)
 - **System Design Patterns for Real-Time Applications** - [View Paper](https://www.sciencedirect.com/search?pub=112248&qs=System+Design+Patterns+Real-Time+Applications)
+- **Foundational Patterns in Software Architecture: A Systematic Review** - [View Paper](https://www.sciencedirect.com/science/article/pii/S0950584923000123)
+- **The Architectural Basis for Building and Operating Large-Scale Distributed Systems** - [View Paper](https://ieeexplore.ieee.org/document/9876543)
+- **Advances in Microservices Architecture and Design Principles** - [View Paper](https://www.mdpi.com/2071-1050/15/3/1234)
+- **Cloud-Native Architecture Patterns and Their Applications** - [View Paper](https://arxiv.org/abs/2305.12345)
+- **Architectural Patterns in Modern Software Engineering: Trends and Challenges** - [View Paper](https://ieeexplore.ieee.org/document/10123456)
 
 ### 📖 Recommended Books
 - **Designing Data-Intensive Applications** by *Martin Kleppmann* - [Link](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
@@ -347,31 +347,6 @@ Apply the learned architectural patterns and design principles to a comprehensiv
         ],
         "researchPapers": [
           {
-            "title": "Foundational Patterns in Software Architecture: A Systematic Review",
-            "keyIdea": "Comprehensive analysis of core architectural patterns and their application in modern software systems.",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0950584923000123"
-          },
-          {
-            "title": "The Architectural Basis for Building and Operating Large-Scale Distributed Systems",
-            "keyIdea": "Explores design principles and architectural foundations for scalable and resilient distributed systems.",
-            "url": "https://ieeexplore.ieee.org/document/9876543"
-          },
-          {
-            "title": "Advances in Microservices Architecture and Design Principles",
-            "keyIdea": "Discusses design principles and emerging trends in microservices architecture for scalable system development.",
-            "url": "https://www.mdpi.com/2071-1050/15/3/1234"
-          },
-          {
-            "title": "Cloud-Native Architecture Patterns and Their Applications",
-            "keyIdea": "Investigates architectural patterns tailored for cloud-native applications and their real-world implementations.",
-            "url": "https://arxiv.org/abs/2305.12345"
-          },
-          {
-            "title": "Architectural Patterns in Modern Software Engineering: Trends and Challenges",
-            "keyIdea": "Reviews contemporary architectural patterns and addresses challenges in their adoption for modern software projects.",
-            "url": "https://ieeexplore.ieee.org/document/10123456"
-          },
-          {
             "title": "A Survey on Software Architectural Patterns: Evolution and Challenges",
             "keyIdea": "This paper surveys common software architectural patterns, analyzing their evolution, benefits, and challenges in modern system design.",
             "url": "https://scholar.google.com/scholar?q=A+Survey+on+Software+Architectural+Patterns+Evolution+and+Challenges"
@@ -395,6 +370,31 @@ Apply the learned architectural patterns and design principles to a comprehensiv
             "title": "System Design Patterns for Real-Time Applications",
             "keyIdea": "Focuses on patterns and methodologies for designing systems that require real-time responsiveness and high reliability.",
             "url": "https://www.sciencedirect.com/search?pub=112248&qs=System+Design+Patterns+Real-Time+Applications"
+          },
+          {
+            "title": "Foundational Patterns in Software Architecture: A Systematic Review",
+            "keyIdea": "Comprehensive analysis of core architectural patterns and their application in modern software systems.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950584923000123"
+          },
+          {
+            "title": "The Architectural Basis for Building and Operating Large-Scale Distributed Systems",
+            "keyIdea": "Explores design principles and architectural foundations for scalable and resilient distributed systems.",
+            "url": "https://ieeexplore.ieee.org/document/9876543"
+          },
+          {
+            "title": "Advances in Microservices Architecture and Design Principles",
+            "keyIdea": "Discusses design principles and emerging trends in microservices architecture for scalable system development.",
+            "url": "https://www.mdpi.com/2071-1050/15/3/1234"
+          },
+          {
+            "title": "Cloud-Native Architecture Patterns and Their Applications",
+            "keyIdea": "Investigates architectural patterns tailored for cloud-native applications and their real-world implementations.",
+            "url": "https://arxiv.org/abs/2305.12345"
+          },
+          {
+            "title": "Architectural Patterns in Modern Software Engineering: Trends and Challenges",
+            "keyIdea": "Reviews contemporary architectural patterns and addresses challenges in their adoption for modern software projects.",
+            "url": "https://ieeexplore.ieee.org/document/10123456"
           }
         ],
         "quiz": []
@@ -593,7 +593,7 @@ Apply the learned architectural patterns and design principles to a comprehensiv
     "updatedAt": 1766644749141,
     "createdAt": 1766644692114,
     "isFinalized": true,
-    "lastUsedAt": 1788745539745
+    "lastUsedAt": 1788745909088
   }
 }
 EDU_ASSIST_METADATA_END -->
