@@ -112,7 +112,6 @@ Review core concepts including closures, scope, and hoisting to reinforce founda
 
 **Description:**
 Explore advanced closure patterns, use cases, and common pitfalls in asynchronous programming.
----
 
 ---
 
@@ -122,7 +121,6 @@ Explore advanced closure patterns, use cases, and common pitfalls in asynchronou
 
 **Description:**
 Understand JavaScript's prototype chain, inheritance mechanisms, and ES6 class syntax comparisons.
----
 
 ---
 
@@ -132,7 +130,6 @@ Understand JavaScript's prototype chain, inheritance mechanisms, and ES6 class s
 
 **Description:**
 Master modern JavaScript features: arrow functions, destructuring, spread operator, and modules.
----
 
 ---
 
@@ -142,7 +139,6 @@ Master modern JavaScript features: arrow functions, destructuring, spread operat
 
 **Description:**
 Learn the module pattern, revealing module pattern, and their applications in code organization.
----
 
 ---
 
@@ -152,7 +148,6 @@ Learn the module pattern, revealing module pattern, and their applications in co
 
 **Description:**
 Implement the observer pattern for reactive programming and event-driven architectures.
----
 
 ---
 
@@ -162,7 +157,6 @@ Implement the observer pattern for reactive programming and event-driven archite
 
 **Description:**
 Understand creational patterns like factory and singleton for object creation and management.
----
 
 ---
 
@@ -172,7 +166,6 @@ Understand creational patterns like factory and singleton for object creation an
 
 **Description:**
 Deep dive into promises, async/await, and managing asynchronous control flow effectively.
----
 
 ---
 
@@ -182,7 +175,6 @@ Deep dive into promises, async/await, and managing asynchronous control flow eff
 
 **Description:**
 Understand the event loop, microtask vs macrotask queues, and JavaScript concurrency model.
----
 
 ---
 
@@ -192,7 +184,6 @@ Understand the event loop, microtask vs macrotask queues, and JavaScript concurr
 
 **Description:**
 Learn techniques for optimizing JavaScript execution, DOM manipulation, and rendering performance.
----
 
 ---
 
@@ -202,7 +193,6 @@ Learn techniques for optimizing JavaScript execution, DOM manipulation, and rend
 
 **Description:**
 Apply functional programming principles: immutability, pure functions, and higher-order functions.
----
 
 ---
 
@@ -212,7 +202,6 @@ Apply functional programming principles: immutability, pure functions, and highe
 
 **Description:**
 Analyze memory allocation, garbage collection, and identifying/fixing memory leaks in applications.
----
 
 ---
 
@@ -222,7 +211,6 @@ Analyze memory allocation, garbage collection, and identifying/fixing memory lea
 
 **Description:**
 Master complex closure patterns and scope management in nested functions and modules.
----
 
 ---
 
@@ -232,7 +220,6 @@ Master complex closure patterns and scope management in nested functions and mod
 
 **Description:**
 Implement reactive programming concepts using observables, streams, and event handling.
----
 
 ---
 
@@ -242,7 +229,6 @@ Implement reactive programming concepts using observables, streams, and event ha
 
 **Description:**
 Tackle complex JavaScript challenges involving algorithm design, optimization, and architecture.
----
 
 ---
 
@@ -259,76 +245,61 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "documentation",
             "title": "Closures - MDN Web Docs",
             "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures",
-            "type": "documentation",
             "description": "Comprehensive explanation of closures, their behavior, and practical use cases in JavaScript."
           },
           {
+            "type": "article",
             "title": "Understanding Scope in JavaScript",
             "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#scope",
-            "type": "article",
             "description": "Detailed overview of variable scope, lexical scoping, and block scope in modern JavaScript."
           },
           {
+            "type": "article",
             "title": "JavaScript Hoisting Explained",
             "url": "https://dev.to/surajit1994/javascript-hoisting-explained-3l25",
-            "type": "article",
             "description": "Breaks down hoisting mechanics for variables and functions with clear examples and common pitfalls."
           },
           {
+            "type": "documentation",
             "title": "You Don't Know JS: Scope & Closures (Book)",
             "url": "https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope%20&%20closures",
-            "type": "documentation",
             "description": "In-depth free book covering scope chains, closures, and advanced concepts in JavaScript."
           },
           {
+            "type": "video",
             "title": "JavaScript Closures and Scope Tutorial",
             "url": "https://www.youtube.com/watch?v=3a0I8ICR1Vg",
-            "type": "video",
             "description": "Video explaining closures and scope with visual examples and practical coding scenarios."
           }
         ],
         "researchPapers": [
           {
             "title": "A Comparative Study of JavaScript Design Patterns in Modern Web Applications",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=JavaScript+design+patterns+modern+web+applications",
-            "summary": "",
-            "keyIdea": "Analyzes the effectiveness of various JavaScript design patterns in contemporary web development environments and their impact on code maintainability and scalability."
+            "keyIdea": "Analyzes the effectiveness of various JavaScript design patterns in contemporary web development environments and their impact on code maintainability and scalability.",
+            "url": "https://scholar.google.com/scholar?q=JavaScript+design+patterns+modern+web+applications"
           },
           {
             "title": "Performance Optimization Techniques in JavaScript Frameworks: A Systematic Review",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=performance+optimization+JavaScript+frameworks",
-            "summary": "",
-            "keyIdea": "Reviews and categorizes performance optimization strategies used in popular JavaScript frameworks such as React, Vue, and Angular."
+            "keyIdea": "Reviews and categorizes performance optimization strategies used in popular JavaScript frameworks such as React, Vue, and Angular.",
+            "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=performance+optimization+JavaScript+frameworks"
           },
           {
             "title": "Evolutionary Aspects of JavaScript: From ES6 to ES2023 and Beyond",
-            "authors": "",
-            "year": "",
-            "url": "https://dl.acm.org/doi/proceedings/10.1145/3576845",
-            "summary": "",
-            "keyIdea": "Explores the evolution of JavaScript language features and evaluates their adoption in modern coding patterns and practices."
+            "keyIdea": "Explores the evolution of JavaScript language features and evaluates their adoption in modern coding patterns and practices.",
+            "url": "https://dl.acm.org/doi/proceedings/10.1145/3576845"
           },
           {
             "title": "Advanced Testing Strategies for JavaScript Applications: A Literature Review",
-            "authors": "",
-            "year": "",
-            "url": "https://www.sciencedirect.com/search?qt-src=base-search&qs=JavaScript+testing+strategies",
-            "summary": "",
-            "keyIdea": "Investigates current testing methodologies and tools in JavaScript ecosystems to ensure robust application development."
+            "keyIdea": "Investigates current testing methodologies and tools in JavaScript ecosystems to ensure robust application development.",
+            "url": "https://www.sciencedirect.com/search?qt-src=base-search&qs=JavaScript+testing+strategies"
           },
           {
             "title": "Functional Programming Patterns in JavaScript: A Practical Guide",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/search/cs?query=functional+programming+JavaScript+patterns",
-            "summary": "",
-            "keyIdea": "Discusses the application of functional programming paradigms in JavaScript to enhance code reusability and predictability."
+            "keyIdea": "Discusses the application of functional programming paradigms in JavaScript to enhance code reusability and predictability.",
+            "url": "https://arxiv.org/search/cs?query=functional+programming+JavaScript+patterns"
           }
         ],
         "practiceProblems": [
@@ -373,37 +344,37 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
           {
             "title": "JavaScript: The Good Parts",
             "author": "Douglas Crockford",
-            "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+            "rating": 4.5,
             "description": "Focuses on the essential features of JavaScript, avoiding the less useful and problematic aspects. Crockford, a renowned JavaScript expert, provides insights into effective usage of the language.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742"
           },
           {
             "title": "You Don't Know JS: Up & Going",
             "author": "Kyle Simpson",
-            "url": "https://www.amazon.com/You-Dont-Know-JS-Up-Going/dp/1491924446",
+            "rating": 4.7,
             "description": "Part of the 'You Don't Know JS' series, this book delves into the deeper mechanics of JavaScript. It covers advanced concepts and patterns that help developers understand the language's nuances.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/You-Dont-Know-JS-Up-Going/dp/1491924446"
           },
           {
             "title": "Eloquent JavaScript",
             "author": "Marijn Haverbeke",
-            "url": "https://eloquentjavascript.net/",
+            "rating": 4.6,
             "description": "A comprehensive guide that covers JavaScript fundamentals and advanced topics, including functional programming and asynchronous patterns. Highly recommended for its clarity and depth.",
-            "rating": 4.6
+            "url": "https://eloquentjavascript.net/"
           },
           {
             "title": "JavaScript Patterns",
             "author": "Stoyan Stefanov",
-            "url": "https://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
+            "rating": 4.5,
             "description": "Explores design patterns and best practices in JavaScript. It helps developers write more maintainable and scalable code by applying proven patterns.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752"
           },
           {
             "title": "Effective JavaScript",
             "author": "David Herman",
-            "url": "https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182",
+            "rating": 4.6,
             "description": "Offers 68 specific ways to improve JavaScript code, covering advanced topics like closures, prototypes, and functional programming. A must-read for mastering the language.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182"
           }
         ],
         "quiz": [
@@ -468,17 +439,13 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
             "reasoning": "Var declarations are hoisted and initialized as 'undefined', so typeof returns 'undefined'. Let declarations are hoisted but remain uninitialized in the temporal dead zone until declaration, causing a ReferenceError when accessed before initialization."
           }
         ],
-        "completed": false,
-        "completedAt": null,
         "flashcards": []
       },
       {
         "id": "node-2",
         "title": "Deep Dive into Closures",
-        "description": "Explore advanced closure patterns, use cases, and common pitfalls in asynchronous programming.\n---",
+        "description": "Explore advanced closure patterns, use cases, and common pitfalls in asynchronous programming.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -489,10 +456,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-3",
         "title": "Prototypal Inheritance Mastery",
-        "description": "Understand JavaScript's prototype chain, inheritance mechanisms, and ES6 class syntax comparisons.\n---",
+        "description": "Understand JavaScript's prototype chain, inheritance mechanisms, and ES6 class syntax comparisons.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -503,10 +468,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-4",
         "title": "ES6+ Features Deep Dive",
-        "description": "Master modern JavaScript features: arrow functions, destructuring, spread operator, and modules.\n---",
+        "description": "Master modern JavaScript features: arrow functions, destructuring, spread operator, and modules.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -517,10 +480,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-5",
         "title": "Design Patterns: Module Pattern",
-        "description": "Learn the module pattern, revealing module pattern, and their applications in code organization.\n---",
+        "description": "Learn the module pattern, revealing module pattern, and their applications in code organization.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -531,10 +492,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-6",
         "title": "Observer Pattern Implementation",
-        "description": "Implement the observer pattern for reactive programming and event-driven architectures.\n---",
+        "description": "Implement the observer pattern for reactive programming and event-driven architectures.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -545,10 +504,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-7",
         "title": "Factory and Singleton Patterns",
-        "description": "Understand creational patterns like factory and singleton for object creation and management.\n---",
+        "description": "Understand creational patterns like factory and singleton for object creation and management.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -559,10 +516,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-8",
         "title": "Asynchronous Programming Patterns",
-        "description": "Deep dive into promises, async/await, and managing asynchronous control flow effectively.\n---",
+        "description": "Deep dive into promises, async/await, and managing asynchronous control flow effectively.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -573,10 +528,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-9",
         "title": "Event Loop and Task Queues",
-        "description": "Understand the event loop, microtask vs macrotask queues, and JavaScript concurrency model.\n---",
+        "description": "Understand the event loop, microtask vs macrotask queues, and JavaScript concurrency model.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -587,10 +540,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-10",
         "title": "Performance Optimization Strategies",
-        "description": "Learn techniques for optimizing JavaScript execution, DOM manipulation, and rendering performance.\n---",
+        "description": "Learn techniques for optimizing JavaScript execution, DOM manipulation, and rendering performance.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -601,10 +552,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-11",
         "title": "Functional Programming in JavaScript",
-        "description": "Apply functional programming principles: immutability, pure functions, and higher-order functions.\n---",
+        "description": "Apply functional programming principles: immutability, pure functions, and higher-order functions.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -615,10 +564,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-12",
         "title": "Memory Management and Leaks",
-        "description": "Analyze memory allocation, garbage collection, and identifying/fixing memory leaks in applications.\n---",
+        "description": "Analyze memory allocation, garbage collection, and identifying/fixing memory leaks in applications.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -629,10 +576,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-13",
         "title": "Advanced Closures and Scope Management",
-        "description": "Master complex closure patterns and scope management in nested functions and modules.\n---",
+        "description": "Master complex closure patterns and scope management in nested functions and modules.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -643,10 +588,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-14",
         "title": "Reactive Programming Principles",
-        "description": "Implement reactive programming concepts using observables, streams, and event handling.\n---",
+        "description": "Implement reactive programming concepts using observables, streams, and event handling.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -657,10 +600,8 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
       {
         "id": "node-15",
         "title": "Expert-Level Problem Solving",
-        "description": "Tackle complex JavaScript challenges involving algorithm design, optimization, and architecture.\n---",
+        "description": "Tackle complex JavaScript challenges involving algorithm design, optimization, and architecture.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -671,7 +612,7 @@ Tackle complex JavaScript challenges involving algorithm design, optimization, a
     ],
     "topic": "Javascript patterns and advanced",
     "isFinalized": true,
-    "lastUsedAt": 1788745556532
+    "lastUsedAt": 1788745936304
   }
 }
 EDU_ASSIST_METADATA_END -->
