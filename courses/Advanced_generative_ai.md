@@ -67,12 +67,6 @@ Review fundamental concepts of Artificial Intelligence, including machine learni
 | Explain the purpose of a training set versus a test set. | The training set trains the model, enabling it to learn patterns. The test set evaluates the model’s generalizability on unseen data, providing unbiased performance metrics. |
 | Name two common evaluation metrics for classification tasks. | Accuracy measures the proportion of correct predictions, while precision & recall (or F1‑score) assess correctness and completeness of positive predictions, especially for imbalanced data. |
 | What is a loss function and why is it important? | A loss function quantifies the error between predicted outputs and true labels. Optimizing this function during training drives the model toward better accuracy. |
-| What is Artificial Intelligence and how does it differ from traditional programming? | Artificial Intelligence (AI) involves machines that can perceive, reason, learn, and make decisions. Unlike traditional programming, where rules are explicitly coded, AI systems learn patterns from data. |
-| Define Machine Learning in the context of AI. | Machine Learning is a subfield of AI where computers improve performance on tasks through experience (data) without explicit programming, using algorithms that learn from input-output relationships. |
-| What distinguishes supervised learning from unsupervised learning? | Supervised learning uses labeled input-output pairs to train a model; unsupervised learning uses unlabeled data to discover patterns, such as clustering or dimensionality reduction. |
-| Explain the purpose of a training set versus a test set. | The training set trains the model, enabling it to learn patterns. The test set evaluates the model’s generalizability on unseen data, providing unbiased performance metrics. |
-| Name two common evaluation metrics for classification tasks. | Accuracy measures the proportion of correct predictions, while precision & recall (or F1‑score) assess correctness and completeness of positive predictions, especially for imbalanced data. |
-| What is a loss function and why is it important? | A loss function quantifies the error between predicted outputs and true labels. Optimizing this function during training drives the model toward better accuracy. |
 
 ### ✏️ Practice Problems
 
@@ -137,7 +131,6 @@ Revisit the core principles of generative AI, focusing on what makes a model gen
 
 **Description:**
 Understand the architecture and mathematical underpinnings of Variational Autoencoders. Focus on their probabilistic nature and how they generate new data.
----
 
 ---
 
@@ -147,7 +140,6 @@ Understand the architecture and mathematical underpinnings of Variational Autoen
 
 **Description:**
 Gain a solid understanding of the adversarial training process in GANs, including the roles of the generator and discriminator, and common training challenges.
----
 
 ---
 
@@ -157,7 +149,6 @@ Gain a solid understanding of the adversarial training process in GANs, includin
 
 **Description:**
 Explore more sophisticated GAN architectures like DCGAN, StyleGAN, and BigGAN. Learn about techniques for improving training stability and sample quality.
----
 
 ---
 
@@ -167,7 +158,6 @@ Explore more sophisticated GAN architectures like DCGAN, StyleGAN, and BigGAN. L
 
 **Description:**
 Delve into the architecture of Transformer networks, paying close attention to the self-attention mechanism and its role in processing sequential data for generative tasks.
----
 
 ---
 
@@ -177,7 +167,6 @@ Delve into the architecture of Transformer networks, paying close attention to t
 
 **Description:**
 Study the evolution of LLMs, their underlying architectures (e.g., GPT series), and the principles behind their pre-training and fine-tuning processes.
----
 
 ---
 
@@ -187,7 +176,6 @@ Study the evolution of LLMs, their underlying architectures (e.g., GPT series), 
 
 **Description:**
 Understand the theoretical foundations of diffusion models, including forward and reverse diffusion processes, and explore their implementation and applications.
----
 
 ---
 
@@ -197,7 +185,6 @@ Understand the theoretical foundations of diffusion models, including forward an
 
 **Description:**
 Learn about various metrics and methods for evaluating the quality and diversity of generated content from different generative models.
----
 
 ---
 
@@ -207,7 +194,6 @@ Learn about various metrics and methods for evaluating the quality and diversity
 
 **Description:**
 Explore the ethical implications of generative AI, including bias, misinformation, copyright, and responsible deployment.
----
 
 ---
 
@@ -217,7 +203,6 @@ Explore the ethical implications of generative AI, including bias, misinformatio
 
 **Description:**
 Engage in hands-on coding exercises to implement and experiment with VAEs, GANs, and basic Transformer models using libraries like PyTorch or TensorFlow.
----
 
 ---
 
@@ -227,7 +212,6 @@ Engage in hands-on coding exercises to implement and experiment with VAEs, GANs,
 
 **Description:**
 Investigate cutting-edge applications of generative AI in areas like image synthesis, text generation, music composition, and drug discovery.
----
 
 ---
 
@@ -237,7 +221,6 @@ Investigate cutting-edge applications of generative AI in areas like image synth
 
 **Description:**
 Learn techniques for fine-tuning pre-trained generative models for specific tasks and datasets, enhancing their performance and relevance.
----
 
 ---
 
@@ -247,7 +230,6 @@ Learn techniques for fine-tuning pre-trained generative models for specific task
 
 **Description:**
 Stay updated with the latest research papers and emerging trends in the field of advanced generative AI to maintain a cutting-edge understanding.
----
 
 ---
 
@@ -280,9 +262,9 @@ Explore various thinking models and frameworks that can inform the design, devel
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "youtube.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaBACcEN7jYa3pDiJgeagBgO_4YCNokm75JW-IEb7Z47M-5TXpK65lUWfw9OFJQSvGli0MjXpYna9DyBa0LISZgQdEtjlQcGJfAKdISnXMy_rjJfJV3PN4Mn2hMJU7T8x81iKXAQ==",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
@@ -304,27 +286,27 @@ Explore various thinking models and frameworks that can inform the design, devel
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "grow.google",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPzlX5v-izD7d0fwGegym55QxDqQSrc94-UypcYKrf6atB5plhDrtKovl13EJxvJ-XB_ssLBvsT4saiKCeIbPHngOytiwrTppmsOueit_WkQ=",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "coursera.org",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwFmht7GjYsTI_PQ-YmvL2CptbsjRX2CQEtHdRw7HDTrOB_g9brR9AAyFPJE-hDlHlAsNpUsWd8Cufvl6IYuh6D5iYZ2BU8C_j0W2OEBN9na6QnfK38uFo7lMIQpSMM8P0E10sUP71kGDy8dLLrpboF2nUbUqu2A==",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "microsoft.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKRylb36tBBi4MIUl2ZSL2_nV6r0OJhboLvba5FR875Iwk7TPwgROTPPxxAuoRnqZmMaH9-NETL3y1qAFhvFi3-N_XzZnAmd30xQ4iAhIJ7t8eMJ4zQjiQeWXaDKEUxN2OBahyFI_Hc0HTCgPF7nPhfGSrl9Jh6ZFC73O_Sqo-EZuAt2lupf9WCA-NKWnG3lC2gBtI",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "github.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_80gPNhVtiLNjLuOPoYe4DYOad2BnKk03Aymzaxh9Qke3FriMPUVJXagvBbQjEeSyONN31uHXhCrBp4E__kdHCgzYbNz5U5aN-GYNQiK2NDHkCRror8Ejq_CF21vR9jmXlg_3Mwp2ZvslbniQP0NozVVx0-hC",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
@@ -334,111 +316,111 @@ Explore various thinking models and frameworks that can inform the design, devel
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "whizlabs.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiNATlYWNT5r_q9t-gGubcRZKpFQ7SlR9boUj0Lt_WFsoFgphElOcuBWTJf_uu1HWnSexuiGpqbdE0KJmcvBtgQFNDnxCOFmAse7uHjnRzWuHQSpeMyqRC-HJ_KgdRcABC2WrHgzCaYh0qjQF7KWLiSCpGOOQtC_dgHBXrXLu_vWwWZ6bVMaK-nm1klFPpA1eD",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "scribd.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMSzRvQlL3-92sC3qtAhH091AeWcMTZ49OaS-EdeWF5AWI7Bz5NkiPWO8UuQuQk7ZBQFoihZdMpTpFgndEj_3FlcvlBM4nVnPCKn9kMMYoWtlyuH03Gjr0y5_2b69VEIK0XyMFfMhv7MAx5X5NlJQMxQ1b8d76_6jThYAn_QwsnVzg_f45pNEYqw8=",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "tutorialspoint.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhkmqpRf2H2pBT2J4p-cG33iqDoXOTDplGq52SV4o2STgY6ke_tuB603iQtrjndNdUfQ5yLLUl0MUxXDDxixDZx9OdKWcVWvTr-5z7eQoMwKKzTPVXhEZLyETPn1jW0uKG2UhvsoVo-lA_nvd9HAcmeGmu",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "freecodecamp.org",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6gQ8nRwrtyHC6I3SW68pT72MqKp5nHnbyOZtJiXg3auu_V4EarxxmTAcqVDJqPSosQEy7msKRGIljPO6T5aJsWSmdNSEhzBDXAwhI3Wzsg_VtAjuNixmKWmQkkvPtK-Px57P1M3Ik1_2njPUuoku_UeOYowvUbPi3CqHTi368wwb0YM4VN2VCJuQ69qT0ui6EZgtIS9WAythUgzxHPsWvQ8U=",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "github.io",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwR8ps3HMH5Rg00oKV9v6bU7JhXNRppY2wl_mbyeTrdyKQkkgX9HzETX1JLK_tpRFqj_W5D7Uja9MUcTFR8qwMUETkNQG0nP2xEHgSaVywujCtqvaynNeeE9lqZ_6oer1iQU9I9_UN",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "blueprism.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpU9Fz-jJY0NMhCDl9Xh8lXKU6VbwQP3ajB3HknEZ2y2HNaA6Yy0p9C5ggTLizDRWfHzEpdJ5lb6PT-j86dUJKBSx8CNavopJb1UxjZDbOx71zTHOTf6-PLTY5zagulg_yrRsSBQqYsEbqNsE4a7emfqVJ0aD5Vl77j1A=",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "circls.org",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVXtsulLKiUtqjUr3BhtCEhS31ytryCP0JVH07eFpgMF7CUK4m7oCkKCoULcyULiIurV-EgO6tOt1UFlOZDCxSJE6m62bcIrLx-Cf6t9VGMuVoU0HHexRCmzdFIYjbzIK3FpzXhGxj",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "article",
             "title": "ubc.ca",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDZMaTL5exbqUpvwM6i-RLHOTZJG8Ipgr_C0Hjno2o-zHfHFRdXYl0CyF6dLaId2ZZN3dh6muZ9QKJz6ZgLqoBZJjj24xUSTgn9LnFgSqLidUOPhPFVO7NRfQo1TiaM18jMmKQ6AC5WfeP10SjTtvIdPZp",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce Beginner AI Concepts found via Google Search."
           },
           {
+            "type": "video",
             "title": "Supervised vs Unsupervised Learning: AI Basics Explained",
             "url": "https://www.youtube.com/watch?v=4_q7_1_S1zM",
-            "type": "video",
             "description": "This video explains the fundamental concepts of supervised and unsupervised learning, their differences, and practical examples."
           },
           {
+            "type": "video",
             "title": "Supervised vs. Unsupervised Learning: What's the Difference in Machine Learning?",
             "url": "https://www.youtube.com/watch?v=J4-x4JjK60g",
-            "type": "video",
             "description": "An in-depth explanation of supervised versus unsupervised learning, including key algorithms and use cases."
           },
           {
+            "type": "video",
             "title": "Supervised vs Unsupervised Learning - Machine Learning Explained!",
             "url": "https://www.youtube.com/watch?v=t0S_o5n_3M8",
-            "type": "video",
             "description": "A comprehensive overview of supervised and unsupervised learning, covering techniques, differences, and applications."
           },
           {
+            "type": "video",
             "title": "Supervised vs. Unsupervised Learning Explained: What's the difference?",
             "url": "https://www.youtube.com/watch?v=lA0zQ8h7M5Q",
-            "type": "video",
             "description": "This video clarifies the distinctions between supervised and unsupervised learning and when to apply each method."
           },
           {
+            "type": "course",
             "title": "Google AI Essentials",
             "url": "https://www.coursera.org/specializations/google-ai-essentials",
-            "type": "course",
             "description": "A self-paced specialization by Google that covers foundational AI concepts, practical tool usage, and responsible AI principles."
           },
           {
+            "type": "documentation",
             "title": "Microsoft Azure AI Fundamentals (AI-900) resources",
             "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900-azure-ai-fundamentals/",
-            "type": "documentation",
             "description": "Microsoft Learn provides comprehensive documentation, study guides, and hands-on exercises for AI fundamentals."
           },
           {
+            "type": "tutorial",
             "title": "Machine Learning (ML) Tutorial",
             "url": "https://www.tutorialspoint.com/machine_learning/index.htm",
-            "type": "tutorial",
             "description": "A foundational tutorial covering machine learning principles, importance, applications, and prerequisites."
           },
           {
+            "type": "course",
             "title": "Learn the Foundations of Machine Learning and Artificial Intelligence",
             "url": "https://www.freecodecamp.org/news/machine-learning-ai-a-complete-course/",
-            "type": "course",
             "description": "An 11-hour free course on machine learning and AI fundamentals, including supervised vs. unsupervised learning."
           },
           {
+            "type": "documentation",
             "title": "AI Terminology 101: Key AI Terms That You Should Know",
             "url": "https://www.ssbctech.com/resources/ssbc-blog/ai-terminology-101",
-            "type": "documentation",
             "description": "A glossary of common AI terms with explanations of their importance."
           },
           {
+            "type": "documentation",
             "title": "Glossary of Artificial Intelligence Terms for Educators",
             "url": "https://circls.org/resource-library/glossary-artificial-intelligence-terms-educators",
-            "type": "documentation",
             "description": "A glossary of AI-related terms, organized alphabetically and tailored for educators."
           }
         ],
@@ -484,94 +466,58 @@ Explore various thinking models and frameworks that can inform the design, devel
             "id": 6,
             "front": "What is a loss function and why is it important?",
             "back": "A loss function quantifies the error between predicted outputs and true labels. Optimizing this function during training drives the model toward better accuracy."
-          },
-          {
-            "front": "What is Artificial Intelligence and how does it differ from traditional programming?",
-            "back": "Artificial Intelligence (AI) involves machines that can perceive, reason, learn, and make decisions. Unlike traditional programming, where rules are explicitly coded, AI systems learn patterns from data."
-          },
-          {
-            "front": "Define Machine Learning in the context of AI.",
-            "back": "Machine Learning is a subfield of AI where computers improve performance on tasks through experience (data) without explicit programming, using algorithms that learn from input-output relationships."
-          },
-          {
-            "front": "What distinguishes supervised learning from unsupervised learning?",
-            "back": "Supervised learning uses labeled input-output pairs to train a model; unsupervised learning uses unlabeled data to discover patterns, such as clustering or dimensionality reduction."
-          },
-          {
-            "front": "Explain the purpose of a training set versus a test set.",
-            "back": "The training set trains the model, enabling it to learn patterns. The test set evaluates the model’s generalizability on unseen data, providing unbiased performance metrics."
-          },
-          {
-            "front": "Name two common evaluation metrics for classification tasks.",
-            "back": "Accuracy measures the proportion of correct predictions, while precision & recall (or F1‑score) assess correctness and completeness of positive predictions, especially for imbalanced data."
-          },
-          {
-            "front": "What is a loss function and why is it important?",
-            "back": "A loss function quantifies the error between predicted outputs and true labels. Optimizing this function during training drives the model toward better accuracy."
           }
         ],
         "researchPapers": [
           {
             "title": "Leveraging Large Language Models for Reinforcing AI Foundations Among Novice Learners",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2403.12345",
-            "summary": "",
-            "keyIdea": "Demonstrates how LLMs can generate interactive, adaptive tutorials that reinforce core AI concepts for beginners in real time."
+            "keyIdea": "Demonstrates how LLMs can generate interactive, adaptive tutorials that reinforce core AI concepts for beginners in real time.",
+            "url": "https://arxiv.org/abs/2403.12345"
           },
           {
             "title": "Generative AI-Driven Concept Mapping for Introductory Machine Learning Educationcccc",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2402.06789 livello",
-            "summary": "",
-            "keyIdea": "Introduces a generative model that produces dynamic concept maps and class diagrams to help novices grasp the relationships between foundational AI topics."
+            "keyIdea": "Introduces a generative model that produces dynamic concept maps and class diagrams to help novices grasp the relationships between foundational AI topics.",
+            "url": "https://arxiv.org/abs/2402.06789 livello"
           },
           {
             "title": "Adaptive Reinforcement of AI Basics Using GPT-4-Coaching Agents",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/10081354",
-            "summary": "",
-            "keyIdea": "Presents an RL framework where GPT-4 based coaching agents adaptively deliver explanations, quizzes, and feedback to solidify students’ foundational AI knowledge."
+            "keyIdea": "Presents an RL framework where GPT-4 based coaching agents adaptively deliver explanations, quizzes, and feedback to solidify students’ foundational AI knowledge.",
+            "url": "https://ieeexplore.ieee.org/document/10081354"
           },
           {
             "title": "Image-Text Generation for Visualizing AI Principles in Undergraduate Curricula",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2401.20321",
-            "summary": "",
-            "keyIdea": "Uses diffusion models to generate explanatory diagrams matched to textual content, enabling beginners to visually connect AI concepts and principles."
+            "keyIdea": "Uses diffusion models to generate explanatory diagrams matched to textual content, enabling beginners to visually connect AI concepts and principles.",
+            "url": "https://arxiv.org/abs/2401.20321"
           }
         ],
         "books": [
           {
             "title": "Generative Deep Learning: Teaching Machines to Paint, Write, Play, and More",
             "author": "David Foster",
-            "url": "https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines-Play/dp/1849514335/",
+            "rating": 4.5,
             "description": "This book introduces the foundations of generative models—GANs, VAEs, and Diffusion models—and demonstrates how to apply them to creative tasks. It’s ideal for beginners because it starts with accessible code examples, then deepens into theory, making it a strong bridge into advanced generative AI.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines-Play/dp/1849514335/"
           },
           {
             "title": "Deep Learning",
             "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
-            "url": "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/",
+            "rating": 4.6,
             "description": "A comprehensive textbook covering the principles of deep learning, including backpropagation, convolutional networks, and recurrent models. Its rigorous yet accessible explanations provide a solid foundation that is essential before tackling state‑of‑the‑art generative techniques.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/"
           },
           {
             "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
             "author": "Aurélien Géron",
-            "url": "https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1098124436/",
+            "rating": 4.7,
             "description": "Combining approachable explanations with practical coding tutorials, this book guides readers from basic supervised learning to advanced neural network architectures, including introductory material on generative modeling. It’s highly recommended for beginners who want to build real‑world AI applications.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1098124436/"
           },
           {
             "title": "Artificial Intelligence: A Modern Approach",
             "author": "Stuart Russell & Peter Norvig",
-            "url": "https://www.amazon.com/Artificial-Intelligence-Modern-Approach-4th/dp/0136042597/",
+            "rating": 4.7,
             "description": "Widely regarded as the definitive AI textbook, it covers a broad spectrum of concepts—from search algorithms to probabilistic reasoning—providing a strong conceptual base. Understanding these fundamentals is crucial before delving into specialized generative models.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Artificial-Intelligence-Modern-Approach-4th/dp/0136042597/"
           }
         ],
         "practiceProblems": [
@@ -612,9 +558,7 @@ Explore various thinking models and frameworks that can inform the design, devel
             "group": "B"
           }
         ],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
@@ -625,214 +569,188 @@ Explore various thinking models and frameworks that can inform the design, devel
           {
             "title": "Deep Learning",
             "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
-            "url": "https://www.amazon.com/Deep-Learning-Ian-Goodfellow/dp/1108435579",
+            "rating": 4.8,
             "description": "This textbook is a foundational resource for deep learning, covering core concepts including generative models like GANs and VAEs. It provides theoretical insights and practical applications, making it essential for understanding the mathematical and algorithmic underpinnings of generative AI.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Deep-Learning-Ian-Goodfellow/dp/1108435579"
           },
           {
             "title": "GANs in Action: Deep Learning with Generative Adversarial Networks",
             "author": "Jakub Grudic, et al.",
-            "url": "https://www.manning.com/books/gans-in-action",
+            "rating": 4.6,
             "description": "Focuses specifically on Generative Adversarial Networks (GANs), offering hands-on examples and real-world use cases. Ideal for practitioners looking to implement and experiment with GANs, with code-driven explanations and practical frameworks.",
-            "rating": 4.6
+            "url": "https://www.manning.com/books/gans-in-action"
           },
           {
             "title": "Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Solve Problems",
             "author": "David Foster",
-            "url": "https://www.manning.com/books/generative-deep-learning",
+            "rating": 4.7,
             "description": "Explores generative models including GANs, VAEs, and autoregressive models. Combines theory with practical implementation, providing a clear pathway for understanding how machines can create art, text, and other complex data. Highly recommended for its accessible approach and practical focus.",
-            "rating": 4.7
+            "url": "https://www.manning.com/books/generative-deep-learning"
           },
           {
             "title": "Probabilistic Machine Learning: Advanced Topics",
             "author": "Kevin P. Murphy",
-            "url": "https://www.morganclaypoolpublishers.com/probabilistic-machine-learning-vol2",
+            "rating": 4.8,
             "description": "Covers advanced topics in Bayesian modeling and generative models, including variational inference and deep generative models. Offers a rigorous mathematical treatment with a modern perspective on probabilistic approaches in AI, suitable for researchers and advanced practitioners.",
-            "rating": 4.8
+            "url": "https://www.morganclaypoolpublishers.com/probabilistic-machine-learning-vol2"
           },
           {
             "title": "Hands-On Generative AI with PyTorch",
             "author": "Shashank Singh",
-            "url": "https://www.packtpub.com/product/hands-on-generative-ai-with-pytorch/9781803271004",
+            "rating": 4.5,
             "description": "A practical guide focusing on building generative models using PyTorch. Covers GANs, VAEs, and diffusion models with code-first tutorials. Best for developers who want to quickly start implementing generative AI projects with step-by-step guidance.",
-            "rating": 4.5
+            "url": "https://www.packtpub.com/product/hands-on-generative-ai-with-pytorch/9781803271004"
           }
         ],
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Exploring Variational Autoencoders (VAEs)",
-        "description": "Understand the architecture and mathematical underpinnings of Variational Autoencoders. Focus on their probabilistic nature and how they generate new data.\n---",
+        "description": "Understand the architecture and mathematical underpinnings of Variational Autoencoders. Focus on their probabilistic nature and how they generate new data.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Mastering Generative Adversarial Networks (GANs) Fundamentals",
-        "description": "Gain a solid understanding of the adversarial training process in GANs, including the roles of the generator and discriminator, and common training challenges.\n---",
+        "description": "Gain a solid understanding of the adversarial training process in GANs, including the roles of the generator and discriminator, and common training challenges.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Advanced GAN Architectures and Techniques",
-        "description": "Explore more sophisticated GAN architectures like DCGAN, StyleGAN, and BigGAN. Learn about techniques for improving training stability and sample quality.\n---",
+        "description": "Explore more sophisticated GAN architectures like DCGAN, StyleGAN, and BigGAN. Learn about techniques for improving training stability and sample quality.",
         "estimatedTime": "5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Transformer Networks and Attention Mechanisms",
-        "description": "Delve into the architecture of Transformer networks, paying close attention to the self-attention mechanism and its role in processing sequential data for generative tasks.\n---",
+        "description": "Delve into the architecture of Transformer networks, paying close attention to the self-attention mechanism and its role in processing sequential data for generative tasks.",
         "estimatedTime": "5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Large Language Models (LLMs): Architectures and Training",
-        "description": "Study the evolution of LLMs, their underlying architectures (e.g., GPT series), and the principles behind their pre-training and fine-tuning processes.\n---",
+        "description": "Study the evolution of LLMs, their underlying architectures (e.g., GPT series), and the principles behind their pre-training and fine-tuning processes.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Diffusion Models: Theory and Practice",
-        "description": "Understand the theoretical foundations of diffusion models, including forward and reverse diffusion processes, and explore their implementation and applications.\n---",
+        "description": "Understand the theoretical foundations of diffusion models, including forward and reverse diffusion processes, and explore their implementation and applications.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Evaluating Generative Models",
-        "description": "Learn about various metrics and methods for evaluating the quality and diversity of generated content from different generative models.\n---",
+        "description": "Learn about various metrics and methods for evaluating the quality and diversity of generated content from different generative models.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Ethical Considerations in Generative AI",
-        "description": "Explore the ethical implications of generative AI, including bias, misinformation, copyright, and responsible deployment.\n---",
+        "description": "Explore the ethical implications of generative AI, including bias, misinformation, copyright, and responsible deployment.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Practical Implementation of Generative Models",
-        "description": "Engage in hands-on coding exercises to implement and experiment with VAEs, GANs, and basic Transformer models using libraries like PyTorch or TensorFlow.\n---",
+        "description": "Engage in hands-on coding exercises to implement and experiment with VAEs, GANs, and basic Transformer models using libraries like PyTorch or TensorFlow.",
         "estimatedTime": "8 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Advanced Applications of Generative AI",
-        "description": "Investigate cutting-edge applications of generative AI in areas like image synthesis, text generation, music composition, and drug discovery.\n---",
+        "description": "Investigate cutting-edge applications of generative AI in areas like image synthesis, text generation, music composition, and drug discovery.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Fine-tuning and Customizing Generative Models",
-        "description": "Learn techniques for fine-tuning pre-trained generative models for specific tasks and datasets, enhancing their performance and relevance.\n---",
+        "description": "Learn techniques for fine-tuning pre-trained generative models for specific tasks and datasets, enhancing their performance and relevance.",
         "estimatedTime": "5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "Recent Research and Future Trends",
-        "description": "Stay updated with the latest research papers and emerging trends in the field of advanced generative AI to maintain a cutting-edge understanding.\n---",
+        "description": "Stay updated with the latest research papers and emerging trends in the field of advanced generative AI to maintain a cutting-edge understanding.",
         "estimatedTime": "Ongoing (suggested 2 hours/week)",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-15",
@@ -841,33 +759,33 @@ Explore various thinking models and frameworks that can inform the design, devel
         "estimatedTime": "5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Cognitive Architectures for AI",
             "url": "https://plato.stanford.edu/entries/cognitive-architectures/",
-            "type": "article",
             "description": "An overview of different cognitive architectures used in AI research, which can inform how we think about generative capabilities."
           },
           {
+            "type": "article",
             "title": "Analogical Reasoning in Artificial Intelligence",
             "url": "https://www.sciencedirect.com/topics/computer-science/analogical-reasoning",
-            "type": "article",
             "description": "Discusses how AI systems can use analogies to learn and generate new concepts, relevant for understanding creative AI."
           },
           {
+            "type": "article",
             "title": "Causal Inference in Machine Learning",
             "url": "https://arxiv.org/abs/2001.01271",
-            "type": "article",
             "description": "Explores the principles and methods of causal inference, which can help generative models understand 'why' and generate more robust outputs."
           },
           {
+            "type": "book",
             "title": "Thinking, Fast and Slow",
             "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
-            "type": "book",
             "description": "While not strictly AI, Kahneman's work on System 1 and System 2 thinking provides a powerful framework for understanding different modes of cognition that can be applied to AI design."
           },
           {
+            "type": "article",
             "title": "Systems Thinking for AI Development",
             "url": "https://www.systemsthinking.org/about-systems-thinking/",
-            "type": "article",
             "description": "Introduces systems thinking principles, which are crucial for understanding complex interactions within generative AI models and their impact."
           }
         ],
@@ -883,16 +801,14 @@ Explore various thinking models and frameworks that can inform the design, devel
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Advanced generative ai",
     "updatedAt": 1767036314437,
     "createdAt": 1766613229825,
     "isFinalized": true,
-    "lastUsedAt": 1788745538687
+    "lastUsedAt": 1788745907870
   }
 }
 EDU_ASSIST_METADATA_END -->
