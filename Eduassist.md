@@ -66,36 +66,44 @@ Strengthen your theoretical grounding by rigorously studying Markov Decision Pro
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Formalize a Simple MDP from a Board Game
+> Consider a tiny board game where a token moves along a linear track of 5 cells (positions 0 to 4). The agent can choose to move left or right one cell at a time. Reaching position 4 gives a reward of +1 and ends the episode; reaching position 0 gives a reward of -1 and ends the episode. All other transitions give reward 0. The environment is deterministic. Your task is to: (1) formally define the state space S, action space A, transition probability distribution P(s'|s,a), and reward function R(s,a,s') as mathematical sets and functions, (2) write out the full transition probability table for every (s, a, s') triple, and (3) write out the reward table for every (s, a, s') triple. Verify that all transition probabilities from any (s, a) pair sum to 1.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement an MDP Environment Class with Transition and Reward Lookups
+> Design and implement a Python class `SimpleMDP` that encodes a grid-world environment of configurable size (e.g., 3x3 or 4x4). The agent starts at a designated cell and must reach a goal cell. The agent can move up, down, left, or right. Movement that would go off the grid keeps the agent in place. The class must provide methods: `get_states()` returning the full state space, `get_actions(state)` returning available actions for a given state, `get_transition_prob(state, action, next_state)` returning P(next_state | state, action), and `get_reward(state, action, next_state)` returning R(s, a, s'). Include stochastic transitions (e.g., 80% intended direction, 20% split among perpendicular directions). Validate that for every (s, a) pair, the transition probabilities sum to exactly 1.0 by writing an automated verification function.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Derive and Compute State-Value Functions Using the Bellman Expectation Equation
+> Given a small MDP with 4 states {S1, S2, S3, S4} where S4 is terminal with reward 0, and the following structure: from each non-terminal state the agent has two actions (A and B). You are given the full transition probabilities and rewards. (1) Manually set up the system of linear equations for V^π(s) under a uniform random policy (each action chosen with probability 0.5) by writing out the Bellman expectation equation for each state. (2) Solve the resulting 3×3 linear system (since V(S4)=0) to find the exact value of each state. (3) Implement a Python script that constructs the matrix equation (I - γP^π)V = R^π and solves it using numpy, verifying your hand-computed results. (4) Then implement iterative policy evaluation (synchronous updates) and confirm convergence to the same values.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Implement Value Iteration and Extract Optimal Policies for a Stochastic Grid World
+> Implement the full value iteration algorithm from scratch for a 5x5 stochastic grid world. The grid contains: a start state, a goal state with reward +10, two trap states with reward -5, and three obstacle cells that cannot be entered (agent stays in place if it tries). Movement is stochastic: the agent moves in the intended direction with probability 0.7, and perpendicular directions each with probability 0.15. A living penalty of -0.04 per step is applied. Discount factor γ = 0.95. Your implementation must: (1) initialize V(s) = 0 for all states, (2) iteratively apply the Bellman optimality update until the maximum change falls below θ = 1e-6, (3) track and print the value function at iterations 1, 10, 50, and convergence, (4) extract the greedy optimal policy from the final value function, (5) visualize the grid with arrows showing the optimal action at each cell and the value at each cell, and (6) report the total number of iterations to convergence.
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Policy Iteration vs. Value Iteration: Comparative Analysis on a Custom MDP
+> Design a custom MDP with at least 15 states that models a robot navigating a warehouse with multiple rooms, shelves (obstacles), charging stations (positive reward), and a delivery dock (terminal, large positive reward). The robot has 4 directional actions and stochastic transitions (slip probability). Implement both policy iteration (with policy evaluation solved via matrix inversion) and value iteration. For each algorithm, measure and compare: (1) number of iterations to convergence, (2) wall-clock runtime, (3) the final optimal value function, and (4) the final policy. Run experiments across discount factors γ ∈ {0.5, 0.8, 0.95, 0.99} and grid sizes (small, medium, large). Present a written analysis of when each algorithm is preferable, discussing the computational trade-offs between policy iteration's fewer but more expensive iterations versus value iteration's cheaper but more numerous iterations.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Prove Bellman Optimality and Characterize the Optimal Value Function
+> Consider an MDP with finite state space S and finite action space A. (1) Starting from the definition of the state-value function V^π(s) and the action-value function Q^π(s,a), formally prove that for any policy π, V^π(s) = Σ_a π(a|s) Q^π(s,a). (2) Define the Bellman optimality equation for V* and prove that it has a unique fixed point by showing the Bellman optimality operator T is a contraction mapping in the sup-norm with contraction factor γ. (3) Given a concrete 3-state MDP with known transitions and rewards, manually compute V* by solving the Bellman optimality equations (setting up the max over actions for each state and solving the resulting nonlinear system), then verify by showing that your computed V* satisfies |T(V*) - V*| = 0. (4) Discuss what happens to the optimal policy when γ → 1 versus γ → 0, providing intuition with a specific example.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 MDP Modeling of a Real-World Inventory Management System
+> Model a single-product inventory management problem as an MDP and solve it optimally. A store can hold at most 20 units of a product. Each day, the store can order 0 to 10 units at a cost of $2 per unit. Customer demand each day is a Poisson-distributed random variable with λ = 5. Holding cost is $0.50 per unit per day. If demand exceeds stock, the lost-sales penalty is $5 per unit short. Revenue per unit sold is $8. The state is the current inventory level at the start of each day. The action is the number of units to order (arriving instantly). (1) Formally define the MDP: state space, action space (note: action space is state-dependent since you cannot exceed capacity), transition probabilities (derived from the Poisson demand distribution), and reward function. (2) Implement this MDP in Python, computing the full transition probability matrix P(s'|s,a) for all valid (s,a,s') triples — this requires truncating the Poisson distribution and normalizing. (3) Solve for the optimal policy using both value iteration and policy iteration. (4) Visualize the optimal order quantity as a function of current inventory level and interpret the resulting policy (e.g., is it a base-stock / (s,S) policy?). (5) Perform sensitivity analysis: how does the optimal policy change when demand variability increases (λ = 8) or when the lost-sales penalty decreases to $2?
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Scalable Solver for Large MDPs with Function Approximation of the Value Function
+> Design and implement a scalable MDP solver that can handle state spaces too large for tabular methods. Consider a continuous-state variant of a cart-balancing problem: the state is (position, velocity, angular velocity) ∈ ℝ³, discretized into a grid of 20×20×20 = 8,000 states. Actions are {left force, right force, no force}. Transitions are deterministic given the physics equations but the discretization introduces approximation errors. (1) Implement a tabular value iteration solver as a baseline and measure its runtime and memory usage. (2) Implement a function approximator (e.g., a small neural network or tile-coding based linear approximator) that learns V(s) during value iteration by sampling batches of (s, V_target) pairs from the tabular solution. (3) Implement fitted value iteration: at each iteration, compute target values r + γ max_a V(s') for a sampled set of states, fit the function approximator to these targets, and use the fitted function for the next iteration. (4) Compare the approximate solution to the tabular baseline in terms of: maximum error |V_approx(s) - V_exact(s)|, policy agreement percentage (fraction of states where π_approx(s) = π_exact(s)), and wall-clock runtime. (5) Discuss the trade-offs between approximation accuracy, computational cost, and generalization to states not seen during fitting, connecting your findings to the theoretical limitations of the MDP framework when exact solutions are intractable.
 
 
 ### ❓ Checkpoint Quiz
@@ -143,28 +151,36 @@ Master value functions (V(s) and Q(s,a)), optimal value functions, and optimalit
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Manual Computation of Optimal Q-values in a Deterministic Environment
+> Given a simple MDP with 3 states and 2 actions, compute the optimal Q-values Q*(s,a) for all state-action pairs using the Bellman equation. Assume deterministic transitions and no discounting (γ=1). Verify your results by checking if they satisfy the Bellman optimality equation.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement Value Iteration for a Stochastic Grid World
+> Code a value iteration algorithm for a 4x4 grid world where the agent can move in four directions. Include stochastic transitions (e.g., 80% chance to move as intended, 20% to random actions). Set appropriate rewards (e.g., -1 per step, +100 for goal state). Run the algorithm until convergence and visualize the optimal policy.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Derive Optimal Policies from Value Functions
+> Given a pre-computed optimal value function V*(s) for a discrete environment, implement a function to derive the optimal policy π*(s) = argmax Q*(s,a). For each state, compute Q*(s,a) using the Bellman equation and select the action that maximizes it. Validate the derived policy by simulating it and confirming it achieves the expected rewards.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Prove Contraction Mapping for Specific MDP Dynamics
+> For a given MDP with transition probabilities P(s'|s,a) and rewards R(s,a), mathematically prove that the Bellman update operator is a contraction mapping under ||·||∞ norm. Derive the contraction coefficient from the discount factor and show how it ensures convergence of value iteration. Validate your analysis by implementing value iteration and observing the decay in value differences.
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Compare Value Iteration and Policy Iteration Convergence Rates
+> Implement both value iteration and policy iteration algorithms for the same environment. Analyze and compare their convergence speeds for different discount factors (γ close to 0 vs near 1) and state space complexities. Explain why one might outperform the other in specific scenarios based on their theoretical properties.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Value Iteration with Prioritized Sweeping for Large Environments
+> Design a prioritized sweeping variant of value iteration for a large grid world (e.g., 10x10). Prioritize state updates based on the magnitude of their Bellman error changes. Benchmark the optimized version against standard value iteration in terms of computational steps and convergence time. Discuss trade-offs in implementation complexity vs efficiency.
 
 
 ### ❓ Checkpoint Quiz
@@ -879,20 +895,28 @@ Review fundamental concepts of genomics and how AI is transforming medical resea
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 DNA Sequence Complement Identification
+> Given a DNA sequence (e.g., 'ATCG'), write a program to generate its complementary DNA (cDNA) sequence. You must account for the fact that A pairs with T, T pairs with A, C pairs with G, and G pairs with C. Test your solution with multiple sequences and handle edge cases like invalid characters.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Gene Expression Data Analysis with Basic ML
+> Download a small gene expression dataset (e.g., from NCBI GEO). Preprocess the data to normalize gene expression values and split into training/testing sets. Train a logistic regression or decision tree classifier to predict whether a sample is from a cancerous or healthy tissue. Evaluate model performance using accuracy and confusion matrix. Document challenges faced during preprocessing.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Multi-Omics Integration for Disease Risk Prediction
+> Integrate two datasets: one containing SNP (Single Nucleotide Polymorphism) data and another with methylation data from the same patients. Develop a machine learning pipeline to predict disease susceptibility. Handle missing data, perform feature selection, and use ensemble methods (e.g., Random Forest + SVM). Compare performance with individual omics datasets.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Genomic Variant Interpretation Pipeline for Clinical Decision Support
+> Design an AI-powered system that takes patient whole-genome sequencing data and annotates pathogenic variants using public databases (e.g., ClinVar, dbSNP). Implement variant prioritization using a deep learning model trained on functional impact predictions. Optimize for speed and accuracy, and validate predictions against known disease associations. Include visualization of variant effects on protein structure.
 
 
 ### ❓ Checkpoint Quiz
@@ -1113,28 +1137,36 @@ Review core terminology, environments, agents, and the basics of sequential deci
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify Environment Observation Space
+> Create a simple script that loads the OpenAI Gym CartPole-v1 environment and prints the shape and type of its observation space. Then, write a function that checks whether the observation space is a Box with continuous values and logs a confirmation message.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Implement a Random Agent for FrozenLake
+> Using the OpenAI Gym FrozenLake-v1 environment, implement a random policy agent that selects actions uniformly at random. Run 100 episodes and record the average reward. Verify that the agent’s performance is close to the theoretical expectation for a random policy.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design a Simple Q-Learning Agent for GridWorld
+> Implement a tabular Q-learning agent to solve a custom 5x5 GridWorld environment where the agent must reach a goal cell while avoiding obstacles. Define the state as the agent’s coordinates, use a learning rate of 0.1, discount factor 0.99, and epsilon-greedy exploration with epsilon=0.1. Train the agent for 500 episodes and plot the episode rewards over time.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Compare Policy Gradient vs. Value-Based Methods on MountainCar
+> Implement two agents for the OpenAI Gym MountainCar-v0 environment: (1) a simple policy gradient agent using a linear policy, and (2) a Q-learning agent with a discretized state space. Train both agents for 200 episodes, record their learning curves, and analyze which method converges faster and why.
 
 
-#### Problem 5 [D]
-> Problem 5
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Build a Multi-Task RL Agent for Atari Breakout and Pong
+> Create a single neural network architecture that can learn to play both Atari Breakout and Pong simultaneously using a shared representation. Use a replay buffer that stores experiences from both games, and implement a loss function that alternates between the two tasks. Train the agent for 1 million steps and evaluate its performance on both games.
 
 
-#### Problem 6 [D]
-> Problem 6
+##### 🔹 Design a Hierarchical RL Agent for Navigation in a Maze
+> Implement a hierarchical reinforcement learning agent that uses a high-level policy to select subgoals (e.g., intermediate waypoints) and a low-level policy to navigate between them in a procedurally generated maze environment. Define the subgoal space, design the reward shaping for both levels, and demonstrate that the agent can solve mazes larger than those seen during training.
 
 
 ### ❓ Checkpoint Quiz
@@ -1195,36 +1227,44 @@ Study classic value-based RL methods before moving deeper into neural function a
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify Q-Table Update on a Simple Grid
+> Create a 3x3 grid world where the agent starts at the top-left corner and the goal is the bottom-right corner. Implement a basic Q-learning update rule and manually verify that the Q-values converge to the optimal policy after a few episodes. The task requires printing the Q-table after each episode and confirming that the optimal action at each state matches the shortest path to the goal.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Implement Q-Learning on FrozenLake
+> Using the OpenAI Gym FrozenLake environment (8x8, slippery), implement Q-learning from scratch. The agent should learn to navigate from the start to the goal while avoiding holes. Tune the learning rate, discount factor, and epsilon-greedy parameters to achieve at least 80% success over 1000 episodes. Provide a brief report of the chosen hyperparameters and the learning curve.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Compare Q-Learning and SARSA on a Deterministic Maze
+> Design a deterministic 5x5 maze with a single goal state. Implement both Q-learning and SARSA agents. Run each algorithm for 500 episodes and compare their convergence speeds and final policies. The task requires logging the cumulative reward per episode and plotting the learning curves for both methods side by side.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Implement SARSA on MountainCar with Discretization
+> Discretize the continuous state space of the MountainCar-v0 environment into a grid of 20x20 bins. Implement SARSA to learn a policy that drives the car to the goal. The agent should use an epsilon-greedy policy with decay. Report the number of episodes required to reach the goal consistently and analyze how the discretization granularity affects learning.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Design a Tabular RL Agent for a Dynamic Gridworld
+> Create a 10x10 gridworld where obstacles appear and disappear randomly each episode. The agent must learn a policy that adapts to these changes using Q-learning with eligibility traces. The task involves implementing a dynamic environment, maintaining a Q-table, and updating eligibility traces appropriately. Evaluate the agent’s performance over 200 episodes and discuss how the traces help in adapting to the dynamic obstacles.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Multi-Goal Tabular RL with Reward Shaping
+> Construct a 6x6 gridworld containing three distinct goal states, each with different reward values. Implement Q-learning with reward shaping to prioritize higher-value goals while still exploring lower-value ones. The agent should learn a policy that balances exploration and exploitation across multiple goals. Provide a comparison of the learned policies with and without reward shaping.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Architect a Tabular RL System for a Real-Time Strategy Mini-Game
+> Design a simplified real-time strategy mini-game where the agent controls units on a 15x15 grid to gather resources and defeat an opponent. Use tabular Q-learning with function approximation via tile coding to handle the large state space. The agent must learn to allocate units efficiently and adapt to opponent strategies. The task requires implementing the game mechanics, the learning algorithm, and evaluating performance against a rule-based opponent.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Optimize Tabular RL with Adaptive Learning Rates and Exploration Strategies
+> Take a standard gridworld environment and implement Q-learning with an adaptive learning rate schedule (e.g., using a decay based on visit counts) and a hybrid exploration strategy combining epsilon-greedy and Boltzmann exploration. Compare the convergence speed and final policy quality against a baseline with fixed parameters. Analyze the impact of each adaptive component on learning efficiency.
 
 
 ### ❓ Checkpoint Quiz
@@ -1416,36 +1456,44 @@ Revisit the fundamental principles of quantum computing, including qubits, super
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Qubit vs Classical Bit Explanation
+> Explain the fundamental difference between a classical bit and a qubit, providing real-world analogies or examples. Illustrate how superposition enables a qubit to represent multiple states simultaneously. Use a quantum simulator (e.g., Qiskit) to demonstrate a single qubit in superposition and compare to classical bit behavior.
 
 
-#### Problem 2 [B]
-> Problem 2
+##### 🔹 Superposition Collapse Experiment Setup
+> Build a quantum circuit that initializes a qubit in superposition and applies sequential measurements to show state collapse. Document how repeated measurements yield deterministic results after the first collapse. Relate findings to the measurement postulate in quantum mechanics.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Hadamard Gate Superposition Demonstration
+> Create a quantum circuit applying a Hadamard gate to a qubit initialized in |0⟩ state. Simulate the circuit and visualize the output probabilities. Explain how the Hadamard gate creates superposition and why measurement collapses the state. Use Qiskit or another framework to validate your results.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Superposition Sampling and Probability Verification
+> Construct a quantum circuit that puts a qubit in an arbitrary superposition using rotation gates (e.g., RY θ). Simulate the circuit for multiple angles θ and verify that the measurement probabilities match theoretical expectations. Relate your observations to the principles of quantum state representation.
 
 
-#### Problem 5 [B]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Bell State Entanglement Analysis
+> Design a quantum circuit to generate a Bell state (maximally entangled two-qubit state). Measure the qubits and compute the correlation probabilities. Analyze how entanglement differs from classical correlations and explain the implications for quantum information processing.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Entanglement Witness Measurement Design
+> Create a parameterized quantum circuit to prepare and verify an entangled state (e.g., GHZ or W state). Use measurement outcomes to calculate the concurrence or entanglement witness. Compare results to classical bounds and explain how the metrics confirm entanglement.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Quantum Teleportation Protocol Simulation
+> Implement a quantum teleportation circuit that transfers the state of one qubit to another using entanglement and classical communication. Simulate the circuit and verify that the final state matches the original. Discuss the role of measurement, entanglement, and classical bits in the process.
 
 
-#### Problem 8 [A]
-> Problem 8
+##### 🔹 Quantum Error Correction Circuit Implementation
+> Design a simple quantum error correction code (e.g., bit-flip code) to protect a qubit state against decoherence. Simulate noise models and demonstrate how entanglement and redundancy correct errors. Analyze the trade-offs between code efficiency and error resilience.
 
 
 ### ❓ Checkpoint Quiz
@@ -1529,20 +1577,28 @@ Explore the mathematical and conceptual underpinnings of superposition. Understa
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Superposition States
+> Given a set of quantum state vectors (e.g., [1,0], [sqrt(2)/2, sqrt(2)/2], [0,1]), determine which ones represent superposition states. Explain why each state is or isn't in superposition based on the probabilistic amplitudes.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Simulate Qubit Superposition
+> Implement a Python function to simulate the application of the Hadamard gate on a single qubit. Visualize the resulting superposition state using matplotlib and verify the probabilities of measuring each basis state (0 and 1).
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Multi-Qubit Superposition Circuit
+> Design a quantum circuit using Qiskit that puts two qubits into superposition and entangles them. Measure the qubits multiple times to statistically validate the uniform distribution of outcomes, then explain how superposition enables parallel computation in this setup.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Superposition for Computational Advantage
+> Create a quantum algorithm that leverages superposition to solve a specific problem (e.g., unstructured search or linear algebra). Analyze its time complexity compared to a classical approach and optimize the circuit to minimize the number of gates while maintaining superposition integrity.
 
 
 ### ❓ Checkpoint Quiz
@@ -1615,36 +1671,44 @@ Investigate the phenomenon of entanglement and its implications for quantum comp
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Create and Measure a Bell State
+> Use a quantum computing framework (e.g., Qiskit, Cirq) to create a Bell state (|00> + |11>) by applying a Hadamard gate followed by a CNOT gate. Measure both qubits and verify their correlations. What is the expected outcome of the measurements?
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Entangled Qubit Superposition Analysis
+> Given a two-qubit system in an entangled state (e.g., |01> - |10>), simulate the system and calculate the probabilities of measuring each basis state. Explain why certain outcomes are impossible or less likely due to entanglement.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement a Controlled-Z Gate for Entanglement
+> Write a quantum circuit using Qiskit/Cirq to entangle two qubits with a Controlled-Z (CZ) gate. Verify entanglement by checking the resulting state vector. Compare the result to a Bell state created with a CNOT gate.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Bell State Measurement Implementation
+> Design a quantum circuit to perform a Bell state measurement on two qubits. Use this to distinguish between the four Bell states. Discuss how this differs from standard basis measurements.
 
 
-#### Problem 5 [B]
-> Problem 5
+##### 🔹 Quantum Teleportation Protocol
+> Implement the quantum teleportation protocol using entangled qubits. Simulate the process to teleport a quantum state from qubit A to qubit B without physically moving it. Explain the role of entanglement in this process.
 
 
-#### Problem 6 [C]
-> Problem 6
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Entanglement-Based Quantum Error Correction
+> Design a simple quantum error correction code (e.g., bit-flip or phase-flip) that uses entanglement to protect quantum information. Simulate encoding, error introduction, and decoding processes.
 
 
-#### Problem 7 [C]
-> Problem 7
+##### 🔹 GHZ State Generation and Analysis
+> Create a Greenberger-Horne-Zeilinger (GHZ) state for three qubits. Analyze its measurement outcomes and explain how GHZ states extend the concept of Bell states to multi-qubit systems. What makes GHZ states useful for quantum computing?
 
 
-#### Problem 8 [D]
-> Problem 8
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Variational Quantum Eigensolver with Entanglement
+> Design a parameterized quantum circuit for a Variational Quantum Eigensolver (VQE) problem. Optimize the entanglement between qubits using parameter tuning to approximate the ground state energy of a simple molecule (e.g., H2). Discuss trade-offs between entanglement depth and circuit complexity.
 
 
 ---
@@ -1797,36 +1861,44 @@ Revisit the fundamentals of common intermediate classification algorithms like S
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Logistic Regression from Scratch
+> Implement logistic regression using gradient descent. Compute the binary cross-entropy loss function and update weights iteratively. Verify convergence by checking the loss decreases over epochs on a small dataset. Ensure correct handling of the sigmoid activation and feature scaling.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Linear SVM Decision Boundary Visualization
+> Generate a synthetic 2D dataset and train a linear SVM classifier. Plot the decision boundary along with support vectors and margins. Analyze how the position of support vectors affects the margin and decision boundary. Use appropriate libraries for plotting but avoid pre-built SVM visualization tools.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Kernel Comparison in SVM
+> Train SVM models with linear, polynomial (degree=3), and RBF kernels on the Iris dataset. Compare their classification accuracy and visualize decision boundaries in 2D projections. Discuss how kernel choice impacts model flexibility and overfitting. Include metrics like precision, recall, and F1-score in your analysis.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Regularization Path for Logistic Regression
+> Use scikit-learn's LogisticRegressionCV to tune L1 and L2 regularization paths across a range of C values on a noisy dataset. Plot the coefficients' magnitude across different regularization strengths. Identify which features are shrunk to zero and explain how regularization prevents overfitting.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Multi-Class SVM Implementation
+> Implement a multi-class classifier using one-vs-rest and one-vs-one strategies with SVMs on the MNIST subset. Handle large-scale data efficiently and compare the two approaches in terms of training time and accuracy. Address challenges in multi-class classification and discuss trade-offs between the strategies.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Imbalanced Classification with Logistic Regression
+> Apply logistic regression to an imbalanced dataset (e.g., credit card fraud detection). Adjust class weights during training to handle imbalance. Evaluate performance using AUC-ROC and confusion matrices. Analyze how class weighting affects the decision boundary and model calibration.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Custom Regularized Logistic Regression
+> Design an adaptive regularization technique that adjusts penalty strength based on feature variance or sample weights. Implement and test it on a high-dimensional dataset. Compare its performance against standard L1/L2 regularization in terms of model sparsity and generalization error. Provide theoretical justification for the adaptation mechanism.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Advanced SVM Optimization
+> Optimize an SVM classifier for a text classification task (e.g., sentiment analysis). Engineer a custom kernel combining TF-IDF features with word embeddings. Tune hyperparameters (C, kernel parameters) using Bayesian optimization. Evaluate scalability and performance against baseline models. Discuss computational challenges in custom kernel design.
 
 
 ### ❓ Checkpoint Quiz
@@ -1948,36 +2020,44 @@ Gain a foundational understanding of key deep learning architectures such as Con
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Image Classification with Pre-trained CNN
+> Use a pre-trained Convolutional Neural Network (e.g., VGG16) from a deep learning framework to classify images in the CIFAR-10 dataset. Load the model, preprocess the images, and report the accuracy on the test set. No model training required; focus on inference and evaluation.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Basic RNN for Sequence Prediction
+> Implement a simple Recurrent Neural Network (RNN) to predict the next character in a given sequence of text. Use a small dataset like the first 1000 characters of a book. Train the model and generate text by feeding the output back as input. Focus on understanding the sequential processing and training loop.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 MNIST Digit Classification with a Custom CNN
+> Build a Convolutional Neural Network from scratch to classify handwritten digits from the MNIST dataset. Include convolutional layers, pooling, and fully connected layers. Train the model and achieve an accuracy above 98%. Document the architecture choices and training process.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Sentiment Analysis with a Basic RNN
+> Construct an RNN-based model to classify movie reviews as positive or negative using the IMDB dataset. Preprocess the text, create embeddings, and train the model. Evaluate performance using accuracy and confusion matrix. Experiment with different RNN layers (e.g., LSTM, GRU).
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Multi-Class Image Classification with Data Augmentation
+> Design a CNN architecture to classify images into 10 categories from the CIFAR-10 dataset. Apply data augmentation techniques (rotation, scaling, flipping) to improve generalization. Optimize hyperparameters (learning rate, batch size) and achieve validation accuracy above 80%. Compare performance with and without augmentation.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Language Modeling with LSTM for Text Generation
+> Build a Long Short-Term Memory (LSTM) network to predict the next word in a sentence. Use a dataset with over 10,000 sentences (e.g., news headlines). Train the model and generate coherent sentences of at least 10 words. Analyze the impact of sequence length and embedding dimensions on performance.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Hybrid CNN-RNN Architecture for Video Classification
+> Create a hybrid model combining CNNs for frame feature extraction and RNNs (LSTM) for temporal sequence modeling. Use a video dataset with labeled actions (e.g., UCF101 subset). Extract features from video frames, feed them to an LSTM, and classify the sequences. Optimize the model to handle memory constraints and achieve at least 70% accuracy.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Optimizing a Deep CNN with Advanced Techniques
+> Design a deep CNN architecture for image classification on a complex dataset (e.g., ImageNet subset). Incorporate advanced techniques like residual connections, batch normalization, and attention mechanisms. Tune hyperparameters (dropout rates, optimizer settings) and achieve state-of-the-art results. Document the architecture and optimization strategies used.
 
 
 ---
@@ -2011,36 +2091,44 @@ Explore various hyperparameter tuning strategies, including Grid Search, Random 
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Differentiate Hyperparameters from Model Parameters
+> Explain the difference between hyperparameters and model parameters in the context of machine learning. Provide examples of hyperparameters for at least two models (e.g., Random Forest, SVM) and describe why they are not learned during training.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Implement Grid Search on a Simple Dataset
+> Using the digits dataset from scikit-learn, train a Support Vector Machine (SVM) classifier. Perform a manual Grid Search over the 'C' and 'gamma' hyperparameters using 5-fold cross-validation. Report the best parameters and corresponding accuracy.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Compare Random Search and Grid Search Efficiency
+> On the Boston Housing dataset, apply both Random Search and Grid Search to optimize hyperparameters for a RandomForestRegressor. Compare the computational time and model performance (RMSE) of both methods. Discuss why one might outperform the other in this scenario.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Apply Bayesian Optimization for Hyperparameter Tuning
+> Using the Scikit-Optimize library, optimize the hyperparameters of a GradientBoostingClassifier on the Breast Cancer Wisconsin dataset. Implement Bayesian Optimization to find the best combination of 'n_estimators', 'max_depth', and 'learning_rate'. Compare results with default parameters.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Hyperparameter Tuning Across Multiple Models
+> Given a synthetic classification dataset with 10,000 samples and 20 features, tune hyperparameters for both a RandomForestClassifier and an XGBoost classifier using Grid Search. Use cross-validation to compare their performances and select the best model based on F1-score.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Optimize Model Performance on Imbalanced Data
+> On the Credit Card Fraud Detection dataset, apply Random Search to optimize hyperparameters for a Logistic Regression model combined with SMOTE for handling class imbalance. Ensure that the search includes parameters for both the classifier and SMOTE. Evaluate using Precision-Recall AUC.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design a Neural Network Hyperparameter Optimization Pipeline
+> Create a pipeline to optimize hyperparameters (layers, neurons, dropout rate, optimizer) for a Keras neural network on the MNIST dataset. Use Bayesian Optimization via the Hyperopt library. Include early stopping and model checkpointing. Report the best configuration and test accuracy.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Automated Strategy Selection for Hyperparameter Tuning
+> Develop a system that dynamically selects the most efficient hyperparameter tuning strategy (Grid, Random, Bayesian) based on dataset characteristics (size, dimensionality, sparsity) and model type. The system should automatically configure the search space and evaluate results using cross-validation. Test it on at least three different datasets.
 
 
 ### ❓ Checkpoint Quiz
@@ -2171,28 +2259,36 @@ Review core supervised (linear/logistic regression, SVMs) and unsupervised (clus
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Predict Next Day Stock Price Using Simple Linear Regression
+> Load a historical stock price dataset (e.g., Yahoo Finance), use closing prices to predict the next day's closing price using a basic linear regression model. Split data into training and test sets. Evaluate performance using MSE.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Customer Segmentation for Financial Services with Clustering
+> Use a client financial behavior dataset to apply K-Means clustering. Preprocess data (normalize features), determine optimal clusters via elbow method, and analyze segments for targeted marketing.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Credit Risk Assessment Using Logistic Regression
+> Create a logistic regression model to predict loan default risk. Use a credit scoring dataset, handle missing values, encode categorical variables, and evaluate using ROC-AUC and confusion matrix.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Anomaly Detection in Transaction Data Using SVM and Statistical Methods
+> Detect fraudulent transactions in a banking dataset. Combine SVM (One-Class) with statistical methods (z-score or IQR) for preprocessing. Compare results and optimize SVM parameters (C, gamma).
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Feature Reduction for Market Prediction Using PCA
+> Apply PCA to high-dimensional financial data (e.g., technical indicators) before regression. Determine optimal components via explained variance ratio. Compare model performance before/after PCA.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Real-Time Fraud Detection System Architecture
+> Design an end-to-end pipeline integrating preprocessing, feature engineering, multiple ML models (e.g., ensemble of logistic regression, random forest, and isolation forest) for real-time fraud detection. Include model monitoring and retraining strategies.
 
 
 ---
@@ -2380,20 +2476,28 @@ Revisit foundational concepts of audience engagement on YouTube, including likes
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Analyze Your Own Video's Engagement Metrics
+> Select a video you've uploaded to YouTube and document its likes, comments, shares, and average watch time. Explain how each metric indicates the audience's response to the content and why they matter for the video's performance.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Create a Content Calendar Focused on Engagement
+> Design a 4-week content calendar that strategically incorporates calls-to-action (CTAs) to boost likes, comments, and shares. For each planned video, describe how you'll encourage these interactions and predict the potential impact on watch time.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Optimize a Video for Watch Time and Retention
+> Choose an existing video and use YouTube Analytics to identify where viewers drop off. Propose specific edits or structural changes (e.g., pacing, intro hook, video length) to improve retention and overall watch time. Justify how each change targets audience engagement.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design a Strategy to Boost Audience Interaction Across All Metrics
+> Develop a 3-month plan to systematically increase likes, comments, shares, and watch time for a channel. Include measurable goals, content types, community engagement tactics, and methods to track progress using YouTube Analytics. Address potential challenges and how to adapt.
 
 
 ### ❓ Checkpoint Quiz
@@ -2652,36 +2756,44 @@ Explore the nuances of extinction, including how to identify target behaviors fo
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Extinction Opportunities in Daily Interactions
+> Review a provided scenario where a child engages in a minor negative behavior during a parent-child interaction (e.g., whining for a snack before dinner). List the behavior to be extinguished, the reinforcement that maintains it, and describe how removing that reinforcement would constitute an extinction procedure. Explain potential challenges in implementing this.
 
 
-#### Problem 2 [B]
-> Problem 2
+##### 🔹 Create an Extinction Monitoring Log
+> Design a tracking sheet or digital log for parents to record instances of target behavior, their responses, and outcomes. Include fields to note possible extinction bursts, caregiver adherence, and environmental variables. Provide instructions on how this log can be used to adjust the procedure in real-time.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design an Extinction Implementation Plan
+> Create a step-by-step plan to reduce a specific unwanted behavior (e.g., interrupting conversations) using extinction. Include strategies for consistent non-reinforcement, identification of potential triggers, and methods to prevent accidental reinforcement. Address how to communicate the plan to other caregivers involved.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Evaluate Co-Extinction Effects
+> Given a scenario where a child's disruptive behavior during homework time also serves to avoid academic tasks, outline how implementing extinction for the disruptive behavior might affect the child's engagement with homework. Propose strategies to ensure the extinction of the unwanted behavior does not inadvertently reduce positive behaviors like academic participation.
 
 
-#### Problem 5 [B]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Manage and Predict Extinction Bursts
+> Analyze a case study where a child's behavior temporarily worsens after the start of an extinction procedure (e.g., increased tantrums when bedtime limit-setting begins). Develop a strategy to anticipate, recognize, and respond to the burst without abandoning the extinction plan. Include safety considerations and alternative reinforcement methods.
 
 
-#### Problem 6 [A]
-> Problem 6
+##### 🔹 Adapt Extinction for High-Risk Scenarios
+> Devise a modified extinction approach for a high-risk behavior (e.g., a child's aggressive outbursts toward pets) where safety cannot be compromised. Incorporate protective measures, alternative reinforcement schedules, and collaboration with professionals. Justify modifications based on ethical and practical constraints.
 
 
-#### Problem 7 [C]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Extinction for Complex Behavior Chains
+> Construct a protocol to address a complex behavior chain (e.g., sibling conflict involving name-calling followed by physical aggression) using extinction. Determine which behaviors in the chain to target, how to prevent inadvertently reinforcing precursor behaviors, and design a system to monitor consistency across multiple caregivers. Integrate additional BPT techniques (e.g., differential attention) to enhance effectiveness.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Build a Comprehensive Extinction Curriculum
+> Outline an 8-week curriculum for teaching parents to implement extinction procedures effectively. Include weekly objectives, role-play scenarios, homework assignments, and methods to assess progress. Address common coaching challenges, such as helping parents tolerate initial increases in problematic behavior and maintaining long-term consistency.
 
 
 ---
@@ -2734,32 +2846,40 @@ Focus on intermediate strategies for managing common challenging behaviors, such
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Antecedents and Consequences in a Tantrum Scenario
+> Review a written scenario where a child throws a tantrum in a grocery store. List the events that occurred before (antecedents) and after (consequences) the behavior. Explain how each consequence might reinforce or reduce the likelihood of the tantrum in the future.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design a Reward System for Defiant Behavior
+> Create a daily/weekly reward system to encourage compliance in a child who frequently argues or refuses requests. Specify 3-5 target behaviors, appropriate rewards, and how to track progress. Include a contingency plan if the child refuses initial rewards.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Role-Play and Apply Defiance Intervention Strategies
+> Act out a role-play scenario where a child refuses to clean up toys. Apply an intermediate strategy (e.g., offering limited choices, using a timer, or implementing a warning system). Document the steps taken, the child's response, and how to adjust the approach if the strategy initially fails.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Analyze Weekly Behavior Data and Patterns
+> Analyze a week's worth of behavior logs documenting incidents of aggression (e.g., hitting, yelling). Identify patterns in antecedents (times of day, locations, specific triggers) and consequences (parent reactions). Propose a modified approach to reduce aggressive episodes based on your findings.
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Modify Parent Responses Based on Behavior Function
+> Given a case study of a child who acts out to escape tasks, design how a parent should adjust their responses (e.g., ignoring minor defiance, using planned ignoring, providing calm re-direction). Explain how to differentiate between attention-seeking and escape-motivated behaviors and apply appropriate strategies.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Develop a Comprehensive Behavior Intervention Plan
+> Design a personalized intervention plan for a child with multiple challenging behaviors (e.g., tantrums, defiance, aggression). Include: 1) Identification of triggers and maintaining consequences, 2) Short- and long-term goals, 3) Parent training components, 4) Prevention strategies, and 5) Crisis management protocols. Address potential barriers to implementation.
 
 
-#### Problem 7 [D]
-> Problem 7
+##### 🔹 Evaluate and Adjust a Failed Behavior Plan
+> Review a parent's documented attempt to manage their child's behavioral escalation using time-outs and reward systems. The plan has not improved behavior and may have worsened it. Evaluate why it failed, propose adjustments based on antecedent/consequence principles, and outline a revised implementation strategy.
 
 
 ---
@@ -2881,32 +3001,40 @@ Deep dive into creating a compelling and differentiated personal brand narrative
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Personal Brand Audit of Existing Online Presence
+> Conduct a comprehensive review of your current online profiles across LinkedIn, Twitter, and Instagram. Document inconsistencies in your messaging, visual identity, and audience engagement. Present findings in a 1-page summary highlighting gaps between your current presence and desired brand perception.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Crafting Your Unique Value Proposition Statement
+> Using frameworks like Jobs-To-Be-Done or SCAR method, write a 100-word unique value proposition that clearly articulates what you do, who you serve, and the specific outcomes you deliver. Validate this statement with feedback from 3 professionals in your target audience.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Competitor Analysis and Differentiation Strategy
+> Select 3 personal brands in your industry and analyze their content strategy, audience engagement, and positioning. Create a differentiation matrix mapping their strengths/weaknesses against yours, then draft a 500-word strategy outlining how to position yourself uniquely in the same space.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Personal Brand Content Calendar Design
+> Design a 30-day content calendar tailored to your target audience's interests and your unique value proposition. Include content themes, platform-specific adaptations, and engagement strategies. Justify your choices with data from audience research or platform analytics.
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Strategic Personal Brand Roadmap Development
+> Create a 12-month roadmap that outlines key milestones for building authority in your niche (e.g., podcast guest appearances, speaking engagements, content launches). Incorporate growth metrics, risk mitigation plans, and resource allocation for each phase.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Personal Brand Crisis Management Plan
+> Develop a proactive and reactive crisis management plan for your personal brand. Identify potential reputation risks (e.g., controversial opinions, industry shifts), outline response protocols, and create templates for stakeholder communication. Include a mock scenario exercise demonstrating application.
 
 
-#### Problem 7 [D]
-> Problem 7
+##### 🔹 Industry-Specific Personal Brand Positioning Strategy
+> Choose an industry with strict norms (e.g., finance, healthcare). Research cultural expectations and entry barriers. Develop a personal brand strategy that adheres to industry standards while maintaining differentiation. Include pitch decks or presentation materials for a high-stakes introduction to that sector.
 
 
 ---
@@ -3215,28 +3343,36 @@ Review fundamental concepts of Artificial Intelligence, including machine learni
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify AI Terminology Matching
+> Create a simple quiz application that presents a list of AI terms (e.g., supervised learning, overfitting, activation function) and asks the user to match each term with its correct definition. The program should check answers and provide immediate feedback.
 
 
-#### Problem 2 [B]
-> Problem 2
+##### 🔹 Create a Simple Recommender System using Collaborative Filtering
+> Gather user–item interaction data (e.g., user ratings of books). Use a matrix factorization technique to learn latent factors. Predict missing ratings for a specific user and recommend top‑N books with the highest predicted scores. Evaluate the model with mean squared error and hit ratio metrics.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement a Logistic Regression Model on the Breast Cancer Dataset
+> Using a popular machine learning library, load the publicly available breast cancer dataset. Split Muslim data into training and test sets. Train a logistic regression classifier to predict malignant or benign tumors. Evaluate the model by reporting accuracy and confusion matrix. Include steps such as data normalization and hyperparameter selection.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Optimize a Decision Tree for Imbalanced Healthcare Data
+> Select a clinical dataset with a highly imbalanced target variable (e.g., disease presence). Train a decision tree classifier, experimenting with class weighting, pruning, and depth limits. Use stratified cross‑validation to assess performance. Investigate techniques such as SMOTE or ensemble methods to improve minority class recall, and document results in a comparative report.
 
 
-#### Problem 5 [A]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Build a Text Sentiment Classifier with K-Nearest Neighbors
+> Collect a small set of movie reviews labeled as positive or negative. Preprocess the text (tokenization, stop-word removal, TF‑IDF vectorization). Split into training and testing portions. Train a K‑Nearest Neighbors classifier and tune the number of neighbors based on cross‑validation performance. Report precision, recall, and F1‑score.
 
 
-#### Problem 6 [B]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design an End‑to‑End AI Pipeline for Real‑Time Sentiment Analysis
+> Outline an architecture that accepts live tweets, performs streaming preprocessing (language detection, emoji translation, noise removal), vectorizes the text using word embeddings, applies a pretrained deep learning classifier, and routes results to a dashboard. Detail each pipeline component, data flow, latency considerations, and scalability strategies. Provide design diagrams or pseudocode snippets for clarity.
 
 
 ---
@@ -3442,20 +3578,28 @@ A foundational review of essential system design principles. We'll cover core co
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Stateful vs Stateful Service Classification
+> Given a list of services (e.g., user authentication, image processing, shopping cart), classify them as stateful or stateless. Explain your reasoning based on how they handle client data and session management.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design a Monolithic E-commerce Application
+> Create a high-level design for an e-commerce application using a monolithic architecture. Include components like user management, product catalog, order processing, and payment handling. Briefly outline how each component interacts and how scalability might be achieved within this architecture.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Decompose a Monolith into Microservices
+> You are given a monolithic e-commerce system. Identify and separate it into microservices based on business capabilities (e.g., User Service, Product Service, Order Service). Describe service boundaries, communication strategies (REST vs messaging), and address potential challenges in data consistency.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Scale a System for 1 Million Concurrent Users
+> Design a scalable architecture for a social media platform expecting 1 million concurrent users. Include strategies for load distribution, database sharding, caching layers, and handling peak traffic. Justify architectural choices considering trade-offs between consistency, availability, and partition tolerance (CAP theorem).
 
 
 ---
@@ -3646,28 +3790,36 @@ Revisit the core pillars of OOP in Java: Encapsulation, Abstraction, Inheritance
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Encapsulation in a Bank Account Class
+> Create a BankAccount class that demonstrates encapsulation by keeping the balance, accountNumber, and ownerName fields private. Use public getter and setter methods to access and modify these fields, ensuring that the setter validates the account number format (e.g., must start with 'ACC'). Write a main method that creates an instance, sets valid values, and attempts to set invalid values to verify validation.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Vehicle Inheritance and Overriding
+> Design a Vehicle superclass with a protected engineStatus field and a startEngine() method that prints 'Engine started'. Create Car and Bike subclasses that override startEngine() to print 'Car engine roaring' and 'Bike engine buzzing' respectively. In the main method, instantiate one of each subclass and call startEngine() on each.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Polymorphic List Processing
+> Using the Vehicle classes from Problem 2, create a list containing instances of Car and Bike. Write a method processVehicles(List<Vehicle> vehicles) that iterates through the list and calls startEngine() on each. Ensure that the correct overridden method is executed based on the actual object type.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Abstract Payment Systems
+> Define an abstract class Payment with an abstract pay() method and a protected transaction fee field. Create CreditCardPayment and PayPalPayment subclasses that implement pay() with their own logic (e.g., adding the transaction fee). Add a protected method calculateFee() in the abstract class that subclasses override. Demonstrate by creating instances and invoking pay().
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Library System with Multi-Level Inheritance
+> Implement a LibraryItem abstract class with common fields like title and id. Extend it to Book and Magazine classes. Further extend Book into Fiction and NonFiction. Encapsulate all fields and override a displayInfo() method. Create a Library class that holds a list of LibraryItem objects and prints their info polymorphically.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Plugin Architecture for Text Processing
+> Design a Plugin interface with an execute(String input) method. Create a base class TextProcessor that implements Plugin and provides common functionality. Implement concrete plugins like UppercasePlugin and ReversePlugin that extend TextProcessor. Design a PluginManager class that dynamically loads plugins and processes a string through them. Ensure encapsulation of plugin-specific state and use polymorphism to execute different plugins.
 
 
 ### ❓ Checkpoint Quiz
@@ -3857,20 +4009,28 @@ A quick recap of core RL concepts including agent-environment interaction, rewar
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Agent-Environment Components
+> Given a simple scenario (e.g., a robot navigating a grid to find a charging station), list and describe the agent, environment, actions, states, and rewards. Explain how each component interacts in the RL framework.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement Basic Value Function Calculation
+> Create a small grid world (3x3) with known rewards. Compute the value function for all states using the Bellman expectation equation, assuming a uniform random policy and discount factor γ=0.9. Visualize the results.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Design Exploration Strategy for Sparse Rewards
+> Implement a Q-learning agent for a custom environment where rewards are sparse (e.g., only given upon reaching a specific goal). Integrate an exploration strategy (e.g., epsilon-greedy with decay, or Upper Confidence Bound) to balance exploration and exploitation effectively.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Multi-Armed Bandit with Contextual Information
+> Build a contextual multi-armed bandit problem where each arm's reward depends on contextual features (e.g., user demographics for ad selection). Implement a LinUCB or contextual Thompson Sampling algorithm to maximize cumulative reward while minimizing regret over time.
 
 
 ### ❓ Checkpoint Quiz
@@ -3948,32 +4108,40 @@ Detailed exploration of Q-learning algorithms, including tabular methods and cha
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Q-Table Initialization and Step Verification
+> Implement a Q-table for a 3x3 grid world environment with 4 possible actions (up, down, left, right). Initialize all Q-values to zero. Write a function to update the Q-table using the standard Q-learning update rule. Verify that after taking a step with a known reward and next state, the Q-value is updated correctly. Check if the agent transitions between states as expected after each action.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Q-Value Update Tracking in Windy Gridworld
+> In a Windy Gridworld variant, track the number of times each state-action pair is visited during training. Implement a visit counter alongside the Q-table. After training, analyze the visit counts to identify if certain states are being over-visited or ignored. Discuss how this impacts convergence and learning efficiency.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Epsilon-Greedy Exploration in Stochastic Environment
+> Implement epsilon-greedy action selection for a Q-learning agent in a stochastic environment (e.g., Cliff Walking). Tune epsilon to observe the trade-off between exploration and exploitation. Run experiments with epsilon values of 0.1, 0.5, and 0.9. Compare the average reward obtained over episodes and how the agent avoids the cliff in each case.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Debugging Early Convergence in Q-Learning
+> Train a Q-learning agent in the Mountain Car environment. Observe that the agent converges prematurely without learning an effective policy. Diagnose the issue by checking the learning rate, discount factor, and exploration strategy. Adjust hyperparameters (e.g., increase alpha or use decaying epsilon) to resolve the problem and evaluate the improved performance.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 State Space Discretization for Continuous Environments
+> Adapt a Q-learning agent to handle the continuous state space of the Acrobot environment. Discretize the state variables (angle and angular velocity) into bins. Determine the optimal number of bins to balance learning accuracy and computational cost. Train the agent and compare performance against a baseline with different discretization strategies.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Addressing Deadly Triad in Q-Learning
+> Implement a Q-learning variant that mitigates the deadly triad (bootstrapping, function approximation, off-policy updates). Use a deep neural network (DQN) as the function approximator. Apply techniques like target networks and experience replay to stabilize training. Evaluate on the CartPole environment and report improvements in convergence.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Hyperparameter Tuning Challenge for Optimal Convergence
+> Design an experiment to systematically tune hyperparameters (alpha, gamma, epsilon) in a Q-learning agent applied to the Frozen Lake environment. Use grid search or random search to find the combination that maximizes the average reward over 1000 episodes. Analyze the sensitivity of the agent's performance to each parameter and document your findings.
 
 
 ---
@@ -4005,36 +4173,44 @@ Learn policy gradient techniques and actor-critic architectures to strengthen un
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify Policy Gradient Estimation in a Simple Environment
+> Given a simple environment with a Bernoulli-based policy (e.g., a two-armed bandit), compute and verify the policy gradient update step manually. Calculate the expected reward and its gradient with respect to the policy parameters using provided reward sequences. Demonstrate that the gradient points in the direction of increasing expected reward.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Implement REINFORCE Loss Calculation for a Discrete Action Space
+> Write code to compute the REINFORCE loss for a discrete action space without using any RL libraries. Use Monte Carlo returns and log probabilities of actions taken. Test your implementation on a toy environment like Frozen Lake with a small policy network.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Build a Basic Actor-Critic for CartPole Using Neural Networks
+> Implement an Actor-Critic architecture for the CartPole environment where the critic estimates the state value and the actor updates the policy. Use separate neural networks for the actor and critic. Train the agent until it solves the environment and visualize the learning curve.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Add Advantage Normalization to the Actor-Critic Loss
+> Modify the Actor-Critic implementation to include advantage normalization before updating the actor. Compare the training performance and stability before and after normalization. Explain why normalization helps in practice.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Implement PPO with Clipped Surrogate Objective
+> Create a Proximal Policy Optimization (PPO) agent using the clipped surrogate objective to constrain policy updates. Use a multi-step approach to collect trajectories, compute advantages, and update the actor and critic. Analyze how the clipping parameter affects training stability.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Apply Actor-Critic to Continuous Control with Gaussian Policies
+> Design an Actor-Critic model where the actor outputs a Gaussian distribution over continuous actions. Implement action sampling, log probability computation, and critic updates. Test the agent on a MuJoCo-like environment (e.g., MountainCarContinuous) and tune the policy's standard deviation during training.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design a Multi-Agent Actor-Critic Framework for Cooperative Tasks
+> Create a system where multiple agents (e.g., 2-3) use Actor-Critic methods to learn policies that maximize a shared team reward. Ensure agents can exchange information or independently adjust their policies based on the collective performance. Evaluate on a cooperative gridworld environment.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Optimize Actor-Critic Hyperparameters for a Complex Environment
+> Select a challenging environment (e.g., Humanoid in MuJoCo or a custom complex scenario). Systematically vary hyperparameters such as learning rates, discount factors, and entropy coefficients. Document the impact of each change on convergence speed and final performance. Provide recommendations for robust hyperparameter settings.
 
 
 ---
@@ -4151,36 +4327,44 @@ Quick refresher on foundational knowledge to ensure solid base for advanced topi
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Interview Types and Their Use Cases
+> List the three most common interview types (behavioral, technical, situational) and describe one scenario where each would be most appropriately used during a hiring process.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Active Listening Techniques Checklist
+> Create a checklist of five active listening techniques (e.g., paraphrasing, nodding, asking clarifying questions) and explain how each can improve the quality of information gathered during an interview.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design a Structured 30-Minute Interview Plan
+> Outline a step-by-step interview structure for a 30-minute session, allocating time for introduction, core questions, follow-ups, and candidate questions. Include at least three specific questions tailored for a software engineering role.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Prepare Behavioral Questions for Leadership Roles
+> Write five behavioral interview questions to assess leadership skills, using the STAR method framework. For each question, briefly justify why it effectively evaluates a managerial competency.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Redirect a Rambling Candidate Response
+> Given a sample candidate response that diverges from the question, demonstrate how to politely redirect the candidate back on topic while maintaining a positive tone. Document the redirection technique and its impact on information retrieval.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Assess Cultural Fit Beyond Technical Skills
+> Develop a strategy to evaluate a candidate's alignment with company values and team dynamics. Include specific follow-up questions or scenarios to probe values and adaptability, and explain how to balance technical and cultural assessments.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Architect a Scalable Interview Process
+> Design an interview workflow for a growing company with multiple departments. Address how to maintain consistency in evaluation criteria across teams, handle high-volume hiring, and integrate feedback loops for continuous process improvement.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Minimize Bias in Interview Evaluations
+> Create a framework to reduce unconscious bias in interviews, incorporating structured questioning, standardized scoring rubrics, and diverse interview panels. Propose methods to train interviewers on recognizing and mitigating bias during candidate assessments.
 
 
 ### ❓ Checkpoint Quiz
@@ -4417,36 +4601,44 @@ Understand core principles of generative models, including transformers, diffusi
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Discriminative vs. Generative Model Identification
+> Given a set of model descriptions and use cases, classify each as either discriminative or generative. Explain your reasoning based on the model's purpose and output (e.g., classification boundaries vs. data synthesis).
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Pre-trained Transformer Text Generation
+> Use a pre-trained language model (e.g., GPT-2) to generate coherent text given a prompt. Evaluate different temperature and top-k sampling settings to observe their impact on output creativity and relevance.
 
 
-#### Problem 3 [C]
-> Problem 3
+##### 🔹 Multimodal Diffusion Model Application
+> Implement a basic image-to-image translation pipeline using a diffusion model (e.g., Stable Diffusion). Modify the input image with a mask and generate a plausible completion using the model. Analyze how the model handles out-of-distribution prompts.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Transformer Encoder-Decoder for Summarization
+> Build an abstractive text summarization model using a transformer encoder-decoder architecture. Train it on a dataset like CNN/Daily Mail and evaluate the quality of summaries using ROUGE scores. Discuss attention mechanisms and their role in context understanding.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Parameter-Efficient Fine-Tuning with LoRA
+> Fine-tune a pre-trained causal language model on a custom text dataset using LoRA (Low-Rank Adaptation). Compare the efficiency of LoRA against full fine-tuning in terms of training time, resource usage, and performance on a downstream task like sentiment analysis.
 
 
-#### Problem 6 [D]
-> Problem 6
+##### 🔹 RAG System for Code Documentation Generation
+> Design a Retrieval-Augmented Generation (RAG) system that retrieves relevant code snippets from a documentation database and generates natural language explanations. Integrate retriever and generator components, then evaluate coherence and accuracy of outputs.
 
 
-#### Problem 7 [B]
-> Problem 7
+##### 🔹 Efficient Model Adaptation with PEFT for Multilingual Translation
+> Adapt a pre-trained multilingual model (e.g., mBART) to a low-resource language pair using Parameter-Efficient Fine-Tuning (PEFT) methods. Implement p-tuning or adapter layers and assess translation quality compared to full fine-tuning.
 
 
-#### Problem 8 [C]
-> Problem 8
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimizing Transformer Inference with Quantization
+> Apply quantization techniques (e.g., 8-bit, 4-bit) to a pre-trained transformer model to reduce memory footprint. Measure latency improvements and accuracy degradation on a standard NLP benchmark. Document trade-offs between precision and performance.
 
 
 ### ❓ Checkpoint Quiz
@@ -4648,20 +4840,28 @@ Review core principles of stock analysis including fundamental vs. technical ana
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Calculate Basic Financial Ratios
+> Given financial data (EPS, market price, total liabilities, shareholders' equity), compute P/E ratio, debt-to-equity ratio, and return on equity. Verify results with provided examples.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Compare Company Profitability
+> Using income statements of two companies, calculate gross margin, operating margin, net profit margin, and ROE. Determine which company is more profitable and explain why.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Build a Simple Stock Screener
+> Create a stock screener that filters stocks based on P/E < 15, ROE > 15%, and debt-to-equity < 0.5. Use real financial data and apply technical indicators (e.g., 50-day MA). Output top 5 candidates.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Portfolio Allocation
+> Design a portfolio optimizer using historical returns to maximize Sharpe ratio. Incorporate constraints on sector exposure and individual stock weights. Compare results to equal-weight portfolio.
 
 
 ### ❓ Checkpoint Quiz
@@ -4832,36 +5032,44 @@ Understand core entrepreneurial concepts, identify opportunities in the Indian m
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Entrepreneurial Traits in Yourself
+> List and explain five personal characteristics that align with successful entrepreneurship in India. Reflect on how these traits might influence your ability to start a business. Discuss one cultural factor in India that could either support or challenge each trait.
 
 
-#### Problem 2 [B]
-> Problem 2
+##### 🔹 Understand Basic MSME Registration Process
+> Outline the step-by-step process to register an MSME (Micro, Small, Medium Enterprise) in India. Include the required documents, online portals, and typical timeline. Highlight one common mistake applicants make and how to avoid it.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Analyze a Local Market Opportunity
+> Choose a small business idea relevant to your city or region in India. Describe the target audience, their pain points, and how your solution addresses them. Include a basic SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) considering local infrastructure and customer behavior.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Map Legal Structures for a New Venture
+> Compare three business structures available in India (e.g., Sole Proprietorship, Partnership, Private Limited Company) in terms of registration complexity, tax obligations, and liability. For each structure, outline a scenario where it would be most suitable. Create a simple checklist for registering your chosen structure.
 
 
-#### Problem 5 [B]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Evaluate the Indian Startup Ecosystem Readiness
+> Select one Indian state or union territory and research its startup policies, funding availability, and incubation support. Prepare a comparison matrix of two cities in that region highlighting their ecosystem strengths and gaps. Recommend one actionable improvement for the weaker city.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Assess Personal Readiness Using a Self-Evaluation Framework
+> Use a structured self-assessment tool (create one or use an existing framework) to evaluate your readiness for entrepreneurship. Rate yourself on financial preparation, risk tolerance, leadership skills, and time commitment. Based on results, propose a 90-day personal action plan to address weaknesses.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design a CulturalFit Business Model for Rural India
+> Propose a scalable business model tailored for rural Indian markets. Incorporate cultural nuances like community trust, language preferences, and traditional purchasing behaviors. Justify pricing strategies, distribution channels, and partnership models that account for low digital literacy and seasonal income patterns.
 
 
-#### Problem 8 [A]
-> Problem 8
+##### 🔹 Optimize Resource Allocation in Resource-Constrained Environments
+> Develop a resource optimization strategy for a hypothetical bootstrapped startup in a Tier 2 Indian city. Consider constraints like limited funding, unreliable internet, and high competition. Propose innovative solutions for marketing, hiring, and scaling while maintaining cost efficiency.
 
 
 ---
@@ -5141,28 +5349,36 @@ An overview of RL principles and Unity's ML-Agents toolkit, establishing the gro
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Install and Run ML-Agents Sample Environment
+> Download Unity ML-Agents toolkit and execute the provided 3D Ball example. Verify successful installation by running the pre-trained model in the Unity editor without modifying any code.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Create a Simple Pushing Agent
+> Design a Unity scene where an agent learns to push a block to a target zone using basic movement actions. Implement observations for agent position, block position, and target position. Train the agent using PPO algorithm until it achieves >80% success rate.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 Develop Obstacle Avoidance Navigation
+> Build a 2D grid world environment with dynamic obstacles. Create an agent that navigates from start to goal while avoiding moving obstacles. Implement custom reward function for shortest path and collision penalties. Train using SAC algorithm and visualize learned policy performance.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Multi-Agent Competitive Training
+> Construct a Unity soccer field environment with two teams of agents. Each agent must learn to cooperate with teammates to score goals while competing against opponents. Implement shared reward mechanisms and train using multi-agent PPO with curriculum learning.
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Custom Sensor Integration for RL Agent
+> Integrate a custom raycast-based sensor system in Unity to provide obstacle detection data to the agent. Combine this with visual input processing using CNN. Train an agent to navigate complex mazes using fused sensor-visual observations.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Real-Time YouTube Game Interaction System
+> Develop a Unity game where an RL agent plays a platformer controlled by live chat commands from YouTube. Implement real-time processing of chat inputs as action modifiers. Train the agent to adapt its policy based on viewer commands while maintaining gameplay stability under high-frequency input variations.
 
 
 ---
@@ -5183,36 +5399,44 @@ Step-by-step guide to installing and configuring Unity ML-Agents for training ag
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify ML-Agents Installation and Dependencies
+> Install Unity ML-Agents package, check Python version compatibility, and verify that the ML-Agents toolkit is correctly integrated into your Unity project. Confirm that all required packages (e.g., torch, numpy) are installed and accessible.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Create a Minimal 3D Environment with Basic Agent
+> Design a simple 3D scene in Unity with a basic agent that can move and receive a reward. Configure the agent's behavior parameters, set up the environment for training, and ensure the agent can interact with the environment through observations and actions.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Set Up Behavior Parameters and Training Configuration
+> Configure behavior parameters for an agent in Unity, define observation and action spaces, and create a basic training configuration file. Train the agent using the default PPO algorithm and analyze the initial training logs.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Implement a Multi-Agent System with Shared Observations
+> Create a Unity environment with multiple agents that share observations or compete against each other. Configure inter-agent communication, define collaborative or competitive reward structures, and train the agents to achieve a coordinated goal.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Integrate Custom Sensors into Agent Observation Space
+> Add a custom sensor (e.g., raycast-based vision or a custom heuristic sensor) to an agent. Process the sensor data into the observation vector, handle normalization, and ensure the sensor integrates seamlessly with the ML-Agents trainer.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Train Agents Using Curriculum Learning
+> Design a curriculum learning setup where agents progress through increasingly complex environments. Implement lesson-based configurations, adjust reward functions dynamically, and validate that the curriculum improves training efficiency.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize Environment Performance for Large-Scale Training
+> Profile and optimize a Unity environment to reduce training time. Implement efficient physics calculations, minimize unnecessary renders, and configure parallel environment instances. Ensure the environment can scale to thousands of training steps without performance degradation.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Debug Training Instability and Reward Shaping Issues
+> Analyze a failing training scenario where the agent fails to learn or exhibits unstable behavior. Diagnose observation/action space misconfigurations, reward function inconsistencies, and hyperparameter mismatches. Propose and implement fixes to stabilize training.
 
 
 ---
@@ -5329,32 +5553,40 @@ Define clear objectives and break down the skill into manageable components.
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Skill Component Breakdown
+> List the main components or sub-skills required to master a single, well-defined skill of your choice (e.g., public speaking, data analysis, or cooking). For each component, write a one-sentence description explaining its purpose and how it contributes to the overall skill.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Goal Prioritization Matrix
+> Create a ranked list of 5-7 key objectives for learning your chosen skill. Assign each objective a priority based on difficulty and impact. Then, design a 3-month timeline allocating specific time blocks to each objective, considering your available weekly hours.
 
 
-#### Problem 3 [B]
-> Problem 3
+##### 🔹 SMART Goals Validator
+> Write three SMART goals for your skill-learning journey. For each goal, identify potential gaps in specificity, measurability, or time constraints. Propose adjustments to make them more effective and actionable.
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Milestone Achievement Plan
+> Design a milestone-based roadmap with 4-5 checkpoints for your skill. For each milestone, define the expected outcome, required resources, and methods to assess progress. Ensure milestones are spaced logically over time (e.g., weekly or bi-weekly).
 
 
-#### Problem 5 [C]
-> Problem 5
+##### 🔹 Obstacle Analysis and Adjustment
+> Identify 3 potential obstacles you might face while learning your skill (e.g., time conflicts, lack of feedback, or technical issues). For each obstacle, propose two mitigation strategies and explain how your goals or timeline might need to be adjusted if the obstacle occurs.
 
 
-#### Problem 6 [D]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Learning Path Optimization
+> Given a fixed budget of $100 and 10 hours/week for learning, optimize your skill acquisition plan. Choose resources (courses, tools, mentors) and adjust your original timeline to maximize progress within these constraints. Justify your choices.
 
 
-#### Problem 7 [D]
-> Problem 7
+##### 🔹 Feedback Loop Integration
+> Design a system to collect and integrate feedback into your learning process. Specify how you will measure progress (quantitative), gather qualitative feedback, and adjust your goals or methods based on this input. Include a schedule for review intervals.
 
 
 ---
@@ -5620,36 +5852,44 @@ Review core concepts of system architecture including monoliths vs microservices
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Monolith Component Identification
+> Given a simplified train booking system described in plain English, list its core monolithic components (database, API endpoints, user interface, etc.) and explain how they interact within a single deployable unit.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Layered Architecture Design for Stock Broker
+> Design a 3-tier layered architecture (presentation, business logic, data) for a stock brokerage system. Specify the responsibilities of each layer and draw a component diagram showing the flow of data and requests.
 
 
-#### Problem 3 [C]
-> Problem 3
+##### 🔹 Database Schema for Train Booking
+> Create a normalized database schema for a train booking system. Include tables for trains, schedules, bookings, passengers, and seat reservations. Ensure referential integrity and explain how the schema supports concurrent bookings.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 API Rate Limiting Implementation
+> Design a rate-limiting mechanism for a REST API in a stock broker system. Define how to track request counts per user, handle burst traffic, and return appropriate HTTP status codes when limits are exceeded.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Microservice Boundaries for Casino System
+> Break down a casino platform into microservices. Identify at least 4 distinct services (e.g., user management, game engine, payment processing, analytics). For each service, define its API contracts and describe how they would communicate with each other.
 
 
-#### Problem 6 [D]
-> Problem 6
+##### 🔹 API Integration Challenge for Payment Service
+> Design an API integration flow where a train booking system interacts with an external payment gateway. Define the API endpoints, request/response formats, error handling strategies, and how transaction rollbacks would work if payment fails.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Monolith to Microservices Migration Plan
+> Propose a migration strategy for converting a monolithic casino system into microservices. Identify potential service boundaries, data migration challenges, and strategies for maintaining system availability during the transition.
 
 
-#### Problem 8 [B]
-> Problem 8
+##### 🔹 Scalability Analysis for Stock Trading Platform
+> Analyze the scalability requirements of a stock trading platform during high market volatility. Recommend architectural changes to handle increased load, including database sharding, caching layers, and asynchronous processing for trades.
 
 
 ---
@@ -5856,28 +6096,36 @@ Strengthen understanding of fundamental principles like players, strategies, pay
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Players, Strategies, and Payoffs in a Social Scenario
+> Given a real-life situation (e.g., two friends deciding between two movies to watch), write out the players involved, their possible strategies, and the corresponding payoffs in a table format. Ensure each player's payoff reflects their preferences based on the scenario.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Construct a Normal-Form Game for Market Competition
+> Design a normal-form game representing two competing companies choosing between two pricing strategies. Define the players, strategies, and payoffs such that the game illustrates a prisoner's dilemma structure. Present the game in a matrix and label cells with numerical payoffs.
 
 
-#### Problem 3 [C]
-> Problem 3
+##### 🔹 Translate a Real-World Negotiation into a Payoff Matrix
+> Take a scenario like wage negotiation between a worker and employer, where each has two strategies (e.g., accept or reject an offer). Translate this into a 2x2 normal-form game by assigning numerical payoffs that reflect the consequences of each combination of strategies. Include utility considerations like job satisfaction and income.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Analyze Nash Equilibria in a Voting Game
+> Given a 3x3 normal-form game matrix where three political candidates choose their campaign focus areas, determine all pure and mixed strategy Nash equilibria. Use iterative elimination of dominated strategies to simplify analysis and explain your reasoning for each step.
 
 
-#### Problem 5 [B]
-> Problem 5
+##### 🔹 Solve for Dominant Strategies in a Resource Allocation Game
+> In a resource allocation game between two departments with conflicting priorities, analyze a provided payoff matrix to identify dominant strategies for each player. Then, determine the equilibrium outcome and discuss whether it leads to a Pareto efficient result.
 
 
-#### Problem 6 [C]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Model a Public Goods Dilemma with Four Players
+> Create a strategic-form game involving four players who must decide whether to contribute to a public project. Define strategies, payoffs, and interactions such that the game captures the tension between individual cost and collective benefit. Analyze the equilibrium outcomes and discuss the efficiency implications.
 
 
 ---
@@ -5994,36 +6242,44 @@ Understand the fundamentals of multi-agent systems (MAS), including agent types,
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Agent Roles in a Simple Scenario
+> Given a real-world scenario (e.g., autonomous drone delivery system), analyze the system and label which components are agents (e.g., drones, control center) and which are part of the environment (e.g., weather, delivery zones). Describe the role of each agent and how they interact with the environment and each other.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Classify Agent Types in a Multi-Agent Environment
+> In a provided multi-agent system (e.g., robotic vacuum cleaners working in a home), classify each agent as proactive/reactive, learning/non-learning, or cooperative/competitive. Justify your classification based on the agents' behaviors and decision-making processes.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Design a Basic Multi-Agent Environment
+> Create a simple environment (e.g., a grid world) where multiple agents (e.g., robots) must navigate to collect resources. Define the agents' actions, the environment's state transitions, and the reward structure for individual agents. Ensure the environment allows for basic interaction between agents (e.g., blocking paths).
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Implement Agent Communication for Resource Sharing
+> In the grid world environment from Problem 3, implement a communication protocol where agents can share information about nearby resources. Agents should send messages to neighbors and adjust their paths to avoid conflicts or share resources. Test the system to observe how communication affects efficiency.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Develop Dynamic Alliance Formation in a Competitive Environment
+> Design a multi-agent system where agents compete for limited resources but can form temporary alliances to maximize their collective rewards. Implement logic for agents to detect potential allies, negotiate cooperation, and dissolve alliances when conditions change. Evaluate the stability and effectiveness of formed alliances.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Simulate Multi-Agent Communication in a Grid-Based Environment
+> Extend the grid world to include obstacles and multiple types of agents (e.g., explorers and collectors). Implement a message-passing system where explorers communicate map information to collectors. Analyze how communication impacts the agents' ability to adapt and optimize their strategies in real-time.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize a MAS Architecture for Scalability and Efficiency
+> Given a pre-built MAS framework (e.g., a traffic control simulation), optimize the architecture to handle a large number of agents (e.g., 100 cars). Address bottlenecks in communication, decision-making, or environmental updates. Measure performance metrics (e.g., computation time, convergence) before and after optimization.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Create an Open-Ended MAS Framework for Emergent Communication and Alliances
+> Build a flexible MAS framework where agents can dynamically develop their own communication protocols and alliances without predefined rules. Use reinforcement learning to allow agents to learn cooperative behaviors and self-organized structures. Document emergent patterns and validate their effectiveness across multiple scenarios.
 
 
 ---
@@ -6051,36 +6307,44 @@ Learn essential game theory concepts like Nash equilibrium, prisoner's dilemma, 
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Identify Nash Equilibria in 2x2 Payoff Matrices
+> Given a set of predefined 2x2 strategic-form games with numerical payoffs, manually determine and list all pure strategy Nash equilibria. No code is required; this task focuses on understanding equilibrium concepts through inspection of payoff tables.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Simulate Iterated Prisoner's Dilemma with Reinforcement Learning Agents
+> Implement two RL agents (e.g., using Q-learning) to play the iterated prisoner's dilemma. Train them to maximize cumulative rewards and analyze whether they converge to mutual cooperation, betrayal, or cyclical strategies. Document how reward structures influence their learned behaviors.
 
 
-#### Problem 3 [C]
-> Problem 3
+##### 🔹 Implement Zero-Sum Game Solver for Two-Agent Competitive Scenarios
+> Build a program that computes optimal mixed strategies for a two-agent zero-sum game given a payoff matrix. Use linear programming or minimax algorithms. Validate results against known theoretical solutions for games like matching pennies or rock-paper-scissors.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Evaluate Evolutionary Dynamics in Multi-Agent Strategy Adoption
+> Simulate a population of agents using replicator dynamics to adopt strategies in a symmetric game. Analyze how strategy distributions evolve over time and whether they converge to Nash equilibria. Experiment with different initial conditions and mutation rates.
 
 
-#### Problem 5 [B]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Analyze Coalition Stability in a Three-Agent Resource Sharing Game
+> Model a scenario where three agents compete to share a limited resource. Each agent must decide whether to defect or cooperate. Compute possible coalition structures and evaluate their stability using concepts like core or Shapley value. Determine which coalitions are self-enforcing and explain why.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Model Communication Protocols in Repeated Games with Incomplete Information
+> Design agents that communicate (e.g., send signals about their intentions) while playing repeated games. Study how communication affects belief updates and strategy selection. Determine whether full information disclosure leads to better cooperative outcomes compared to deception.
 
 
-#### Problem 7 [B]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Design a Multi-Agent System Using Nash Equilibrium for Alliance Formation
+> Create a MARL framework where agents dynamically form alliances based on Nash equilibrium computations in their joint action spaces. Incorporate communication protocols (e.g., signaling intentions) and test how alliance stability changes with environmental perturbations. Evaluate the system's adaptability and efficiency in achieving cooperative outcomes.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Optimize Multi-Agent Negotiation Strategies Using Correlated Equilibrium
+> Develop agents that use correlated equilibrium concepts to coordinate actions without explicit communication. Design mechanisms for a central coordinator or external signal to achieve better collective outcomes than Nash equilibrium. Test scalability with increasing agents and asymmetric reward structures.
 
 
 ---
@@ -6204,24 +6468,32 @@ Study methods for forming and maintaining alliances, including stable marriage a
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Implement Stable Marriage Algorithm for Two-Agent Alliances
+> Create a program that simulates the stable marriage algorithm between two groups of agents (e.g., 4 suitors and 4 acceptors). Each agent has a ranked preference list. The program must output a stable matching where no two agents prefer each other over their assigned partners. Your solution must also verify the stability of the resulting pairs.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Coalition Utility Maximization
+> Design a system where agents negotiate to form coalitions of size 2 or 3 to maximize collective utility. Each agent has a utility value for possible coalition members. Your task is to implement a negotiation protocol that allows agents to propose and accept offers, leading to at least one stable coalition structure. Define what constitutes 'stability' in your model and prove that your algorithm achieves it.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Dynamic Alliance Management Under Changing Environments
+> Build a multi-agent simulation where agents' utilities for potential allies change over time (e.g., due to external events). Agents must continuously re-evaluate and reform their alliances. Implement a mechanism to detect unstable coalitions and trigger re-negotiation. Discuss how often your system requires re-allocation and the trade-offs between frequent vs. infrequent adjustments.
 
 
-#### Problem 4 [D]
-> Problem 4
+##### 🔹 Handling Instability in Core Coalition Structures
+> Simulate a scenario where agents initially form coalitions based on short-term gains, but long-term instability arises (e.g., some agents have incentives to deviate). Modify your coalition formation algorithm to detect such deviations and propose corrective actions. Demonstrate how your system can either prevent or recover from instability while maintaining reasonable computational efficiency.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Decentralized Alliance Architecture for Large-Scale MARL Systems
+> Design and prototype a fully decentralized framework where hundreds of agents autonomously form, maintain, and dissolve alliances without central coordination. Address scalability issues, communication overhead, and strategies for ensuring efficient resource allocation within coalitions. How do your agents handle situations where individual rationality conflicts with collective rationality? Include performance metrics and empirical validation using synthetic environments.
 
 
 ---
@@ -6540,36 +6812,44 @@ Understand income statements, balance sheets, and cash flow statements. Focus on
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Label the Financial Statements
+> Given a simplified version of an income statement, balance sheet, and cash flow statement for a fictional company, label the key components such as revenue, net income, total assets, liabilities, equity, operating cash flow, and investing activities. Ensure each line item is correctly placed within its respective statement.
 
 
-#### Problem 2 [A]
-> Problem 2
+##### 🔹 Calculate Gross Profit Margin
+> Using a provided income statement with revenue and cost of goods sold (COGS), calculate the gross profit margin for two consecutive years. Explain what the change in this margin indicates about the company's operational efficiency.
 
 
-#### Problem 3 [B]
-> Problem 3
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Compute Current Ratio
+> Given a balance sheet with current assets and current liabilities, compute the current ratio. Compare it to industry benchmarks and discuss whether the company has sufficient short-term liquidity.
 
 
-#### Problem 4 [B]
-> Problem 4
+##### 🔹 Link Net Income to Balance Sheet
+> Explain how the net income from the income statement flows into the balance sheet. Using a provided example, show how retained earnings are affected and identify any dividends declared that would reduce retained earnings.
 
 
-#### Problem 5 [C]
-> Problem 5
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Analyze Revenue and Expense Trends
+> Compare five years of income statement data to identify trends in revenue growth and expense ratios (e.g., operating expenses as a percentage of revenue). Highlight any red flags or positive indicators in the company's financial trajectory.
 
 
-#### Problem 6 [C]
-> Problem 6
+##### 🔹 Calculate Free Cash Flow
+> Using a cash flow statement, calculate free cash flow (operating cash flow minus capital expenditures). Discuss the implications of this metric for the company's ability to invest, pay dividends, or reduce debt.
 
 
-#### Problem 7 [D]
-> Problem 7
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Evaluate Credit Risk Using Ratios
+> As a credit analyst, use a company's financial statements to compute interest coverage ratio, debt-to-equity ratio, and quick ratio. Determine if the company is over-leveraged and propose whether to approve a loan based on your analysis.
 
 
-#### Problem 8 [D]
-> Problem 8
+##### 🔹 Financial Health Report Synthesis
+> Synthesize data from income statements, balance sheets, and cash flow statements over three years to create a comprehensive report assessing the company's financial health. Include profitability, liquidity, solvency, and cash flow trends, and provide actionable recommendations for investors.
 
 
 ---
@@ -6741,28 +7021,36 @@ Review core concepts including closures, scope, and hoisting to reinforce founda
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Create a Simple Closure Function
+> Write a function that returns another function. The inner function should access and log a variable declared in the outer function's scope. For example, outerFunction() returns innerFunction() which logs 'Hello from outer scope'.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Implement a Counter with Private State
+> Create a counter object using closures that maintains a private count. The counter should have methods increment(), decrement(), and getCount(). The count variable should not be directly accessible outside the closure.
 
 
-#### Problem 3 [C]
-> Problem 3
+##### 🔹 Encapsulate Variables in Event Handlers
+> Analyze and Refactor Code with Scope Issues
 
 
-#### Problem 4 [C]
-> Problem 4
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Debug Variable Hoisting in Nested Scopes
+> Fix Hoisting Behavior in a Function
 
 
-#### Problem 5 [D]
-> Problem 5
+##### 🔹 Create a Memoized Fibonacci Function
+> Optimize Recursive Function Calls with Memoization
 
 
-#### Problem 6 [B]
-> Problem 6
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Build a Secure Configuration Manager
+> Design a Module Pattern with Encapsulated Data
 
 
 ### ❓ Checkpoint Quiz
@@ -7287,20 +7575,28 @@ Overview and dis rough                                                          
 
 ### ✏️ Practice Problems
 
-#### Problem 1 [A]
-> Problem 1
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Baseline Process Dump Capture
+> Write a script (using any language) to capture a live memory dump of a running target process (e.g., notepad.exe) on a Windows system. The script should call MiniDumpWriteDump API and save the output as a .dmp file. Verify the dump file size is non-zero and can be opened with a tool like WinDbg.
 
 
-#### Problem 2 [B]
-> Problem 2
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Parse Loaded Modules from a Memory Dump
+> Given a process memory dump (from Group A), write a script to parse the PEB (Process Environment Block) and enumerate all loaded modules (DLLs). Output the list of module names, base addresses, and sizes. Validate against the output of a tool like Process Explorer.
 
 
-#### Problem 3 [C]
-> Problem 3
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Locate a Vulnerable Function by Pattern Matching
+> Using a known vulnerable binary (provided by instructor), capture its memory dump while it is running. Write a script that scans the memory dump for a specific function prologue byte pattern (e.g., 0x55 0x8B 0xEC) to locate the base address of a critical function. Map the address to a known vulnerability (e.g., stack buffer overflow) and confirm by checking adjacent memory for a shellcode placeholder.
 
 
-#### Problem 4 [D]
-> Problem 4
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Full Exploit Development: Dump Analysis to Payload Injection
+> Given a target process with a known memory corruption vulnerability (provided as a binary), capture its live memory dump. Analyze the dump to identify the offset of the vulnerable function, locate a writable and executable memory region for payload injection, and craft a minimal payload that will overwrite a return address with a ROP chain. Execute the exploit (in a controlled VM) to achieve code execution. Document the entire memory forensic workflow including finding suitable gadgets from loaded modules.
 
 
 ---
@@ -21751,7 +22047,7 @@ Apply Kirkpatrick's four levels (Reaction, Learning, Behavior, Results) to asses
     "githubRepo": "dapaag491/Eduassist-repo",
     "githubFilePath": "Eduassist.md",
     "githubBranch": "main",
-    "githubLastSyncedAt": "2026-09-07T01:20:06.658Z",
+    "githubLastSyncedAt": "2026-09-07T01:22:43.306Z",
     "provider": "openrouter",
     "assessmentQuestions": 6,
     "quizQuestions": 3,
