@@ -11,11 +11,16 @@
 
 **Description:**
 Overview and dis rough                                                                                                                                 11solution of a working exploit. Learn to map                                                                                                                                 attack                                                                                     8space layout and construct payloads for memory        exploitation.
-Determine the target's        ~                               memory footprint by capturing and analyzing process dumps.                                        identify    security-critical memory          regions.
-Acquire        memory from        target processes through live dump techniques and      establish baseline      forensic artifacts in a controlled      environment.
-Parse           available        memory                 data structures, including          loaded modules,                                                                                                           handles, and                                           _                                                                                                                                                                       functions to locate vulnerable code paths.
-Apply      memory    vulnerability                                                                     pattern matching techniques to         isolate interesting        addresses within        the memory space.
-Correlate                                                                                               extracted         data with known attack vectors and develop exploitation                                                                                                           strategy.}
+
+  Determine the target's        ~                               memory footprint by capturing and analyzing process dumps.                                        identify    security-critical memory          regions.                                                  
+
+  Acquire        memory from        target processes through live dump techniques and      establish baseline      forensic artifacts in a controlled      environment.
+
+  Parse           available        memory                 data structures, including          loaded modules,                                                                                                           handles, and                                           _                                                                                                                                                                       functions to locate vulnerable code paths.
+
+  Apply      memory    vulnerability                                                                     pattern matching techniques to         isolate interesting        addresses within        the memory space.
+
+  Correlate                                                                                               extracted         data with known attack vectors and develop exploitation                                                                                                           strategy.}
 
 ### 🔗 Resources
 - [Memory Forensics with Volatility 3: A Comprehensive Guide](https:// Volatility.org//wiki/index.php//Memory_Forensics_Itself) `[article]` - Delves into capturing and analyzing memory dumps using Volatility 3, focusing on identifying critical memory regions, loaded modules, and forensic artifacts essential for red team exploitation.
@@ -77,7 +82,6 @@ Correlate                                                                       
 
 **Description:**
 Explore core principles of    binary exploitation including buffer overflows, return-oriented programming, and format string vulnerabilities. Develop proof-of-concept exploits to understand how memory corruption works in real-world applications.
----
 
 ---
 
@@ -87,10 +91,12 @@ Explore core principles of    binary exploitation including buffer overflows, re
 
 **Description:**
 Learn techniques for intercepting and modifying API calls at runtime through DLL injection, inline hooking, and Microsoft Detours. Practice monitoring system behavior and manipulating program logic by redirecting execution flow via hooking mechanisms.
-Implement  basic           API hooks using Peaceful                                                                                                         constant                 to    demonstrate interception of critical WinAPI functions.
-Apply       instrumentation                                                                                                                                     techniques to capture input parameters and alter outputs from targeted routines.
-Construct       a          framework for logging, filtering, and manipulating API    interactions without relying on source code access.
----
+
+  Implement  basic           API hooks using Peaceful                                                                                                         constant                 to    demonstrate interception of critical WinAPI functions.
+
+  Apply       instrumentation                                                                                                                                     techniques to capture input parameters and alter outputs from targeted routines.
+
+  Construct       a          framework for logging, filtering, and manipulating API    interactions without relying on source code access.
 
 ---
 
@@ -100,7 +106,6 @@ Construct       a          framework for logging, filtering, and manipulating AP
 
 **Description:**
 Analyze live network traffic using Wireshark, tcpdump, and other protocol dissectors to uncover hidden communication patterns. Identify command-and-control channels, obfuscated payloads, and cryptographic handshakes within network flows.
----
 
 ---
 
@@ -110,7 +115,6 @@ Analyze live network traffic using Wireshark, tcpdump, and other protocol dissec
 
 **Description:**
 Harness machine learning models and AI-driven tools to automate binary analysis tasks including function classification, vulnerability             detection, and malware       feature extraction. Train custom models on                                                                     classification to improve reverse engineering    efficiency.
----
 
 ---
 
@@ -136,7 +140,6 @@ Design and implement custom crackmes incorporating various reverse engineering  
 
 **Description:**
 Conduct comprehensive analysis of real-world malware samples using static and dynamic analysis. Extract embedded payloads, decode packed content, and map infection Vectors to understand attack lifecycles.
----
 
 ---
 
@@ -146,7 +149,6 @@ Conduct comprehensive analysis of real-world malware samples using static and dy
 
 **Description:**
 Study Runtime Application Self-Protection mechanisms used to detect and    neutralize tampering, debugging, and reverse engineering attempts. Implement    instrumentation techniques to integrate protective measures directly into application runtimes.
----
 
 ---
 
@@ -156,7 +158,6 @@ Study Runtime Application Self-Protection mechanisms used to detect and    neutr
 
 **Description:**
 Develop sandbox-based analysis environments that    monitor and    evaluate    suspicious    programs in isolated    conditions. Capture    behavioral indicators such as process creation, file    I/O operations, and network    activity to assess    potential threats.
----
 
 ---
 
@@ -169,80 +170,65 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-6",
         "title": "Memory Forensics &   _dump_analysis",
-        "description": "Overview and dis rough                                                                                                                                 11solution of a working exploit. Learn to map                                                                                                                                 attack                                                                                     8space layout and construct payloads for memory        exploitation.\nDetermine the target's        ~                               memory footprint by capturing and analyzing process dumps.                                        identify    security-critical memory          regions.\nAcquire        memory from        target processes through live dump techniques and      establish baseline      forensic artifacts in a controlled      environment.\nParse           available        memory                 data structures, including          loaded modules,                                                                                                           handles, and                                           _                                                                                                                                                                       functions to locate vulnerable code paths.\nApply      memory    vulnerability                                                                     pattern matching techniques to         isolate interesting        addresses within        the memory space.\nCorrelate                                                                                               extracted         data with known attack vectors and develop exploitation                                                                                                           strategy.}",
+        "description": "Overview and dis rough                                                                                                                                 11solution of a working exploit. Learn to map                                                                                                                                 attack                                                                                     8space layout and construct payloads for memory        exploitation.\n\n  Determine the target's        ~                               memory footprint by capturing and analyzing process dumps.                                        identify    security-critical memory          regions.                                                  \n\n  Acquire        memory from        target processes through live dump techniques and      establish baseline      forensic artifacts in a controlled      environment.\n\n  Parse           available        memory                 data structures, including          loaded modules,                                                                                                           handles, and                                           _                                                                                                                                                                       functions to locate vulnerable code paths.\n\n  Apply      memory    vulnerability                                                                     pattern matching techniques to         isolate interesting        addresses within        the memory space.\n\n  Correlate                                                                                               extracted         data with known attack vectors and develop exploitation                                                                                                           strategy.}",
         "estimatedTime": "3h",
         "resources": [
           {
+            "type": "article",
             "title": "Memory Forensics with Volatility 3: A Comprehensive Guide",
             "url": "https:// Volatility.org//wiki/index.php//Memory_Forensics_Itself",
-            "type": "article",
             "description": "Delves into capturing and analyzing memory dumps using Volatility 3, focusing on identifying critical memory regions, loaded modules, and forensic artifacts essential for red team exploitation."
           },
           {
+            "type": "video",
             "title": "Red Team Memory Analysis: Dump Processing and Exploitation Pathways",
             "url": "https://www.youtube.com//watch?v= EfZvJjzKzqmlsnsgX0YqlowU6vKzwJqZgQ",
-            "type": "video",
             "description": "Demonstrates live dump acquisition techniques and memory footprint mapping to isolate vulnerable code paths through pattern matching and data correlation."
           },
           {
+            "type": "documentation",
             "title": "Windows Memory Forensics Documentation",
             "url": "https://docs.microsoft.com//en-us//windows//hardware//design//desktop//system-required-features//memory-dump-formats",
-            "type": "documentation",
             "description": "Official documentation detailing Windows memory dump formats and forensic artifact identification in controlled environments for attack vector correlation."
           },
           {
+            "type": "article",
             "title": " exploiting Memory Structures in Software Cracking",
             "url": "https://www.google.com//search?q=memory+forensics+and+structure+exploitation+in+software+cracking",
-            "type": "article",
             "description": "Covers parsing of memory data structures including handles and functions to develop exploitation strategies within red team operations."
           },
           {
+            "type": "video",
             "title": "Understanding Memory Layout for Exploitation",
             "url": "https://www.youtube.com//watch?v=YpVWEN2AzEg",
-            "type": "video",
             "description": "Explains memory space layout and attack surface identification through memory footprint analysis and vulnerability pattern matching techniques."
           }
         ],
         "researchPapers": [
           {
             "title": "Volatile Memory Forensics for Red Teams: A Survey of Dump Analysis Techniques",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2305.12345",
-            "summary": "",
-            "keyIdea": "This paper surveys modern volatile memory acquisition and analysis methods tailored for red team operations, focusing on anti-forensic techniques and bypassing EDR."
+            "keyIdea": "This paper surveys modern volatile memory acquisition and analysis methods tailored for red team operations, focusing on anti-forensic techniques and bypassing EDR.",
+            "url": "https://arxiv.org/abs/2305.12345"
           },
           {
             "title": "Advanced Malware Dump Analysis in Windows Memory: A Red Team Perspective",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/9876543",
-            "summary": "",
-            "keyIdea": "Presents a framework for extracting and analyzing malware artifacts from physical memory dumps, emphasizing evasion of common forensic tools."
+            "keyIdea": "Presents a framework for extracting and analyzing malware artifacts from physical memory dumps, emphasizing evasion of common forensic tools.",
+            "url": "https://ieeexplore.ieee.org/document/9876543"
           },
           {
             "title": "Memory Carving Techniques for Red Team Exercises: From Acquisition to Artifact Extraction",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Memory+Carving+Red+Team+Dump+Analysis",
-            "summary": "",
-            "keyIdea": "Introduces novel carving algorithms to recover cryptographic keys and process objects from raw memory dumps, applicable to red team post-exploitation."
+            "keyIdea": "Introduces novel carving algorithms to recover cryptographic keys and process objects from raw memory dumps, applicable to red team post-exploitation.",
+            "url": "https://scholar.google.com/scholar?q=Memory+Carving+Red+Team+Dump+Analysis"
           },
           {
             "title": "Automated Volatile Memory Analysis for Red Teams: Leveraging Machine Learning for Anomaly Detection",
-            "authors": "",
-            "year": "",
-            "url": "https://dl.acm.org/doi/10.1145/1234567.1234568",
-            "summary": "",
-            "keyIdea": "Proposes a machine learning approach to automate the identification of suspicious memory regions in dumps, reducing analysis time during engagements."
+            "keyIdea": "Proposes a machine learning approach to automate the identification of suspicious memory regions in dumps, reducing analysis time during engagements.",
+            "url": "https://dl.acm.org/doi/10.1145/1234567.1234568"
           },
           {
             "title": "Red Team Memory Dump Analysis: A Case Study on Mimikatz and Credential Dumping Detection",
-            "authors": "",
-            "year": "",
-            "url": "https://www.usenix.org/conference/woot23/presentation/red-team-memory",
-            "summary": "",
-            "keyIdea": "Analyzes memory dumps from red team operations to detect Mimikatz-based credential dumping and proposes countermeasures."
+            "keyIdea": "Analyzes memory dumps from red team operations to detect Mimikatz-based credential dumping and proposes countermeasures.",
+            "url": "https://www.usenix.org/conference/woot23/presentation/red-team-memory"
           }
         ],
         "practiceProblems": [
@@ -275,51 +261,47 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
           {
             "title": "The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory",
             "author": "Michael Hale Ligh, Andrew Case, Jamie Levy, Aaron Walters",
-            "url": "https://www.amazon.com/Art-Memory-Forensics-Detecting-Malware/dp/1118825098",
+            "rating": 4.6,
             "description": "Comprehensive guide to memory forensics, covering analysis of Windows, Linux, and Mac memory dumps. Essential for understanding malware detection and memory analysis techniques relevant to red teaming and software cracking.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Art-Memory-Forensics-Detecting-Malware/dp/1118825098"
           },
           {
             "title": "Practical Memory Forensics: Dive into memory forensics with hands-on labs and real-world scenarios",
             "author": "Svetlana Ostrovskaya, Oleg Skulkin, Ali Hadi",
-            "url": "https://www.amazon.com/Practical-Memory-Forensics-hands-real-world/dp/1801070338",
+            "rating": 4.5,
             "description": "Hands-on approach to memory forensics with practical labs covering dump analysis, volatility usage, and malware investigation. Highly recommended for red teamers needing to understand memory artifacts.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Practical-Memory-Forensics-hands-real-world/dp/1801070338"
           },
           {
             "title": "Learning Malware Analysis: Explore the concepts, tools, and techniques to analyze and investigate Windows malware",
             "author": "Monnappa K A",
-            "url": "https://www.amazon.com/Learning-Malware-Analysis-techniques-investigate/dp/1788392507",
+            "rating": 4.5,
             "description": "Covers malware analysis including memory forensics, dump analysis, and reverse engineering. Essential for red team understanding of how to analyze memory dumps from compromised systems.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Learning-Malware-Analysis-techniques-investigate/dp/1788392507"
           },
           {
             "title": "Memory Dump Analysis Anthology, Volume 1",
             "author": "Dmitry Vostokov",
-            "url": "https://www.amazon.com/Memory-Dump-Analysis-Anthology-Volume/dp/0956346310",
+            "rating": 4.3,
             "description": "Collection of articles and case studies on memory dump analysis, covering various platforms and debugging techniques. Useful for deep understanding of dump analysis in software cracking contexts.",
-            "rating": 4.3
+            "url": "https://www.amazon.com/Memory-Dump-Analysis-Anthology-Volume/dp/0956346310"
           },
           {
             "title": "Red Team Field Manual v3",
             "author": "Ben Clark, Nick A. Galante",
-            "url": "https://www.amazon.com/Red-Team-Field-Manual-Red/dp/1548601892",
+            "rating": 4.6,
             "description": "While not solely about memory forensics, this field manual includes practical commands and techniques for memory dump analysis during red team operations, covering volatility and other tools.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Red-Team-Field-Manual-Red/dp/1548601892"
           }
         ],
-        "completed": false,
-        "completedAt": null,
         "flashcards": [],
         "quiz": []
       },
       {
         "id": "node-7",
         "title": "Binary Exploitation Fundamentals",
-        "description": "Explore core principles of    binary exploitation including buffer overflows, return-oriented programming, and format string vulnerabilities. Develop proof-of-concept exploits to understand how memory corruption works in real-world applications.\n---",
+        "description": "Explore core principles of    binary exploitation including buffer overflows, return-oriented programming, and format string vulnerabilities. Develop proof-of-concept exploits to understand how memory corruption works in real-world applications.",
         "estimatedTime": "3h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -330,10 +312,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-8",
         "title": "API Hooking &   _interception",
-        "description": "Learn techniques for intercepting and modifying API calls at runtime through DLL injection, inline hooking, and Microsoft Detours. Practice monitoring system behavior and manipulating program logic by redirecting execution flow via hooking mechanisms.\nImplement  basic           API hooks using Peaceful                                                                                                         constant                 to    demonstrate interception of critical WinAPI functions.\nApply       instrumentation                                                                                                                                     techniques to capture input parameters and alter outputs from targeted routines.\nConstruct       a          framework for logging, filtering, and manipulating API    interactions without relying on source code access.\n---",
+        "description": "Learn techniques for intercepting and modifying API calls at runtime through DLL injection, inline hooking, and Microsoft Detours. Practice monitoring system behavior and manipulating program logic by redirecting execution flow via hooking mechanisms.\n\n  Implement  basic           API hooks using Peaceful                                                                                                         constant                 to    demonstrate interception of critical WinAPI functions.\n\n  Apply       instrumentation                                                                                                                                     techniques to capture input parameters and alter outputs from targeted routines.\n\n  Construct       a          framework for logging, filtering, and manipulating API    interactions without relying on source code access.",
         "estimatedTime": "2.5h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -344,10 +324,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-9",
         "title": "Network Traffic   _analysis",
-        "description": "Analyze live network traffic using Wireshark, tcpdump, and other protocol dissectors to uncover hidden communication patterns. Identify command-and-control channels, obfuscated payloads, and cryptographic handshakes within network flows.\n---",
+        "description": "Analyze live network traffic using Wireshark, tcpdump, and other protocol dissectors to uncover hidden communication patterns. Identify command-and-control channels, obfuscated payloads, and cryptographic handshakes within network flows.",
         "estimatedTime": "2h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -358,10 +336,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-10",
         "title": "Automated Reverse Engineering  with AI/ML",
-        "description": "Harness machine learning models and AI-driven tools to automate binary analysis tasks including function classification, vulnerability             detection, and malware       feature extraction. Train custom models on                                                                     classification to improve reverse engineering    efficiency.\n---",
+        "description": "Harness machine learning models and AI-driven tools to automate binary analysis tasks including function classification, vulnerability             detection, and malware       feature extraction. Train custom models on                                                                     classification to improve reverse engineering    efficiency.",
         "estimatedTime": "2h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -376,38 +352,36 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
         "estimatedTime": "4h",
         "resources": [
           {
+            "type": "video",
             "title": "How to Create a Crackme for Reverse Engineering Practice",
             "url": "https://www.youtube.com/watch?v=JH2rJvqg8yU",
-            "type": "video",
             "description": "A step-by-step tutorial on designing and building a basic crackme with license validation using C and common anti-reversing techniques."
           },
           {
+            "type": "article",
             "title": "Creating Your Own Crackme Challenges – A Beginner's Guide",
             "url": "https://capturetheflag.cybersicherheit-wiki.de/en/how-to-create-your-own-crackme-challenges",
-            "type": "article",
             "description": "Comprehensive guide covering the principles of crafting effective crackmes, including code obfuscation, checksum checks, and educational design considerations."
           },
           {
+            "type": "documentation",
             "title": "Crackmes.one – Community-Driven Crackme Repository",
             "url": "https://crackmes.one/",
-            "type": "documentation",
             "description": "A collection of user-submitted crackmes categorized by difficulty, useful for understanding real-world examples and reverse engineering techniques."
           },
           {
+            "type": "article",
             "title": "Anti-Debugging Techniques in Crackmes – Prevention and Bypass",
             "url": "https://www.mdsec.com/blog/antidebug-techniques-in-crackmes-prevention-and-bypass/",
-            "type": "article",
             "description": "Explains common anti-debugging methods like IsDebuggerPresent and hardware breakpoints, and how they can be implemented or countered in crackme development."
           },
           {
+            "type": "video",
             "title": "Advanced Crackme Development with Obfuscation and Virtual Pushes",
             "url": "https://www.youtube.com/watch?v=6sFZq3QZ8qI",
-            "type": "video",
             "description": "Demonstrates advanced techniques such as code virtualization, control flow flattening, and custom VM design in the context of creating challenging crackmes."
           }
         ],
-        "completed": false,
-        "completedAt": null,
         "flashcards": [],
         "researchPapers": [],
         "books": [],
@@ -417,10 +391,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-12",
         "title": "Real-World Malware   _analysis",
-        "description": "Conduct comprehensive analysis of real-world malware samples using static and dynamic analysis. Extract embedded payloads, decode packed content, and map infection Vectors to understand attack lifecycles.\n---",
+        "description": "Conduct comprehensive analysis of real-world malware samples using static and dynamic analysis. Extract embedded payloads, decode packed content, and map infection Vectors to understand attack lifecycles.",
         "estimatedTime": "3h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -431,10 +403,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-13",
         "title": "Runtime Self-Protection    (RASP)",
-        "description": "Study Runtime Application Self-Protection mechanisms used to detect and    neutralize tampering, debugging, and reverse engineering attempts. Implement    instrumentation techniques to integrate protective measures directly into application runtimes.\n---",
+        "description": "Study Runtime Application Self-Protection mechanisms used to detect and    neutralize tampering, debugging, and reverse engineering attempts. Implement    instrumentation techniques to integrate protective measures directly into application runtimes.",
         "estimatedTime": "2h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -445,10 +415,8 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
       {
         "id": "node-14",
         "title": "Behavioral Detection   &   _Sandboxing",
-        "description": "Develop sandbox-based analysis environments that    monitor and    evaluate    suspicious    programs in isolated    conditions. Capture    behavioral indicators such as process creation, file    I/O operations, and network    activity to assess    potential threats.\n---",
+        "description": "Develop sandbox-based analysis environments that    monitor and    evaluate    suspicious    programs in isolated    conditions. Capture    behavioral indicators such as process creation, file    I/O operations, and network    activity to assess    potential threats.",
         "estimatedTime": "2h",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -459,7 +427,7 @@ Develop sandbox-based analysis environments that    monitor and    evaluate    s
     ],
     "topic": "Software Cracking Red Team",
     "isFinalized": true,
-    "lastUsedAt": 1788745559794
+    "lastUsedAt": 1788745930661
   }
 }
 EDU_ASSIST_METADATA_END -->
