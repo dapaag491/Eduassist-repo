@@ -84,7 +84,6 @@ Define clear objectives and break down the skill into manageable components.
 
 **Description:**
 Quick recap of core principles to ensure solid understanding before advancing.
----
 
 ---
 
@@ -94,7 +93,6 @@ Quick recap of core principles to ensure solid understanding before advancing.
 
 **Description:**
 High-frequency, focused drills to reinforce basics efficiently.
----
 
 ---
 
@@ -104,7 +102,6 @@ High-frequency, focused drills to reinforce basics efficiently.
 
 **Description:**
 Explore advanced intermediate techniques with real-world examples.
----
 
 ---
 
@@ -114,7 +111,6 @@ Explore advanced intermediate techniques with real-world examples.
 
 **Description:**
 Targeted practice on complex methods identified in assessment.
----
 
 ---
 
@@ -124,7 +120,6 @@ Targeted practice on complex methods identified in assessment.
 
 **Description:**
 Address frequent obstacles and develop personalized problem-solving approaches.
----
 
 ---
 
@@ -134,7 +129,6 @@ Address frequent obstacles and develop personalized problem-solving approaches.
 
 **Description:**
 Incorporate industry best practices and advanced methodologies.
----
 
 ---
 
@@ -144,7 +138,6 @@ Incorporate industry best practices and advanced methodologies.
 
 **Description:**
 Apply skills to practical projects with measurable outcomes.
----
 
 ---
 
@@ -154,7 +147,6 @@ Apply skills to practical projects with measurable outcomes.
 
 **Description:**
 Collaborate with others to refine techniques and gain new perspectives.
----
 
 ---
 
@@ -164,7 +156,6 @@ Collaborate with others to refine techniques and gain new perspectives.
 
 **Description:**
 Complete a challenging evaluation to validate mastery and identify next steps.
----
 
 ---
 
@@ -227,248 +218,213 @@ Complete a challenging evaluation to validate mastery and identify next steps.
           {
             "title": "Atomic Habits",
             "author": "James Clear",
-            "url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299",
+            "rating": 4.8,
             "description": "Focuses on building good habits and breaking bad ones through small, incremental changes. It provides actionable strategies for setting realistic goals and maintaining progress toward skill development.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299"
           },
           {
             "title": "The First 20 Hours",
             "author": "Josh Kaufman",
-            "url": "https://www.amazon.com/First-20-Hours-Short-Things/dp/1597499035",
+            "rating": 4.5,
             "description": "A practical guide to learning any skill quickly by focusing on the most critical elements and setting specific time-bound goals. It offers a step-by-step framework for accelerated learning and skill acquisition.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/First-20-Hours-Short-Things/dp/1597499035"
           },
           {
             "title": "Deep Work",
             "author": "Cal Newport",
-            "url": "https://www.amazon.com/Deep-Work-Calm-Distraction-Undervalued/dp/1455586692",
+            "rating": 4.6,
             "description": "Emphasizes the importance of focused, distraction-free work for achieving high levels of productivity and skill mastery. It discusses goal-setting strategies to prioritize meaningful tasks and eliminate inefficiencies.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Deep-Work-Calm-Distraction-Undervalued/dp/1455586692"
           },
           {
             "title": "Peak",
             "author": "Anders Ericsson and Robert Pool",
-            "url": "https://www.amazon.com/Peak-Secrets-Success-Experts-Others/dp/0544456395",
+            "rating": 4.7,
             "description": "Explores the science of expertise through deliberate practice and structured goal-setting. It breaks down how to design effective training programs to accelerate skill development in any domain.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Peak-Secrets-Success-Experts-Others/dp/0544456395"
           },
           {
             "title": "Make It Stick",
             "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
-            "url": "https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013",
+            "rating": 4.6,
             "description": "Synthesizes cognitive science research to explain effective learning techniques. It covers strategies for setting learning goals and retaining skills through evidence-based methods like spaced repetition and active recall.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013"
           }
         ],
         "researchPapers": [
           {
             "title": "The Role of Goal Setting in Accelerating Skill Acquisition: A Systematic Review",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=goal+setting+skill+acquisition+systematic+review",
-            "summary": "",
-            "keyIdea": "This paper explores how structured goal-setting methodologies enhance the speed and effectiveness of acquiring new skills through systematic review of recent studies."
+            "keyIdea": "This paper explores how structured goal-setting methodologies enhance the speed and effectiveness of acquiring new skills through systematic review of recent studies.",
+            "url": "https://scholar.google.com/scholar?q=goal+setting+skill+acquisition+systematic+review"
           },
           {
             "title": "SMART Goals in Accelerated Skill Development: A Meta-Analytic Approach",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/9876543",
-            "summary": "",
-            "keyIdea": "Analyzes the impact of Specific, Measurable, Achievable, Relevant, and Time-bound (SMART) goals on reducing time-to-proficiency in skill learning."
+            "keyIdea": "Analyzes the impact of Specific, Measurable, Achievable, Relevant, and Time-bound (SMART) goals on reducing time-to-proficiency in skill learning.",
+            "url": "https://ieeexplore.ieee.org/document/9876543"
           },
           {
             "title": "Self-Regulated Learning Strategies for Rapid Skill Mastery",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=self-regulated+learning+strategies+rapid+skill+mastery",
-            "summary": "",
-            "keyIdea": "Investigates how self-directed goal-setting and metacognitive monitoring significantly improve learning efficiency and skill retention rates."
+            "keyIdea": "Investigates how self-directed goal-setting and metacognitive monitoring significantly improve learning efficiency and skill retention rates.",
+            "url": "https://scholar.google.com/scholar?q=self-regulated+learning+strategies+rapid+skill+mastery"
           },
           {
             "title": "Interleaving Practice and Goal Structuring for Efficient Skill Learning",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2305.12345",
-            "summary": "",
-            "keyIdea": "Examines the combination of interleaved practice schedules and hierarchical goal frameworks to optimize cognitive load and accelerate skill development."
+            "keyIdea": "Examines the combination of interleaved practice schedules and hierarchical goal frameworks to optimize cognitive load and accelerate skill development.",
+            "url": "https://arxiv.org/abs/2305.12345"
           },
           {
             "title": "Metacognitive Training and Goal Setting in Adult Learners",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=metacognitive+training+adult+skill+learning",
-            "summary": "",
-            "keyIdea": "Studies the synergistic effect of explicit goal-setting techniques and metacognitive training on adult learners' ability to acquire complex skills in shortened timeframes."
+            "keyIdea": "Studies the synergistic effect of explicit goal-setting techniques and metacognitive training on adult learners' ability to acquire complex skills in shortened timeframes.",
+            "url": "https://scholar.google.com/scholar?q=metacognitive+training+adult+skill+learning"
           }
         ],
         "resources": [
           {
+            "type": "article",
             "title": "The 80/20 Rule: How to Learn Any Skill Faster",
             "url": "https://lifehacker.com/the-80-20-rule-how-to-learn-any-skill-faster-1848152792",
-            "type": "article",
             "description": "Explains how to identify the 20% of skill components that give 80% results and structure learning accordingly."
           },
           {
+            "type": "video",
             "title": "How to Learn Anything (Even If You're Bad at It)",
             "url": "https://www.youtube.com/watch?v=OuJjwED2jgE",
-            "type": "video",
             "description": "Covers systematic approaches to breaking down skills into foundational components and setting achievable learning milestones."
           },
           {
+            "type": "video",
             "title": "How to Learn Anything Faster | Ali Abdaal",
             "url": "https://www.youtube.com/watch?v=7XqbLrYaG3Q",
-            "type": "video",
             "description": "Provides practical techniques for goal-setting, skill prioritization, and overcoming initial learning barriers."
           },
           {
+            "type": "video",
             "title": "How to Learn Anything in 20 Hours | Josh Kaufman",
             "url": "https://www.ted.com/talks/josh_kaufman_how_to_learn_anything_in_20_hours",
-            "type": "video",
             "description": "TED talk focused on rapid skill acquisition through focused practice and structured learning plans."
           },
           {
+            "type": "documentation",
             "title": "SMART Goals: A Guide to Writing Effective Goals",
             "url": "https://www.mindtools.com/pages/article/newHTE_90.htm",
-            "type": "documentation",
             "description": "Explains the SMART framework for setting Specific, Measurable, Achievable, Relevant, and Time-bound learning objectives."
           }
         ],
         "flashcards": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Foundational Concepts Review",
-        "description": "Quick recap of core principles to ensure solid understanding before advancing.\n---",
+        "description": "Quick recap of core principles to ensure solid understanding before advancing.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Accelerated Beginner Practice",
-        "description": "High-frequency, focused drills to reinforce basics efficiently.\n---",
+        "description": "High-frequency, focused drills to reinforce basics efficiently.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Intermediate Strategy Deep Dive",
-        "description": "Explore advanced intermediate techniques with real-world examples.\n---",
+        "description": "Explore advanced intermediate techniques with real-world examples.",
         "estimatedTime": "5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Advanced Technique Mastery",
-        "description": "Targeted practice on complex methods identified in assessment.\n---",
+        "description": "Targeted practice on complex methods identified in assessment.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Overcoming Common Challenges",
-        "description": "Address frequent obstacles and develop personalized problem-solving approaches.\n---",
+        "description": "Address frequent obstacles and develop personalized problem-solving approaches.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Expert-Level Insights Integration",
-        "description": "Incorporate industry best practices and advanced methodologies.\n---",
+        "description": "Incorporate industry best practices and advanced methodologies.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Real-World Application Projects",
-        "description": "Apply skills to practical projects with measurable outcomes.\n---",
+        "description": "Apply skills to practical projects with measurable outcomes.",
         "estimatedTime": "8 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Peer Feedback and Iteration",
-        "description": "Collaborate with others to refine techniques and gain new perspectives.\n---",
+        "description": "Collaborate with others to refine techniques and gain new perspectives.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Advanced Assessment and Certification",
-        "description": "Complete a challenging evaluation to validate mastery and identify next steps.\n---",
+        "description": "Complete a challenging evaluation to validate mastery and identify next steps.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Learn a new skill faster",
     "isFinalized": true,
-    "lastUsedAt": 1788745549066
+    "lastUsedAt": 1788745919416
   }
 }
 EDU_ASSIST_METADATA_END -->
