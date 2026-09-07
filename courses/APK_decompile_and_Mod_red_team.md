@@ -11,7 +11,6 @@
 
 **Description:**
 Review core APK structure, manifest analysis, and static analysis tools. Focus on understanding the differences between your correct beginner question and where advanced decompilation often fails.
----
 
 ---
 
@@ -21,7 +20,6 @@ Review core APK structure, manifest analysis, and static analysis tools. Focus o
 
 **Description:**
 Study how multi-dex applications are structured and analyzed. This covers the intermediate knowledge area you mastered but needs reinforcement for complex apps.
----
 
 ---
 
@@ -31,7 +29,6 @@ Study how multi-dex applications are structured and analyzed. This covers the in
 
 **Description:**
 Identify and bypass common string obfuscation techniques. Builds on your intermediate knowledge with practical application.
----
 
 ---
 
@@ -41,7 +38,6 @@ Identify and bypass common string obfuscation techniques. Builds on your interme
 
 **Description:**
 Reverse engineering heavily obfuscated code. Strengthens your advanced analysis capabilities.
----
 
 ---
 
@@ -51,7 +47,6 @@ Reverse engineering heavily obfuscated code. Strengthens your advanced analysis 
 
 **Description:**
 Practice modifying Smali code for behavioral changes. Essential for bridging your intermediate skills to advanced modification techniques.
----
 
 ---
 
@@ -61,7 +56,6 @@ Practice modifying Smali code for behavioral changes. Essential for bridging you
 
 **Description:**
 Analyze and modify network communications in Android apps. Important for complete red team assessment.
----
 
 ---
 
@@ -71,7 +65,6 @@ Analyze and modify network communications in Android apps. Important for complet
 
 **Description:**
 Master reverse engineering of native libraries and JNI bridges. Addresses your critical knowledge gap from the failed advanced questions.
----
 
 ---
 
@@ -81,7 +74,6 @@ Master reverse engineering of native libraries and JNI bridges. Addresses your c
 
 **Description:**
 Techniques for detecting and bypassing common Android security mechanisms. Essential for advanced red team operations.
----
 
 ---
 
@@ -91,7 +83,6 @@ Techniques for detecting and bypassing common Android security mechanisms. Essen
 
 **Description:**
 Set up advanced debugging environments for runtime analysis. Prepares you for techniques beyond static analysis.
----
 
 ---
 
@@ -101,7 +92,6 @@ Set up advanced debugging environments for runtime analysis. Prepares you for te
 
 **Description:**
 Learn runtime hooking and dynamic analysis techniques. Complements your static analysis skills.
----
 
 ---
 
@@ -111,7 +101,6 @@ Learn runtime hooking and dynamic analysis techniques. Complements your static a
 
 **Description:**
 Apply fuzzing techniques to Android applications to discover vulnerabilities.
----
 
 ---
 
@@ -121,7 +110,6 @@ Apply fuzzing techniques to Android applications to discover vulnerabilities.
 
 **Description:**
 Develop exploits for discovered vulnerabilities in Android apps.
----
 
 ---
 
@@ -131,7 +119,6 @@ Develop exploits for discovered vulnerabilities in Android apps.
 
 **Description:**
 Perform memory analysis on compromised Android systems.
----
 
 ---
 
@@ -141,7 +128,6 @@ Perform memory analysis on compromised Android systems.
 
 **Description:**
 Analyze threats from mobile app stores and third-party repositories.
----
 
 ---
 
@@ -151,7 +137,6 @@ Analyze threats from mobile app stores and third-party repositories.
 
 **Description:**
 Execute post-exploitation activities on compromised Android devices.
----
 
 ---
 
@@ -161,7 +146,6 @@ Execute post-exploitation activities on compromised Android devices.
 
 **Description:**
 Build and use tools for systematic APK modifications. Improves efficiency for complex tasks.
----
 
 ---
 
@@ -171,7 +155,6 @@ Build and use tools for systematic APK modifications. Improves efficiency for co
 
 **Description:**
 Study common Android security vulnerabilities and secure implementations. Addresses your senior-level knowledge gap.
----
 
 ---
 
@@ -181,7 +164,6 @@ Study common Android security vulnerabilities and secure implementations. Addres
 
 **Description:**
 Implement automated tools for systematic APK assessment. Builds toward senior-level efficiency.
----
 
 ---
 
@@ -191,7 +173,6 @@ Implement automated tools for systematic APK assessment. Builds toward senior-le
 
 **Description:**
 Complete end-to-end APK modification scenarios mimicking real red team engagements. Integrates all previous learning.
----
 
 ---
 
@@ -201,7 +182,6 @@ Complete end-to-end APK modification scenarios mimicking real red team engagemen
 
 **Description:**
 Develop specialized tools for your specific APK analysis needs. Achieves senior-level capability and addresses your knowledge gap.
----
 
 ---
 
@@ -214,10 +194,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-1",
         "title": "APK Analysis Fundamentals Refresher",
-        "description": "Review core APK structure, manifest analysis, and static analysis tools. Focus on understanding the differences between your correct beginner question and where advanced decompilation often fails.\n---",
+        "description": "Review core APK structure, manifest analysis, and static analysis tools. Focus on understanding the differences between your correct beginner question and where advanced decompilation often fails.",
         "estimatedTime": "2-3 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -228,10 +206,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-2",
         "title": "Dex Distribution Deep Dive",
-        "description": "Study how multi-dex applications are structured and analyzed. This covers the intermediate knowledge area you mastered but needs reinforcement for complex apps.\n---",
+        "description": "Study how multi-dex applications are structured and analyzed. This covers the intermediate knowledge area you mastered but needs reinforcement for complex apps.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -242,10 +218,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-3",
         "title": "String Encryption Detection",
-        "description": "Identify and bypass common string obfuscation techniques. Builds on your intermediate knowledge with practical application.\n---",
+        "description": "Identify and bypass common string obfuscation techniques. Builds on your intermediate knowledge with practical application.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -256,10 +230,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-4",
         "title": "Code Obfuscation Analysis",
-        "description": "Reverse engineering heavily obfuscated code. Strengthens your advanced analysis capabilities.\n---",
+        "description": "Reverse engineering heavily obfuscated code. Strengthens your advanced analysis capabilities.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -270,10 +242,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-5",
         "title": "Smali Bytecode Instrumentation",
-        "description": "Practice modifying Smali code for behavioral changes. Essential for bridging your intermediate skills to advanced modification techniques.\n---",
+        "description": "Practice modifying Smali code for behavioral changes. Essential for bridging your intermediate skills to advanced modification techniques.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -284,10 +254,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-6",
         "title": "Network Security Analysis",
-        "description": "Analyze and modify network communications in Android apps. Important for complete red team assessment.\n---",
+        "description": "Analyze and modify network communications in Android apps. Important for complete red team assessment.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -298,10 +266,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-7",
         "title": "JNI and Native Code Analysis",
-        "description": "Master reverse engineering of native libraries and JNI bridges. Addresses your critical knowledge gap from the failed advanced questions.\n---",
+        "description": "Master reverse engineering of native libraries and JNI bridges. Addresses your critical knowledge gap from the failed advanced questions.",
         "estimatedTime": "5-6 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -312,10 +278,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-8",
         "title": "Root Detection and Anti-Debugging Bypass",
-        "description": "Techniques for detecting and bypassing common Android security mechanisms. Essential for advanced red team operations.\n---",
+        "description": "Techniques for detecting and bypassing common Android security mechanisms. Essential for advanced red team operations.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -326,10 +290,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-9",
         "title": "Debugging Android Applications",
-        "description": "Set up advanced debugging environments for runtime analysis. Prepares you for techniques beyond static analysis.\n---",
+        "description": "Set up advanced debugging environments for runtime analysis. Prepares you for techniques beyond static analysis.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -340,10 +302,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-10",
         "title": "Dynamic Instrumentation with Frida",
-        "description": "Learn runtime hooking and dynamic analysis techniques. Complements your static analysis skills.\n---",
+        "description": "Learn runtime hooking and dynamic analysis techniques. Complements your static analysis skills.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -354,10 +314,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-11",
         "title": "Fuzzing",
-        "description": "Apply fuzzing techniques to Android applications to discover vulnerabilities.\n---",
+        "description": "Apply fuzzing techniques to Android applications to discover vulnerabilities.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -368,10 +326,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-12",
         "title": "Exploit Development",
-        "description": "Develop exploits for discovered vulnerabilities in Android apps.\n---",
+        "description": "Develop exploits for discovered vulnerabilities in Android apps.",
         "estimatedTime": "6-8 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -382,10 +338,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-13",
         "title": "Memory Forensics",
-        "description": "Perform memory analysis on compromised Android systems.\n---",
+        "description": "Perform memory analysis on compromised Android systems.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -396,10 +350,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-14",
         "title": "App Store Threat Intelligence",
-        "description": "Analyze threats from mobile app stores and third-party repositories.\n---",
+        "description": "Analyze threats from mobile app stores and third-party repositories.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -410,10 +362,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-15",
         "title": "Post-Exploitation",
-        "description": "Execute post-exploitation activities on compromised Android devices.\n---",
+        "description": "Execute post-exploitation activities on compromised Android devices.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -424,10 +374,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-16",
         "title": "Automated APK Modification Frameworks",
-        "description": "Build and use tools for systematic APK modifications. Improves efficiency for complex tasks.\n---",
+        "description": "Build and use tools for systematic APK modifications. Improves efficiency for complex tasks.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -438,10 +386,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-17",
         "title": "Secure Coding Practice Analysis",
-        "description": "Study common Android security vulnerabilities and secure implementations. Addresses your senior-level knowledge gap.\n---",
+        "description": "Study common Android security vulnerabilities and secure implementations. Addresses your senior-level knowledge gap.",
         "estimatedTime": "4-5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -452,10 +398,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-18",
         "title": "Automated Vulnerability Scanning",
-        "description": "Implement automated tools for systematic APK assessment. Builds toward senior-level efficiency.\n---",
+        "description": "Implement automated tools for systematic APK assessment. Builds toward senior-level efficiency.",
         "estimatedTime": "3-4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -466,10 +410,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-19",
         "title": "Red Team Scenario Simulation",
-        "description": "Complete end-to-end APK modification scenarios mimicking real red team engagements. Integrates all previous learning.\n---",
+        "description": "Complete end-to-end APK modification scenarios mimicking real red team engagements. Integrates all previous learning.",
         "estimatedTime": "6-8 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -480,10 +422,8 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
       {
         "id": "node-20",
         "title": "Custom Tool Development",
-        "description": "Develop specialized tools for your specific APK analysis needs. Achieves senior-level capability and addresses your knowledge gap.\n---",
+        "description": "Develop specialized tools for your specific APK analysis needs. Achieves senior-level capability and addresses your knowledge gap.",
         "estimatedTime": "8-10 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -494,7 +434,7 @@ Develop specialized tools for your specific APK analysis needs. Achieves senior-
     ],
     "topic": "APK decompile and Mod red team",
     "isFinalized": true,
-    "lastUsedAt": 1788745558667
+    "lastUsedAt": 1788745929443
   }
 }
 EDU_ASSIST_METADATA_END -->
