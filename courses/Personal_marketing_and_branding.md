@@ -65,7 +65,6 @@ Deep dive into creating a compelling and differentiated personal brand narrative
 
 **Description:**
 Master advanced content creation strategies, including thought leadership content, multimedia production (videos, podcasts), and effective distribution channels.
----
 
 ---
 
@@ -75,7 +74,6 @@ Master advanced content creation strategies, including thought leadership conten
 
 **Description:**
 Explore advanced social media tactics for personal branding, including community building, engagement strategies, influencer collaborations, and advanced analytics.
----
 
 ---
 
@@ -85,7 +83,6 @@ Explore advanced social media tactics for personal branding, including community
 
 **Description:**
 Develop sophisticated storytelling techniques to connect with your audience on an emotional level. Learn to craft authentic and memorable narratives.
----
 
 ---
 
@@ -95,7 +92,6 @@ Develop sophisticated storytelling techniques to connect with your audience on a
 
 **Description:**
 Strategies for establishing yourself as an expert in your field through public speaking, writing, and online presence.
----
 
 ---
 
@@ -105,7 +101,6 @@ Strategies for establishing yourself as an expert in your field through public s
 
 **Description:**
 Learn how to optimize your online presence for search engines and proactively manage your digital reputation.
----
 
 ---
 
@@ -115,7 +110,6 @@ Learn how to optimize your online presence for search engines and proactively ma
 
 **Description:**
 Advanced techniques for building strategic professional relationships that support your personal brand and career goals.
----
 
 ---
 
@@ -125,7 +119,6 @@ Advanced techniques for building strategic professional relationships that suppo
 
 **Description:**
 Explore various strategies for generating income from your personal brand, such as consulting, coaching, creating digital products, or securing speaking engagements.
----
 
 ---
 
@@ -135,7 +128,6 @@ Explore various strategies for generating income from your personal brand, such 
 
 **Description:**
 Learn how to regularly audit your personal brand's effectiveness and make iterative improvements based on feedback and performance metrics.
----
 
 ---
 
@@ -145,7 +137,6 @@ Learn how to regularly audit your personal brand's effectiveness and make iterat
 
 **Description:**
 Analyze real-world examples of individuals who have built powerful and impactful personal brands, identifying key strategies and takeaways.
----
 
 ---
 
@@ -155,7 +146,6 @@ Analyze real-world examples of individuals who have built powerful and impactful
 
 **Description:**
 Articulate your core values, mission, and vision in a clear and inspiring personal brand manifesto.
----
 
 ---
 
@@ -165,7 +155,6 @@ Articulate your core values, mission, and vision in a clear and inspiring person
 
 **Description:**
 Refine your ability to succinctly and powerfully communicate your value proposition to different audiences.
----
 
 ---
 
@@ -226,203 +215,179 @@ Refine your ability to succinctly and powerfully communicate your value proposit
         ],
         "resources": [
           {
+            "type": "video",
             "title": "The #1 Thing You Need to Build Your Personal Brand | Gary Vaynerchuk",
             "url": "https://www.youtube.com/watch?v=4DfQ2dQY2kY",
-            "type": "video",
             "description": "Gary Vaynerchuk discusses the core principles of personal branding, focusing on creating a narrative that resonates with your target audience and differentiates you in the market."
           },
           {
+            "type": "article",
             "title": "A Personal Branding Strategy That Actually Works: An Action Plan",
             "url": "https://hbr.org/2020/03/a-personal-branding-strategy-that-actually-works-an-action-plan",
-            "type": "article",
             "description": "Harvard Business Review article outlining a structured approach to developing a unique value proposition and targeting the right audience through strategic personal branding."
           },
           {
+            "type": "documentation",
             "title": "Personal Branding Playbook: A Step-by-Step Guide to Building Your Brand",
             "url": "https://www.linkedin.com/pulse/personal-branding-playbook-step-guide-building-your-brand-laura-babbs",
-            "type": "documentation",
             "description": "LinkedIn article providing advanced strategies and frameworks for crafting a compelling personal brand narrative and identifying your target audience effectively."
           },
           {
+            "type": "video",
             "title": "How to Build a Strong Personal Brand in 2023 | Marie Forleo",
             "url": "https://www.youtube.com/watch?v=4DfQ2dQY2kY",
-            "type": "video",
             "description": "Marie Forleo's expert advice on creating a differentiated personal brand narrative that attracts opportunities and aligns with your unique value proposition."
           },
           {
+            "type": "article",
             "title": "Personal Branding Strategies That Work: How to Stand Out",
             "url": "https://www.entrepreneur.com/article/388367",
-            "type": "article",
             "description": "Entrepreneur.com provides actionable insights on advanced personal branding techniques, including niche targeting and storytelling to build a memorable brand identity."
           }
         ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Content Marketing for Personal Brands",
-        "description": "Master advanced content creation strategies, including thought leadership content, multimedia production (videos, podcasts), and effective distribution channels.\n---",
+        "description": "Master advanced content creation strategies, including thought leadership content, multimedia production (videos, podcasts), and effective distribution channels.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Leveraging Social Media for Influence",
-        "description": "Explore advanced social media tactics for personal branding, including community building, engagement strategies, influencer collaborations, and advanced analytics.\n---",
+        "description": "Explore advanced social media tactics for personal branding, including community building, engagement strategies, influencer collaborations, and advanced analytics.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Personal Brand Storytelling Masterclass",
-        "description": "Develop sophisticated storytelling techniques to connect with your audience on an emotional level. Learn to craft authentic and memorable narratives.\n---",
+        "description": "Develop sophisticated storytelling techniques to connect with your audience on an emotional level. Learn to craft authentic and memorable narratives.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Building Authority and Thought Leadership",
-        "description": "Strategies for establishing yourself as an expert in your field through public speaking, writing, and online presence.\n---",
+        "description": "Strategies for establishing yourself as an expert in your field through public speaking, writing, and online presence.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Personal SEO and Online Reputation Management",
-        "description": "Learn how to optimize your online presence for search engines and proactively manage your digital reputation.\n---",
+        "description": "Learn how to optimize your online presence for search engines and proactively manage your digital reputation.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Networking and Relationship Building for Brands",
-        "description": "Advanced techniques for building strategic professional relationships that support your personal brand and career goals.\n---",
+        "description": "Advanced techniques for building strategic professional relationships that support your personal brand and career goals.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Monetizing Your Personal Brand",
-        "description": "Explore various strategies for generating income from your personal brand, such as consulting, coaching, creating digital products, or securing speaking engagements.\n---",
+        "description": "Explore various strategies for generating income from your personal brand, such as consulting, coaching, creating digital products, or securing speaking engagements.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Personal Brand Audits and Iteration",
-        "description": "Learn how to regularly audit your personal brand's effectiveness and make iterative improvements based on feedback and performance metrics.\n---",
+        "description": "Learn how to regularly audit your personal brand's effectiveness and make iterative improvements based on feedback and performance metrics.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Case Studies: Successful Personal Brands",
-        "description": "Analyze real-world examples of individuals who have built powerful and impactful personal brands, identifying key strategies and takeaways.\n---",
+        "description": "Analyze real-world examples of individuals who have built powerful and impactful personal brands, identifying key strategies and takeaways.",
         "estimatedTime": "1 hour",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Developing a Personal Brand Manifesto",
-        "description": "Articulate your core values, mission, and vision in a clear and inspiring personal brand manifesto.\n---",
+        "description": "Articulate your core values, mission, and vision in a clear and inspiring personal brand manifesto.",
         "estimatedTime": "0.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Crafting a Professional Bio and Elevator Pitch",
-        "description": "Refine your ability to succinctly and powerfully communicate your value proposition to different audiences.\n---",
+        "description": "Refine your ability to succinctly and powerfully communicate your value proposition to different audiences.",
         "estimatedTime": "0.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Personal marketing and branding",
     "updatedAt": 1766612437461,
     "createdAt": 1766612437461,
     "isFinalized": true,
-    "lastUsedAt": 1788745536570
+    "lastUsedAt": 1788745905891
   }
 }
 EDU_ASSIST_METADATA_END -->
