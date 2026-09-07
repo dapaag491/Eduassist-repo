@@ -145,7 +145,6 @@ Analyze the architecture of a train booking system focusing on high availability
 
 **Description:**
 Explore real-time processing, fraud detection, and secure payment handling in casino systems.
----
 
 ---
 
@@ -155,7 +154,6 @@ Explore real-time processing, fraud detection, and secure payment handling in ca
 
 **Description:**
 Dive into low-latency trading systems, real-time data feeds, and risk management architectures.
----
 
 ---
 
@@ -165,7 +163,6 @@ Dive into low-latency trading systems, real-time data feeds, and risk management
 
 **Description:**
 Learn about sharding, database replication, and asynchronous processing for handling massive scale.
----
 
 ---
 
@@ -175,7 +172,6 @@ Learn about sharding, database replication, and asynchronous processing for hand
 
 **Description:**
 Master inter-service communication, message queues, and API gateways for complex distributed systems.
----
 
 ---
 
@@ -185,7 +181,6 @@ Master inter-service communication, message queues, and API gateways for complex
 
 **Description:**
 Study security best practices, data encryption, and regulatory compliance in system design.
----
 
 ---
 
@@ -195,7 +190,6 @@ Study security best practices, data encryption, and regulatory compliance in sys
 
 **Description:**
 Understand event-driven design, stream processing, and real-time analytics for time-critical systems.
----
 
 ---
 
@@ -205,7 +199,6 @@ Understand event-driven design, stream processing, and real-time analytics for t
 
 **Description:**
 Apply learned concepts to design a scalable backend system with practical implementation strategies.
----
 
 ---
 
@@ -215,7 +208,6 @@ Apply learned concepts to design a scalable backend system with practical implem
 
 **Description:**
 Learn performance tuning, monitoring, and observability in large-scale systems.
----
 
 ---
 
@@ -264,33 +256,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Microservices by Martin Fowler",
             "url": "https://martinfowler.com/articles/microservices.html",
-            "type": "article",
             "description": "Explains the core principles of microservices architecture, including trade-offs between monoliths and microservices, with real-world system design examples."
           },
           {
+            "type": "documentation",
             "title": "AWS Microservices Overview",
             "url": "https://aws.amazon.com/microservices/",
-            "type": "documentation",
             "description": "Provides foundational concepts of system architecture with practical examples of microservices implementations in scalable systems, including layered components like databases and APIs."
           },
           {
+            "type": "video",
             "title": "System Design Fundamentals by Gaurav Sen",
             "url": "https://www.youtube.com/watch?v=93bC_gjm8h8",
-            "type": "video",
             "description": "Covers monoliths vs microservices, architectural layers, and real-world case studies for systems like booking platforms and financial services."
           },
           {
+            "type": "article",
             "title": "Designing Data-Intensive Applications by Martin Kleppmann",
             "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
-            "type": "article",
             "description": "Discusses foundational system components including databases, APIs, and scalability patterns with examples from real-world systems."
           },
           {
+            "type": "article",
             "title": "eBay's Migration to Microservices",
             "url": "https://www.infoq.com/news/2020/08/ebay-microservices-migration/",
-            "type": "article",
             "description": "Case study of eBay's transition from monolith to microservices, highlighting architectural decisions and challenges in a large-scale system."
           }
         ],
@@ -298,37 +290,37 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
           {
             "title": "Designing Data-Intensive Applications",
             "author": "Martin Kleppmann",
-            "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Kleppmann/dp/1449373321",
+            "rating": 4.8,
             "description": "This book dives into the principles and practices of designing reliable, scalable, and maintainable data systems. It covers distributed systems, databases, and stream processing, essential for understanding real-world architectures like those used in stock trading or booking systems.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Kleppmann/dp/1449373321"
           },
           {
             "title": "Software Architecture in Practice",
             "author": "Len Bass, Paul Clements, and Rick Kazman",
-            "url": "https://www.amazon.com/Software-Architecture-Practice-3rd-Edition/dp/0321815739",
+            "rating": 4.6,
             "description": "A foundational textbook that explores architectural concepts through real-world case studies and examples. It emphasizes design principles and evaluation methods applicable to enterprise systems, including complex domains like finance and travel.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Software-Architecture-Practice-3rd-Edition/dp/0321815739"
           },
           {
             "title": "Building Microservices",
             "author": "Sam Newman",
-            "url": "https://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950357",
+            "rating": 4.7,
             "description": "Focuses on designing and deploying microservices architectures. It includes practical guidance and challenges for implementing systems that handle diverse domains, such as e-commerce and financial services, aligning with the user's interest in varied systems.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950357"
           },
           {
             "title": "Enterprise Integration Patterns",
             "author": "Gregor Hohpe and Bobby Woolf",
-            "url": "https://www.amazon.com/Enterprise-Integration-Patterns-Gregor-Hohpe/dp/0321200683",
+            "rating": 4.9,
             "description": "A comprehensive guide to integration patterns for building connected enterprise systems. It provides reusable solutions for complex architectures, critical for industries like stock brokering and travel where system interoperability is key.",
-            "rating": 4.9
+            "url": "https://www.amazon.com/Enterprise-Integration-Patterns-Gregor-Hohpe/dp/0321200683"
           },
           {
             "title": "Patterns of Enterprise Application Architecture",
             "author": "Martin Fowler",
-            "url": "https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420",
+            "rating": 4.6,
             "description": "Presents a catalog of patterns for designing enterprise applications. It offers practical solutions for common architectural challenges, applicable to systems in sectors like finance, transportation, and gaming.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420"
           }
         ],
         "practiceProblems": [
@@ -383,9 +375,7 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         ],
         "flashcards": [],
         "researchPapers": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
@@ -394,33 +384,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "2.5 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "AWS Elastic Load Balancing Documentation",
             "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-elb.html",
-            "type": "documentation",
             "description": "Explains how to distribute incoming application traffic across multiple targets, covering load balancing strategies essential for scalability in systems like stock brokers and train bookings."
           },
           {
+            "type": "article",
             "title": "Scalability Rules: 50 Principles for Scaling Web Sites",
             "url": "https://highscalability.blogspot.com/search?q=scalability+rules",
-            "type": "article",
             "description": "A collection of principles and case studies on scaling, including real-world systems and their architectural approaches to handle traffic surges in industries like gaming (casinos) and finance."
           },
           {
+            "type": "video",
             "title": "Horizontal vs Vertical Scaling Explained | System Design Concepts",
             "url": "https://www.youtube.com/watch?v=6Qqj1Y3x8nQ",
-            "type": "video",
             "description": "Video tutorial explaining horizontal and vertical scaling techniques with examples, helping understand trade-offs and use cases in systems like online trading platforms."
           },
           {
+            "type": "documentation",
             "title": "Redis Caching Strategies Documentation",
             "url": "https://redis.io/docs/manual/cache/",
-            "type": "documentation",
             "description": "Guides caching strategies to reduce database load, applicable to high-traffic systems such as train booking platforms and stock exchange systems."
           },
           {
+            "type": "article",
             "title": "How Netflix Scales to Serve 100 Million Subscribers",
             "url": "https://netflixtechblog.com/how-netflix-scales-to-serve-100-million-subscribers-8c1b3b6f6d5f",
-            "type": "article",
             "description": "Detailed case study on Netflix's architecture, covering load balancing, caching, and scaling techniques relevant to high-demand systems like those in entertainment or travel booking sectors."
           }
         ],
@@ -428,9 +418,7 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
@@ -439,33 +427,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Distributed Systems Fundamentals: CAP Theorem, Consistency, and Partition Tolerance",
             "url": "https://www.youtube.com/watch?v=JgP2uJzv6aY",
-            "type": "video",
             "description": "Explains CAP theorem concepts with real-world examples, including trade-offs in systems like stock trading platforms."
           },
           {
+            "type": "article",
             "title": "Understanding Consistency Models in Distributed Systems",
             "url": "https://developer.ibm.com/articles/consistency-models-distributed-systems/",
-            "type": "article",
             "description": "Covers strong/eventual consistency and their implications in real systems like online booking services."
           },
           {
+            "type": "documentation",
             "title": "Apache Cassandra Documentation: Consistency Levels",
             "url": "https://cassandra.apache.org/doc/latest/cassandra/operating/consistency.html",
-            "type": "documentation",
             "description": "Explains consistency models in Cassandra with practical use cases for distributed architectures."
           },
           {
+            "type": "article",
             "title": "How Distributed Systems Handle Real-World Challenges: Train Booking Case Study",
             "url": "https://medium.com/@systemdesign/practical-distributed-systems-train-booking-architecture-7e8a0b8c3d9a",
-            "type": "article",
             "description": "Analyzes a train reservation system's architecture addressing latency, consistency, and fault tolerance."
           },
           {
+            "type": "documentation",
             "title": "AWS DynamoDB: How It Works - Consistency",
             "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html",
-            "type": "documentation",
             "description": "Explains eventual vs. strong consistency models in cloud systems, relevant to high-scale services like casinos."
           }
         ],
@@ -473,9 +461,7 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
@@ -484,33 +470,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "article",
             "title": "CQRS and Event Sourcing - Martin Fowler",
             "url": "https://martinfowler.com/bliki/CQRS.html",
-            "type": "article",
             "description": "Comprehensive explanation of CQRS and Event Sourcing patterns with architectural implications and real-world applications."
           },
           {
+            "type": "video",
             "title": "Event Sourcing - Greg Young",
             "url": "https://www.youtube.com/watch?v=8JJ-9Rz4p9Y",
-            "type": "video",
             "description": "Greg Young's talk on Event Sourcing principles and how systems like banking or booking leverage this pattern."
           },
           {
+            "type": "documentation",
             "title": "Microservices Service Discovery - Microsoft",
             "url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/service-discovery",
-            "type": "documentation",
             "description": "Microsoft's guide to implementing service discovery in distributed systems, critical for scalable architectures."
           },
           {
+            "type": "article",
             "title": "Real-World CQRS Lessons - Medium",
             "url": "https://medium.com/@thinkcode/what-weve-learned-implementing-cqrs-and-event-sourcing-at-scale-8b26b0d7b6dc",
-            "type": "article",
             "description": "Case study on applying CQRS in large systems like booking platforms, discussing challenges and solutions."
           },
           {
+            "type": "documentation",
             "title": "Service Discovery Patterns - HashiCorp",
             "url": "https://www.consul.io/docs/architecture/service-discovery",
-            "type": "documentation",
             "description": "HashiCorp's Consul documentation on service discovery mechanisms in complex systems like stock trading platforms."
           }
         ],
@@ -518,9 +504,7 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
@@ -529,33 +513,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Train Ticket Booking System Architecture",
             "url": "https://www.geeksforgeeks.org/train-ticket-booking-system-architecture/",
-            "type": "article",
             "description": "Explains the architecture of a train booking system including high availability strategies, load balancing, and transaction management for booking confirmations."
           },
           {
+            "type": "video",
             "title": "Design a Train Ticket Booking System | System Design Interview",
             "url": "https://www.youtube.com/watch?v=4Jw4i4Y3q9w",
-            "type": "video",
             "description": "YouTube tutorial analyzing high availability systems, database design, and transaction handling in a train booking context."
           },
           {
+            "type": "documentation",
             "title": "AWS Case Study: Indian Railway Catering and Tourism Corporation",
             "url": "https://aws.amazon.com/solutions/case-studies/indian-railway-catering-and-tourism-corporation/",
-            "type": "documentation",
             "description": "Details how AWS infrastructure supports high availability and scalable transaction processing for India's railway booking platform."
           },
           {
+            "type": "article",
             "title": "Case Study: Train Booking System Design Using Microservices",
             "url": "https://dheerajyedla.com/case-study-train-booking-system-design/",
-            "type": "article",
             "description": "Breaks down microservices architecture, distributed transactions, and failover mechanisms in a train booking system."
           },
           {
+            "type": "article",
             "title": "Scalable Reservation Systems in Transportation",
             "url": "https://medium.com/@technicalarchitecture/scalable-reservation-systems-in-transportation-analysis-of-high-availability-and-transaction-management-in-train-booking-platforms-2f3a8b3d4e5c",
-            "type": "article",
             "description": "Focuses on scalability challenges, transaction isolation, and failover strategies in transportation booking systems like trains."
           }
         ],
@@ -563,121 +547,103 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Casino System Architecture",
-        "description": "Explore real-time processing, fraud detection, and secure payment handling in casino systems.\n---",
+        "description": "Explore real-time processing, fraud detection, and secure payment handling in casino systems.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Stock Broker System Challenges",
-        "description": "Dive into low-latency trading systems, real-time data feeds, and risk management architectures.\n---",
+        "description": "Dive into low-latency trading systems, real-time data feeds, and risk management architectures.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Advanced Scalability Techniques",
-        "description": "Learn about sharding, database replication, and asynchronous processing for handling massive scale.\n---",
+        "description": "Learn about sharding, database replication, and asynchronous processing for handling massive scale.",
         "estimatedTime": "3.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Microservices Communication",
-        "description": "Master inter-service communication, message queues, and API gateways for complex distributed systems.\n---",
+        "description": "Master inter-service communication, message queues, and API gateways for complex distributed systems.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Security and Compliance in Architectures",
-        "description": "Study security best practices, data encryption, and regulatory compliance in system design.\n---",
+        "description": "Study security best practices, data encryption, and regulatory compliance in system design.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Real-time Systems and Event-Driven Architecture",
-        "description": "Understand event-driven design, stream processing, and real-time analytics for time-critical systems.\n---",
+        "description": "Understand event-driven design, stream processing, and real-time analytics for time-critical systems.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Hands-on Project: Design a Scalable E-commerce Backend",
-        "description": "Apply learned concepts to design a scalable backend system with practical implementation strategies.\n---",
+        "description": "Apply learned concepts to design a scalable backend system with practical implementation strategies.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Advanced System Optimization",
-        "description": "Learn performance tuning, monitoring, and observability in large-scale systems.\n---",
+        "description": "Learn performance tuning, monitoring, and observability in large-scale systems.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
@@ -686,33 +652,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "How Online Casinos Handle Payments Securely",
             "url": "https://medium.com/@casinotech/how-online-casinos-handle-payments-securely-a7b3c8d9e0f1",
-            "type": "article",
             "description": "Explores secure payment gateway integrations, encryption methods, and compliance requirements in online casino systems."
           },
           {
+            "type": "video",
             "title": "Payment Processing Architecture in Regulated Industries (Gambling Sector)",
             "url": "https://www.youtube.com/watch?v=paymentcasinoarchitecture",
-            "type": "video",
             "description": "Discusses system design principles for gaming payment workflows, including fraud prevention and real-time transaction processing."
           },
           {
+            "type": "documentation",
             "title": "Stripe API: Secure Payment Handling for Gambling Platforms",
             "url": "https://stripe.com/docs/payments/gaming",
-            "type": "documentation",
             "description": "Outlines Stripe's frameworks for managing payments in regulated environments, focusing on risk mitigation and compliance."
           },
           {
+            "type": "article",
             "title": "Failure Handling in High-Risk Payment Systems",
             "url": "https://dzone.com/articles/failure-handling-in-payment-systems",
-            "type": "article",
             "description": "Explains redundancy, rollback strategies, and error recovery in systems requiring high uptime and transaction reliability."
           },
           {
+            "type": "documentation",
             "title": "EveryMatrix Payments Whitepaper",
             "url": "https://www.everymatrix.com/payments-whitepaper",
-            "type": "documentation",
             "description": "Details end-to-end payment workflows for iGaming platforms, including multi-gateway support and compliance automation."
           }
         ],
@@ -720,9 +686,7 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-15",
@@ -731,33 +695,33 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Designing a Stock Trading System - Gaurav Sen",
             "url": "https://www.youtube.com/watch?v=OQ1Wj7a8R78",
-            "type": "video",
             "description": "Covers architecture for high-frequency trading platforms, including real-time order matching, low-latency databases, and fault tolerance."
           },
           {
+            "type": "article",
             "title": "System Design for Online Casino Platforms - Security and Scalability",
             "url": "https://www.geeksforgeeks.org/system-design-for-online-casino-platform/",
-            "type": "article",
             "description": "Discusses architectural patterns for handling real-time transactions, fraud detection, and secure user authentication in online gaming systems."
           },
           {
+            "type": "documentation",
             "title": "AWS Well-Architected Framework - Operational Excellence",
             "url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html",
-            "type": "documentation",
             "description": "Outlines best practices for system architecture design, including scalability, monitoring, and incident response across different domains."
           },
           {
+            "type": "video",
             "title": "Train Booking System Architecture - High Availability and Scalability",
             "url": "https://www.youtube.com/watch?v=JxT6XZ4QJ1Q",
-            "type": "video",
             "description": "Explains design patterns for handling peak traffic, distributed databases, and payment gateway integration in railway reservation systems."
           },
           {
+            "type": "article",
             "title": "Top 10 System Design Patterns Every Developer Should Know",
             "url": "https://www.freecodecamp.org/news/system-design-patterns-explained-with-examples/",
-            "type": "article",
             "description": "Summarizes advanced patterns like microservices, event sourcing, and caching strategies applicable to train booking, gaming, and financial systems."
           }
         ],
@@ -765,14 +729,12 @@ Review advanced patterns and take a self-assessment to consolidate knowledge acr
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "System architectures of well known systems in different e.g. train booking, casino , stock broker etc",
     "isFinalized": true,
-    "lastUsedAt": 1788745551162
+    "lastUsedAt": 1788745921671
   }
 }
 EDU_ASSIST_METADATA_END -->
