@@ -35,13 +35,6 @@ Review the core principles of Behavioral Parent Training (BPT), including positi
 | What is differential reinforcement, and how is it used in BPT? | Differential reinforcement involves rewarding alternative or incompatible behaviors while withholding reinforcement for problem behaviors. This redirects the child’s behavior toward more adaptive responses. |
 | What are the key roles of parents in behavior change according to BPT? | Parents act as environmental managers, using consistent reinforcement strategies, modeling desired behaviors, and modifying antecedents (e.g., routines, triggers) to promote positive behavioral change. |
 | Explain the ABC model in Behavioral Parent Training. | The ABC model identifies Antecedent (trigger), Behavior (child’s response), and Consequence (outcome). Understanding this sequence helps parents adjust antecedents and consequences to influence behavior effectively. |
-| What is positive reinforcement in BPT? | Positive reinforcement involves adding a desirable stimulus (e.g., praise, rewards) after a behavior to increase the likelihood of that behavior recurring. It strengthens positive child behaviors by making them rewarding. |
-| Define extinction in Behavioral Parent Training. | Extinction occurs when reinforcement for a behavior is withheld, leading to a decrease in that behavior over time. It focuses on removing rewards that maintain problematic behaviors, not punishing them. |
-| What is shaping in the context of BPT? | Shaping is a technique where parents reinforce successive approximations of a desired behavior, gradually guiding the child toward the target behavior through step-by-step rewards. |
-| Why do extinction bursts happen, and how should parents respond? | An extinction burst is a temporary increase in problematic behavior when reinforcement is first withdrawn. Parents should remain consistent and avoid giving in, as the behavior typically decreases after this initial phase. |
-| What is differential reinforcement, and how is it used in BPT? | Differential reinforcement involves rewarding alternative or incompatible behaviors while withholding reinforcement for problem behaviors. This redirects the child’s behavior toward more adaptive responses. |
-| What are the key roles of parents in behavior change according to BPT? | Parents act as environmental managers, using consistent reinforcement strategies, modeling desired behaviors, and modifying antecedents (e.g., routines, triggers) to promote positive behavioral change. |
-| Explain the ABC model in Behavioral Parent Training. | The ABC model identifies Antecedent (trigger), Behavior (child’s response), and Consequence (outcome). Understanding this sequence helps parents adjust antecedents and consequences to influence behavior effectively. |
 
 ---
 
@@ -111,13 +104,6 @@ Explore the nuances of extinction, including how to identify target behaviors fo
 
 | Front (Question) | Back (Answer) |
 | :--- | :--- |
-| What is Extinction in Behavioral Parent Training (BPT)? | Extinction is the process of withholding reinforcement to reduce unwanted behaviors by stopping the consequences that previously maintained them. |
-| How do you identify target behaviors for extinction? | Target behaviors should be specific, observable, and clearly linked to reinforcement; identify what the child gains from the behavior (attention, escape, tangible items). |
-| What is an extinction burst? | An extinction burst is a temporary increase in the frequency, intensity, or variability of a behavior when extinction procedures are first implemented. |
-| What strategies help manage extinction bursts? | Consistency in applying extinction, preparing for temporary escalation, and reinforcing alternative positive behaviors to reduce reliance on the unwanted behavior. |
-| What is Differential Reinforcement in BPT? | Differential reinforcement involves reinforcing a desirable alternative behavior while withholding reinforcement for the unwanted behavior to encourage replacement. |
-| When should extinction NOT be used? | Avoid extinction for dangerous behaviors (e.g., self-harm) or when the behavior’s consequences cannot be controlled (e.g., public tantrums in uncontrolled settings). |
-| Provide an example of using extinction for a child's behavior. | If a child screams to get attention, parents would ignore the screaming (no eye contact, talking, or physical interaction) while reinforcing quiet requests for attention. |
 | What is Extinction in Behavioral Parent Training (BPT)? | Extinction is the process of withholding reinforcement to reduce unwanted behaviors by stopping the consequences that previously maintained them. |
 | How do you identify target behaviors for extinction? | Target behaviors should be specific, observable, and clearly linked to reinforcement; identify what the child gains from the behavior (attention, escape, tangible items). |
 | What is an extinction burst? | An extinction burst is a temporary increase in the frequency, intensity, or variability of a behavior when extinction procedures are first implemented. |
@@ -365,9 +351,9 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "article",
             "title": "youtube.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGKEx3pBW5BPbpBMgBOgtCBMXAu_5YLcn3OFrRI1jRPbuBbfOVmo2acWR3ri_5eJ2j-K2LaDwZKTkJQ3FaRzZQ7Pg2QayH22EeXY4-BIk-w8Ha7uYycDJND4Qpq6o7k7hYHTv5FNA=",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce BPT Fundamentals found via Google Search."
           },
           {
@@ -389,39 +375,39 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
             "description": "A highly relevant resource for Reinforce BPT Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "ujcv.edu.hn",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc4hCERhiloNVfWrAOIWeUVfXW09dNd0cAQF_Xkju3IYpOK5cFHcKoqbj_oXMYbqV4whDcXTgLFPxTaPp7fU-BEfEgVqUHTV7ytIBLliXewm5YsZBEjsVQ7x2tLSGGXQ_ZfuZfVw48wnjnMbq3NeF0TmLwhJ0adM6WCvhdydBI--TwG4VhlVR1Zfhw0gHYm7ep",
-            "type": "article",
             "description": "A highly relevant resource for Reinforce BPT Fundamentals found via Google Search."
           },
           {
+            "type": "video",
             "title": "Parent Training: Behavioral Principles for Working with your Child",
             "url": "https://www.youtube.com/watch?v=7nC7F7iOa9w",
-            "type": "video",
             "description": "Explains basic behavioral principles and their application to child behavior, including identifying behaviors, triggers, consequences, and teaching replacement behaviors, with an emphasis on reinforcement."
           },
           {
+            "type": "video",
             "title": "Parent Tips: Shaping Behavior & Positive Reinforcement",
             "url": "https://www.youtube.com/watch?v=kP7j7j5s9dY",
-            "type": "video",
             "description": "Discusses behavior change and how to shape desirable behavior through reinforcement, offering practical advice on what behaviors to reinforce, types of reinforcement, and prompting positive behavior."
           },
           {
+            "type": "video",
             "title": "Behavior Changing",
             "url": "https://www.youtube.com/watch?v=bQG9uHh8rFk",
-            "type": "video",
             "description": "Covers strategies for behavior modification, including positive and negative reinforcement, shaping, and extinction, with examples of their application in various scenarios."
           },
           {
+            "type": "video",
             "title": "What is Behavioral Parent Training? Part 15",
             "url": "https://www.youtube.com/watch?v=f4C_932q_H0",
-            "type": "video",
             "description": "Defines Behavioral Parent Training (BPT) and its benefits for the caregiver-child relationship, outlining a three-step process for relationship resetting, positive behavior reinforcement, and negative behavior reduction."
           },
           {
+            "type": "article",
             "title": "Behavioral Parent Training Manual",
             "url": "https://www.fiu.edu/_assets/documents/centers-and-institutes/ccf/behavioral-parent-training-manual.pdf",
-            "type": "article",
             "description": "An overview of BPT principles, including applied behavior analysis, cognitive-behavioral therapy, and social learning theory, detailing strategies like positive reinforcement, time-out, clear expectations, and consistent consequences."
           }
         ],
@@ -472,42 +458,12 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
             "id": 7,
             "front": "Explain the ABC model in Behavioral Parent Training.",
             "back": "The ABC model identifies Antecedent (trigger), Behavior (child’s response), and Consequence (outcome). Understanding this sequence helps parents adjust antecedents and consequences to influence behavior effectively."
-          },
-          {
-            "front": "What is positive reinforcement in BPT?",
-            "back": "Positive reinforcement involves adding a desirable stimulus (e.g., praise, rewards) after a behavior to increase the likelihood of that behavior recurring. It strengthens positive child behaviors by making them rewarding."
-          },
-          {
-            "front": "Define extinction in Behavioral Parent Training.",
-            "back": "Extinction occurs when reinforcement for a behavior is withheld, leading to a decrease in that behavior over time. It focuses on removing rewards that maintain problematic behaviors, not punishing them."
-          },
-          {
-            "front": "What is shaping in the context of BPT?",
-            "back": "Shaping is a technique where parents reinforce successive approximations of a desired behavior, gradually guiding the child toward the target behavior through step-by-step rewards."
-          },
-          {
-            "front": "Why do extinction bursts happen, and how should parents respond?",
-            "back": "An extinction burst is a temporary increase in problematic behavior when reinforcement is first withdrawn. Parents should remain consistent and avoid giving in, as the behavior typically decreases after this initial phase."
-          },
-          {
-            "front": "What is differential reinforcement, and how is it used in BPT?",
-            "back": "Differential reinforcement involves rewarding alternative or incompatible behaviors while withholding reinforcement for problem behaviors. This redirects the child’s behavior toward more adaptive responses."
-          },
-          {
-            "front": "What are the key roles of parents in behavior change according to BPT?",
-            "back": "Parents act as environmental managers, using consistent reinforcement strategies, modeling desired behaviors, and modifying antecedents (e.g., routines, triggers) to promote positive behavioral change."
-          },
-          {
-            "front": "Explain the ABC model in Behavioral Parent Training.",
-            "back": "The ABC model identifies Antecedent (trigger), Behavior (child’s response), and Consequence (outcome). Understanding this sequence helps parents adjust antecedents and consequences to influence behavior effectively."
           }
         ],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
@@ -516,33 +472,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Positive Reinforcement for Children: A Guide for Parents",
             "url": "https://www.verywellmind.com/positive-reinforcement-for-children-2794910",
-            "type": "article",
             "description": "Explains the three main types of positive reinforcement—tangible, social, and activity-based—and provides practical examples for parents using Behavioral Parent Training (BPT) principles."
           },
           {
+            "type": "video",
             "title": "Mastering Positive Reinforcement Techniques in Parenting",
             "url": "https://www.youtube.com/watch?v=7X6X0l2Q2dI",
-            "type": "video",
             "description": "A video tutorial by Dr. Alan Kazdin demonstrating effective delivery, timing, and fading strategies for positive reinforcement in real-world parenting scenarios."
           },
           {
+            "type": "documentation",
             "title": "Behavioral Parent Training: Techniques and Applications",
             "url": "https://autismlab.org/wp-content/uploads/2015/04/Positive-Reinforcement-Techniques.pdf",
-            "type": "documentation",
             "description": "A research-based PDF guide covering BPT reinforcement types, schedules of reinforcement, and methods to gradually fade rewards while maintaining behavioral improvements."
           },
           {
+            "type": "article",
             "title": "The Science of Positive Reinforcement in Behavioral Parent Training",
             "url": "https://www.psychologytoday.com/us/blog/the-moment-youth/201709/positive-reinforcement-in-behavioral-parent-training",
-            "type": "article",
             "description": "Discusses evidence-based strategies for selecting appropriate reinforcement types and adjusting reinforcement frequency to promote long-term behavior change."
           },
           {
+            "type": "documentation",
             "title": "Incredible Years Parent Training Curriculum Overview",
             "url": "https://www.incredibleyears.com/resources/parent-training-curriculum-overview/",
-            "type": "documentation",
             "description": "Outlines BPT frameworks with emphasis on positive reinforcement techniques, including activity-based rewards and social praise strategies for children aged 2–12."
           }
         ],
@@ -611,9 +567,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "flashcards": [],
         "researchPapers": [],
         "books": [],
-        "practiceProblems": [],
-        "completed": false,
-        "completedAt": null
+        "practiceProblems": []
       },
       {
         "id": "node-3",
@@ -672,33 +626,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         ],
         "resources": [
           {
+            "type": "article",
             "title": "Extinction: A Technical Note for Practitioners and Consumers of Applied Behavior Analysis",
             "url": "https://www.abainternational.org/news/365981/Extinction-A-Technical-Note-for-Practitioners-and-Consumers-of-Applied-Behavior-Analysis.htm",
-            "type": "article",
             "description": "Explains core principles of extinction, how to identify target behaviors, and strategies for managing extinction bursts in applied settings."
           },
           {
+            "type": "video",
             "title": "Behavioral Parent Training for Children with Autism: Extinction Procedures",
             "url": "https://www.youtube.com/watch?v=3JzRZvXq5nY",
-            "type": "video",
             "description": "Video tutorial by Dr. Amanda Costa on implementing extinction procedures in BPT and addressing common challenges like extinction bursts."
           },
           {
+            "type": "documentation",
             "title": "Functional Behavior Assessment and Intervention Strategies",
             "url": "https://myweb.usf.edu/library/ffbh/FBAA%20Module%205%20Extinction.pdf",
-            "type": "documentation",
             "description": "Comprehensive PDF guide covering extinction procedures within behavioral interventions, including identifying target behaviors and managing bursts."
           },
           {
+            "type": "article",
             "title": "Using Extinction Procedures in ABA Therapy to Reduce Problem Behaviors",
             "url": "https://www.autismspeaks.org/extinction-procedures-aba-therapy-reduce-problem-behaviors",
-            "type": "article",
             "description": "Details practical applications of extinction in reducing unwanted behaviors, with examples relevant to behavioral parent training."
           },
           {
+            "type": "article",
             "title": "Behavioral Parent Training: Techniques for Managing Challenging Behaviors",
             "url": "https://www.autism-society.org/behavioral-parent-training-techniques-for-managing-challenging-behaviors/",
-            "type": "article",
             "description": "Overview of BPT strategies including extinction procedures, targeting specific behaviors, and handling extinction bursts."
           }
         ],
@@ -737,41 +691,11 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
             "id": 7,
             "front": "Provide an example of using extinction for a child's behavior.",
             "back": "If a child screams to get attention, parents would ignore the screaming (no eye contact, talking, or physical interaction) while reinforcing quiet requests for attention."
-          },
-          {
-            "front": "What is Extinction in Behavioral Parent Training (BPT)?",
-            "back": "Extinction is the process of withholding reinforcement to reduce unwanted behaviors by stopping the consequences that previously maintained them."
-          },
-          {
-            "front": "How do you identify target behaviors for extinction?",
-            "back": "Target behaviors should be specific, observable, and clearly linked to reinforcement; identify what the child gains from the behavior (attention, escape, tangible items)."
-          },
-          {
-            "front": "What is an extinction burst?",
-            "back": "An extinction burst is a temporary increase in the frequency, intensity, or variability of a behavior when extinction procedures are first implemented."
-          },
-          {
-            "front": "What strategies help manage extinction bursts?",
-            "back": "Consistency in applying extinction, preparing for temporary escalation, and reinforcing alternative positive behaviors to reduce reliance on the unwanted behavior."
-          },
-          {
-            "front": "What is Differential Reinforcement in BPT?",
-            "back": "Differential reinforcement involves reinforcing a desirable alternative behavior while withholding reinforcement for the unwanted behavior to encourage replacement."
-          },
-          {
-            "front": "When should extinction NOT be used?",
-            "back": "Avoid extinction for dangerous behaviors (e.g., self-harm) or when the behavior’s consequences cannot be controlled (e.g., public tantrums in uncontrolled settings)."
-          },
-          {
-            "front": "Provide an example of using extinction for a child's behavior.",
-            "back": "If a child screams to get attention, parents would ignore the screaming (no eye contact, talking, or physical interaction) while reinforcing quiet requests for attention."
           }
         ],
         "researchPapers": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
@@ -780,33 +704,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "video",
             "title": "Shaping Behaviors | A Guide for Parents and Teachers",
             "url": "https://www.youtube.com/watch?v=9w0qXQ6l6dE",
-            "type": "video",
             "description": "This video explains how to use shaping to teach new behaviors by reinforcing successive approximations, tailored for parents and educators."
           },
           {
+            "type": "video",
             "title": "How to Shape Behavior in Children with Autism",
             "url": "https://www.youtube.com/watch?v=6XQwQ5dW6wM",
-            "type": "video",
             "description": "A step-by-step demonstration by The Autism Helper on applying shaping techniques to encourage positive behaviors in children."
           },
           {
+            "type": "article",
             "title": "What Is Shaping in Psychology?",
             "url": "https://www.verywellmind.com/shaping-in-psychology-2795419",
-            "type": "article",
             "description": "Introduction to shaping as a behavioral technique, including practical examples and applications in parent-child interactions."
           },
           {
+            "type": "documentation",
             "title": "Shaping: Reinforcing Progress Toward a Goal",
             "url": "https://autismlab.unc.edu/aba/shaping/",
-            "type": "documentation",
             "description": "A detailed guide from the National Professional Development Center on Autism Spectrum Disorder explaining the principles of shaping in behavioral interventions."
           },
           {
+            "type": "article",
             "title": "Behavioral Shaping Techniques for Parents",
             "url": "https://www.psychologytoday.com/us/blog/the-future-brain/202010/behavioral-shaping-techniques-parents",
-            "type": "article",
             "description": "Explains how parents can use shaping to teach complex skills through gradual reinforcement of intermediate behaviors."
           }
         ],
@@ -814,9 +738,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
@@ -825,33 +747,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Reinforcement Schedules in Behavioral Parent Training: A Guide for Practitioners",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCexample/",
-            "type": "article",
             "description": "Discusses how different reinforcement schedules (e.g., fixed/variable ratios and intervals) are applied in BPT to maintain behavior change and improve resistance to extinction in children."
           },
           {
+            "type": "documentation",
             "title": "National Professional Development Center on Autism Spectrum Disorder: Behavioral Parent Training Modules",
             "url": "https://autismlab.org/ebp/bpt/",
-            "type": "documentation",
             "description": "Comprehensive documentation on BPT strategies, including advanced reinforcement techniques for sustaining behavior improvement in children with autism and developmental disorders."
           },
           {
+            "type": "video",
             "title": "Applying Variable Ratio Reinforcement in Home Settings | Behavioral Parent Training 101",
             "url": "https://www.youtube.com/watch?v=example456",
-            "type": "video",
             "description": "Video tutorial explaining how variable ratio schedules can be implemented by parents to strengthen positive behaviors and prevent relapse into problem behaviors."
           },
           {
+            "type": "article",
             "title": "Extinction and Maintenance of Behavior Change in Parent Training Programs",
             "url": "https://www.sciencedirect.com/science/article/pii/example789",
-            "type": "article",
             "description": "Explores the interplay between reinforcement schedules and extinction processes in BPT, focusing on intermediate scenarios requiring skill maintenance over time."
           },
           {
+            "type": "documentation",
             "title": "Parent Management Training: An Integration of Research and Practice",
             "url": "https://fpg.unc.edu/publications/parent-management-training-integration-research-and-practice",
-            "type": "documentation",
             "description": "Evidence-based guide on advanced BPT methods, including intermittent reinforcement strategies to address complex behavioral challenges in children."
           }
         ],
@@ -859,9 +781,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
@@ -914,42 +834,40 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         ],
         "resources": [
           {
+            "type": "documentation",
             "title": "Behavioral Interventions for Children with Challenging Behaviors",
             "url": "https://www.cdc.gov/ncbddd/actearly/early-intervention/behavioral-interventions.html",
-            "type": "documentation",
             "description": "Provides strategies for understanding and addressing challenging behaviors, including functional analysis of antecedents and consequences, with practical guidance for parents."
           },
           {
+            "type": "article",
             "title": "How to Handle Tantrums",
             "url": "https://www.healthychildren.org/English/ages-stages/toddler-to-preschool/Pages/Tantrums.aspx",
-            "type": "article",
             "description": "Discusses the role of antecedents in tantrum behaviors and offers evidence-based techniques to prevent and respond to intense emotional outbursts."
           },
           {
+            "type": "documentation",
             "title": "Functional Behavior Assessment (FBA) Toolkit",
             "url": "https://autismlab.org/tools/functional-behavior-assessment-fba-toolkit/",
-            "type": "documentation",
             "description": "Detailed guide on identifying antecedents, behaviors, and consequences to develop individualized behavior management plans, essential for intermediate BPT strategies."
           },
           {
+            "type": "article",
             "title": "Aggressive Behavior in Children",
             "url": "https://childmind.org/article/aggressive-behavior-in-children/",
-            "type": "article",
             "description": "Explores triggers and consequences of aggression, with strategies for parents to modify interactions and environments to reduce challenging behaviors."
           },
           {
+            "type": "article",
             "title": "Defiant Behavior in Children",
             "url": "https://www.understood.org/articles/en/defiant-behavior-in-children",
-            "type": "article",
             "description": "Focuses on understanding the function of defiance and implementing consequence-based strategies within a behavioral parent training framework."
           }
         ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
@@ -958,33 +876,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "article",
             "title": "Differential Reinforcement: A Behavior Management Tool",
             "url": "https://www.verywellmind.com/differential-reinforcement-a-behavior-management-tool-2795411",
-            "type": "article",
             "description": "Explains DRA, DRI, and DRO techniques with examples of how they modify behavior in parenting contexts."
           },
           {
+            "type": "article",
             "title": "Using Differential Reinforcement to Reduce Problem Behaviors",
             "url": "https://www.autismsupportnetwork.org/articles/using-differential-reinforcement-reduce-problem-behaviors",
-            "type": "article",
             "description": "Focuses on applying differential reinforcement strategies within behavioral parent training to address challenging behaviors."
           },
           {
+            "type": "documentation",
             "title": "Differential Reinforcement Techniques - National Professional Development Center on Autism Spectrum Disorder",
             "url": "https://autismlab.unc.edu/NPDC/Modules/differential_reinforcement.html",
-            "type": "documentation",
             "description": "Comprehensive guide from a federal research and training center explaining DRA, DRI, DRO, and their application in parent-led interventions."
           },
           {
+            "type": "video",
             "title": "Differential Reinforcement: What Is It and How Do You Use It?",
             "url": "https://www.youtube.com/watch?v=3wQvDdN7XkI",
-            "type": "video",
             "description": "Tutorial by the Autism Helper explaining DRA, DRI, DRO with real-world examples for parents and educators."
           },
           {
+            "type": "video",
             "title": "How to Use Differential Reinforcement at Home",
             "url": "https://www.youtube.com/watch?v=5Y4W4k1o3gM",
-            "type": "video",
             "description": "ABADaily video demonstrating practical implementation of differential reinforcement strategies in home environments."
           }
         ],
@@ -992,9 +910,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
@@ -1003,33 +919,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Case Studies in Behavioral Parent Training: Overcoming Common Challenges",
             "url": "https://www.apa.org/pubs/journals/cfp/research-in-practice",
-            "type": "article",
             "description": "This article explores real-world case studies addressing complex BPT challenges, including resistance, noncompliance, and co-parenting conflicts, with strategies to adapt interventions."
           },
           {
+            "type": "documentation",
             "title": "Effective Behavior Management Strategies for Intermediate-Level BPT Scenarios",
             "url": "https://www.spdfoundation.net/wp-content/uploads/2020/09/BPT-Intermediate-Guide.pdf",
-            "type": "documentation",
             "description": "A practical guide from the SPD Foundation detailing troubleshooting techniques for intermediate BPT issues, such as managing high-intensity behaviors and adapting plans for unique family dynamics."
           },
           {
+            "type": "video",
             "title": "Behavioral Parent Training: Advanced Problem-Solving Techniques | Live Webinar Recording",
             "url": "https://www.youtube.com/watch?v=JxL0hWqZq3M",
-            "type": "video",
             "description": "A recorded webinar demonstrating advanced problem-solving methods for intermediate BPT challenges through role-play scenarios and audience Q&A with a licensed psychologist."
           },
           {
+            "type": "article",
             "title": "Adapting BPT Strategies for Complex Child Behaviors: Clinical Insights",
             "url": "https://www.journalofchildandfamilystudies.com/adapting-bpt-strategies",
-            "type": "article",
             "description": "Research-backed strategies for modifying BPT approaches when facing escalated or persistent child behaviors that do not respond to standard techniques."
           },
           {
+            "type": "documentation",
             "title": "BPT Practice Guide for Intermediate Challenges | University of California Parenting Program",
             "url": "https://ucan.org/parenting/bpt-intermediate-challenges-guide",
-            "type": "documentation",
             "description": "A free resource from UC ANR providing structured modules on adapting reinforcement strategies and handling situational crises in BPT."
           }
         ],
@@ -1037,9 +953,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
@@ -1048,33 +962,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "documentation",
             "title": "Functional Behavior Assessment: What It Is and How to Use It",
             "url": "https://iris.peabody.vanderbilt.edu/module/fba/",
-            "type": "documentation",
             "description": "Comprehensive guide from the IRIS Center explaining FBA steps, identifying behavior functions, and implementing interventions in educational settings, including parent training applications."
           },
           {
+            "type": "article",
             "title": "Understanding Your Child's Behavior: What Is a Functional Behavior Assessment?",
             "url": "https://www.understood.org/en/school-learning/partnering-with-childs-school/special-services/ieps/functional-behavior-assessments",
-            "type": "article",
             "description": "Parent-focused article breaking down FBA concepts, purpose, and how parents can collaborate with professionals to address challenging behaviors."
           },
           {
+            "type": "video",
             "title": "Functional Behavior Assessment (FBA) Explained | Applied Behavior Analysis",
             "url": "https://www.youtube.com/watch?v=Kj7XZvQ0e6k",
-            "type": "video",
             "description": "Visual tutorial demonstrating the four-step FBA process, common functions of behavior, and practical examples for parents and educators."
           },
           {
+            "type": "documentation",
             "title": "Functional Behavior Assessment Toolkit",
             "url": "https://www.autismspeaks.org/functional-behavior-assessment-toolkit",
-            "type": "documentation",
             "description": "Free toolkit from Autism Speaks offering templates, case studies, and step-by-step guidance for conducting FBAs in home and school environments."
           },
           {
+            "type": "documentation",
             "title": "Functional Behavior Assessment Technical Assistance Center",
             "url": "https://www.fbatac.org/",
-            "type": "documentation",
             "description": "Dedicated resource hub with evidence-based practices, training modules, and FBA implementation strategies for families and professionals in behavioral interventions."
           }
         ],
@@ -1082,9 +996,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
@@ -1093,33 +1005,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Effective Consequence Strategies in Parent Training Programs",
             "url": "https://www.healthychildren.org/English/family-life/Pages/Behavioral-Parent-Training.aspx",
-            "type": "article",
             "description": "Explains evidence-based consequence strategies in BPT, including logical consequences, time-out, and response cost implementation."
           },
           {
+            "type": "video",
             "title": "Logical Consequences vs. Punishment - Parenting Science Tutorial",
             "url": "https://www.youtube.com/watch?v=Jf6q7h1k3rE",
-            "type": "video",
             "description": "Demonstrates how to implement logical consequences effectively to teach behavioral accountability."
           },
           {
+            "type": "documentation",
             "title": "Parent Training in Behavior Management (Kazdin Method)",
             "url": "https://kzdsn.org/parent-training-in-behavior-management/",
-            "type": "documentation",
             "description": "Outlines advanced consequence strategies emphasizing ethical application and skill-building in children."
           },
           {
+            "type": "article",
             "title": "Time-Out: Research-Based Guidelines for Effective Use",
             "url": "https://www.cdc.gov/ncbddd/actearly/pdf/parents_time-out_508.pdf",
-            "type": "article",
             "description": "Provides research-backed guidelines on proper time-out techniques to ensure effectiveness and appropriateness."
           },
           {
+            "type": "documentation",
             "title": "Response Cost and Other Consequence Strategies in ABA",
             "url": "https://autismlab.yale.edu/sites/default/files/2020-06/Response-Cost-and-Other-Consequence-Strategies.pdf",
-            "type": "documentation",
             "description": "Details response cost methodology and other structured consequences within behavioral frameworks."
           }
         ],
@@ -1127,9 +1039,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
@@ -1138,33 +1048,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1.5 hours",
         "resources": [
           {
+            "type": "video",
             "title": "Strategies for Promoting Generalization and Maintenance in Parent-Implemented Interventions",
             "url": "https://www.youtube.com/watch?v=5U8X0jK6vXU",
-            "type": "video",
             "description": "This video presents evidence-based techniques to enhance generalization across settings and people, as well as strategies to maintain behavior change without continuous intervention, using real-world examples."
           },
           {
+            "type": "article",
             "title": "Generalization and Maintenance of Parent-Training Effects: A Review of the Literature",
             "url": "https://www.researchgate.net/publication/327874857_Generalization_and_Maintenance_of_Parent-Training_Effects_A_Review_of_the_Literature",
-            "type": "article",
             "description": "A comprehensive review of research on how parent training impacts child behavior across contexts and time, including methodologies to improve long-term outcomes."
           },
           {
+            "type": "documentation",
             "title": "Evidence-Based Parent Training Programs: Generalization and Maintenance Tips for Families",
             "url": "https://www.autism.org/wp-content/uploads/2020/06/EBPP-Maintenance-Generalization.pdf",
-            "type": "documentation",
             "description": "A structured guide from the Autism Society offering practical strategies for parents to ensure learned behaviors persist and transfer across environments without direct coaching."
           },
           {
+            "type": "article",
             "title": "Using Natural Environment Teaching to Promote Generalization in Behavioral Parent Training",
             "url": "https://www.tandfonline.com/doi/full/10.1080/07317107.2020.1834520",
-            "type": "article",
             "description": "Explores natural environment teaching methods within parent training to facilitate broader application of skills and discusses maintenance through contextual variations."
           },
           {
+            "type": "documentation",
             "title": "Steps to Ensure Generalization and Maintenance in Behavioral Interventions for Children",
             "url": "https://www.cardusa.com/wp-content/uploads/2021/03/Generalization-Maintenance-Card-USA.pdf",
-            "type": "documentation",
             "description": "A step-by-step resource from CARD outlining techniques like multiple exemplars, programming maintenance schedules, and parent coaching to sustain behavior change across settings."
           }
         ],
@@ -1172,9 +1082,7 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
@@ -1183,33 +1091,33 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "article",
             "title": "Ethical Issues in Parent Training: A Review of the Literature",
             "url": "https://www.researchgate.net/publication/328954527_Ethical_Issues_in_Parent_Training_A_Review_of_the_Literature",
-            "type": "article",
             "description": "This article reviews ethical challenges in parent training programs, including informed consent, confidentiality, and balancing parental autonomy with child welfare."
           },
           {
+            "type": "documentation",
             "title": "APA Ethics Code: Family and Parenting Interventions",
             "url": "https://www.apa.org/ethics/code/ethics-code-family-interventions.pdf",
-            "type": "documentation",
             "description": "Official APA guidelines addressing ethical considerations in family-focused behavioral interventions, emphasizing child safety, parental consent, and professional boundaries."
           },
           {
+            "type": "video",
             "title": "Ethical Parent Training: Balancing Authority and Autonomy",
             "url": "https://www.youtube.com/watch?v=5X8m3hQZq7c",
-            "type": "video",
             "description": "A webinar exploring ethical frameworks for BPT, focusing on respecting parental decision-making while safeguarding child well-being."
           },
           {
+            "type": "article",
             "title": "Informed Consent in Behavioral Parent Training: Best Practices",
             "url": "https://www.sciencedirect.com/science/article/pii/S000579671930023X",
-            "type": "article",
             "description": "Discusses practical strategies for obtaining and maintaining informed consent in BPT programs, including cultural sensitivity and ongoing parental involvement."
           },
           {
+            "type": "documentation",
             "title": "National Center for Pyramid Model Implementation: Ethical Practices",
             "url": "https://challengingbehavior.org/docs/ethical_practices_pyramid_model.pdf",
-            "type": "documentation",
             "description": "Guidelines on ethical implementation of behavioral interventions for children, covering equity, family collaboration, and evidence-based practices."
           }
         ],
@@ -1217,16 +1125,14 @@ Review the ethical guidelines and best practices in Behavioral Parent Training, 
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Behavioral Parent Training (BPT)",
     "updatedAt": 1766607070696,
     "createdAt": 1766607070696,
     "isFinalized": true,
-    "lastUsedAt": 1788745535481
+    "lastUsedAt": 1788745904865
   }
 }
 EDU_ASSIST_METADATA_END -->
