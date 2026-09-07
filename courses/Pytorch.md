@@ -34,7 +34,6 @@ Review fundamental tensor operations including creation, manipulation, indexing,
 
 **Description:**
 Master torch.utils.data.Dataset and DataLoader. Learn to handle custom datasets, transforms, and batching strategies.
----
 
 ---
 
@@ -44,7 +43,6 @@ Master torch.utils.data.Dataset and DataLoader. Learn to handle custom datasets,
 
 **Description:**
 Deepen understanding of nn.Module, layers, activations, and loss functions. Build simple feedforward networks from scratch.
----
 
 ---
 
@@ -54,7 +52,6 @@ Deepen understanding of nn.Module, layers, activations, and loss functions. Buil
 
 **Description:**
 Implement custom training loops, gradient clipping, learning rate scheduling, and model checkpointing. Practice debugging training issues.
----
 
 ---
 
@@ -64,7 +61,6 @@ Implement custom training loops, gradient clipping, learning rate scheduling, an
 
 **Description:**
 Build CNNs for image classification. Understand convolutional layers, pooling, and architectural patterns like residual connections.
----
 
 ---
 
@@ -74,7 +70,6 @@ Build CNNs for image classification. Understand convolutional layers, pooling, a
 
 **Description:**
 Explore RNNs, LSTMs, and GRUs for sequence data. Implement text classification and time-series prediction.
----
 
 ---
 
@@ -84,7 +79,6 @@ Explore RNNs, LSTMs, and GRUs for sequence data. Implement text classification a
 
 **Description:**
 Study Adam, SGD with momentum, weight decay, dropout, and batch normalization. Tune hyperparameters effectively.
----
 
 ---
 
@@ -94,7 +88,6 @@ Study Adam, SGD with momentum, weight decay, dropout, and batch normalization. T
 
 **Description:**
 Leverage pretrained models (torchvision.models). Fine-tune for custom tasks with freezing/unfreezing layers.
----
 
 ---
 
@@ -104,7 +97,6 @@ Leverage pretrained models (torchvision.models). Fine-tune for custom tasks with
 
 **Description:**
 Deep dive into automatic differentiation. Implement custom autograd functions and understand gradient flow.
----
 
 ---
 
@@ -114,7 +106,6 @@ Deep dive into automatic differentiation. Implement custom autograd functions an
 
 **Description:**
 Export models via TorchScript, ONNX. Learn quantization and optimization for production inference.
----
 
 ---
 
@@ -124,7 +115,6 @@ Export models via TorchScript, ONNX. Learn quantization and optimization for pro
 
 **Description:**
 Explore DataParallel, DistributedDataParallel, mixed precision training with amp, and profiling.
----
 
 ---
 
@@ -134,7 +124,6 @@ Explore DataParallel, DistributedDataParallel, mixed precision training with amp
 
 **Description:**
 Combine skills in a capstone project: data pipeline, custom model, training, evaluation, and deployment.
----
 
 ---
 
@@ -151,80 +140,63 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "A Gentle Introduction to torch.autograd",
             "url": "https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html",
-            "type": "article",
             "description": "Official PyTorch tutorial covering autograd mechanics, gradient computation, and how tensors track operations."
           },
           {
+            "type": "video",
             "title": "PyTorch Autograd Explained",
             "url": "https://www.youtube.com/watch?v=MswxJw-8PvE",
-            "type": "video",
             "description": "YouTube video by deeplizard explaining automatic differentiation with PyTorch, including gradient tapes and backpropagation."
           },
           {
+            "type": "documentation",
             "title": "torch.Tensor — PyTorch documentation",
             "url": "https://pytorch.org/docs/stable/tensors.html",
-            "type": "documentation",
             "description": "Official reference for tensor operations, including creation, indexing, math, and in-place operations with autograd implications."
           },
           {
+            "type": "article",
             "title": "Understanding Autograd in PyTorch",
             "url": "https://towardsdatascience.com/understanding-autograd-in-pytorch-97fb705e0a9f",
-            "type": "article",
             "description": "Medium article by Tony Wang explaining autograd concepts, gradient accumulation, and practical examples with tensor operations."
           },
           {
+            "type": "video",
             "title": "PyTorch Tensor Operations & Gradients",
             "url": "https://www.youtube.com/watch?v=oUx6BP6X7TU",
-            "type": "video",
             "description": "YouTube tutorial by sentdex covering tensor manipulation and computing gradients using requires_grad and backward()"
           }
         ],
         "researchPapers": [
           {
             "title": "Efficient Tensor Operations in PyTorch: A Survey of Optimization Techniques",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2203.06578",
-            "summary": "",
-            "keyIdea": "This paper surveys optimization techniques for tensor operations in PyTorch, focusing on memory management, operator fusion, and parallelism to improve performance."
+            "keyIdea": "This paper surveys optimization techniques for tensor operations in PyTorch, focusing on memory management, operator fusion, and parallelism to improve performance.",
+            "url": "https://arxiv.org/abs/2203.06578"
           },
           {
             "title": "Tensor Train Decomposition on the Fly for PyTorch: Efficient Compression and Computation",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2105.14568",
-            "summary": "",
-            "keyIdea": "This paper introduces an online tensor train decomposition method integrated into PyTorch to compress and accelerate tensor operations with low-rank approximations."
+            "keyIdea": "This paper introduces an online tensor train decomposition method integrated into PyTorch to compress and accelerate tensor operations with low-rank approximations.",
+            "url": "https://arxiv.org/abs/2105.14568"
           },
           {
             "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2304.11277",
-            "summary": "",
-            "keyIdea": "This paper describes the design and implementation of Fully Sharded Data Parallel (FSDP) in PyTorch, which partitions model parameters across devices to enable training of large models."
+            "keyIdea": "This paper describes the design and implementation of Fully Sharded Data Parallel (FSDP) in PyTorch, which partitions model parameters across devices to enable training of large models.",
+            "url": "https://arxiv.org/abs/2304.11277"
           },
           {
             "title": "Deep Learning with Tensor Operations: A Case Study in PyTorch",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/9980123",
-            "summary": "",
-            "keyIdea": "This paper provides a comprehensive case study of tensor operations in PyTorch, highlighting optimization strategies for deep learning workloads."
+            "keyIdea": "This paper provides a comprehensive case study of tensor operations in PyTorch, highlighting optimization strategies for deep learning workloads.",
+            "url": "https://ieeexplore.ieee.org/document/9980123"
           },
           {
             "title": "Accelerating Tensor Operations on Heterogeneous Hardware using PyTorch's XLA",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2010.05958",
-            "summary": "",
-            "keyIdea": "This paper explores the use of PyTorch/XLA to accelerate tensor operations on hardware like TPUs, demonstrating significant speedups for certain operations."
+            "keyIdea": "This paper explores the use of PyTorch/XLA to accelerate tensor operations on hardware like TPUs, demonstrating significant speedups for certain operations.",
+            "url": "https://arxiv.org/abs/2010.05958"
           }
         ],
-        "completed": false,
-        "completedAt": null,
         "flashcards": [],
         "books": [],
         "practiceProblems": [],
@@ -233,10 +205,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-2",
         "title": "Data Loading and Preprocessing",
-        "description": "Master torch.utils.data.Dataset and DataLoader. Learn to handle custom datasets, transforms, and batching strategies.\n---",
+        "description": "Master torch.utils.data.Dataset and DataLoader. Learn to handle custom datasets, transforms, and batching strategies.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -247,10 +217,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-3",
         "title": "Neural Network Building Blocks",
-        "description": "Deepen understanding of nn.Module, layers, activations, and loss functions. Build simple feedforward networks from scratch.\n---",
+        "description": "Deepen understanding of nn.Module, layers, activations, and loss functions. Build simple feedforward networks from scratch.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -261,10 +229,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-4",
         "title": "Training Loops and Optimization",
-        "description": "Implement custom training loops, gradient clipping, learning rate scheduling, and model checkpointing. Practice debugging training issues.\n---",
+        "description": "Implement custom training loops, gradient clipping, learning rate scheduling, and model checkpointing. Practice debugging training issues.",
         "estimatedTime": "2.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -275,10 +241,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-5",
         "title": "Convolutional Neural Networks",
-        "description": "Build CNNs for image classification. Understand convolutional layers, pooling, and architectural patterns like residual connections.\n---",
+        "description": "Build CNNs for image classification. Understand convolutional layers, pooling, and architectural patterns like residual connections.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -289,10 +253,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-6",
         "title": "Recurrent Neural Networks and Sequence Models",
-        "description": "Explore RNNs, LSTMs, and GRUs for sequence data. Implement text classification and time-series prediction.\n---",
+        "description": "Explore RNNs, LSTMs, and GRUs for sequence data. Implement text classification and time-series prediction.",
         "estimatedTime": "2.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -303,10 +265,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-7",
         "title": "Advanced Optimizers and Regularization",
-        "description": "Study Adam, SGD with momentum, weight decay, dropout, and batch normalization. Tune hyperparameters effectively.\n---",
+        "description": "Study Adam, SGD with momentum, weight decay, dropout, and batch normalization. Tune hyperparameters effectively.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -317,10 +277,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-8",
         "title": "Transfer Learning and Fine-Tuning",
-        "description": "Leverage pretrained models (torchvision.models). Fine-tune for custom tasks with freezing/unfreezing layers.\n---",
+        "description": "Leverage pretrained models (torchvision.models). Fine-tune for custom tasks with freezing/unfreezing layers.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -331,10 +289,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-9",
         "title": "Autograd and Custom Gradients",
-        "description": "Deep dive into automatic differentiation. Implement custom autograd functions and understand gradient flow.\n---",
+        "description": "Deep dive into automatic differentiation. Implement custom autograd functions and understand gradient flow.",
         "estimatedTime": "1.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -345,10 +301,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-10",
         "title": "Model Deployment and Export",
-        "description": "Export models via TorchScript, ONNX. Learn quantization and optimization for production inference.\n---",
+        "description": "Export models via TorchScript, ONNX. Learn quantization and optimization for production inference.",
         "estimatedTime": "2 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -359,10 +313,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-11",
         "title": "Distributed Training and Performance",
-        "description": "Explore DataParallel, DistributedDataParallel, mixed precision training with amp, and profiling.\n---",
+        "description": "Explore DataParallel, DistributedDataParallel, mixed precision training with amp, and profiling.",
         "estimatedTime": "2.5 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -373,10 +325,8 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
       {
         "id": "node-12",
         "title": "Project: End-to-End Implementation",
-        "description": "Combine skills in a capstone project: data pipeline, custom model, training, evaluation, and deployment.\n---",
+        "description": "Combine skills in a capstone project: data pipeline, custom model, training, evaluation, and deployment.",
         "estimatedTime": "4 hours",
-        "completed": false,
-        "completedAt": null,
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
@@ -387,7 +337,7 @@ Combine skills in a capstone project: data pipeline, custom model, training, eva
     ],
     "topic": "Pytorch",
     "isFinalized": true,
-    "lastUsedAt": 1788745557562
+    "lastUsedAt": 1788745937318
   }
 }
 EDU_ASSIST_METADATA_END -->
