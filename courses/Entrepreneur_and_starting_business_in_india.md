@@ -76,7 +76,6 @@ Understand core entrepreneurial concepts, identify opportunities in the Indian m
 
 **Description:**
 Learn about different business structures (proprietorship, partnership, LLP, private limited company), registration processes, and compliance requirements under the Companies Act, 2013. Covers GST registration and MSME certification.
----
 
 ---
 
@@ -86,7 +85,6 @@ Learn about different business structures (proprietorship, partnership, LLP, pri
 
 **Description:**
 Master techniques to analyze target audiences, industry trends, and competitor landscapes in the Indian market. Includes primary and secondary research methods, SWOT analysis, and leveraging government data sources.
----
 
 ---
 
@@ -96,7 +94,6 @@ Master techniques to analyze target audiences, industry trends, and competitor l
 
 **Description:**
 Explore funding avenues available in India - bootstrapping, angel investors, venture capital, banks, and government schemes. Learn to create financial projections, manage cash flow, and understand valuation basics. Addresses your missed intermediate questions on funding strategies.
----
 
 ---
 
@@ -106,7 +103,6 @@ Explore funding avenues available in India - bootstrapping, angel investors, ven
 
 **Description:**
 Navigate India's complex regulatory environment including labor laws, industry-specific regulations, and tax obligations (Income Tax, GST, TDS). Focuses on compliance for small businesses and startups.
----
 
 ---
 
@@ -116,7 +112,6 @@ Navigate India's complex regulatory environment including labor laws, industry-s
 
 **Description:**
 Create a viable business model canvas, develop a business plan with clear milestones, and understand revenue streams. Includes practical templates and real-world examples from successful Indian startups.
----
 
 ---
 
@@ -126,7 +121,6 @@ Create a viable business model canvas, develop a business plan with clear milest
 
 **Description:**
 Understand digital adoption trends in India, build an online presence, leverage e-commerce platforms, and utilize digital marketing tools like SEO, social media, and WhatsApp for business growth.
----
 
 ---
 
@@ -136,7 +130,6 @@ Understand digital adoption trends in India, build an online presence, leverage 
 
 **Description:**
 Learn to connect with mentors, join entrepreneurial communities (like TiE, NASSCOM), participate in startup events, and build professional networks essential for business growth in India.
----
 
 ---
 
@@ -146,7 +139,6 @@ Learn to connect with mentors, join entrepreneurial communities (like TiE, NASSC
 
 **Description:**
 Develop strategies for scaling businesses in India, including hiring practices, team building, performance management, and operational efficiency. Covers both traditional and remote work models.
----
 
 ---
 
@@ -156,7 +148,6 @@ Develop strategies for scaling businesses in India, including hiring practices, 
 
 **Description:**
 Protect your innovations through patents, trademarks, and copyrights in India. Learn about IPR laws, filing procedures, and how to avoid infringement issues as your business grows.
----
 
 ---
 
@@ -166,7 +157,6 @@ Protect your innovations through patents, trademarks, and copyrights in India. L
 
 **Description:**
 Explore initiatives like Startup India, Atmanirbhar Bharat, and state-specific programs offering subsidies, incubation support, and easier compliance for new businesses.
----
 
 ---
 
@@ -176,7 +166,6 @@ Explore initiatives like Startup India, Atmanirbhar Bharat, and state-specific p
 
 **Description:**
 Identify potential risks in the Indian market, create mitigation strategies, and plan for business exits (IPO, acquisition, or succession). Includes legal considerations and stakeholder management.
----
 
 ---
 
@@ -186,7 +175,6 @@ Identify potential risks in the Indian market, create mitigation strategies, and
 
 **Description:**
 Analyze success stories of Indian entrepreneurs across sectors to understand practical challenges, decision-making processes, and scaling strategies tailored to the Indian context.
----
 
 ---
 
@@ -196,7 +184,6 @@ Analyze success stories of Indian entrepreneurs across sectors to understand pra
 
 **Description:**
 Prepare for global markets by understanding export procedures, international trade policies, and cross-border e-commerce opportunities available to Indian businesses.
----
 
 ---
 
@@ -214,74 +201,59 @@ Prepare for global markets by understanding export procedures, international tra
         "researchPapers": [
           {
             "title": "Entrepreneurship in India: A Systematic Review and Research Agenda",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=Entrepreneurship+in+India+systematic+review",
-            "summary": "",
-            "keyIdea": "This systematic review analyzes the evolution and challenges of entrepreneurship in India, identifying key research themes and proposing future research directions."
+            "keyIdea": "This systematic review analyzes the evolution and challenges of entrepreneurship in India, identifying key research themes and proposing future research directions.",
+            "url": "https://scholar.google.com/scholar?q=Entrepreneurship+in+India+systematic+review"
           },
           {
             "title": "Digital Entrepreneurship in Emerging Economies: Evidence from Indian Startups",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=digital+entrepreneurship+indian+startups",
-            "summary": "",
-            "keyIdea": "The study explores how digital technologies are reshaping entrepreneurial opportunities and ecosystem dynamics in the context of emerging markets like India."
+            "keyIdea": "The study explores how digital technologies are reshaping entrepreneurial opportunities and ecosystem dynamics in the context of emerging markets like India.",
+            "url": "https://scholar.google.com/scholar?q=digital+entrepreneurship+indian+startups"
           },
           {
             "title": "The Role of Government Policies in Entrepreneurial Development: An Indian Perspective",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=government+policies+entrepreneurship+india",
-            "summary": "",
-            "keyIdea": "This paper evaluates the impact of regulatory reforms, financial incentives, and support systems on entrepreneurial motivation and success rates in India."
+            "keyIdea": "This paper evaluates the impact of regulatory reforms, financial incentives, and support systems on entrepreneurial motivation and success rates in India.",
+            "url": "https://scholar.google.com/scholar?q=government+policies+entrepreneurship+india"
           },
           {
             "title": "Social Entrepreneurship and Inclusive Growth in Rural India",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=social+entrepreneurship+rural+india",
-            "summary": "",
-            "keyIdea": "The research examines how social enterprises contribute to addressing societal challenges while fostering inclusive economic development in rural Indian communities."
+            "keyIdea": "The research examines how social enterprises contribute to addressing societal challenges while fostering inclusive economic development in rural Indian communities.",
+            "url": "https://scholar.google.com/scholar?q=social+entrepreneurship+rural+india"
           },
           {
             "title": "Entrepreneurial Ecosystem in Indian Tier-II Cities: Opportunities and Challenges",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=entrepreneurial+ecosystem+tier+II+cities+india",
-            "summary": "",
-            "keyIdea": "This study investigates the factors enabling or constraining entrepreneurial activity beyond metropolitan hubs, focusing on resource availability and local ecosystem maturity."
+            "keyIdea": "This study investigates the factors enabling or constraining entrepreneurial activity beyond metropolitan hubs, focusing on resource availability and local ecosystem maturity.",
+            "url": "https://scholar.google.com/scholar?q=entrepreneurial+ecosystem+tier+II+cities+india"
           }
         ],
         "resources": [
           {
+            "type": "video",
             "title": "Entrepreneurship in India: Challenges and Opportunities | TEDx Talks",
             "url": "https://www.youtube.com/watch?v=example",
-            "type": "video",
             "description": "An insightful TEDx talk discussing the unique challenges and opportunities faced by entrepreneurs in the Indian market, including cultural and economic factors."
           },
           {
+            "type": "article",
             "title": "Startup India: A Guide to the Indian Entrepreneurial Ecosystem",
             "url": "https://www.startupindia.gov.in/content/startup-india/en/learners-hub.html",
-            "type": "article",
             "description": "Official government documentation providing an overview of policies, funding, and support systems available for startups in India."
           },
           {
+            "type": "documentation",
             "title": "EDII: Entrepreneurship Development in India",
             "url": "https://www.edii.net.in/publication/",
-            "type": "documentation",
             "description": "Research papers and guides from the Entrepreneurship Development Institute of India on fostering entrepreneurial skills and evaluating market opportunities."
           },
           {
+            "type": "article",
             "title": "How Cultural Factors Shape Business Models in India | YourStory",
             "url": "https://www.yourstory.com/startup-india/cultural-factors-business-models-india",
-            "type": "article",
             "description": "Analysis of how India's diverse culture and consumer behavior influence entrepreneurial strategies and business model innovation."
           },
           {
+            "type": "video",
             "title": "Building a Startup in India: Lessons from Successful Entrepreneurs | ISB Insights",
             "url": "https://www.youtube.com/watch?v=example2",
-            "type": "video",
             "description": "A panel discussion featuring Indian entrepreneurs sharing practical insights on personal readiness, opportunity identification, and navigating the startup ecosystem."
           }
         ],
@@ -337,196 +309,168 @@ Prepare for global markets by understanding export procedures, international tra
         ],
         "flashcards": [],
         "books": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-2",
         "title": "Legal Structures and Business Registration in India",
-        "description": "Learn about different business structures (proprietorship, partnership, LLP, private limited company), registration processes, and compliance requirements under the Companies Act, 2013. Covers GST registration and MSME certification.\n---",
+        "description": "Learn about different business structures (proprietorship, partnership, LLP, private limited company), registration processes, and compliance requirements under the Companies Act, 2013. Covers GST registration and MSME certification.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Market Research and Competitive Analysis in India",
-        "description": "Master techniques to analyze target audiences, industry trends, and competitor landscapes in the Indian market. Includes primary and secondary research methods, SWOT analysis, and leveraging government data sources.\n---",
+        "description": "Master techniques to analyze target audiences, industry trends, and competitor landscapes in the Indian market. Includes primary and secondary research methods, SWOT analysis, and leveraging government data sources.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Funding Options and Financial Planning",
-        "description": "Explore funding avenues available in India - bootstrapping, angel investors, venture capital, banks, and government schemes. Learn to create financial projections, manage cash flow, and understand valuation basics. Addresses your missed intermediate questions on funding strategies.\n---",
+        "description": "Explore funding avenues available in India - bootstrapping, angel investors, venture capital, banks, and government schemes. Learn to create financial projections, manage cash flow, and understand valuation basics. Addresses your missed intermediate questions on funding strategies.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Regulatory Compliance and Taxation",
-        "description": "Navigate India's complex regulatory environment including labor laws, industry-specific regulations, and tax obligations (Income Tax, GST, TDS). Focuses on compliance for small businesses and startups.\n---",
+        "description": "Navigate India's complex regulatory environment including labor laws, industry-specific regulations, and tax obligations (Income Tax, GST, TDS). Focuses on compliance for small businesses and startups.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Business Model Development and Planning",
-        "description": "Create a viable business model canvas, develop a business plan with clear milestones, and understand revenue streams. Includes practical templates and real-world examples from successful Indian startups.\n---",
+        "description": "Create a viable business model canvas, develop a business plan with clear milestones, and understand revenue streams. Includes practical templates and real-world examples from successful Indian startups.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Digital Transformation and E-commerce Strategies",
-        "description": "Understand digital adoption trends in India, build an online presence, leverage e-commerce platforms, and utilize digital marketing tools like SEO, social media, and WhatsApp for business growth.\n---",
+        "description": "Understand digital adoption trends in India, build an online presence, leverage e-commerce platforms, and utilize digital marketing tools like SEO, social media, and WhatsApp for business growth.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Networking and Mentorship Building",
-        "description": "Learn to connect with mentors, join entrepreneurial communities (like TiE, NASSCOM), participate in startup events, and build professional networks essential for business growth in India.\n---",
+        "description": "Learn to connect with mentors, join entrepreneurial communities (like TiE, NASSCOM), participate in startup events, and build professional networks essential for business growth in India.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Scaling Operations and Team Management",
-        "description": "Develop strategies for scaling businesses in India, including hiring practices, team building, performance management, and operational efficiency. Covers both traditional and remote work models.\n---",
+        "description": "Develop strategies for scaling businesses in India, including hiring practices, team building, performance management, and operational efficiency. Covers both traditional and remote work models.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Intellectual Property and Innovation Protection",
-        "description": "Protect your innovations through patents, trademarks, and copyrights in India. Learn about IPR laws, filing procedures, and how to avoid infringement issues as your business grows.\n---",
+        "description": "Protect your innovations through patents, trademarks, and copyrights in India. Learn about IPR laws, filing procedures, and how to avoid infringement issues as your business grows.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Government Schemes and Support Systems",
-        "description": "Explore initiatives like Startup India, Atmanirbhar Bharat, and state-specific programs offering subsidies, incubation support, and easier compliance for new businesses.\n---",
+        "description": "Explore initiatives like Startup India, Atmanirbhar Bharat, and state-specific programs offering subsidies, incubation support, and easier compliance for new businesses.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Risk Management and Exit Strategies",
-        "description": "Identify potential risks in the Indian market, create mitigation strategies, and plan for business exits (IPO, acquisition, or succession). Includes legal considerations and stakeholder management.\n---",
+        "description": "Identify potential risks in the Indian market, create mitigation strategies, and plan for business exits (IPO, acquisition, or succession). Includes legal considerations and stakeholder management.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Case Studies: Successful Indian Entrepreneurs",
-        "description": "Analyze success stories of Indian entrepreneurs across sectors to understand practical challenges, decision-making processes, and scaling strategies tailored to the Indian context.\n---",
+        "description": "Analyze success stories of Indian entrepreneurs across sectors to understand practical challenges, decision-making processes, and scaling strategies tailored to the Indian context.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "International Expansion and Export Strategies",
-        "description": "Prepare for global markets by understanding export procedures, international trade policies, and cross-border e-commerce opportunities available to Indian businesses.\n---",
+        "description": "Prepare for global markets by understanding export procedures, international trade policies, and cross-border e-commerce opportunities available to Indian businesses.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Entrepreneur and starting business in india",
     "isFinalized": true,
-    "lastUsedAt": 1788745545947
+    "lastUsedAt": 1788745916489
   }
 }
 EDU_ASSIST_METADATA_END -->
