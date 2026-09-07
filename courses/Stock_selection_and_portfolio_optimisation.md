@@ -49,13 +49,6 @@ Review core principles of stock analysis including fundamental vs. technical ana
 | What is Return on Equity (ROE), and why is it important? | ROE measures profitability by dividing net income by shareholders' equity. It shows how effectively a company uses equity to generate profits. |
 | What are key qualitative factors in stock selection? | Qualitative factors include management quality, competitive advantages, industry conditions, brand reputation, and corporate governance. These factors influence long-term sustainability and growth potential. |
 | How is Beta used in stock analysis? | Beta measures a stock's volatility relative to the overall market. A Beta above 1 indicates higher volatility; below 1 indicates lower volatility. It helps assess systematic risk. |
-| What is the difference between fundamental and technical analysis? | Fundamental analysis evaluates a company's financial health, management, and industry prospects using financial statements and economic indicators. Technical analysis focuses on historical price trends, trading volume, and market sentiment to predict future price movements. |
-| What is the Price-to-Earnings (P/E) ratio? | The P/E ratio is calculated by dividing a stock's current price by its earnings per share (EPS). It indicates how much investors are willing to pay for $1 of earnings, helping assess valuation. |
-| How does the Debt-to-Equity (D/E) ratio evaluate financial risk? | The D/E ratio measures a company's financial leverage by dividing total liabilities by shareholders' equity. A high D/E ratio suggests higher debt levels and potential financial risk. |
-| What does the Current Ratio indicate about a company? | The Current Ratio assesses short-term liquidity by dividing current assets by current liabilities. A ratio above 1 indicates the company can meet short-term obligations. |
-| What is Return on Equity (ROE), and why is it important? | ROE measures profitability by dividing net income by shareholders' equity. It shows how effectively a company uses equity to generate profits. |
-| What are key qualitative factors in stock selection? | Qualitative factors include management quality, competitive advantages, industry conditions, brand reputation, and corporate governance. These factors influence long-term sustainability and growth potential. |
-| How is Beta used in stock analysis? | Beta measures a stock's volatility relative to the overall market. A Beta above 1 indicates higher volatility; below 1 indicates lower volatility. It helps assess systematic risk. |
 
 ### ✏️ Practice Problems
 
@@ -139,7 +132,6 @@ Deep dive into interpreting income statements, balance sheets, and cash flow sta
 
 **Description:**
 Explore the relationship between risk and potential returns, including standard deviation and Sharpe ratio calculations.
----
 
 ---
 
@@ -149,7 +141,6 @@ Explore the relationship between risk and potential returns, including standard 
 
 **Description:**
 Learn how to measure asset correlations and construct diversified portfolios to reduce unsystematic risk.
----
 
 ---
 
@@ -159,7 +150,6 @@ Learn how to measure asset correlations and construct diversified portfolios to 
 
 **Description:**
 Understand Harry Markowitz's framework for optimizing portfolios using efficient frontier and optimal asset allocation.
----
 
 ---
 
@@ -169,7 +159,6 @@ Understand Harry Markowitz's framework for optimizing portfolios using efficient
 
 **Description:**
 Practice building sample portfolios with different risk profiles and constraints using spreadsheet models.
----
 
 ---
 
@@ -179,7 +168,6 @@ Practice building sample portfolios with different risk profiles and constraints
 
 **Description:**
 Study sophisticated optimization approaches like Monte Carlo simulations, Black-Litterman model, and factor investing.
----
 
 ---
 
@@ -189,7 +177,6 @@ Study sophisticated optimization approaches like Monte Carlo simulations, Black-
 
 **Description:**
 Identify common cognitive biases affecting stock selection and portfolio management decisions.
----
 
 ---
 
@@ -199,7 +186,6 @@ Identify common cognitive biases affecting stock selection and portfolio managem
 
 **Description:**
 Learn to use screening software and quantitative metrics (e.g., P/E ratio, dividend yield) to filter investment opportunities.
----
 
 ---
 
@@ -209,7 +195,6 @@ Learn to use screening software and quantitative metrics (e.g., P/E ratio, divid
 
 **Description:**
 Analyze how changing market conditions influence optimal asset allocation and portfolio rebalancing.
----
 
 ---
 
@@ -219,7 +204,6 @@ Analyze how changing market conditions influence optimal asset allocation and po
 
 **Description:**
 Apply learned concepts to real-world scenarios by optimizing a mock portfolio using historical data.
----
 
 ---
 
@@ -229,7 +213,6 @@ Apply learned concepts to real-world scenarios by optimizing a mock portfolio us
 
 **Description:**
 Assess portfolio performance using metrics like alpha, beta, and information ratio to understand value creation.
----
 
 ---
 
@@ -246,33 +229,33 @@ Assess portfolio performance using metrics like alpha, beta, and information rat
         "estimatedTime": "2 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Fundamental vs. Technical Analysis: What's the Difference?",
             "url": "https://www.investopedia.com/articles/investment/002002.asp",
-            "type": "article",
             "description": "Explains the core principles of fundamental and technical analysis, helping investors understand different stock evaluation methods."
           },
           {
+            "type": "video",
             "title": "How to Pick Stocks - Stock Market Basics",
             "url": "https://www.youtube.com/watch?v=7q7Q6ZJ0q3c",
-            "type": "video",
             "description": "A beginner-friendly video covering stock selection fundamentals, including value investing and growth investing strategies."
           },
           {
+            "type": "article",
             "title": "The Complete Guide to Stock Selection",
             "url": "https://www.corporatefinanceinstitute.com/resources/stock-selection/",
-            "type": "article",
             "description": "Outlines key steps and considerations for selecting stocks, including financial metrics and qualitative analysis techniques."
           },
           {
+            "type": "article",
             "title": "Key Financial Ratios for Stock Analysis",
             "url": "https://www.investopedia.com/terms/r/ratioanalysis.asp",
-            "type": "article",
             "description": "Details essential financial ratios like P/E, ROE, and debt-to-equity ratios used in fundamental stock evaluation."
           },
           {
+            "type": "video",
             "title": "Modern Portfolio Theory Explained",
             "url": "https://www.youtube.com/watch?v=4hQ36n6t7lU",
-            "type": "video",
             "description": "Introduces portfolio optimization concepts, emphasizing diversification and risk-return trade-offs in stock selection."
           }
         ],
@@ -305,43 +288,28 @@ Assess portfolio performance using metrics like alpha, beta, and information rat
         "researchPapers": [
           {
             "title": "A Hybrid Genetic Algorithm with Learning-to-Rank-to-Optimization for Long-Only Equity Selection",
-            "authors": "",
-            "year": "",
-            "url": "https://www.mdpi.com/2227-7072/14/4/95",
-            "summary": "",
-            "keyIdea": "This study develops a two-stage equity selection framework that transforms quarterly accounting fundamentals into monthly rankings using genetic algorithm optimization to maximize either NDCG@30 or Spearman IC, followed by dynamic portfolio allocation through penalized Max-Sharpe or Min-Variance optimization."
+            "keyIdea": "This study develops a two-stage equity selection framework that transforms quarterly accounting fundamentals into monthly rankings using genetic algorithm optimization to maximize either NDCG@30 or Spearman IC, followed by dynamic portfolio allocation through penalized Max-Sharpe or Min-Variance optimization.",
+            "url": "https://www.mdpi.com/2227-7072/14/4/95"
           },
           {
             "title": "Leveraging ensemble learning-based stock preselection with multiobjective investment optimization for stepwise decision-supported portfolio management",
-            "authors": "",
-            "year": "",
-            "url": "https://link.springer.com/article/10.1186/s40537-025-01202-w",
-            "summary": "",
-            "keyIdea": "This research introduces the AID-MOFBI-XGB model that combines forensic-based investigation XGBoost for stock preselection based on fundamental indicators with multi-objective mean-variance optimization to construct high-return, low-risk portfolios."
+            "keyIdea": "This research introduces the AID-MOFBI-XGB model that combines forensic-based investigation XGBoost for stock preselection based on fundamental indicators with multi-objective mean-variance optimization to construct high-return, low-risk portfolios.",
+            "url": "https://link.springer.com/article/10.1186/s40537-025-01202-w"
           },
           {
             "title": "Mean–trend risk portfolio selection with non-dominated sorting asset preselection",
-            "authors": "",
-            "year": "",
-            "url": "https://link.springer.com/article/10.1057/s41260-025-00437-9",
-            "summary": "",
-            "keyIdea": "The paper presents an efficient stock preselection method using multidimensional non-dominated sorting of return statistics derived from nonparametric regression and PCA, which is then applied to mean-variance and mean-trend risk portfolio selection strategies."
+            "keyIdea": "The paper presents an efficient stock preselection method using multidimensional non-dominated sorting of return statistics derived from nonparametric regression and PCA, which is then applied to mean-variance and mean-trend risk portfolio selection strategies.",
+            "url": "https://link.springer.com/article/10.1057/s41260-025-00437-9"
           },
           {
             "title": "Stock portfolio optimization using hill climbing and simple human learning optimization algorithm based on fundamental analysis",
-            "authors": "",
-            "year": "",
-            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205770/",
-            "summary": "",
-            "keyIdea": "This study develops a decision support system integrating intrinsic value calculations and financial health analysis as fundamental modules, combined with nature-inspired optimization algorithms (hill climbing and SHLO) to optimize stock portfolio selection."
+            "keyIdea": "This study develops a decision support system integrating intrinsic value calculations and financial health analysis as fundamental modules, combined with nature-inspired optimization algorithms (hill climbing and SHLO) to optimize stock portfolio selection.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205770/"
           },
           {
             "title": "Portfolio optimization based on the pre-selection of stocks by the Support Vector Machine model using fundamental indicators",
-            "authors": "",
-            "year": "",
-            "url": "https://ideas.repec.org/a/eee/finlet/v61y2024ics1544612324000448.html",
-            "summary": "",
-            "keyIdea": "The research demonstrates how preselecting assets using Support Vector Machine models with fundamental indicators before applying Markowitz portfolio optimization can achieve superior risk-adjusted returns and faster recovery after drawdown periods."
+            "keyIdea": "The research demonstrates how preselecting assets using Support Vector Machine models with fundamental indicators before applying Markowitz portfolio optimization can achieve superior risk-adjusted returns and faster recovery after drawdown periods.",
+            "url": "https://ideas.repec.org/a/eee/finlet/v61y2024ics1544612324000448.html"
           }
         ],
         "quiz": [
@@ -441,75 +409,45 @@ Assess portfolio performance using metrics like alpha, beta, and information rat
             "id": 7,
             "front": "How is Beta used in stock analysis?",
             "back": "Beta measures a stock's volatility relative to the overall market. A Beta above 1 indicates higher volatility; below 1 indicates lower volatility. It helps assess systematic risk."
-          },
-          {
-            "front": "What is the difference between fundamental and technical analysis?",
-            "back": "Fundamental analysis evaluates a company's financial health, management, and industry prospects using financial statements and economic indicators. Technical analysis focuses on historical price trends, trading volume, and market sentiment to predict future price movements."
-          },
-          {
-            "front": "What is the Price-to-Earnings (P/E) ratio?",
-            "back": "The P/E ratio is calculated by dividing a stock's current price by its earnings per share (EPS). It indicates how much investors are willing to pay for $1 of earnings, helping assess valuation."
-          },
-          {
-            "front": "How does the Debt-to-Equity (D/E) ratio evaluate financial risk?",
-            "back": "The D/E ratio measures a company's financial leverage by dividing total liabilities by shareholders' equity. A high D/E ratio suggests higher debt levels and potential financial risk."
-          },
-          {
-            "front": "What does the Current Ratio indicate about a company?",
-            "back": "The Current Ratio assesses short-term liquidity by dividing current assets by current liabilities. A ratio above 1 indicates the company can meet short-term obligations."
-          },
-          {
-            "front": "What is Return on Equity (ROE), and why is it important?",
-            "back": "ROE measures profitability by dividing net income by shareholders' equity. It shows how effectively a company uses equity to generate profits."
-          },
-          {
-            "front": "What are key qualitative factors in stock selection?",
-            "back": "Qualitative factors include management quality, competitive advantages, industry conditions, brand reputation, and corporate governance. These factors influence long-term sustainability and growth potential."
-          },
-          {
-            "front": "How is Beta used in stock analysis?",
-            "back": "Beta measures a stock's volatility relative to the overall market. A Beta above 1 indicates higher volatility; below 1 indicates lower volatility. It helps assess systematic risk."
           }
         ],
         "books": [
           {
             "title": "The Little Book That Still Beats the Market",
             "author": "Joel Greenblatt",
-            "url": "https://www.amazon.com/dp/0374270752",
+            "rating": 4.6,
             "description": "ated to identify attractive high‑return companies with a simple mathematical rule, this guide offers a clear, concise introduction to systematic stock selection. Its step‑by‑step approach and practical examples make it ideal for beginners seeking a proven, low‑friction entry into equity markets.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/dp/0374270752"
           },
           {
             "title": "Security Analysis, Sixth Edition",
             "author": "Benjamin Graham and David Dodd",
-            "url": "https://www.amazon.com/dp/0470064500",
+            "rating": 4.8,
             "description": "the definitive reference for fundamental analysis, this classic teaches consistent valuation techniques, margin‑of‑safety principles, and rigorous stock зинвая selections. Its exhaustive coverage provides a solid framework for constructing a disciplined, research‑driven portfolio.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/dp/0470064500"
           },
           {
             "title": "The Intelligent Investor",
             "author": "Benjamin Graham",
-            "url": "https://www.amazon.com/dp/006 ҷаҳ",
+            "rating": 4.8,
             "description": "while broader in scope, this bestseller remains essential for new investors, offering timeless guidance on value investing, risk management, and the psychology of the market. Its practical insights into asset allocation and security selection help build a robust portfolio foundation.",
-            "rating": 4.8
+            "url": "https://www.amazon.com/dp/006 ҷаҳ"
           },
           {
             "title": "Stocks for the Long Run",
             "author": "Jeremy Siegel",
-            "url": "https://www.amazon.com/dp/0470223812",
+            "rating": 4.7,
             "description": "combining deep research with forward‑looking analysis, this book explains how fundamental EF of companies, macro trends, and valuation metrics drive long‑term performance. It equips readers with the tools to evaluate stocks methodically and integrate them into optimized portfolios.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/dp/0470223812"
           },
           {
             "title": "Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management",
             "author": "Ludwig B. Chincarini and Daehn W. Kim",
-            "url": "https://www.amazon.com/dp/1439849937",
+            "rating": 4.5,
             "description": "this textbook blends theory and practice, teaching quantitative portfolio construction, factor models, and risk‑adjusted selection strategies. It’s ideal for those who want a systematic, data‑driven framework to enhance selection fundamentals and improve portfolio performance.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/dp/1439849937"
           }
-        ],
-        "completed": false,
-        "completedAt": null
+        ]
       },
       {
         "id": "node-2",
@@ -518,33 +456,33 @@ Assess portfolio performance using metrics like alpha, beta, and information rat
         "estimatedTime": "3 hours",
         "resources": [
           {
+            "type": "article",
             "title": "Financial Statement Analysis: A Complete Guide",
             "url": "https://www.investopedia.com/terms/f/financial-statement-analysis.asp",
-            "type": "article",
             "description": "Comprehensive overview of financial statement analysis techniques, including key ratios and metrics for evaluating company performance."
           },
           {
+            "type": "documentation",
             "title": "Financial Statement Analysis for Investment Decisions",
             "url": "https://corporatefinanceinstitute.com/resources/knowledge/valuation/financial-statement-analysis/",
-            "type": "documentation",
             "description": "Detailed breakdown of analyzing income statements, balance sheets, and cash flow statements to assess company health for stock selection."
           },
           {
+            "type": "video",
             "title": "How to Read Financial Statements for Stock Picking",
             "url": "https://www.youtube.com/watch?v=2hLZyfWlhNA",
-            "type": "video",
             "description": "Practical video tutorial explaining how to interpret financial statements to make informed investment decisions and optimize portfolios."
           },
           {
+            "type": "article",
             "title": "Financial Statement Analysis (FSA) Course Material",
             "url": "https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme/v/financial-statement-analysis",
-            "type": "article",
             "description": "Free educational content covering fundamental and advanced financial statement analysis methods relevant to portfolio management."
           },
           {
+            "type": "documentation",
             "title": "Mastering Financial Statements for Stock Analysis",
             "url": "https://www.cfainstitute.org/en/membership/professional-development/refresher-readings",
-            "type": "documentation",
             "description": "CFA Institute resources on financial statement analysis, emphasizing practical application in stock evaluation and risk assessment."
           }
         ],
@@ -552,154 +490,132 @@ Assess portfolio performance using metrics like alpha, beta, and information rat
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Risk-Return Tradeoff in Stock Investments",
-        "description": "Explore the relationship between risk and potential returns, including standard deviation and Sharpe ratio calculations.\n---",
+        "description": "Explore the relationship between risk and potential returns, including standard deviation and Sharpe ratio calculations.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Diversification Strategies and Correlation Analysis",
-        "description": "Learn how to measure asset correlations and construct diversified portfolios to reduce unsystematic risk.\n---",
+        "description": "Learn how to measure asset correlations and construct diversified portfolios to reduce unsystematic risk.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Modern Portfolio Theory (MPT) Essentials",
-        "description": "Understand Harry Markowitz's framework for optimizing portfolios using efficient frontier and optimal asset allocation.\n---",
+        "description": "Understand Harry Markowitz's framework for optimizing portfolios using efficient frontier and optimal asset allocation.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Portfolio Construction Techniques",
-        "description": "Practice building sample portfolios with different risk profiles and constraints using spreadsheet models.\n---",
+        "description": "Practice building sample portfolios with different risk profiles and constraints using spreadsheet models.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Advanced Portfolio Optimization Methods",
-        "description": "Study sophisticated optimization approaches like Monte Carlo simulations, Black-Litterman model, and factor investing.\n---",
+        "description": "Study sophisticated optimization approaches like Monte Carlo simulations, Black-Litterman model, and factor investing.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Behavioral Finance and Biases in Investment Decisions",
-        "description": "Identify common cognitive biases affecting stock selection and portfolio management decisions.\n---",
+        "description": "Identify common cognitive biases affecting stock selection and portfolio management decisions.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Quantitative Stock Screening Tools",
-        "description": "Learn to use screening software and quantitative metrics (e.g., P/E ratio, dividend yield) to filter investment opportunities.\n---",
+        "description": "Learn to use screening software and quantitative metrics (e.g., P/E ratio, dividend yield) to filter investment opportunities.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Asset Allocation Across Market Cycles",
-        "description": "Analyze how changing market conditions influence optimal asset allocation and portfolio rebalancing.\n---",
+        "description": "Analyze how changing market conditions influence optimal asset allocation and portfolio rebalancing.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Case Study: Portfolio Optimization in Practice",
-        "description": "Apply learned concepts to real-world scenarios by optimizing a mock portfolio using historical data.\n---",
+        "description": "Apply learned concepts to real-world scenarios by optimizing a mock portfolio using historical data.",
         "estimatedTime": "4 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Performance Evaluation and Attribution",
-        "description": "Assess portfolio performance using metrics like alpha, beta, and information ratio to understand value creation.\n---",
+        "description": "Assess portfolio performance using metrics like alpha, beta, and information ratio to understand value creation.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Stock selection and portfolio optimisation",
     "isFinalized": true,
-    "lastUsedAt": 1788745544962
+    "lastUsedAt": 1788745915424
   }
 }
 EDU_ASSIST_METADATA_END -->
