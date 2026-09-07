@@ -70,14 +70,6 @@ Revisit the core pillars of OOP in Java: Encapsulation, Abstraction, Inheritance
 | What are the key benefits of Inheritance in Java OOP design? | Inheritance promotes code reusability, enables hierarchical classification, supports method overriding for polymorphic behavior, and facilitates easier maintenance through hierarchical organization. |
 | What is Polymorphism in Java? Provide examples of method overriding and overloading. | Polymorphism allows objects to take multiple forms. Method overriding (runtime): @Override public void makeSound() {} in subclass. Overloading (compile-time): Multiple methods with same name but different parameters. Example: void print(String s) and void print(int i). |
 | How does Polymorphism improve Java application design and maintenance? | Polymorphism increases flexibility by allowing dynamic method binding, enables writing generic code that works with different object types, and simplifies extending functionality without modifying existing code. |
-| How is Encapsulation implemented in Java syntax? | Encapsulation uses access modifiers (private, public) and getter/setter methods to restrict direct access to fields. Example: private String name; public String getName() { return name; } public void setName(String name) { this.name = name; } |
-| What are the practical benefits of Encapsulation in Java? | Encapsulation protects data integrity by controlling access, improves maintainability by isolating changes, and enhances security by preventing unauthorized modifications to object state. |
-| How does Java implement Abstraction through abstract classes and interfaces? | Abstract classes provide partial implementation with abstract methods (e.g., abstract class Animal { abstract void makeSound(); }), while interfaces define contracts without implementation (e.g., interface Drawable { void draw(); }). Both hide complex internal details. |
-| What practical advantages does Abstraction provide in Java applications? | Abstraction reduces system complexity by hiding implementation details, allows focusing on essential features, and enables modular development by separating interface from implementation. |
-| Explain Inheritance in Java using the 'extends' keyword and 'super' method. | Inheritance allows a class to inherit fields and methods from a parent class using 'extends'. The 'super' keyword accesses parent class members. Example: class Dog extends Animal { super.sound(); } |
-| What are the key benefits of Inheritance in Java OOP design? | Inheritance promotes code reusability, enables hierarchical classification, supports method overriding for polymorphic behavior, and facilitates easier maintenance through hierarchical organization. |
-| What is Polymorphism in Java? Provide examples of method overriding and overloading. | Polymorphism allows objects to take multiple forms. Method overriding (runtime): @Override public void makeSound() {} in subclass. Overloading (compile-time): Multiple methods with same name but different parameters. Example: void print(String s) and void print(int i). |
-| How does Polymorphism improve Java application design and maintenance? | Polymorphism increases flexibility by allowing dynamic method binding, enables writing generic code that works with different object types, and simplifies extending functionality without modifying existing code. |
 
 ### ✏️ Practice Problems
 
@@ -153,7 +145,6 @@ Revisit the core pillars of OOP in Java: Encapsulation, Abstraction, Inheritance
 
 **Description:**
 Explore abstract classes and interfaces in detail. Understand when to use each, their differences, and how they promote loose coupling. Pay attention to default and static methods in interfaces.
----
 
 ---
 
@@ -163,7 +154,6 @@ Explore abstract classes and interfaces in detail. Understand when to use each, 
 
 **Description:**
 Focus on the Single Responsibility Principle (SRP) and the Liskov Substitution Principle (LSP). Learn how to design classes that have a single purpose and how to ensure that subclasses can be used interchangeably with their superclasses without altering the correctness of the program.
----
 
 ---
 
@@ -173,7 +163,6 @@ Focus on the Single Responsibility Principle (SRP) and the Liskov Substitution P
 
 **Description:**
 Delve into the Interface Segregation Principle (ISP) and the Dependency Inversion Principle (DIP). Learn how to create fine-grained interfaces and how to depend on abstractions rather than concrete implementations to improve flexibility and testability.
----
 
 ---
 
@@ -183,7 +172,6 @@ Delve into the Interface Segregation Principle (ISP) and the Dependency Inversio
 
 **Description:**
 Learn about creational design patterns like Singleton, Factory Method, and Abstract Factory. Understand their purpose, when to apply them, and how they solve common object creation problems.
----
 
 ---
 
@@ -193,7 +181,6 @@ Learn about creational design patterns like Singleton, Factory Method, and Abstr
 
 **Description:**
 Explore structural design patterns such as Adapter, Decorator, and Facade. Learn how these patterns help in composing objects and classes to form larger structures, enhancing flexibility and reusability.
----
 
 ---
 
@@ -203,7 +190,6 @@ Explore structural design patterns such as Adapter, Decorator, and Facade. Learn
 
 **Description:**
 Study behavioral design patterns like Observer, Strategy, and Template Method. Understand how these patterns facilitate communication and the assignment of responsibilities between objects, leading to more dynamic interactions.
----
 
 ---
 
@@ -213,7 +199,6 @@ Study behavioral design patterns like Observer, Strategy, and Template Method. U
 
 **Description:**
 Deepen your understanding of generics in Java, including type erasure and its implications. Learn how to write flexible and type-safe code using generics for collections and custom data structures.
----
 
 ---
 
@@ -223,7 +208,6 @@ Deepen your understanding of generics in Java, including type erasure and its im
 
 **Description:**
 Learn to identify common 'code smells' that indicate deeper design problems. Practice refactoring techniques to improve the design and readability of existing Java code, making it more maintainable.
----
 
 ---
 
@@ -233,7 +217,6 @@ Learn to identify common 'code smells' that indicate deeper design problems. Pra
 
 **Description:**
 Work through case studies and practical examples of applying all SOLID principles in complex Java applications. Focus on how these principles contribute to building scalable and robust software.
----
 
 ---
 
@@ -243,7 +226,6 @@ Work through case studies and practical examples of applying all SOLID principle
 
 **Description:**
 Explore how to combine multiple design patterns to solve intricate problems. Practice implementing advanced patterns and discuss their trade-offs and best use cases.
----
 
 ---
 
@@ -253,7 +235,6 @@ Explore how to combine multiple design patterns to solve intricate problems. Pra
 
 **Description:**
 Consolidate your learning by exploring established best practices in object-oriented design. Discuss common pitfalls to avoid and strategies for creating elegant and efficient Java solutions.
----
 
 ---
 
@@ -263,7 +244,6 @@ Consolidate your learning by exploring established best practices in object-orie
 
 **Description:**
 Apply learned concepts by refactoring a small to medium-sized existing Java application. Focus on improving its design, adhering to SOLID principles, and potentially incorporating relevant design patterns.
----
 
 ---
 
@@ -273,7 +253,6 @@ Apply learned concepts by refactoring a small to medium-sized existing Java appl
 
 **Description:**
 Design and implement a new feature for a hypothetical application, consciously applying OOP design principles, SOLID, and appropriate design patterns. Document your design decisions and rationale.
----
 
 ---
 
@@ -290,45 +269,45 @@ Design and implement a new feature for a hypothetical application, consciously a
         "estimatedTime": "1 hour",
         "resources": [
           {
+            "type": "article",
             "title": "tutorialspoint.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnSIHbAwvJeGwxTbccvLjlTydu95WsVi9DSyPmBTnbnsTfY4hrVCXGWIVFcReFiCt-jmaD76OwXf1HkA6nhOadXCkegIHV9jTcFQ2yuYyppPCr7HGmWReib6Fe012_NX0wF7UnaKMbAVnmN9tZ3AXpwj_61Jw=",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "beginnersbook.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8ccYlB-a_AjHiLAUdYsFoMwnAm-7WCr2n2IGd5Trt07olms-JlfsivdO-HUqwyrCswjpHYV6J4lSo2atxUcOF1aHeqECRaZPeiiuYi4r16uw4cmfCN20OHVtWsgX306WOK2_RXiX6zIPtLgmO2bPHyhP",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "simplilearn.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNGprC0jK-RT88xB5XRCYAnZV7lrJKgWYSPo7j_Ye_rMa7J9nQc2vnaRxGrDgi0mupWFHCCcHSF_TCaYUiLchZeorEILYPYYbSwII9iqQ6skkcjrBeyCOF2fAatIsXSwWtcJcCQRW0rgNSIaFL83_9eQUbx5acuAbssFNYUoABSQM=",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "programiz.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTYSlqxk5I3l0gBv45FkmrEMPyfbmkEh4sD5FvnaMwKCPRzJfm-P0EayzBv3ptdjOrQeExUBsJ7BbZolxdGKUlEmJATFAYxlVKO4_6l5aPoaBmV6y0G0w28esBM3ah1cotIxMoEBaZwkMGxZgGSCpRbYks",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "freecodecamp.org",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNFBl69r_U9CrWWWkCgq9eNw6QtQriOqIsBIkVYupNUzbPRtybpAH5uKM82ZwJLj5UindUel0svwrKdpjJShV5CvWdr7NaRK_GE7XEMjNQgpqHl2vFx_mfoP6D905frERxdczYglaySrR1pLD7Et1lBhrQQAx84h03laHj9BmPTWub44Hfkvk=",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "ioflood.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwHfoqa1K9Nq-0AuYzzwPC6lviTmK9i2qwSzFKXkXwvd1zvPU3GOR8NpJocq-OQ1-DnflbxTx5rKGYXv_y2wdzeRm8jYX6SJaml3mWp9svYqeBU9-5EhxfPJiiRJ27Xk7YeUiM6A_c3w==",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "w3schools.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpYkKh_QbAUEblRSlPF-jX3m4kDjMjg8u4JNDUIuDNkCsKA7E4q7-D0N-7gsSjARRxGvJ76ciZJaha8jkOvAnyKpXuGRVTBAjlMIN9B1DyI2CFS2lkxK_fs7lKjFrMk45DydTGFE9exo4bww==",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
@@ -362,9 +341,9 @@ Design and implement a new feature for a hypothetical application, consciously a
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "youtube.com",
             "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKDDuFZdxf7Tn_jxRt33eLLoVtR3cNdNOyk8ErqC6yzcyM1awUuF1kvHcZbXkZgepkZa9Lc68fd24AJ6n_N_5g9C05BPcvS9YmnMgefWxvisqvbdlDZ5_1l746_BRdjZQZzWivVgs=",
-            "type": "article",
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
@@ -374,51 +353,51 @@ Design and implement a new feature for a hypothetical application, consciously a
             "description": "A highly relevant resource for Review of Java OOP Fundamentals found via Google Search."
           },
           {
+            "type": "article",
             "title": "Java Encapsulation - Tutorials Point",
             "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm",
-            "type": "article",
             "description": "Explains encapsulation in Java, including definition, implementation with getter/setter methods, and benefits."
           },
           {
+            "type": "article",
             "title": "Object-Oriented programming (OOP) in Java - freeCodeCamp.org",
             "url": "https://www.freecodecamp.org/news/object-oriented-programming-in-java-f58311f832c9/",
-            "type": "article",
             "description": "A comprehensive article covering Java OOP basics, including encapsulation with getter and setter examples."
           },
           {
+            "type": "article",
             "title": "Abstraction in Java - IOFLOOD.com",
             "url": "https://ioflood.com/blog/abstraction-in-java/",
-            "type": "article",
             "description": "Details how abstraction is achieved using abstract classes and interfaces, and its importance in hiding complexity."
           },
           {
+            "type": "article",
             "title": "Java Abstraction - W3Schools",
             "url": "https://www.w3schools.com/java/java_abstraction.asp",
-            "type": "article",
             "description": "Provides a clear explanation of abstraction, defining abstract classes and methods and their use in hiding implementation details."
           },
           {
+            "type": "article",
             "title": "Java Inheritance - Tutorials Point",
             "url": "https://www.tutorialspoint.com/java/java_inheritance.htm",
-            "type": "article",
             "description": "Explains Java inheritance, including the 'extends' keyword, its necessity, and the 'super' keyword."
           },
           {
+            "type": "article",
             "title": "Java Inheritance - Programiz",
             "url": "https://www.programiz.com/java-programming/inheritance",
-            "type": "article",
             "description": "Offers a clear explanation of Java inheritance with examples, covering its uses and method overriding."
           },
           {
+            "type": "article",
             "title": "Java Polymorphism - Tutorials Point",
             "url": "https://www.tutorialspoint.com/java/java_polymorphism.htm",
-            "type": "article",
             "description": "Defines polymorphism, its usage in Java, and discusses virtual methods and runtime polymorphism with examples."
           },
           {
+            "type": "article",
             "title": "Java Polymorphism - Programiz",
             "url": "https://www.programiz.com/java-programming/polymorphism",
-            "type": "article",
             "description": "Explains polymorphism with examples, including method overriding and overloading, and how the same method name can have different behaviors."
           },
           {
@@ -428,15 +407,15 @@ Design and implement a new feature for a hypothetical application, consciously a
             "description": "A comprehensive book covering Java fundamentals and OOP in depth."
           },
           {
+            "type": "video",
             "title": "Learn Java Object-Oriented Programming (with actual code) - YouTube",
             "url": "https://www.youtube.com/watch?v=y0_0_KjHw0g",
-            "type": "video",
             "description": "A practical, code-based explanation of Java OOP concepts, including encapsulation, inheritance, polymorphism, and abstraction."
           },
           {
+            "type": "video",
             "title": "Object-Oriented Programming in Java | Java OOPs Concepts | Java Tutorial | Edureka Rewind - YouTube",
             "url": "https://www.youtube.com/watch?v=YmI5jI-WJbM",
-            "type": "video",
             "description": "An overview of Java OOP concepts, covering inheritance, abstraction, encapsulation, and polymorphism with practical implementations."
           }
         ],
@@ -494,38 +473,6 @@ Design and implement a new feature for a hypothetical application, consciously a
           },
           {
             "id": 8,
-            "front": "How does Polymorphism improve Java application design and maintenance?",
-            "back": "Polymorphism increases flexibility by allowing dynamic method binding, enables writing generic code that works with different object types, and simplifies extending functionality without modifying existing code."
-          },
-          {
-            "front": "How is Encapsulation implemented in Java syntax?",
-            "back": "Encapsulation uses access modifiers (private, public) and getter/setter methods to restrict direct access to fields. Example: private String name; public String getName() { return name; } public void setName(String name) { this.name = name; }"
-          },
-          {
-            "front": "What are the practical benefits of Encapsulation in Java?",
-            "back": "Encapsulation protects data integrity by controlling access, improves maintainability by isolating changes, and enhances security by preventing unauthorized modifications to object state."
-          },
-          {
-            "front": "How does Java implement Abstraction through abstract classes and interfaces?",
-            "back": "Abstract classes provide partial implementation with abstract methods (e.g., abstract class Animal { abstract void makeSound(); }), while interfaces define contracts without implementation (e.g., interface Drawable { void draw(); }). Both hide complex internal details."
-          },
-          {
-            "front": "What practical advantages does Abstraction provide in Java applications?",
-            "back": "Abstraction reduces system complexity by hiding implementation details, allows focusing on essential features, and enables modular development by separating interface from implementation."
-          },
-          {
-            "front": "Explain Inheritance in Java using the 'extends' keyword and 'super' method.",
-            "back": "Inheritance allows a class to inherit fields and methods from a parent class using 'extends'. The 'super' keyword accesses parent class members. Example: class Dog extends Animal { super.sound(); }"
-          },
-          {
-            "front": "What are the key benefits of Inheritance in Java OOP design?",
-            "back": "Inheritance promotes code reusability, enables hierarchical classification, supports method overriding for polymorphic behavior, and facilitates easier maintenance through hierarchical organization."
-          },
-          {
-            "front": "What is Polymorphism in Java? Provide examples of method overriding and overloading.",
-            "back": "Polymorphism allows objects to take multiple forms. Method overriding (runtime): @Override public void makeSound() {} in subclass. Overloading (compile-time): Multiple methods with same name but different parameters. Example: void print(String s) and void print(int i)."
-          },
-          {
             "front": "How does Polymorphism improve Java application design and maintenance?",
             "back": "Polymorphism increases flexibility by allowing dynamic method binding, enables writing generic code that works with different object types, and simplifies extending functionality without modifying existing code."
           }
@@ -596,79 +543,64 @@ Design and implement a new feature for a hypothetical application, consciously a
           {
             "title": "Effective Java",
             "author": "Joshua Bloch",
-            "url": "https://www.amazon.com/Effective-Java-Joshua-Bloch-Edition/dp/0134685999",
+            "rating": 4.7,
             "description": "A comprehensive guide covering best practices and efficient techniques for Java programming, including deep dives into OOP principles like inheritance, composition, and encapsulation. Highly recommended for its practical insights and expert advice from a Java platform architect.",
-            "rating": 4.7
+            "url": "https://www.amazon.com/Effective-Java-Joshua-Bloch-Edition/dp/0134685999"
           },
           {
             "title": "Head First Object-Oriented Analysis and Design",
             "author": "McLaughlin, et al.",
-            "url": "https://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678",
+            "rating": 4.6,
             "description": "A visually engaging textbook that teaches OOP concepts through real-world examples and interactive exercises. It emphasizes understanding the 'why' behind design choices, making it ideal for reinforcing foundational OOP principles in Java.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678"
           },
           {
             "title": "Core Java Volume I – Fundamentals",
             "author": "Cay S. Horstmann",
-            "url": "https://www.amazon.com/Core-Java-Volume-Fundamentals-12th/dp/0135166306",
+            "rating": 4.6,
             "description": "A thorough introduction to Java programming with detailed coverage of OOP fundamentals. The book combines theoretical concepts with practical examples, making it suitable for both beginners and intermediate developers seeking a solid grasp of Java OOD.",
-            "rating": 4.6
+            "url": "https://www.amazon.com/Core-Java-Volume-Fundamentals-12th/dp/0135166306"
           },
           {
             "title": "Object-Oriented Software Construction",
             "author": "Bertrand Meyer",
-            "url": "https://www.amazon.com/Object-Oriented-Software-Construction-Bertrand-Meyer/dp/0136291554",
+            "rating": 4.5,
             "description": "A foundational text that explores the theoretical underpinnings of object-oriented design. Though language-agnostic, its principles are universally applicable, including Java. Recommended for its rigorous approach to OOP concepts and design methodologies.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Object-Oriented-Software-Construction-Bertrand-Meyer/dp/0136291554"
           },
           {
             "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
             "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
-            "url": "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
+            "rating": 4.5,
             "description": "The seminal work on design patterns, essential for mastering OOP design. Focuses on reusable solutions to common problems, applicable to Java and other languages. Widely cited and influential in the field of software design.",
-            "rating": 4.5
+            "url": "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"
           }
         ],
         "researchPapers": [
           {
             "title": "A Survey of Object-Oriented Programming Principles in Java: Evolution and Best Practices",
-            "authors": "",
-            "year": "",
-            "url": "https://scholar.google.com/scholar?q=A+Survey+of+Object-Oriented+Programming+Principles+in+Java",
-            "summary": "",
-            "keyIdea": "Analyzes the fundamental OOP concepts in Java, their implementation evolution, and current industry best practices through empirical studies and code analysis."
+            "keyIdea": "Analyzes the fundamental OOP concepts in Java, their implementation evolution, and current industry best practices through empirical studies and code analysis.",
+            "url": "https://scholar.google.com/scholar?q=A+Survey+of+Object-Oriented+Programming+Principles+in+Java"
           },
           {
             "title": "Modern Java OOP Design Patterns: A Systematic Literature Review",
-            "authors": "",
-            "year": "",
-            "url": "https://ieeexplore.ieee.org/document/10289345",
-            "summary": "",
-            "keyIdea": "Reviews contemporary design patterns in Java OOP, focusing on scalability, maintainability, and integration with modern frameworks like Spring and Jakarta EE."
+            "keyIdea": "Reviews contemporary design patterns in Java OOP, focusing on scalability, maintainability, and integration with modern frameworks like Spring and Jakarta EE.",
+            "url": "https://ieeexplore.ieee.org/document/10289345"
           },
           {
             "title": "Encapsulation and Abstraction in Java: Revisiting Fundamentals Through Code Quality Metrics",
-            "authors": "",
-            "year": "",
-            "url": "https://dl.acm.org/doi/10.1145/3581030",
-            "summary": "",
-            "keyIdea": "Examines how core OOP principles like encapsulation and abstraction impact code quality in large-scale Java applications using static analysis tools."
+            "keyIdea": "Examines how core OOP principles like encapsulation and abstraction impact code quality in large-scale Java applications using static analysis tools.",
+            "url": "https://dl.acm.org/doi/10.1145/3581030"
           },
           {
             "title": "Inheritance vs. Composition in Contemporary Java OOP Design: A Comparative Study",
-            "authors": "",
-            "year": "",
-            "url": "https://arxiv.org/abs/2305.14567",
-            "summary": "",
-            "keyIdea": "Compares inheritance and composition strategies in Java OOP design for modern software architecture using case studies from open-source projects."
+            "keyIdea": "Compares inheritance and composition strategies in Java OOP design for modern software architecture using case studies from open-source projects.",
+            "url": "https://arxiv.org/abs/2305.14567"
           },
           {
             "title": "OOP Fundamentals in Java for Novice Programmers: Challenges and Pedagogical Approaches",
-            "authors": "",
-            "year": "",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0950420423001234",
-            "summary": "",
-            "keyIdea": "Investigates common misunderstandings of Java OOP fundamentals among beginners and proposes pedagogical strategies to improve learning outcomes."
+            "keyIdea": "Investigates common misunderstandings of Java OOP fundamentals among beginners and proposes pedagogical strategies to improve learning outcomes.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950420423001234"
           }
         ],
         "practiceProblems": [
@@ -708,198 +640,170 @@ Design and implement a new feature for a hypothetical application, consciously a
             "description": "Design a Plugin interface with an execute(String input) method. Create a base class TextProcessor that implements Plugin and provides common functionality. Implement concrete plugins like UppercasePlugin and ReversePlugin that extend TextProcessor. Design a PluginManager class that dynamically loads plugins and processes a string through them. Ensure encapsulation of plugin-specific state and use polymorphism to execute different plugins.",
             "group": "D"
           }
-        ],
-        "completed": false,
-        "completedAt": null
+        ]
       },
       {
         "id": "node-2",
         "title": "Deep Dive into Abstraction in Java",
-        "description": "Explore abstract classes and interfaces in detail. Understand when to use each, their differences, and how they promote loose coupling. Pay attention to default and static methods in interfaces.\n---",
+        "description": "Explore abstract classes and interfaces in detail. Understand when to use each, their differences, and how they promote loose coupling. Pay attention to default and static methods in interfaces.",
         "estimatedTime": "1.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-3",
         "title": "Understanding SOLID Principles - S & L",
-        "description": "Focus on the Single Responsibility Principle (SRP) and the Liskov Substitution Principle (LSP). Learn how to design classes that have a single purpose and how to ensure that subclasses can be used interchangeably with their superclasses without altering the correctness of the program.\n---",
+        "description": "Focus on the Single Responsibility Principle (SRP) and the Liskov Substitution Principle (LSP). Learn how to design classes that have a single purpose and how to ensure that subclasses can be used interchangeably with their superclasses without altering the correctness of the program.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-4",
         "title": "Understanding SOLID Principles - I & D",
-        "description": "Delve into the Interface Segregation Principle (ISP) and the Dependency Inversion Principle (DIP). Learn how to create fine-grained interfaces and how to depend on abstractions rather than concrete implementations to improve flexibility and testability.\n---",
+        "description": "Delve into the Interface Segregation Principle (ISP) and the Dependency Inversion Principle (DIP). Learn how to create fine-grained interfaces and how to depend on abstractions rather than concrete implementations to improve flexibility and testability.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-5",
         "title": "Introduction to Design Patterns: Creational Patterns",
-        "description": "Learn about creational design patterns like Singleton, Factory Method, and Abstract Factory. Understand their purpose, when to apply them, and how they solve common object creation problems.\n---",
+        "description": "Learn about creational design patterns like Singleton, Factory Method, and Abstract Factory. Understand their purpose, when to apply them, and how they solve common object creation problems.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-6",
         "title": "Introduction to Design Patterns: Structural Patterns",
-        "description": "Explore structural design patterns such as Adapter, Decorator, and Facade. Learn how these patterns help in composing objects and classes to form larger structures, enhancing flexibility and reusability.\n---",
+        "description": "Explore structural design patterns such as Adapter, Decorator, and Facade. Learn how these patterns help in composing objects and classes to form larger structures, enhancing flexibility and reusability.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-7",
         "title": "Introduction to Design Patterns: Behavioral Patterns",
-        "description": "Study behavioral design patterns like Observer, Strategy, and Template Method. Understand how these patterns facilitate communication and the assignment of responsibilities between objects, leading to more dynamic interactions.\n---",
+        "description": "Study behavioral design patterns like Observer, Strategy, and Template Method. Understand how these patterns facilitate communication and the assignment of responsibilities between objects, leading to more dynamic interactions.",
         "estimatedTime": "2.5 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-8",
         "title": "Advanced Abstraction: Generic Programming and Type Erasure",
-        "description": "Deepen your understanding of generics in Java, including type erasure and its implications. Learn how to write flexible and type-safe code using generics for collections and custom data structures.\n---",
+        "description": "Deepen your understanding of generics in Java, including type erasure and its implications. Learn how to write flexible and type-safe code using generics for collections and custom data structures.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-9",
         "title": "Designing for Maintainability: Code Smells and Refactoring",
-        "description": "Learn to identify common 'code smells' that indicate deeper design problems. Practice refactoring techniques to improve the design and readability of existing Java code, making it more maintainable.\n---",
+        "description": "Learn to identify common 'code smells' that indicate deeper design problems. Practice refactoring techniques to improve the design and readability of existing Java code, making it more maintainable.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-10",
         "title": "Advanced SOLID: Applying Principles in Real-World Scenarios",
-        "description": "Work through case studies and practical examples of applying all SOLID principles in complex Java applications. Focus on how these principles contribute to building scalable and robust software.\n---",
+        "description": "Work through case studies and practical examples of applying all SOLID principles in complex Java applications. Focus on how these principles contribute to building scalable and robust software.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-11",
         "title": "Advanced Design Patterns: Combining and Implementing",
-        "description": "Explore how to combine multiple design patterns to solve intricate problems. Practice implementing advanced patterns and discuss their trade-offs and best use cases.\n---",
+        "description": "Explore how to combine multiple design patterns to solve intricate problems. Practice implementing advanced patterns and discuss their trade-offs and best use cases.",
         "estimatedTime": "3 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-12",
         "title": "Object-Oriented Design Best Practices and Pitfalls",
-        "description": "Consolidate your learning by exploring established best practices in object-oriented design. Discuss common pitfalls to avoid and strategies for creating elegant and efficient Java solutions.\n---",
+        "description": "Consolidate your learning by exploring established best practices in object-oriented design. Discuss common pitfalls to avoid and strategies for creating elegant and efficient Java solutions.",
         "estimatedTime": "2 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-13",
         "title": "Project: Refactoring an Existing Application",
-        "description": "Apply learned concepts by refactoring a small to medium-sized existing Java application. Focus on improving its design, adhering to SOLID principles, and potentially incorporating relevant design patterns.\n---",
+        "description": "Apply learned concepts by refactoring a small to medium-sized existing Java application. Focus on improving its design, adhering to SOLID principles, and potentially incorporating relevant design patterns.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       },
       {
         "id": "node-14",
         "title": "Project: Designing a New Feature with OOP Principles",
-        "description": "Design and implement a new feature for a hypothetical application, consciously applying OOP design principles, SOLID, and appropriate design patterns. Document your design decisions and rationale.\n---",
+        "description": "Design and implement a new feature for a hypothetical application, consciously applying OOP design principles, SOLID, and appropriate design patterns. Document your design decisions and rationale.",
         "estimatedTime": "6 hours",
         "resources": [],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": [],
-        "completed": false,
-        "completedAt": null
+        "quiz": []
       }
     ],
     "topic": "Java oops design",
     "updatedAt": 1768520751347,
     "createdAt": 1768520751347,
     "isFinalized": true,
-    "lastUsedAt": 1788745540677
+    "lastUsedAt": 1788745910202
   }
 }
 EDU_ASSIST_METADATA_END -->
