@@ -1260,9 +1260,9 @@ Take a comprehensive test covering all difficulty levels to validate mastery of 
     ],
     "topic": "Sql server",
     "isFinalized": true,
-    "lastUsedAt": 1789438740398,
-    "lastSyncedAt": 1789262031922,
-    "lastSyncedSha": "a8d4ef4bab094e03168c451a89a28b5c92ac2a4c",
+    "lastUsedAt": 1789438816115,
+    "lastSyncedAt": 1789438746585,
+    "lastSyncedSha": "0b90d5aeddb02495d9b80b4403d727c3f7c0892a",
     "lastModifiedAt": 1789438707751
   }
 }
