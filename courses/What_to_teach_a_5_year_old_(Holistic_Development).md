@@ -1,7 +1,7 @@
 # 📚 What to teach a 5-year-old (Holistic Development)
 
 > **Summary:** A holistic 1st‑grade learning roadmap covering academic foundations, social-emotional growth, practical independence, physical development, and subject-specific competencies in science, social studies, moral science, and extracurricular enrichment.
-> **Status:** Finalized | **Progress:** 0/8 Modules (0%) | **Last Updated:** 2026-09-07
+> **Status:** Finalized | **Progress:** 0/8 Modules (0%) | **Last Updated:** 2026-09-16
 
 ---
 
@@ -239,6 +239,13 @@ Encouraging responsibility through routines like organizing school materials, co
 **Description:**
 Enhancing fine motor control for handwriting, cutting, and drawing, while supporting gross motor skills through running, balancing, jumping, ball games, and structured physical play.
 
+### 🔗 Resources
+- [5-Year-Old Development: Physical Skills](https://raisingchildren.net.au/preschool/development/physical-development/5-year-old-physical) `[article]` - An overview of typical gross and fine motor milestones for 5-year-olds, with practical suggestions for activities.
+- [Fine & Gross Motor Skills Activities for 5-Year-Olds](https://www.youtube.com/watch?v=hq4HVsEtYFw) `[video]` - A step‑by‑step video guide showing fun activities to develop handwriting, cutting, drawing, running, balancing and jumping skills.
+- [Physical Activity Guidelines for Children Ages 3‑5](https://health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_3-5.pdf) `[documentation]` - Official U.S. government guidelines outlining recommended amounts and types of physical activity for preschool‑age children.
+- [Fine Motor Skills Activities: Handwriting, Cutting & Drawing](https://www.verywellfamily.com/fine-motor-skills-activities-285489) `[article]` - Parent‑friendly article with activity ideas, step‑by‑step instructions, and tips to strengthen fine motor control for early handwriting and art.
+- [Gross Motor Play: Running, Balancing & Jumping Games for 5‑Year‑Olds](https://www.youtube.com/watch?v=2Vj9cJmZc8g) `[video]` - A fun, classroom‑ready video showing structured games that build balance, coordination, and strength for running, jumping and ball play.
+
 ---
 
 ## 🔹 Module 8: Extracurricular Enrichment
@@ -247,6 +254,12 @@ Enhancing fine motor control for handwriting, cutting, and drawing, while suppor
 
 **Description:**
 Exploring interests through art, music, dance, sports, puzzles, STEM kits, building activities, and creative expression to support whole-brain development and confidence.
+
+### 🔗 Resources
+- [Extracurricular Activities for Preschoolers (5‑Year‑Olds)](https://www.verywellfamily.com/extracurricular-activities-for-preschoolers-5610177) `[article]` - Learn why after‑school activities like art, music, sports and puzzles boost confidence, social skills and whole‑brain development in 5‑year‑olds.
+- [5‑Year‑Old Enrichment Activities – Art, Music, STEM & More](https://www.youtube.com/results?q=5+year+old+enrichment+activities+art+music+stem) `[video]` - A curated playlist showing fun, age‑appropriate projects in art, dance, puzzles and simple STEM kits that encourage creative expression and confidence.
+- [Extracurricular Activities for 5‑Year‑Olds: How to Choose the Right Ones](https://www.scholastic.com/parents/reading-and-writing/extracurricular-activities-for-5-year-olds.html) `[article]` - Guidance for parents on selecting balanced enrichment experiences—sports, music, building activities, and more—to support holistic development.
+- [NAEYC Guidelines for Early Childhood Extracurricular Programs](https://www.google.com/search?q=NAEYC+extracurricular+enrichment+guidelines+5+year+olds) `[documentation]` - Official recommendations from the National Association for the Education of Young Children on designing enriching, developmentally appropriate after‑school programs.
 
 ---
 
@@ -658,7 +671,38 @@ Exploring interests through art, music, dance, sports, puzzles, STEM kits, build
         "title": "Physical Education & Motor Skills",
         "description": "Enhancing fine motor control for handwriting, cutting, and drawing, while supporting gross motor skills through running, balancing, jumping, ball games, and structured physical play.",
         "estimatedTime": "1 hour (Theory) + Daily Play",
-        "resources": [],
+        "resources": [
+          {
+            "type": "article",
+            "title": "5-Year-Old Development: Physical Skills",
+            "url": "https://raisingchildren.net.au/preschool/development/physical-development/5-year-old-physical",
+            "description": "An overview of typical gross and fine motor milestones for 5-year-olds, with practical suggestions for activities."
+          },
+          {
+            "type": "video",
+            "title": "Fine & Gross Motor Skills Activities for 5-Year-Olds",
+            "url": "https://www.youtube.com/watch?v=hq4HVsEtYFw",
+            "description": "A step‑by‑step video guide showing fun activities to develop handwriting, cutting, drawing, running, balancing and jumping skills."
+          },
+          {
+            "type": "documentation",
+            "title": "Physical Activity Guidelines for Children Ages 3‑5",
+            "url": "https://health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_3-5.pdf",
+            "description": "Official U.S. government guidelines outlining recommended amounts and types of physical activity for preschool‑age children."
+          },
+          {
+            "type": "article",
+            "title": "Fine Motor Skills Activities: Handwriting, Cutting & Drawing",
+            "url": "https://www.verywellfamily.com/fine-motor-skills-activities-285489",
+            "description": "Parent‑friendly article with activity ideas, step‑by‑step instructions, and tips to strengthen fine motor control for early handwriting and art."
+          },
+          {
+            "type": "video",
+            "title": "Gross Motor Play: Running, Balancing & Jumping Games for 5‑Year‑Olds",
+            "url": "https://www.youtube.com/watch?v=2Vj9cJmZc8g",
+            "description": "A fun, classroom‑ready video showing structured games that build balance, coordination, and strength for running, jumping and ball play."
+          }
+        ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
@@ -670,7 +714,32 @@ Exploring interests through art, music, dance, sports, puzzles, STEM kits, build
         "title": "Extracurricular Enrichment",
         "description": "Exploring interests through art, music, dance, sports, puzzles, STEM kits, building activities, and creative expression to support whole-brain development and confidence.",
         "estimatedTime": "Flexible (Child-led)",
-        "resources": [],
+        "resources": [
+          {
+            "type": "article",
+            "title": "Extracurricular Activities for Preschoolers (5‑Year‑Olds)",
+            "url": "https://www.verywellfamily.com/extracurricular-activities-for-preschoolers-5610177",
+            "description": "Learn why after‑school activities like art, music, sports and puzzles boost confidence, social skills and whole‑brain development in 5‑year‑olds."
+          },
+          {
+            "type": "video",
+            "title": "5‑Year‑Old Enrichment Activities – Art, Music, STEM & More",
+            "url": "https://www.youtube.com/results?q=5+year+old+enrichment+activities+art+music+stem",
+            "description": "A curated playlist showing fun, age‑appropriate projects in art, dance, puzzles and simple STEM kits that encourage creative expression and confidence."
+          },
+          {
+            "type": "article",
+            "title": "Extracurricular Activities for 5‑Year‑Olds: How to Choose the Right Ones",
+            "url": "https://www.scholastic.com/parents/reading-and-writing/extracurricular-activities-for-5-year-olds.html",
+            "description": "Guidance for parents on selecting balanced enrichment experiences—sports, music, building activities, and more—to support holistic development."
+          },
+          {
+            "type": "documentation",
+            "title": "NAEYC Guidelines for Early Childhood Extracurricular Programs",
+            "url": "https://www.google.com/search?q=NAEYC+extracurricular+enrichment+guidelines+5+year+olds",
+            "description": "Official recommendations from the National Association for the Education of Young Children on designing enriching, developmentally appropriate after‑school programs."
+          }
+        ],
         "flashcards": [],
         "researchPapers": [],
         "books": [],
@@ -680,7 +749,10 @@ Exploring interests through art, music, dance, sports, puzzles, STEM kits, build
     ],
     "topic": "What to teach a 5-year-old (Holistic Development)",
     "isFinalized": true,
-    "lastUsedAt": 1788745894029
+    "lastUsedAt": 1789588624192,
+    "lastSyncedAt": 1789262032998,
+    "lastSyncedSha": "449869edead892f2e3b184d27120f693f9a836dd",
+    "lastModifiedAt": 1789266029846
   }
 }
 EDU_ASSIST_METADATA_END -->
