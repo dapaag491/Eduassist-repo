@@ -6,13 +6,13 @@
 
 | Metric | Count |
 | :--- | :--- |
-| 📚 **Total Courses** | **41** |
-| 🧩 **Total Modules** | **543** |
-| ✅ **Completed Modules** | **5** (1%) |
-| 💡 **Total Flashcards** | **246** |
-| ✏️ **Practice Tasks** | **304** |
-| ❓ **Checkpoint Quizzes** | **139** |
-| 🕒 **Last Synced** | *2026-09-07* |
+| 📚 **Total Courses** | **43** |
+| 🧩 **Total Modules** | **580** |
+| ✅ **Completed Modules** | **10** (2%) |
+| 💡 **Total Flashcards** | **256** |
+| ✏️ **Practice Tasks** | **310** |
+| ❓ **Checkpoint Quizzes** | **193** |
+| 🕒 **Last Synced** | *2026-09-16* |
 
 ---
 
@@ -31,7 +31,7 @@
 | **Advanced system design and architecture ** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/Advanced_system_design_and_architecture.md) |
 | **Java oops design** | 0/14 | ⚪ Not Started | [📖 Open Course](courses/Java_oops_design.md) |
 | **Reinforcement learning ** | 2/15 | 🟡 In Progress (13%) | [📖 Open Course](courses/Reinforcement_learning.md) |
-| **Sql server** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/Sql_server.md) |
+| **Sql server** | 5/15 | 🟡 In Progress (33%) | [📖 Open Course](courses/Sql_server.md) |
 | **How to take good interviews ** | 0/13 | ⚪ Not Started | [📖 Open Course](courses/How_to_take_good_interviews.md) |
 | **Generative AI and rag and peft lora** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/Generative_AI_and_rag_and_peft_lora.md) |
 | **Stock selection and portfolio optimisation** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/Stock_selection_and_portfolio_optimisation.md) |
@@ -42,7 +42,7 @@
 | **Cybersecurity and CTF** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/Cybersecurity_and_CTF.md) |
 | **System architectures of well known systems in different e.g. train booking, casino , stock broker etc** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/System_architectures_of_well_known_systems_in_different_e.g._train_booking,_casino_,_stock_broker_etc.md) |
 | **Game theory** | 0/9 | ⚪ Not Started | [📖 Open Course](courses/Game_theory.md) |
-| **reinforcement learning** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/reinforcement_learning.md) |
+| **reinforcement learning** | 1/15 | 🟡 In Progress (7%) | [📖 Open Course](courses/reinforcement_learning.md) |
 | **Teaching children** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/Teaching_children.md) |
 | **Sql server Management** | 0/10 | ⚪ Not Started | [📖 Open Course](courses/Sql_server_Management.md) |
 | **AI for genomics & Medicine** | 0/16 | ⚪ Not Started | [📖 Open Course](courses/AI_for_genomics_and_Medicine.md) |
@@ -56,11 +56,13 @@
 | **Javascript patterns and advanced** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/Javascript_patterns_and_advanced.md) |
 | **Pytorch** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/Pytorch.md) |
 | **What to teach a 5-year-old (Holistic Development)** | 0/8 | ⚪ Not Started | [📖 Open Course](courses/What_to_teach_a_5_year_old_(Holistic_Development).md) |
-| **Deep Reinforcement Learning** | 1/15 | 🟡 In Progress (7%) | [📖 Open Course](courses/Deep_Reinforcement_Learning.md) |
+| **Deep Reinforcement Learning** | 0/15 | ⚪ Not Started | [📖 Open Course](courses/Deep_Reinforcement_Learning.md) |
 | **An Introduction to Computational Systems Biology** | 0/12 | ⚪ Not Started | [📖 Open Course](courses/An_Introduction_to_Computational_Systems_Biology.md) |
 | **Genomics genetics and evolution** | 0/22 | ⚪ Not Started | [📖 Open Course](courses/Genomics_genetics_and_evolution.md) |
 | **Chess play** | 0/18 | ⚪ Not Started | [📖 Open Course](courses/Chess_play.md) |
 | **NanoGPT Explained** | 0/13 | ⚪ Not Started | [📖 Open Course](courses/NanoGPT_Explained.md) |
+| **Research that can be done with a computer** | 0/18 | ⚪ Not Started | [📖 Open Course](courses/Research_that_can_be_done_with_a_computer.md) |
+| **virotherapy** | 0/19 | ⚪ Not Started | [📖 Open Course](courses/virotherapy.md) |
 
 ---
 *Generated automatically by [Edu-Assist](https://github.com/dapaag491/Eduassist-repo).*
