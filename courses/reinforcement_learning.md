@@ -1,13 +1,13 @@
 # 📚 reinforcement learning
 
 > **Summary:** Based on your strong performance in reinforcement learning (RL), demonstrating proficiency from beginner through advanced levels, this learning path deepens your mastery of RL with increasingly sophisticated topics. It begins by solidifying foundational concepts, progresses through advanced algorithms and policy optimization, and culminates in cutting-edge research areas and real-world applications. Each node builds upon the previous, ensuring a coherent and comprehensive advancement of your RL expertise.
-> **Status:** Finalized | **Progress:** 0/15 Modules (0%) | **Last Updated:** 2026-09-07
+> **Status:** Finalized | **Progress:** 1/15 Modules (7%) | **Last Updated:** 2026-09-16
 
 ---
 
 ## 🔹 Module 1: Mathematical Foundations of RL: Markov Decision Processes Deep Dive
 - **ID:** `node-1`
-- **Progress:** [ ] Completed
+- **Progress:** [x] Completed (Completed: 2026-09-15)
 
 **Description:**
 Strengthen your theoretical grounding by rigorously studying Markov Decision Processes (MDPs), including formal definitions of state spaces, action spaces, transition probability distributions, reward functions, and the Bellman equations. Understand the assumptions and limitations of the MDP framework.
@@ -132,11 +132,12 @@ Strengthen your theoretical grounding by rigorously studying Markov Decision Pro
 Master value functions (V(s) and Q(s,a)), optimal value functions, and optimality conditions. Study contraction mapping theorem proofs for convergence of value iteration and policy iteration, and understand the relationship between value functions and policies.
 
 ### 🔗 Resources
-- [Value Functions and Optimality in Reinforcement Learning](https://www.youtube.com/watch?v=lfHX2hHRPh4) `[video]` - Covers value functions V(s) and Q(s,a), optimal value functions, Bellman optimality equations, and the relationship between value functions and policies.
-- [Value Iteration and Policy Iteration: Contraction Mapping and Convergence](https://www.jmlr.org/papers/v04/ernst04a.html) `[article]` - Explores contraction mapping theorem proofs for convergence of value iteration and policy iteration, and the mathematical foundations of optimality conditions.
-- [Reinforcement Learning: Value Functions and Optimality](https://www.learndataml.com/reinforcement-learning-value-functions-optimality) `[documentation]` - Detailed explanation of value functions, optimal value functions, Bellman equations, and the relationship between value functions and policies.
-- [Contraction Mapping Theorem and Convergence in RL](https://www.youtube.com/watch?v=U95i6BJaJ5s) `[video]` - Focuses on the contraction mapping theorem, its application to value iteration and policy iteration convergence, and optimality conditions.
-- [Value Functions and Optimality Conditions in Reinforcement Learning](https://www.geeksforgeeks.org/value-functions-optimality-conditions-reinforcement-learning/) `[article]` - Comprehensive guide on value functions, optimal value functions, Bellman optimality equations, and the relationship between value functions and policies.
+- [RL Course by David Silver — Lecture 2: Markov Decision Processes](https://www.youtube.com/watch?v=lfHX2hHRMVQ) `[video]` - Introduces Markov decision processes, state-value functions V(s), action-value functions Q(s,a), Bellman expectation equations, and the foundations needed to understand optimality.
+- [RL Course by David Silver — Lecture 3: Planning by Dynamic Programming](https://www.youtube.com/watch?v=Nd1-UUMVfz4) `[video]` - Covers Bellman optimality equations, policy evaluation, policy iteration, value iteration, and dynamic-programming planning methods for finite MDPs.
+- [Reinforcement Learning: An Introduction — Sutton and Barto, Chapter 3](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) `[book]` - Read Chapter 3 for policy-based value functions, Vπ(s) and Qπ(s,a), Bellman expectation equations, and the relation between a policy and its value function.
+- [Reinforcement Learning: An Introduction — Sutton and Barto, Chapter 4](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) `[book]` - Read Chapter 4 for optimal value functions, Bellman optimality equations, policy iteration, value iteration, and the convergence result for finite discounted MDPs.
+- [Stanford CS234 — Lecture 2: Tabular MDPs and Planning](https://web.stanford.edu/class/cs234/slides/lecture2post.pdf) `[lecture_notes]` - Course slides covering Bellman backup operators, fixed points for policy evaluation, contraction properties, and the distinction between value iteration and policy iteration.
+- [Contraction Mapping Theorem — Stanford Mathematics Notes](https://web.stanford.edu/class/math51h/contraction.pdf) `[article]` - A concise mathematical reference for fixed points and contraction mappings. Use it to understand why an update with a contraction factor below 1 has a unique fixed point and converges under repeated application.
 
 ### 📑 Research Papers
 - **Dynamic Programming: From Local Optimality to Global Optimality** - [View Paper](https://arxiv.org/html/2411.11062v2)
@@ -671,7 +672,9 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
             "description": "A concise and updated version of their seminal work, this book offers a clear exposition of MDPs, their structure, and solution algorithms. It balances accessibility with mathematical precision, making it a top choice for both self-study and academic courses.",
             "url": "https://www.deeplearningbook.org/contents/ml.html"
           }
-        ]
+        ],
+        "completed": true,
+        "completedAt": 1789439744085
       },
       {
         "id": "node-2",
@@ -681,33 +684,39 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
         "resources": [
           {
             "type": "video",
-            "title": "Value Functions and Optimality in Reinforcement Learning",
-            "url": "https://www.youtube.com/watch?v=lfHX2hHRPh4",
-            "description": "Covers value functions V(s) and Q(s,a), optimal value functions, Bellman optimality equations, and the relationship between value functions and policies."
-          },
-          {
-            "type": "article",
-            "title": "Value Iteration and Policy Iteration: Contraction Mapping and Convergence",
-            "url": "https://www.jmlr.org/papers/v04/ernst04a.html",
-            "description": "Explores contraction mapping theorem proofs for convergence of value iteration and policy iteration, and the mathematical foundations of optimality conditions."
-          },
-          {
-            "type": "documentation",
-            "title": "Reinforcement Learning: Value Functions and Optimality",
-            "url": "https://www.learndataml.com/reinforcement-learning-value-functions-optimality",
-            "description": "Detailed explanation of value functions, optimal value functions, Bellman equations, and the relationship between value functions and policies."
+            "title": "RL Course by David Silver — Lecture 2: Markov Decision Processes",
+            "url": "https://www.youtube.com/watch?v=lfHX2hHRMVQ",
+            "description": "Introduces Markov decision processes, state-value functions V(s), action-value functions Q(s,a), Bellman expectation equations, and the foundations needed to understand optimality."
           },
           {
             "type": "video",
-            "title": "Contraction Mapping Theorem and Convergence in RL",
-            "url": "https://www.youtube.com/watch?v=U95i6BJaJ5s",
-            "description": "Focuses on the contraction mapping theorem, its application to value iteration and policy iteration convergence, and optimality conditions."
+            "title": "RL Course by David Silver — Lecture 3: Planning by Dynamic Programming",
+            "url": "https://www.youtube.com/watch?v=Nd1-UUMVfz4",
+            "description": "Covers Bellman optimality equations, policy evaluation, policy iteration, value iteration, and dynamic-programming planning methods for finite MDPs."
+          },
+          {
+            "type": "book",
+            "title": "Reinforcement Learning: An Introduction — Sutton and Barto, Chapter 3",
+            "url": "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf",
+            "description": "Read Chapter 3 for policy-based value functions, Vπ(s) and Qπ(s,a), Bellman expectation equations, and the relation between a policy and its value function."
+          },
+          {
+            "type": "book",
+            "title": "Reinforcement Learning: An Introduction — Sutton and Barto, Chapter 4",
+            "url": "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf",
+            "description": "Read Chapter 4 for optimal value functions, Bellman optimality equations, policy iteration, value iteration, and the convergence result for finite discounted MDPs."
+          },
+          {
+            "type": "lecture_notes",
+            "title": "Stanford CS234 — Lecture 2: Tabular MDPs and Planning",
+            "url": "https://web.stanford.edu/class/cs234/slides/lecture2post.pdf",
+            "description": "Course slides covering Bellman backup operators, fixed points for policy evaluation, contraction properties, and the distinction between value iteration and policy iteration."
           },
           {
             "type": "article",
-            "title": "Value Functions and Optimality Conditions in Reinforcement Learning",
-            "url": "https://www.geeksforgeeks.org/value-functions-optimality-conditions-reinforcement-learning/",
-            "description": "Comprehensive guide on value functions, optimal value functions, Bellman optimality equations, and the relationship between value functions and policies."
+            "title": "Contraction Mapping Theorem — Stanford Mathematics Notes",
+            "url": "https://web.stanford.edu/class/math51h/contraction.pdf",
+            "description": "A concise mathematical reference for fixed points and contraction mappings. Use it to understand why an update with a contraction factor below 1 has a unique fixed point and converges under repeated application."
           }
         ],
         "researchPapers": [
@@ -1177,7 +1186,10 @@ Explore meta-relearning (MAML, RL², PEARL), continual RL, safe RL (constrained 
     ],
     "topic": "reinforcement learning",
     "isFinalized": true,
-    "lastUsedAt": 1788745924058
+    "lastUsedAt": 1789561303528,
+    "lastSyncedAt": 1789262033401,
+    "lastSyncedSha": "f6bc75a8bc3a760abf2d3f017185aa0d2335003a",
+    "lastModifiedAt": 1789560629113
   }
 }
 EDU_ASSIST_METADATA_END -->
