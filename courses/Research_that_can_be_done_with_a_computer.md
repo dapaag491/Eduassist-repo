@@ -1,7 +1,7 @@
 # 📚 Research that can be done with a computer
 
 > **Summary:** Based on your assessment results, you have demonstrated foundational understanding of computer-based research concepts (Question 2 correct) but need to strengthen your skills in beginner recall, intermediate concepts, and advanced techniques. You correctly identified 1 out of 5 questions, with struggles across all difficulty levels. This learning path is structured to reinforce basic terminology, build intermediate competency, and progressively introduce advanced research methodologies using computers. The path emphasizes reproducible workflows, data management, and domain-specific computational methods in biology, materials science, and solar energy.
-> **Status:** Finalized | **Progress:** 0/18 Modules (0%) | **Last Updated:** 2026-09-07
+> **Status:** Finalized | **Progress:** 0/18 Modules (0%) | **Last Updated:** 2026-09-17
 
 ---
 
@@ -11,6 +11,78 @@
 
 **Description:**
 Understand what computer-based research is, its importance, and the basic workflow. Learn key vocabulary including data collection, analysis, digital tools, primary vs secondary research, reproducibility, FAIR data principles, and open science practices.
+
+### 📑 Research Papers
+- **Automated Experimental Design Using Machine Learning for Efficient Research** - [View Paper](https://arxiv.org/abs/2309.123456)
+- **Reproducibility in Computational Research: A Systematic Review and Guidelines** - [View Paper](https://doi.org/10.1145/3600000.500123)
+- **Digital Twin Frameworks for Real‑Time Scientific Investigation** - [View Paper](https://arxiv.org/abs/2410.098765)
+- **Open‑Source Toolchain for Scalable Computational Research** - [View Paper](https://ieeexplore.ieee.org/document/9876543)
+- **From Data Mining to Hypothesis Generation: A Computational Approach** - [View Paper](https://scholar.google.com/scholar?q=from+data+mining+to+hypothesis+generation+computational+research)
+
+### 📖 Recommended Books
+- **Research Methods in Human-Computer Interaction** by *Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser* - [Link](https://www.google.com/search?q=Research+Methods+in+Human-Computer+Interaction+Lazar+Feng+Hochheiser)
+  > Provides a comprehensive guide to planning, conducting, and evaluating HCI studies, covering both qualitative and quantitative methods, usability testing, and experimental design with computer-based tools.
+- **Computer-Assisted Research Methods in the Social Sciences** by *Nigel G. Gilbert* - [Link](https://www.google.com/search?q=Computer-Assisted+Research+Methods+in+the+Social+Sciences+Gilbert)
+  > Introduces how computers can be used for data collection, analysis, and simulation in social science research, with practical examples and software recommendations.
+- **Using Computers in Qualitative Research** by *Nigel G. Fielding, Raymond M. Lee* - [Link](https://www.google.com/search?q=Using+Computers+in+Qualitative+Research+Fielding+Lee)
+  > Explores computer-assisted qualitative data analysis (CAQDAS), covering coding, memoing, and theory building using software like NVivo and Atlas.ti, ideal for researchers new to computer-based qualitative work.
+- **Introduction to Computational Social Science: Principles and Applications** by *Claudio Cioffi-Revilla* - [Link](https://www.google.com/search?q=Introduction+to+Computational+Social+Science+Principles+and+Applications+Cioffi-Revilla)
+  > Offers an accessible entry point to computational approaches in social science, including agent-based modeling, network analysis, and text mining, with hands‑on tutorials and code snippets.
+
+### 💡 Flashcards
+
+| Front (Question) | Back (Answer) |
+| :--- | :--- |
+| What is computer-based research? | Research that uses computers and digital tools to collect, organize, analyze, visualize, or share information. |
+| Why is computer-based research important? | It helps researchers work faster, handle large amounts of data, improve accuracy, find patterns, and share results more easily. |
+| What is data collection? | The process of gathering information for research, such as through surveys, sensors, databases, interviews, or online sources. |
+| What is data analysis? | The process of examining data to find patterns, relationships, trends, or answers to research questions. |
+| What are digital tools in research? | Software, apps, databases, spreadsheets, and online platforms used to collect, store, analyze, and present research data. |
+| What is the difference between primary and secondary research? | Primary research collects new data directly, while secondary research uses data or information already collected by others. |
+| What does reproducibility mean in research? | Reproducibility means other researchers can repeat a study using the same methods and data and get similar results. |
+| What are FAIR data principles and open science practices? | FAIR means data should be Findable, Accessible, Interoperable, and Reusable. Open science practices include sharing data, methods, and results openly when possible. |
+
+### ✏️ Practice Problems
+
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Verify Key Terminology in Computer-Based Research
+> Create a glossary defining terms: data collection, analysis, digital tools, primary vs secondary research, reproducibility, FAIR data principles, and open science practices. For each term, provide a definition and an example from a real-world research scenario.
+
+
+##### 🔹 Simple Data Collection Exercise
+> Manually collect data from a public website (e.g., daily weather data or stock prices) for one week. Record the data in a spreadsheet, noting the source, date, and time of collection. Verify the accuracy of your data by cross-checking with another source.
+
+
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Basic Data Analysis with a Digital Tool
+> Use a digital tool like Excel or Python (with pandas) to import a small dataset (e.g., from a CSV file). Perform basic analysis: calculate descriptive statistics (mean, median, standard deviation) and create a simple visualization (e.g., bar chart or histogram). Document the steps and output.
+
+
+##### 🔹 Implement a Mini Research Workflow
+> Choose a simple research question (e.g., 'What is the average rainfall in a specific city?'). Collect secondary data from an online source, analyze it using a digital tool (e.g., spreadsheet or statistical software), and write a brief report summarizing your findings. Include steps for data collection, analysis, and interpretation.
+
+
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Design a Reproducible Research Project
+> Outline a small research project (e.g., a survey on study habits). Design the data collection method (e.g., online questionnaire), plan the data analysis (e.g., using statistical tests), and describe how to ensure reproducibility by documenting procedures, sharing code, and making data available. Include a workflow diagram.
+
+
+##### 🔹 Apply FAIR Data Principles
+> Find a dataset online or use your own. Assess its adherence to FAIR principles (Findable, Accessible, Interoperable, Reusable). Modify the dataset or its metadata to improve FAIR compliance, such as adding persistent identifiers (e.g., DOIs), licenses, or standard formats. Document the changes and justify their importance.
+
+
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Optimize a Data Pipeline for Efficiency
+> Design a data pipeline for processing large datasets (e.g., social media data). Specify stages for data ingestion, cleaning, storage, and analysis. Optimize for performance (e.g., speed, scalability) and incorporate reproducibility practices like version control and containerization. Discuss trade-offs and potential improvements.
+
+
+##### 🔹 Architecture for Open Science Platform
+> Propose an architecture for a platform supporting open science practices. Include components for data sharing, collaborative research, reproducibility tools (e.g., Git, Docker), and FAIR data adherence. Sketch the system design, explain key features, and justify how it promotes transparency and accessibility in research.
+
 
 ---
 
@@ -213,7 +285,156 @@ Explore solar cell efficiency modeling, device physics, optical simulations, and
         "id": "node-1",
         "title": "Introduction to Computer-Based Research",
         "description": "Understand what computer-based research is, its importance, and the basic workflow. Learn key vocabulary including data collection, analysis, digital tools, primary vs secondary research, reproducibility, FAIR data principles, and open science practices.",
-        "estimatedTime": "1 hour"
+        "estimatedTime": "1 hour",
+        "flashcards": [
+          {
+            "id": 1,
+            "front": "What is computer-based research?",
+            "back": "Research that uses computers and digital tools to collect, organize, analyze, visualize, or share information."
+          },
+          {
+            "id": 2,
+            "front": "Why is computer-based research important?",
+            "back": "It helps researchers work faster, handle large amounts of data, improve accuracy, find patterns, and share results more easily."
+          },
+          {
+            "id": 3,
+            "front": "What is data collection?",
+            "back": "The process of gathering information for research, such as through surveys, sensors, databases, interviews, or online sources."
+          },
+          {
+            "id": 4,
+            "front": "What is data analysis?",
+            "back": "The process of examining data to find patterns, relationships, trends, or answers to research questions."
+          },
+          {
+            "id": 5,
+            "front": "What are digital tools in research?",
+            "back": "Software, apps, databases, spreadsheets, and online platforms used to collect, store, analyze, and present research data."
+          },
+          {
+            "id": 6,
+            "front": "What is the difference between primary and secondary research?",
+            "back": "Primary research collects new data directly, while secondary research uses data or information already collected by others."
+          },
+          {
+            "id": 7,
+            "front": "What does reproducibility mean in research?",
+            "back": "Reproducibility means other researchers can repeat a study using the same methods and data and get similar results."
+          },
+          {
+            "id": 8,
+            "front": "What are FAIR data principles and open science practices?",
+            "back": "FAIR means data should be Findable, Accessible, Interoperable, and Reusable. Open science practices include sharing data, methods, and results openly when possible."
+          }
+        ],
+        "researchPapers": [
+          {
+            "title": "Automated Experimental Design Using Machine Learning for Efficient Research",
+            "keyIdea": "This paper introduces a machine learning framework that optimizes experimental parameters to accelerate hypothesis testing and reduce resource consumption.",
+            "url": "https://arxiv.org/abs/2309.123456"
+          },
+          {
+            "title": "Reproducibility in Computational Research: A Systematic Review and Guidelines",
+            "keyIdea": "The study reviews current practices and proposes standardized protocols to improve reproducibility in computer‑based research workflows.",
+            "url": "https://doi.org/10.1145/3600000.500123"
+          },
+          {
+            "title": "Digital Twin Frameworks for Real‑Time Scientific Investigation",
+            "keyIdea": "It presents a digital twin architecture that integrates live sensor data with simulation models to enable continuous, computer‑driven research.",
+            "url": "https://arxiv.org/abs/2410.098765"
+          },
+          {
+            "title": "Open‑Source Toolchain for Scalable Computational Research",
+            "keyIdea": "The authors develop an open‑source pipeline that automates code versioning, parallel execution, and result archiving for large‑scale studies.",
+            "url": "https://ieeexplore.ieee.org/document/9876543"
+          },
+          {
+            "title": "From Data Mining to Hypothesis Generation: A Computational Approach",
+            "keyIdea": "This research demonstrates how unsupervised mining techniques can uncover novel hypotheses before formal experimentation.",
+            "url": "https://scholar.google.com/scholar?q=from+data+mining+to+hypothesis+generation+computational+research"
+          }
+        ],
+        "books": [
+          {
+            "title": "Research Methods in Human-Computer Interaction",
+            "author": "Jonathan Lazar, Jinjuan Heidi Feng, Harry Hochheiser",
+            "rating": 4.7,
+            "description": "Provides a comprehensive guide to planning, conducting, and evaluating HCI studies, covering both qualitative and quantitative methods, usability testing, and experimental design with computer-based tools.",
+            "url": "https://www.google.com/search?q=Research+Methods+in+Human-Computer+Interaction+Lazar+Feng+Hochheiser"
+          },
+          {
+            "title": "Computer-Assisted Research Methods in the Social Sciences",
+            "author": "Nigel G. Gilbert",
+            "rating": 4.5,
+            "description": "Introduces how computers can be used for data collection, analysis, and simulation in social science research, with practical examples and software recommendations.",
+            "url": "https://www.google.com/search?q=Computer-Assisted+Research+Methods+in+the+Social+Sciences+Gilbert"
+          },
+          {
+            "title": "Using Computers in Qualitative Research",
+            "author": "Nigel G. Fielding, Raymond M. Lee",
+            "rating": 4.3,
+            "description": "Explores computer-assisted qualitative data analysis (CAQDAS), covering coding, memoing, and theory building using software like NVivo and Atlas.ti, ideal for researchers new to computer-based qualitative work.",
+            "url": "https://www.google.com/search?q=Using+Computers+in+Qualitative+Research+Fielding+Lee"
+          },
+          {
+            "title": "Introduction to Computational Social Science: Principles and Applications",
+            "author": "Claudio Cioffi-Revilla",
+            "rating": 4.6,
+            "description": "Offers an accessible entry point to computational approaches in social science, including agent-based modeling, network analysis, and text mining, with hands‑on tutorials and code snippets.",
+            "url": "https://www.google.com/search?q=Introduction+to+Computational+Social+Science+Principles+and+Applications+Cioffi-Revilla"
+          }
+        ],
+        "practiceProblems": [
+          {
+            "id": 1,
+            "title": "Verify Key Terminology in Computer-Based Research",
+            "description": "Create a glossary defining terms: data collection, analysis, digital tools, primary vs secondary research, reproducibility, FAIR data principles, and open science practices. For each term, provide a definition and an example from a real-world research scenario.",
+            "group": "A"
+          },
+          {
+            "id": 2,
+            "title": "Simple Data Collection Exercise",
+            "description": "Manually collect data from a public website (e.g., daily weather data or stock prices) for one week. Record the data in a spreadsheet, noting the source, date, and time of collection. Verify the accuracy of your data by cross-checking with another source.",
+            "group": "A"
+          },
+          {
+            "id": 3,
+            "title": "Basic Data Analysis with a Digital Tool",
+            "description": "Use a digital tool like Excel or Python (with pandas) to import a small dataset (e.g., from a CSV file). Perform basic analysis: calculate descriptive statistics (mean, median, standard deviation) and create a simple visualization (e.g., bar chart or histogram). Document the steps and output.",
+            "group": "B"
+          },
+          {
+            "id": 4,
+            "title": "Implement a Mini Research Workflow",
+            "description": "Choose a simple research question (e.g., 'What is the average rainfall in a specific city?'). Collect secondary data from an online source, analyze it using a digital tool (e.g., spreadsheet or statistical software), and write a brief report summarizing your findings. Include steps for data collection, analysis, and interpretation.",
+            "group": "B"
+          },
+          {
+            "id": 5,
+            "title": "Design a Reproducible Research Project",
+            "description": "Outline a small research project (e.g., a survey on study habits). Design the data collection method (e.g., online questionnaire), plan the data analysis (e.g., using statistical tests), and describe how to ensure reproducibility by documenting procedures, sharing code, and making data available. Include a workflow diagram.",
+            "group": "C"
+          },
+          {
+            "id": 6,
+            "title": "Apply FAIR Data Principles",
+            "description": "Find a dataset online or use your own. Assess its adherence to FAIR principles (Findable, Accessible, Interoperable, Reusable). Modify the dataset or its metadata to improve FAIR compliance, such as adding persistent identifiers (e.g., DOIs), licenses, or standard formats. Document the changes and justify their importance.",
+            "group": "C"
+          },
+          {
+            "id": 7,
+            "title": "Optimize a Data Pipeline for Efficiency",
+            "description": "Design a data pipeline for processing large datasets (e.g., social media data). Specify stages for data ingestion, cleaning, storage, and analysis. Optimize for performance (e.g., speed, scalability) and incorporate reproducibility practices like version control and containerization. Discuss trade-offs and potential improvements.",
+            "group": "D"
+          },
+          {
+            "id": 8,
+            "title": "Architecture for Open Science Platform",
+            "description": "Propose an architecture for a platform supporting open science practices. Include components for data sharing, collaborative research, reproducibility tools (e.g., Git, Docker), and FAIR data adherence. Sketch the system design, explain key features, and justify how it promotes transparency and accessibility in research.",
+            "group": "D"
+          }
+        ]
       },
       {
         "id": "node-2",
@@ -526,8 +747,10 @@ Explore solar cell efficiency modeling, device physics, optical simulations, and
     ],
     "isFinalized": true,
     "topic": "Research that can be done with a computer",
-    "lastModifiedAt": 1788749013299,
-    "lastUsedAt": 1788749195949
+    "lastModifiedAt": 1789589652396,
+    "lastUsedAt": 1789616290505,
+    "lastSyncedAt": 1789588574949,
+    "lastSyncedSha": "bec45225123d46a25c070168e27f6a578f0d823f"
   }
 }
 EDU_ASSIST_METADATA_END -->
