@@ -1,38 +1,45 @@
 # 📚 Software product marketing
 
 > **Summary:** You've demonstrated a solid understanding of beginner and most medium-level concepts in Software Product Marketing, with strong performance on harder topics. However, there are areas for improvement in easy and hard questions, particularly around understanding nuances and application. This learning path focuses on reinforcing foundational concepts, exploring more advanced strategies, and refining your problem-solving skills for complex scenarios.
-> **Status:** Finalized | **Progress:** 0/12 Modules (0%) | **Last Updated:** 2026-09-07
+> **Status:** Finalized | **Progress:** 1/12 Modules (8%) | **Last Updated:** 2026-09-17
 
 ---
 
 ## 🔹 Module 1: Reinforce Beginner Concepts: What is Software Product Marketing?
 - **ID:** `node-1`
-- **Progress:** [ ] Completed
+- **Progress:** [x] Completed (Completed: 2026-09-17)
 
 **Description:**
-Review the fundamental definition and purpose of software product marketing. Ensure a clear grasp of its scope and key objectives.
+Build a foundational understanding of software product marketing: the customer- and market-facing discipline that connects a software product’s value with the audiences who need it. Focus on market insight, positioning, messaging, go-to-market execution, adoption, and retention.
 
 ### 🔗 Resources
-- [salesforce.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqIvuoM0Gwo1FrRsTpWbYiQcVaRUCJOOyqsRc7AV4chpkHW8FcJf2owMSbcdtztTdlQO4FffuMgqc6IfkY6TFF8gEQFeZtf5LnIy5b3XeZ1Yjp_lz0LueyuaigtuwNLb54QuOsN39W0434DNvbA_8P3pf7Zw==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [salesloft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFGFuth-9H3mqX6MD9MFCHsUxVcE5MWN-FMIBwsjw-3sJLr62v8HkHrtiOGPw-VMq7OyG667lDt0ano3mN-HSqvviYLNSUdDmCgwYxqjJijlBiQEH4yLa5jP1xjQRNBgOFd5t1aj8gVDxx1fLeg6QrkcoBEWw2KMdv5unu) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [geeksforgeeks.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLhbbH7SC9Qau_W7fpwrGnaCGR4lZV3YP4r1taulfK_JceZjEy5pspIJzpw0Vs7pw3Q1BZpyDu_N5denHb4NqLyDNzC3WvzfytpiTgmP2SHD0jE05MPIyze715RtX8lgIzYP9WP22m22oBMrWFy3UShIhliLYlWt7CAg7QnQZxbbmA8rOLZ6jSmeG4vdpNjfUmGWCSWRWU8x73_oP9vU4WtmRcfKN_1zS) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [ziprecruiter.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9FHWCMtkMIRse6UrOMd5kVI2w0XreEAG6lQLUAbhQoPVBgwVU0b86wd85Bb7n2g0LUQTxrjl3JFqzH2fcX_M2VLhGN_Erk0eDhP2mCGttXROKs90-6yeavpPlQVZhR71sXJk9N8UOFmStKE8oykV7Di5jedTsEbeHlEuRd9j6lto=) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [bvp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpT8hZ8eOXRBlE7pqBCTaR0V75B1f1yETqqgE2AyVWP1iyaga-n_oDAevjiaZOpFe5wjlCPOqtu3VP9E3c6qLurilPYpPcjVLPpvtM6pfZiUUHXilTu7wWMz2y4M8BEXQVmjuUV1912-HCSOJUfQ2hyvXLeIcCRb1h-iFb3r5q1Qd05b7JYRp4bIUkHtlT5fugxS7z) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [digitalproductsdp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF075nm0NXN2b1T2TScXMtvb5CgJ2GbYSBEK7oXw9nG61tUZgauF1_-1-rIFmtAJ_rozZEG7kIQeYgS5l-EaIbRzLs68YKsuXGeCE0qfd-P-a3LvCz7h3RqU5HyiUyW2ltiqknsrm2QvanObHUiOB3vV1x5WRWRdtEnUTPXHLtKrQ==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKbD-3Z9mXZ0OfvzVlL9b24vu9l90P3PBcASWiblOc3RtdPNmRv8vD-uCIr6qQFIfrYiCpRmRchJ4BIQPiREftFJtblTCQLTlFstzfKy4A16Uy0oBik3mXesF2lA4VmqKT9hWpdg==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [sdh.global](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq1SMatEYxcZNroG5PwYCXLSV4Ob5IAXeyJSgVPIRTNj1f0Tq38tdDkRSoAJGDjaPuscIC3p1Gq8gBz8_h0R2-Yktjhg9S2j1j6s3pYBS5q9hDGgvsbnwjr8izeiTqc5nJ3XdAgLnthYM8hlH-VOZ1ZWco8dCEZ4q85Q3AUYTBq2S7_dQpst9BiMkffNZP) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [bluecarrot.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxg2q6OShjqrrSPwTtY9rllVa6LYqWUdv6bolRvTkWPqkNatxm2Vtrqxh6HPhWIUeMiTtrDsnGOUEhNOp2tXmE_PGb3mhhSU1Fo7JeA6LTy_SFwSO2-eOu7t2WTRa3aZnNpxbtMIPQwyPdRSLBEC6uR6-G2YLefQ==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [atlassian.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8QpQ5q1oiFaOWFO0yIFGVI078Ka--qN5aCS3PqKcKad4CK6ZsDbYy8ru8qi4_zt68BurELlYLn_V4rsiWMfK6mgDIkbBpsh6FOPN8-GZXiYVi4rW6WpOdSaoWFIcfxcKngXC2giLQvt6GImmbAeR4WUB5e9g=) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX-VlhvZIieYSwqCYXUwqCqgxMklpEzdOlwiCi4uGHhr5QF7mH7cRzx2-oufEA_71L1-yLzyN1mxT9tDJLGS1L6IPJGAk-ESZR0A6-cOaGfNomuazSHkQWNc4W2CcDI9itRdVdzQ==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzJcBEaEjq8Un6VdlnXvDeW0diRsAmxrG_QyDYvBkWOg0qdIlrkAJMKHFX-HptitGRaGp6WE02XMpWIRoBBn410X890agusextB42aNSHp3o6JLTXl7eVeAfCPcvK44u9if5AmRA==) `[article]` - A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search.
-- [Product Marketing 101 | Masterclass for Beginners](https://www.youtube.com/watch?v=k-x4p_7WqA0) `[video]` - A comprehensive masterclass covering product marketing fundamentals, strategy, and key roles, ideal for beginners.
-- [Go-To-Market Strategy for Software Products (6 Ways to Drive Growth)](https://www.youtube.com/watch?v=ZZ7NutmgOgY) `[video]` - Explains six key strategies for driving growth for SaaS businesses through a structured go-to-market approach.
-- [Product Marketing Course 2026 | Product Marketing Tutorial For Beginners](https://www.youtube.com/watch?v=0NOM1k) `[video]` - A beginner-friendly tutorial covering the foundations of product marketing, audience research, positioning, and GTM strategies.
-- [What is Product Marketing, and How Does It Work?](https://www.salesforce.com/resources/articles/what-is-product-marketing/) `[article]` - A clear definition of product marketing, its objectives, and its relationship with product management and traditional marketing.
-- [What is Software Product Marketing job?](https://www.ziprecruiter.com/Jobs/Software-Product-Marketing) `[article]` - An overview of the role and typical responsibilities of a software product marketing professional.
-- [What is Product Marketing? Definition, Strategies & Examples](https://salesloft.com/resources/blog/what-is-product-marketing/) `[article]` - Explains the core functions, responsibilities, and strategic aspects of product marketing, including its role at the intersection of product, sales, and marketing.
-- [Product Marketing 101: A beginner's guide to building the function](https://theg<bos> agency.com/blog/product-marketing-101/) `[article]` - Breaks down essential product marketing documents and workflows, focusing on customer understanding and effective messaging.
-- [How to Market New Software Products in 8 Steps](https://thegenagency.com/blog/how-to-market-new-software-products-in-8-steps/) `[article]` - A step-by-step guide to marketing software products, covering market research, content creation, and channel selection.
+- [What is Product Marketing?](https://www.productmarketingalliance.com/what-is-product-marketing/) `[article]` - Product Marketing Alliance’s introductory guide defines product marketing as bringing a product to market and overseeing its ongoing success. It introduces core responsibilities including market intelligence, positioning and messaging, sales enablement, launches, demand, adoption, and retention.
+- [What is Product Marketing?](https://productschool.com/resources/glossary/product-marketing) `[article]` - Product School’s glossary entry explains product marketing as a customer-centric strategic function at the intersection of product development, marketing, and user needs. It also distinguishes product marketing from product management.
+- [One Definition of Product Marketing | Product Marketing Festival 2020](https://www.youtube.com/watch?v=zgFVLjKM-dY) `[video]` - A concise Product Marketing Alliance video introducing a clear definition of product marketing and its role within a business.
+- [Marketing for Startups and Small Teams: Product Marketing](https://www.atlassian.com/blog/archives/marketing_for_startups_and_small_teams_product_marketing) `[article]` - Atlassian’s practical introduction explains product marketing as clearly communicating a product’s purpose and benefits, beginning with positioning and continuing through customer education and conversion.
+- [Product Marketing Strategy in 7 Straightforward Steps](https://productschool.com/blog/product-marketing/product-marketing-strategy) `[article]` - A beginner-friendly overview of how product marketing strategy connects product positioning, promotion, and sales across the product journey from development through launch and beyond.
+- [Product Positioning: Guide and Strategies](https://www.atlassian.com/agile/product-management/product-positioning) `[article]` - A clear guide to one core software product marketing skill: defining how customers perceive a product, who it is for, the problem it solves, and why it is preferable to alternatives.
+- [HubSpot Academy Marketing Courses](https://academy.hubspot.com/courses/marketing) `[course]` - A free catalog of on-demand marketing courses from HubSpot Academy. Useful for beginners who want supporting knowledge in customer-centric marketing, content, lead generation, and measurement.
+
+### ❓ Checkpoint Quiz
+
+**1. Question 1**
+- [ ] Developing software code to improve product features.
+- [ ] Conducting financial audits and compliance checks.
+- [ ] Handling internal HR and employee recruitment processes.
+- [ ] Aligning the product's value with target audience needs through market insight, positioning, and messaging.
+
+**2. Question 2**
+- [ ] Defining product positioning and messaging.
+- [ ] Conducting code reviews and software development tasks.
+- [ ] Measuring user adoption and retention rates.
+- [ ] Planning go‑to‑market launch activities.
+
+**3. Question 3**
+- [ ] Oversee day‑to‑day operations of the support team.
+- [ ] Connect the product's value proposition with the needs of its target customers.
+- [ ] Increase the number of developers hired for the product team.
+- [ ] Ensure the product is technically superior to competitors.
 
 ---
 
@@ -144,128 +151,50 @@ Work through hypothetical software product marketing scenarios that combine elem
       {
         "id": "node-1",
         "title": "Reinforce Beginner Concepts: What is Software Product Marketing?",
-        "description": "Review the fundamental definition and purpose of software product marketing. Ensure a clear grasp of its scope and key objectives.",
+        "description": "Build a foundational understanding of software product marketing: the customer- and market-facing discipline that connects a software product’s value with the audiences who need it. Focus on market insight, positioning, messaging, go-to-market execution, adoption, and retention.",
         "estimatedTime": "15 mins",
         "resources": [
           {
             "type": "article",
-            "title": "salesforce.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqIvuoM0Gwo1FrRsTpWbYiQcVaRUCJOOyqsRc7AV4chpkHW8FcJf2owMSbcdtztTdlQO4FffuMgqc6IfkY6TFF8gEQFeZtf5LnIy5b3XeZ1Yjp_lz0LueyuaigtuwNLb54QuOsN39W0434DNvbA_8P3pf7Zw==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
+            "title": "What is Product Marketing?",
+            "url": "https://www.productmarketingalliance.com/what-is-product-marketing/",
+            "description": "Product Marketing Alliance’s introductory guide defines product marketing as bringing a product to market and overseeing its ongoing success. It introduces core responsibilities including market intelligence, positioning and messaging, sales enablement, launches, demand, adoption, and retention."
           },
           {
             "type": "article",
-            "title": "salesloft.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFGFuth-9H3mqX6MD9MFCHsUxVcE5MWN-FMIBwsjw-3sJLr62v8HkHrtiOGPw-VMq7OyG667lDt0ano3mN-HSqvviYLNSUdDmCgwYxqjJijlBiQEH4yLa5jP1xjQRNBgOFd5t1aj8gVDxx1fLeg6QrkcoBEWw2KMdv5unu",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "geeksforgeeks.org",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLhbbH7SC9Qau_W7fpwrGnaCGR4lZV3YP4r1taulfK_JceZjEy5pspIJzpw0Vs7pw3Q1BZpyDu_N5denHb4NqLyDNzC3WvzfytpiTgmP2SHD0jE05MPIyze715RtX8lgIzYP9WP22m22oBMrWFy3UShIhliLYlWt7CAg7QnQZxbbmA8rOLZ6jSmeG4vdpNjfUmGWCSWRWU8x73_oP9vU4WtmRcfKN_1zS",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "ziprecruiter.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9FHWCMtkMIRse6UrOMd5kVI2w0XreEAG6lQLUAbhQoPVBgwVU0b86wd85Bb7n2g0LUQTxrjl3JFqzH2fcX_M2VLhGN_Erk0eDhP2mCGttXROKs90-6yeavpPlQVZhR71sXJk9N8UOFmStKE8oykV7Di5jedTsEbeHlEuRd9j6lto=",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "bvp.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpT8hZ8eOXRBlE7pqBCTaR0V75B1f1yETqqgE2AyVWP1iyaga-n_oDAevjiaZOpFe5wjlCPOqtu3VP9E3c6qLurilPYpPcjVLPpvtM6pfZiUUHXilTu7wWMz2y4M8BEXQVmjuUV1912-HCSOJUfQ2hyvXLeIcCRb1h-iFb3r5q1Qd05b7JYRp4bIUkHtlT5fugxS7z",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "digitalproductsdp.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF075nm0NXN2b1T2TScXMtvb5CgJ2GbYSBEK7oXw9nG61tUZgauF1_-1-rIFmtAJ_rozZEG7kIQeYgS5l-EaIbRzLs68YKsuXGeCE0qfd-P-a3LvCz7h3RqU5HyiUyW2ltiqknsrm2QvanObHUiOB3vV1x5WRWRdtEnUTPXHLtKrQ==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "youtube.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKbD-3Z9mXZ0OfvzVlL9b24vu9l90P3PBcASWiblOc3RtdPNmRv8vD-uCIr6qQFIfrYiCpRmRchJ4BIQPiREftFJtblTCQLTlFstzfKy4A16Uy0oBik3mXesF2lA4VmqKT9hWpdg==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "sdh.global",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq1SMatEYxcZNroG5PwYCXLSV4Ob5IAXeyJSgVPIRTNj1f0Tq38tdDkRSoAJGDjaPuscIC3p1Gq8gBz8_h0R2-Yktjhg9S2j1j6s3pYBS5q9hDGgvsbnwjr8izeiTqc5nJ3XdAgLnthYM8hlH-VOZ1ZWco8dCEZ4q85Q3AUYTBq2S7_dQpst9BiMkffNZP",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "bluecarrot.io",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxg2q6OShjqrrSPwTtY9rllVa6LYqWUdv6bolRvTkWPqkNatxm2Vtrqxh6HPhWIUeMiTtrDsnGOUEhNOp2tXmE_PGb3mhhSU1Fo7JeA6LTy_SFwSO2-eOu7t2WTRa3aZnNpxbtMIPQwyPdRSLBEC6uR6-G2YLefQ==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "atlassian.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8QpQ5q1oiFaOWFO0yIFGVI078Ka--qN5aCS3PqKcKad4CK6ZsDbYy8ru8qi4_zt68BurELlYLn_V4rsiWMfK6mgDIkbBpsh6FOPN8-GZXiYVi4rW6WpOdSaoWFIcfxcKngXC2giLQvt6GImmbAeR4WUB5e9g=",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "youtube.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX-VlhvZIieYSwqCYXUwqCqgxMklpEzdOlwiCi4uGHhr5QF7mH7cRzx2-oufEA_71L1-yLzyN1mxT9tDJLGS1L6IPJGAk-ESZR0A6-cOaGfNomuazSHkQWNc4W2CcDI9itRdVdzQ==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
-          },
-          {
-            "type": "article",
-            "title": "youtube.com",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzJcBEaEjq8Un6VdlnXvDeW0diRsAmxrG_QyDYvBkWOg0qdIlrkAJMKHFX-HptitGRaGp6WE02XMpWIRoBBn410X890agusextB42aNSHp3o6JLTXl7eVeAfCPcvK44u9if5AmRA==",
-            "description": "A highly relevant resource for Reinforce Beginner Concepts: What is Software Product Marketing? found via Google Search."
+            "title": "What is Product Marketing?",
+            "url": "https://productschool.com/resources/glossary/product-marketing",
+            "description": "Product School’s glossary entry explains product marketing as a customer-centric strategic function at the intersection of product development, marketing, and user needs. It also distinguishes product marketing from product management."
           },
           {
             "type": "video",
-            "title": "Product Marketing 101 | Masterclass for Beginners",
-            "url": "https://www.youtube.com/watch?v=k-x4p_7WqA0",
-            "description": "A comprehensive masterclass covering product marketing fundamentals, strategy, and key roles, ideal for beginners."
-          },
-          {
-            "type": "video",
-            "title": "Go-To-Market Strategy for Software Products (6 Ways to Drive Growth)",
-            "url": "https://www.youtube.com/watch?v=ZZ7NutmgOgY",
-            "description": "Explains six key strategies for driving growth for SaaS businesses through a structured go-to-market approach."
-          },
-          {
-            "type": "video",
-            "title": "Product Marketing Course 2026 | Product Marketing Tutorial For Beginners",
-            "url": "https://www.youtube.com/watch?v=0NOM1k",
-            "description": "A beginner-friendly tutorial covering the foundations of product marketing, audience research, positioning, and GTM strategies."
+            "title": "One Definition of Product Marketing | Product Marketing Festival 2020",
+            "url": "https://www.youtube.com/watch?v=zgFVLjKM-dY",
+            "description": "A concise Product Marketing Alliance video introducing a clear definition of product marketing and its role within a business."
           },
           {
             "type": "article",
-            "title": "What is Product Marketing, and How Does It Work?",
-            "url": "https://www.salesforce.com/resources/articles/what-is-product-marketing/",
-            "description": "A clear definition of product marketing, its objectives, and its relationship with product management and traditional marketing."
+            "title": "Marketing for Startups and Small Teams: Product Marketing",
+            "url": "https://www.atlassian.com/blog/archives/marketing_for_startups_and_small_teams_product_marketing",
+            "description": "Atlassian’s practical introduction explains product marketing as clearly communicating a product’s purpose and benefits, beginning with positioning and continuing through customer education and conversion."
           },
           {
             "type": "article",
-            "title": "What is Software Product Marketing job?",
-            "url": "https://www.ziprecruiter.com/Jobs/Software-Product-Marketing",
-            "description": "An overview of the role and typical responsibilities of a software product marketing professional."
+            "title": "Product Marketing Strategy in 7 Straightforward Steps",
+            "url": "https://productschool.com/blog/product-marketing/product-marketing-strategy",
+            "description": "A beginner-friendly overview of how product marketing strategy connects product positioning, promotion, and sales across the product journey from development through launch and beyond."
           },
           {
             "type": "article",
-            "title": "What is Product Marketing? Definition, Strategies & Examples",
-            "url": "https://salesloft.com/resources/blog/what-is-product-marketing/",
-            "description": "Explains the core functions, responsibilities, and strategic aspects of product marketing, including its role at the intersection of product, sales, and marketing."
+            "title": "Product Positioning: Guide and Strategies",
+            "url": "https://www.atlassian.com/agile/product-management/product-positioning",
+            "description": "A clear guide to one core software product marketing skill: defining how customers perceive a product, who it is for, the problem it solves, and why it is preferable to alternatives."
           },
           {
-            "type": "article",
-            "title": "Product Marketing 101: A beginner's guide to building the function",
-            "url": "https://theg<bos> agency.com/blog/product-marketing-101/",
-            "description": "Breaks down essential product marketing documents and workflows, focusing on customer understanding and effective messaging."
-          },
-          {
-            "type": "article",
-            "title": "How to Market New Software Products in 8 Steps",
-            "url": "https://thegenagency.com/blog/how-to-market-new-software-products-in-8-steps/",
-            "description": "A step-by-step guide to marketing software products, covering market research, content creation, and channel selection."
+            "type": "course",
+            "title": "HubSpot Academy Marketing Courses",
+            "url": "https://academy.hubspot.com/courses/marketing",
+            "description": "A free catalog of on-demand marketing courses from HubSpot Academy. Useful for beginners who want supporting knowledge in customer-centric marketing, content, lead generation, and measurement."
           }
         ],
         "keyConcepts": [
@@ -284,7 +213,46 @@ Work through hypothetical software product marketing scenarios that combine elem
         "researchPapers": [],
         "books": [],
         "practiceProblems": [],
-        "quiz": []
+        "quiz": [
+          {
+            "id": 1,
+            "text": "What is the primary focus of software product marketing?",
+            "options": [
+              "Developing software code to improve product features.",
+              "Conducting financial audits and compliance checks.",
+              "Handling internal HR and employee recruitment processes.",
+              "Aligning the product's value with target audience needs through market insight, positioning, and messaging."
+            ],
+            "correctAnswerIndex": 3,
+            "reasoning": "Software product marketing is a customer‑ and market‑facing discipline that connects a product's value with the audiences who need it, emphasizing market insight, positioning, messaging, and go‑to‑market execution."
+          },
+          {
+            "id": 2,
+            "text": "Which of the following is NOT a core component of software product marketing?",
+            "options": [
+              "Defining product positioning and messaging.",
+              "Conducting code reviews and software development tasks.",
+              "Measuring user adoption and retention rates.",
+              "Planning go‑to‑market launch activities."
+            ],
+            "correctAnswerIndex": 1,
+            "reasoning": "Core components include market insight, positioning, messaging, go‑to‑market execution, adoption, and retention. Conducting code reviews belongs to software development, not product marketing."
+          },
+          {
+            "id": 3,
+            "text": "What is the main goal of software product marketing?",
+            "options": [
+              "Oversee day‑to‑day operations of the support team.",
+              "Connect the product's value proposition with the needs of its target customers.",
+              "Increase the number of developers hired for the product team.",
+              "Ensure the product is technically superior to competitors."
+            ],
+            "correctAnswerIndex": 1,
+            "reasoning": "The definition states that software product marketing connects a software product’s value with the audiences who need it, focusing on market insight, positioning, messaging, adoption, and retention."
+          }
+        ],
+        "completed": true,
+        "completedAt": 1789615762979
       },
       {
         "id": "node-2",
@@ -423,7 +391,10 @@ Work through hypothetical software product marketing scenarios that combine elem
     "updatedAt": 1766612883768,
     "createdAt": 1766612883768,
     "isFinalized": true,
-    "lastUsedAt": 1788745906964
+    "lastUsedAt": 1789615777665,
+    "lastSyncedAt": 1788746841198,
+    "lastSyncedSha": "a4f4c145262d111889fb28f6f1dc02b0f9fa4351",
+    "lastModifiedAt": 1789615762979
   }
 }
 EDU_ASSIST_METADATA_END -->
