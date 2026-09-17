@@ -21,6 +21,57 @@ Build a foundational understanding of software product marketing: the customer- 
 - [Product Positioning: Guide and Strategies](https://www.atlassian.com/agile/product-management/product-positioning) `[article]` - A clear guide to one core software product marketing skill: defining how customers perceive a product, who it is for, the problem it solves, and why it is preferable to alternatives.
 - [HubSpot Academy Marketing Courses](https://academy.hubspot.com/courses/marketing) `[course]` - A free catalog of on-demand marketing courses from HubSpot Academy. Useful for beginners who want supporting knowledge in customer-centric marketing, content, lead generation, and measurement.
 
+### 📑 Research Papers
+- **Software Product Marketing: A Systematic Review and Research Agenda** - [View Paper](https://scholar.google.com/scholar?q=Software+Product+Marketing%3A+A+Systematic+Review+and+Research+Agenda+2023)
+- **Understanding Early-Stage Marketing Strategies for SaaS Products** - [View Paper](https://scholar.google.com/scholar?q=Early-Stage+Marketing+Strategies+SaaS+Products+2022)
+- **A Review of Marketing Frameworks Applied to Software Enterprises** - [View Paper](https://scholar.google.com/scholar?q=Marketing+Frameworks+Software+Enterprises+2023)
+- **Digital Disruption in Software Product Marketing: Trends and Challenges** - [View Paper](https://scholar.google.com/scholar?q=Digital+Disruption+Software+Product+Marketing+Trends+2023)
+
+### 💡 Flashcards
+
+| Front (Question) | Back (Answer) |
+| :--- | :--- |
+| What is software product marketing? | The discipline that bridges a software product’s value with its target audiences, covering market insight, positioning, messaging, go‑to‑market execution, adoption, and retention. |
+| Which core activities does software product marketing include? | Market research, positioning & messaging, go‑to‑market planning, launch execution, user adoption, and ongoing retention/upsell strategies. |
+| Why is market insight important in software product marketing? | It uncovers customer problems, competitive gaps, and usage patterns, enabling product‑market fit and informed positioning. |
+| Define "positioning" in the context of software product marketing. | The strategic articulation of a product’s unique value proposition that differentiates it from competitors and resonates with a specific target segment. |
+| What role does messaging play in go‑to‑market execution? | Messaging communicates the product’s value, benefits, and differentiators to prospects through marketing collateral, sales pitches, and advertising, guiding the audience toward a purchase decision. |
+| How does software product marketing address user adoption and retention? | Through onboarding content, training resources, usage analytics, engagement campaigns, and continuous value reinforcement to ensure users achieve desired outcomes and remain loyal. |
+
+### ✏️ Practice Problems
+
+#### Tier A: Baby Level (Trivial)
+
+##### 🔹 Create a Simple Customer Survey
+> Identify 5 potential customers for a basic productivity app. Draft a 3‑question survey focusing on their pain points, preferred pricing models, and desired features. Collect at least 10 responses, tabulate the results, and summarize the top three insights that could influence product messaging.
+
+
+#### Tier B: Novice Level (Intermediate)
+
+##### 🔹 Write a Positioning Statement
+> Choose a familiar software product (e.g., a project management tool). Using the formula "For <target audience> who <need/problem>, <product> is the <category> that <key benefit>." Craft a clear, concise positioning statement that captures the target, need, product, category, and benefit. Then list three supporting differentiators that justify the positioning.
+
+
+##### 🔹 Develop a Messaging Matrix
+> For the same product, define three buyer personas. For each persona, create a messaging matrix that includes: (1) primary pain point, (2) key benefit, (3) supporting proof points, and (4) suggested call‑to‑action. Ensure the messaging aligns with the positioning statement and highlights at least one unique value proposition per persona.
+
+
+#### Tier C: Warrior Level (Difficult)
+
+##### 🔹 Build a Go‑to‑Market (GTM) Plan
+> Design a comprehensive GTM plan for launching a new collaboration platform. Include: (a) target market segments and go‑to‑market strategy (e.g., direct sales, channel partners, product‑led growth), (b) launch timeline with key milestones, (c) budget allocation across channels (content, paid ads, events), (d) success metrics (CPL, CAC, adoption rate), and (e) contingency considerations. Provide a brief rationale for each element.
+
+
+##### 🔹 Design a Customer Adoption Workflow
+> Map out a step‑by‑step adoption workflow for a newly onboarded SaaS user. Identify at least five critical touchpoints (e.g., first login, onboarding tutorial, trial expiration, usage milestone, support interaction). For each touchpoint, propose a specific tactic to drive engagement, a metric to track, and a feedback loop to improve retention.
+
+
+#### Tier D: Soldier Level (Expert)
+
+##### 🔹 Architect an End‑to‑End Product Marketing System
+> Create a high‑level architecture diagram (describe in text) for a product marketing engine that integrates market insight, positioning, messaging, GTM execution, adoption, and retention. Detail the major components (e.g., market research database, persona repository, messaging library, automation tools, analytics dashboards) and how they interact. Discuss data flow, integration points, and key performance indicators for each component. Finally, outline a roadmap for implementing this system over 12 months, highlighting risks and mitigation strategies.
+
+
 ### ❓ Checkpoint Quiz
 
 **1. Question 1**
@@ -209,10 +260,99 @@ Work through hypothetical software product marketing scenarios that combine elem
           "Go-to-Market Strategy",
           "Sales Enablement"
         ],
-        "flashcards": [],
-        "researchPapers": [],
+        "flashcards": [
+          {
+            "id": 1,
+            "front": "What is software product marketing?",
+            "back": "The discipline that bridges a software product’s value with its target audiences, covering market insight, positioning, messaging, go‑to‑market execution, adoption, and retention."
+          },
+          {
+            "id": 2,
+            "front": "Which core activities does software product marketing include?",
+            "back": "Market research, positioning & messaging, go‑to‑market planning, launch execution, user adoption, and ongoing retention/upsell strategies."
+          },
+          {
+            "id": 3,
+            "front": "Why is market insight important in software product marketing?",
+            "back": "It uncovers customer problems, competitive gaps, and usage patterns, enabling product‑market fit and informed positioning."
+          },
+          {
+            "id": 4,
+            "front": "Define \"positioning\" in the context of software product marketing.",
+            "back": "The strategic articulation of a product’s unique value proposition that differentiates it from competitors and resonates with a specific target segment."
+          },
+          {
+            "id": 5,
+            "front": "What role does messaging play in go‑to‑market execution?",
+            "back": "Messaging communicates the product’s value, benefits, and differentiators to prospects through marketing collateral, sales pitches, and advertising, guiding the audience toward a purchase decision."
+          },
+          {
+            "id": 6,
+            "front": "How does software product marketing address user adoption and retention?",
+            "back": "Through onboarding content, training resources, usage analytics, engagement campaigns, and continuous value reinforcement to ensure users achieve desired outcomes and remain loyal."
+          }
+        ],
+        "researchPapers": [
+          {
+            "title": "Software Product Marketing: A Systematic Review and Research Agenda",
+            "keyIdea": "This review surveys the current literature on software product marketing, identifies key gaps, and outlines future research directions.",
+            "url": "https://scholar.google.com/scholar?q=Software+Product+Marketing%3A+A+Systematic+Review+and+Research+Agenda+2023"
+          },
+          {
+            "title": "Understanding Early-Stage Marketing Strategies for SaaS Products",
+            "keyIdea": "The article explores marketing tactics specific to early‑stage SaaS software and their influence on achieving product‑market fit.",
+            "url": "https://scholar.google.com/scholar?q=Early-Stage+Marketing+Strategies+SaaS+Products+2022"
+          },
+          {
+            "title": "A Review of Marketing Frameworks Applied to Software Enterprises",
+            "keyIdea": "This work examines classic and modern marketing frameworks (e.g., 4Ps, value proposition, growth hacking) in the context of software companies.",
+            "url": "https://scholar.google.com/scholar?q=Marketing+Frameworks+Software+Enterprises+2023"
+          },
+          {
+            "title": "Digital Disruption in Software Product Marketing: Trends and Challenges",
+            "keyIdea": "The paper analyzes emerging digital trends, tools, and challenges shaping contemporary software product marketing practices.",
+            "url": "https://scholar.google.com/scholar?q=Digital+Disruption+Software+Product+Marketing+Trends+2023"
+          }
+        ],
         "books": [],
-        "practiceProblems": [],
+        "practiceProblems": [
+          {
+            "id": 1,
+            "title": "Create a Simple Customer Survey",
+            "description": "Identify 5 potential customers for a basic productivity app. Draft a 3‑question survey focusing on their pain points, preferred pricing models, and desired features. Collect at least 10 responses, tabulate the results, and summarize the top three insights that could influence product messaging.",
+            "group": "A"
+          },
+          {
+            "id": 2,
+            "title": "Write a Positioning Statement",
+            "description": "Choose a familiar software product (e.g., a project management tool). Using the formula \"For <target audience> who <need/problem>, <product> is the <category> that <key benefit>.\" Craft a clear, concise positioning statement that captures the target, need, product, category, and benefit. Then list three supporting differentiators that justify the positioning.",
+            "group": "B"
+          },
+          {
+            "id": 3,
+            "title": "Develop a Messaging Matrix",
+            "description": "For the same product, define three buyer personas. For each persona, create a messaging matrix that includes: (1) primary pain point, (2) key benefit, (3) supporting proof points, and (4) suggested call‑to‑action. Ensure the messaging aligns with the positioning statement and highlights at least one unique value proposition per persona.",
+            "group": "B"
+          },
+          {
+            "id": 4,
+            "title": "Build a Go‑to‑Market (GTM) Plan",
+            "description": "Design a comprehensive GTM plan for launching a new collaboration platform. Include: (a) target market segments and go‑to‑market strategy (e.g., direct sales, channel partners, product‑led growth), (b) launch timeline with key milestones, (c) budget allocation across channels (content, paid ads, events), (d) success metrics (CPL, CAC, adoption rate), and (e) contingency considerations. Provide a brief rationale for each element.",
+            "group": "C"
+          },
+          {
+            "id": 5,
+            "title": "Design a Customer Adoption Workflow",
+            "description": "Map out a step‑by‑step adoption workflow for a newly onboarded SaaS user. Identify at least five critical touchpoints (e.g., first login, onboarding tutorial, trial expiration, usage milestone, support interaction). For each touchpoint, propose a specific tactic to drive engagement, a metric to track, and a feedback loop to improve retention.",
+            "group": "C"
+          },
+          {
+            "id": 6,
+            "title": "Architect an End‑to‑End Product Marketing System",
+            "description": "Create a high‑level architecture diagram (describe in text) for a product marketing engine that integrates market insight, positioning, messaging, GTM execution, adoption, and retention. Detail the major components (e.g., market research database, persona repository, messaging library, automation tools, analytics dashboards) and how they interact. Discuss data flow, integration points, and key performance indicators for each component. Finally, outline a roadmap for implementing this system over 12 months, highlighting risks and mitigation strategies.",
+            "group": "D"
+          }
+        ],
         "quiz": [
           {
             "id": 1,
@@ -391,10 +531,10 @@ Work through hypothetical software product marketing scenarios that combine elem
     "updatedAt": 1766612883768,
     "createdAt": 1766612883768,
     "isFinalized": true,
-    "lastUsedAt": 1789615777665,
-    "lastSyncedAt": 1788746841198,
-    "lastSyncedSha": "a4f4c145262d111889fb28f6f1dc02b0f9fa4351",
-    "lastModifiedAt": 1789615762979
+    "lastUsedAt": 1789616137124,
+    "lastSyncedAt": 1789615778901,
+    "lastSyncedSha": "b86bb723a9bd7944cebc6e56454ac0f869cb558b",
+    "lastModifiedAt": 1789616027837
   }
 }
 EDU_ASSIST_METADATA_END -->
